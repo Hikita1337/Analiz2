@@ -4,12 +4,13 @@ import os
 import hashlib
 import subprocess
 
+# --- Параметры ---
 INPUT_FILE = "bigdump.txt"
 OUTPUT_JSON = "reports/full_deep_analysis.json"
 OUTPUT_TXT  = "reports/full_deep_analysis.txt"
 HASH_FILE   = "reports/seen_hashes.txt"
 CHUNK_LINES = 10000  # строки за один блок
-LOG_INTERVAL = 5000  # строки для логов
+LOG_INTERVAL = 500  # строки для логов
 
 os.makedirs("reports", exist_ok=True)
 
@@ -22,6 +23,7 @@ re_json_block = re.compile(r"\{[\s\S]{10,5000}?\}", re.MULTILINE)
 re_function = re.compile(r"function\s+([A-Za-z0-9_]+)\s*\(")
 re_arrow = re.compile(r"([A-Za-z0-9_]+)\s*=\s*\((.*?)\)\s*=>")
 
+# --- Классификатор ---
 keywords_admin = r"(ban|mute|kick|delete|pin|unpin|admin|moderator|privilege)"
 keywords_chat  = r"(message|chat|sticker|typing|room|send|receive)"
 keywords_user  = r"(profile|avatar|user|account)"
@@ -37,13 +39,14 @@ def classify_block(text):
     if re.search(keywords_files, t): return "Files"
     return "Other"
 
-# --- Загрузка хэшей уникальных блоков ---
+# --- Загрузка уже известных хэшей ---
 seen_hashes = set()
 if os.path.exists(HASH_FILE):
     with open(HASH_FILE, "r") as hf:
         for line in hf:
             seen_hashes.add(line.strip())
 
+# --- Открытие файлов для записи ---
 fj = open(OUTPUT_JSON, "w", encoding="utf-8")
 ft = open(OUTPUT_TXT, "w", encoding="utf-8")
 fh = open(HASH_FILE, "a", encoding="utf-8")
@@ -53,6 +56,7 @@ first_entry = True
 context_window = []
 WINDOW_SIZE = 5
 
+# --- Функция обработки строки ---
 def process_line(line, context_window, first_entry, fj, ft, fh):
     context_window.append(line.rstrip())
     if len(context_window) > 2*WINDOW_SIZE+1:
@@ -60,7 +64,7 @@ def process_line(line, context_window, first_entry, fj, ft, fh):
     context = "\n".join(context_window)
     items = []
 
-    # --- детекторы ---
+    # --- Детекторы ---
     m = re_api.search(line)
     if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
     m = re_fetch.search(line)
@@ -77,7 +81,7 @@ def process_line(line, context_window, first_entry, fj, ft, fh):
         for jb in re_json_block.findall(line):
             if len(jb)<2000: items.append({"type":"JSON_BLOCK","json":jb,"classification":classify_block(jb)})
 
-    # --- проверка уникальности и запись ---
+    # --- Проверка уникальности и запись ---
     for it in items:
         content_str = it.get("context", it.get("json","")).encode('utf-8')
         content_hash = hashlib.md5(content_str).hexdigest()
@@ -87,7 +91,6 @@ def process_line(line, context_window, first_entry, fj, ft, fh):
         fh.write(content_hash+"\n")
         fh.flush()
 
-        nonlocal first_entry
         if not first_entry:
             fj.write(",\n")
         else:
@@ -95,6 +98,7 @@ def process_line(line, context_window, first_entry, fj, ft, fh):
         json.dump(it, fj, ensure_ascii=False)
         ft.write(f"[{it['type']} / {it['classification']}]\n")
         ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
+
     return first_entry
 
 # --- Основной цикл ---
