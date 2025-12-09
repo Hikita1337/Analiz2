@@ -1,76 +1,244 @@
-import os
 import re
+import ast
+import base64
 import json
-import hashlib
-from tqdm import tqdm
+from pathlib import Path
+from datetime import datetime
 
-# --- Настройки ---
-INPUT_DIRS = ["final_part1", "final_part2", "final_part3"]
-OUTPUT_JSON = "reports/api_ws_analysis.json"
-OUTPUT_TXT = "reports/api_ws_analysis.txt"
+JS_PATH = "2025-12-09_09-42-51-297323.js"
+REPORT_DIR = Path("reports")
 
-# --- Регулярки ---
-re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
-re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
-re_ws_recv = re.compile(r"onmessage\s*=\s*function\s*\(.*?\)")
 
-# --- Создание папки для отчётов ---
-os.makedirs("reports", exist_ok=True)
-
-# --- Множество для уникальных записей ---
-seen_hashes = set()
-
-# --- Функция обработки файла ---
-def process_file(file_path):
-    items = []
+def read_file(path):
     try:
-        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
-            lines = f.readlines()
-            for i, line in enumerate(lines):
-                context = "\n".join(lines[max(i-5,0):min(i+6,len(lines))])
-                
-                # HTTP API
-                for m in re_api.findall(line):
-                    h = hashlib.md5((m+context).encode()).hexdigest()
-                    if h not in seen_hashes:
-                        seen_hashes.add(h)
-                        items.append({"type":"HTTP_API","match":m,"context":context})
-                
-                # WS send
-                for m in re_ws_send.findall(line):
-                    h = hashlib.md5((m+context).encode()).hexdigest()
-                    if h not in seen_hashes:
-                        seen_hashes.add(h)
-                        items.append({"type":"WS_SEND","payload":m,"context":context})
-                
-                # WS receive
-                if re_ws_recv.search(line):
-                    h = hashlib.md5(("WS_RECEIVE"+context).encode()).hexdigest()
-                    if h not in seen_hashes:
-                        seen_hashes.add(h)
-                        items.append({"type":"WS_RECEIVE_HANDLER","context":context})
-    except Exception as e:
-        print(f"Ошибка при обработке {file_path}: {e}")
-    return items
+        return Path(path).read_text(errors="ignore")
+    except:
+        print(f"[ERROR] Can't read file: {path}")
+        return ""
 
-# --- Основной цикл по папкам ---
-all_items = []
-for folder in INPUT_DIRS:
-    print(f"Обрабатываем папку {folder}...")
-    files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(folder) for f in filenames
-             if not f.lower().endswith(('.png', '.webp', '.bin'))]
-    for file in tqdm(files, desc=f"Файлы в {folder}"):
-        all_items.extend(process_file(file))
 
-# --- Сохраняем JSON ---
-with open(OUTPUT_JSON, "w", encoding="utf-8") as fjson:
-    json.dump(all_items, fjson, ensure_ascii=False, indent=2)
+# ---------------------------------------------------------
+#  URL / BASE64 / HEX DETECTION
+# ---------------------------------------------------------
 
-# --- Сохраняем TXT ---
-with open(OUTPUT_TXT, "w", encoding="utf-8") as ftxt:
-    for it in all_items:
-        ftxt.write(f"[{it['type']}]\n")
-        ftxt.write(it.get("match", it.get("payload","")) + "\n")
-        ftxt.write(it["context"] + "\n" + "="*80 + "\n")
+def detect_urls(text):
+    return re.findall(r'https?://[^\s\'"]+', text)
 
-print(f"Готово! Найдено {len(all_items)} уникальных записей.")
+
+def detect_base64(text):
+    b64_regex = r'(?:[A-Za-z0-9+/]{20,}={0,2})'
+    found = re.findall(b64_regex, text)
+    decoded = []
+    for chunk in found:
+        try:
+            d = base64.b64decode(chunk).decode("utf-8", errors="ignore")
+            if d.strip():
+                decoded.append((chunk, d))
+        except:
+            pass
+    return decoded
+
+
+def detect_hex_strings(text):
+    hex_regex = r'(?:[0-9a-fA-F]{2}){8,}'
+    found = re.findall(hex_regex, text)
+    decoded = []
+    for h in found:
+        try:
+            d = bytes.fromhex(h).decode("utf-8", errors="ignore")
+            if d.strip():
+                decoded.append((h, d))
+        except:
+            pass
+    return decoded
+
+
+# ---------------------------------------------------------
+#  FUNCTIONS / CLASSES / IMPORTS / EXPORTS
+# ---------------------------------------------------------
+
+def detect_functions(text):
+    pattern = r'(function\s+(\w+)|(\w+)\s*=\s*function|\w+\s*=>)'
+    funcs = []
+    for line in text.splitlines():
+        if re.search(pattern, line):
+            funcs.append(line.strip())
+    return funcs
+
+
+def detect_class_definitions(text):
+    return re.findall(r'class\s+(\w+)', text)
+
+
+def detect_exports(text):
+    return re.findall(r'export\s+(?:default\s+)?(\w+)', text)
+
+
+def detect_require_import(text):
+    imports = re.findall(r'import\s+.*?from\s+[\'"](.*?)[\'"]', text)
+    requires = re.findall(r'require\([\'"](.*?)[\'"]\)', text)
+    return imports, requires
+
+
+# ---------------------------------------------------------
+#  SUSPICIOUS CODE
+# ---------------------------------------------------------
+
+def detect_suspicious(text):
+    suspicious = [
+        "eval", "Function(", "atob", "btoa", "while(true)",
+        "setInterval", "crypto", "fetch", "$.ajax", "XMLHttpRequest"
+    ]
+    flags = [s for s in suspicious if s in text]
+    return flags
+
+
+# ---------------------------------------------------------
+#  OBFUSCATION DETECTION
+# ---------------------------------------------------------
+
+def detect_jsfuck(text):
+    if re.search(r'[\[\]\(\)\!]{10,}', text):
+        return True
+    return False
+
+
+def detect_obfuscator_io(text):
+    markers = [
+        "_0x",  # частые переменные
+        "var _0x", 
+        "function(_0x",
+        "decodeURIComponent"
+    ]
+    return any(m in text for m in markers)
+
+
+# ---------------------------------------------------------
+#  SIMPLE VARIABLE DEOBFUSCATION
+# ---------------------------------------------------------
+
+def simple_deobfuscate_vars(text):
+    assign_regex = r'var\s+(\w+)\s*=\s*["\']([^"\']+)["\'];'
+    mapping = dict(re.findall(assign_regex, text))
+
+    # подмена всех вхождений
+    for var, val in mapping.items():
+        text = text.replace(var, val)
+    return text
+
+
+# ---------------------------------------------------------
+#  CALL GRAPH (STATIC)
+# ---------------------------------------------------------
+
+def build_call_graph(text):
+    functions = re.findall(r'function\s+(\w+)', text)
+    call_graph = {f: [] for f in functions}
+
+    for f in functions:
+        pattern = rf'{f}\s*\('
+        for other in functions:
+            if other == f:
+                continue
+            if re.search(rf'{other}\s*\(', text):  # вызывает другую функцию
+                if other not in call_graph[f]:
+                    call_graph[f].append(other)
+
+    return call_graph
+
+
+# ---------------------------------------------------------
+#  GENERATE CALL EXAMPLES
+# ---------------------------------------------------------
+
+def generate_examples(funcs):
+    examples = []
+    for f in funcs:
+        fname = re.findall(r'function\s+(\w+)', f)
+        if not fname:
+            fname = re.findall(r'(\w+)\s*=\s*function', f)
+        if not fname:
+            continue
+        name = fname[0]
+        examples.append(f"{name}();  // Пример вызова")
+    return examples
+
+
+# ---------------------------------------------------------
+#  SAFE VIRTUAL EXECUTION (expr only)
+# ---------------------------------------------------------
+
+def safe_eval_expr(expr):
+    try:
+        node = ast.parse(expr, mode="eval")
+        allowed = (ast.Expression, ast.BinOp, ast.UnaryOp, ast.Num, ast.Constant)
+        for n in ast.walk(node):
+            if not isinstance(n, allowed):
+                return "Запрещено для безопасной эмуляции"
+        return eval(expr)
+    except:
+        return "Не удалось выполнить безопасную эмуляцию"
+
+
+# ---------------------------------------------------------
+#  MAIN
+# ---------------------------------------------------------
+
+def analyze_js(path):
+    text = read_file(path)
+    if not text:
+        return
+
+    REPORT_DIR.mkdir(exist_ok=True)
+    report = {}
+
+    # BASIC METADATA
+    report["file"] = path
+    report["size"] = len(text)
+
+    # EXTRACTION
+    urls = detect_urls(text)
+    funcs = detect_functions(text)
+    classes = detect_class_definitions(text)
+    susp = detect_suspicious(text)
+    exports = detect_exports(text)
+    b64 = detect_base64(text)
+    hexs = detect_hex_strings(text)
+    imports, requires = detect_require_import(text)
+
+    report["urls"] = urls
+    report["functions"] = funcs
+    report["classes"] = classes
+    report["suspicious"] = susp
+    report["exports"] = exports
+    report["imports"] = imports
+    report["requires"] = requires
+    report["base64"] = b64
+    report["hex"] = hexs
+
+    # OBFUSCATION
+    report["jsfuck_detected"] = detect_jsfuck(text)
+    report["obfuscator_io_detected"] = detect_obfuscator_io(text)
+
+    # SIMPLE DEOBFUSCATION
+    report["simple_deobfuscation_preview"] = simple_deobfuscate_vars(text)[:500]
+
+    # CALL GRAPH
+    report["call_graph"] = build_call_graph(text)
+
+    # EXAMPLES
+    report["call_examples"] = generate_examples(funcs)
+
+    # SAFE EVAL TEST
+    report["safe_eval_example"] = safe_eval_expr("2 + 3 * 4")
+
+    # SAVE REPORT
+    ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    out_file = REPORT_DIR / f"report_{ts}.json"
+    out_file.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+
+    print(f"[OK] Отчёт сохранён: {out_file}")
+
+
+if __name__ == "__main__":
+    analyze_js(JS_PATH)
