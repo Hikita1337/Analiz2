@@ -3,14 +3,16 @@ import json
 import os
 import hashlib
 import subprocess
+import traceback
 
 # --- Параметры ---
 INPUT_FILE = "bigdump.txt"
 OUTPUT_JSON = "reports/full_deep_analysis.json"
-OUTPUT_TXT  = "reports/full_deep_analysis.txt"
+OUTPUT_TXT = "reports/full_deep_analysis.txt"
+SKIPPED_FILE = "reports/skipped_lines.txt"
 HASH_FILE   = "reports/seen_hashes.txt"
 LOG_INTERVAL = 1
-WINDOW_SIZE = 30  # контекст ±5 строк
+WINDOW_SIZE = 10  # контекст ±5 строк
 
 os.makedirs("reports", exist_ok=True)
 
@@ -48,6 +50,7 @@ if os.path.exists(HASH_FILE):
 # --- Открытие файлов для записи ---
 fj = open(OUTPUT_JSON, "w", encoding="utf-8")
 ft = open(OUTPUT_TXT, "w", encoding="utf-8")
+fs = open(SKIPPED_FILE, "w", encoding="utf-8")
 fh = open(HASH_FILE, "a", encoding="utf-8")
 
 fj.write("[\n")
@@ -55,51 +58,61 @@ first_entry = True
 context_window = []
 
 # --- Обработка строки ---
-def process_line(line, context_window, first_entry, fj, ft, fh):
-    context_window.append(line.rstrip())
-    if len(context_window) > 2*WINDOW_SIZE+1:
-        context_window.pop(0)
-    context = "\n".join(context_window)
-    items = []
+def process_line(line, context_window, first_entry, fj, ft, fh, fs, line_number):
+    try:
+        context_window.append(line.rstrip())
+        if len(context_window) > 2*WINDOW_SIZE+1:
+            context_window.pop(0)
+        context = "\n".join(context_window)
+        items = []
 
-    # --- Детекторы ---
-    m = re_api.search(line)
-    if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
-    m = re_fetch.search(line)
-    if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
-    m = re_ws_send.search(line)
-    if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
-    if re_ws_recv.search(line):
-        items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
-    m = re_function.search(line)
-    if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-    m = re_arrow.search(line)
-    if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
+        # --- Детекторы ---
+        m = re_api.search(line)
+        if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
+        m = re_fetch.search(line)
+        if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
+        m = re_ws_send.search(line)
+        if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
+        if re_ws_recv.search(line):
+            items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
+        m = re_function.search(line)
+        if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
+        m = re_arrow.search(line)
+        if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
 
-    # --- Проверка уникальности и запись ---
-    for it in items:
-        content_str = it.get("context", "").encode('utf-8')
-        content_hash = hashlib.md5(content_str).hexdigest()
-        if content_hash in seen_hashes:
-            continue
-        seen_hashes.add(content_hash)
-        fh.write(content_hash + "\n")
-        fh.flush()
+        # --- Проверка уникальности и запись ---
+        for it in items:
+            content_str = it.get("context", "").encode('utf-8')
+            content_hash = hashlib.md5(content_str).hexdigest()
+            if content_hash in seen_hashes:
+                continue
+            seen_hashes.add(content_hash)
+            fh.write(content_hash + "\n")
+            fh.flush()
 
-        if not first_entry:
-            fj.write(",\n")
-        else:
-            first_entry = False
-        json.dump(it, fj, ensure_ascii=False)
-        ft.write(f"[{it['type']} / {it['classification']}]\n")
-        ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
+            if not first_entry:
+                fj.write(",\n")
+            else:
+                first_entry = False
+            json.dump(it, fj, ensure_ascii=False)
+            ft.write(f"[{it['type']} / {it['classification']}]\n")
+            ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
+
+    except Exception:
+        # Ловим все ошибки и сохраняем "опасную" строку
+        fs.write(f"Line {line_number} skipped due to error:\n")
+        fs.write(line)
+        fs.write("\nContext:\n")
+        fs.write("\n".join(context_window) + "\n")
+        fs.write("="*80 + "\n")
+        fs.flush()
 
     return first_entry
 
 # --- Основной цикл ---
 with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f:
     for idx, line in enumerate(f, 1):
-        first_entry = process_line(line, context_window, first_entry, fj, ft, fh)
+        first_entry = process_line(line, context_window, first_entry, fj, ft, fh, fs, idx)
         if idx % LOG_INTERVAL == 0:
             print(f"Processed {idx} lines...")
 
@@ -107,6 +120,7 @@ fj.write("\n]\n")
 fj.close()
 ft.close()
 fh.close()
+fs.close()
 
 # --- git push ---
 subprocess.run(["git","add","."])
