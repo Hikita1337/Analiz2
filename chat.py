@@ -4,30 +4,31 @@ import base64
 import json
 from pathlib import Path
 from datetime import datetime
+from graphviz import Digraph
 
 JS_PATH = "2025-12-09_09-42-51-297323.js"
 REPORT_DIR = Path("reports")
-
+REPORT_DIR.mkdir(exist_ok=True)
 
 def read_file(path):
     try:
-        return Path(path).read_text(errors="ignore")
+        text = Path(path).read_text(errors="ignore")
+        print(f"[*] Файл {path} прочитан, размер: {len(text)} байт")
+        return text
     except:
-        print(f"[ERROR] Can't read file: {path}")
+        print(f"[ERROR] Не удалось прочитать файл: {path}")
         return ""
 
-
-# ---------------------------------------------------------
-#  URL / BASE64 / HEX DETECTION
-# ---------------------------------------------------------
+# ---------------- URL / BASE64 / HEX ----------------
 
 def detect_urls(text):
-    return re.findall(r'https?://[^\s\'"]+', text)
+    urls = re.findall(r'https?://[^\s\'"]+', text)
+    print(f"[*] Найдено URL: {len(urls)}")
+    return urls
 
-
-def detect_base64(text):
+def detect_base64(text, limit=100):
     b64_regex = r'(?:[A-Za-z0-9+/]{20,}={0,2})'
-    found = re.findall(b64_regex, text)
+    found = re.findall(b64_regex, text)[:limit]
     decoded = []
     for chunk in found:
         try:
@@ -36,12 +37,12 @@ def detect_base64(text):
                 decoded.append((chunk, d))
         except:
             pass
+    print(f"[*] Декодировано Base64: {len(decoded)} (ограничение: {limit})")
     return decoded
 
-
-def detect_hex_strings(text):
+def detect_hex_strings(text, limit=100):
     hex_regex = r'(?:[0-9a-fA-F]{2}){8,}'
-    found = re.findall(hex_regex, text)
+    found = re.findall(hex_regex, text)[:limit]
     decoded = []
     for h in found:
         try:
@@ -50,123 +51,81 @@ def detect_hex_strings(text):
                 decoded.append((h, d))
         except:
             pass
+    print(f"[*] Декодировано HEX: {len(decoded)} (ограничение: {limit})")
     return decoded
 
-
-# ---------------------------------------------------------
-#  FUNCTIONS / CLASSES / IMPORTS / EXPORTS
-# ---------------------------------------------------------
+# ---------------- FUNCTIONS / CLASSES ----------------
 
 def detect_functions(text):
     pattern = r'(function\s+(\w+)|(\w+)\s*=\s*function|\w+\s*=>)'
-    funcs = []
-    for line in text.splitlines():
-        if re.search(pattern, line):
-            funcs.append(line.strip())
+    funcs = [line.strip() for line in text.splitlines() if re.search(pattern, line)]
+    print(f"[*] Найдено функций: {len(funcs)}")
     return funcs
 
-
 def detect_class_definitions(text):
-    return re.findall(r'class\s+(\w+)', text)
-
+    classes = re.findall(r'class\s+(\w+)', text)
+    print(f"[*] Найдено классов: {len(classes)}")
+    return classes
 
 def detect_exports(text):
-    return re.findall(r'export\s+(?:default\s+)?(\w+)', text)
-
+    exports = re.findall(r'export\s+(?:default\s+)?(\w+)', text)
+    print(f"[*] Найдено exports: {len(exports)}")
+    return exports
 
 def detect_require_import(text):
     imports = re.findall(r'import\s+.*?from\s+[\'"](.*?)[\'"]', text)
     requires = re.findall(r'require\([\'"](.*?)[\'"]\)', text)
+    print(f"[*] Найдено import: {len(imports)}, require: {len(requires)}")
     return imports, requires
 
-
-# ---------------------------------------------------------
-#  SUSPICIOUS CODE
-# ---------------------------------------------------------
+# ---------------- SUSPICIOUS ----------------
 
 def detect_suspicious(text):
-    suspicious = [
-        "eval", "Function(", "atob", "btoa", "while(true)",
-        "setInterval", "crypto", "fetch", "$.ajax", "XMLHttpRequest"
-    ]
+    suspicious = ["eval", "Function(", "atob", "btoa", "while(true)",
+                  "setInterval", "crypto", "fetch", "$.ajax", "XMLHttpRequest"]
     flags = [s for s in suspicious if s in text]
+    print(f"[*] Найдено подозрительных конструкций: {len(flags)}")
     return flags
 
-
-# ---------------------------------------------------------
-#  OBFUSCATION DETECTION
-# ---------------------------------------------------------
+# ---------------- OBFUSCATION ----------------
 
 def detect_jsfuck(text):
-    if re.search(r'[\[\]\(\)\!]{10,}', text):
-        return True
-    return False
-
+    return bool(re.search(r'[\[\]\(\)\!]{10,}', text))
 
 def detect_obfuscator_io(text):
-    markers = [
-        "_0x",  # частые переменные
-        "var _0x", 
-        "function(_0x",
-        "decodeURIComponent"
-    ]
+    markers = ["_0x", "var _0x", "function(_0x", "decodeURIComponent"]
     return any(m in text for m in markers)
-
-
-# ---------------------------------------------------------
-#  SIMPLE VARIABLE DEOBFUSCATION
-# ---------------------------------------------------------
 
 def simple_deobfuscate_vars(text):
     assign_regex = r'var\s+(\w+)\s*=\s*["\']([^"\']+)["\'];'
     mapping = dict(re.findall(assign_regex, text))
-
-    # подмена всех вхождений
     for var, val in mapping.items():
         text = text.replace(var, val)
     return text
 
-
-# ---------------------------------------------------------
-#  CALL GRAPH (STATIC)
-# ---------------------------------------------------------
+# ---------------- CALL GRAPH ----------------
 
 def build_call_graph(text):
     functions = re.findall(r'function\s+(\w+)', text)
     call_graph = {f: [] for f in functions}
-
     for f in functions:
-        pattern = rf'{f}\s*\('
         for other in functions:
-            if other == f:
-                continue
-            if re.search(rf'{other}\s*\(', text):  # вызывает другую функцию
+            if f != other and re.search(rf'{other}\s*\(', text):
                 if other not in call_graph[f]:
                     call_graph[f].append(other)
-
+    print(f"[*] Построен граф вызовов: {len(call_graph)} функций")
     return call_graph
 
+def render_call_graph(call_graph, filename):
+    dot = Digraph(comment='Call Graph')
+    for func, calls in call_graph.items():
+        dot.node(func)
+        for callee in calls:
+            dot.edge(func, callee)
+    dot.render(filename, format='png', cleanup=True)
+    print(f"[*] Граф вызовов сохранён: {filename}.png")
 
-# ---------------------------------------------------------
-#  GENERATE CALL EXAMPLES
-# ---------------------------------------------------------
-
-def generate_examples(funcs):
-    examples = []
-    for f in funcs:
-        fname = re.findall(r'function\s+(\w+)', f)
-        if not fname:
-            fname = re.findall(r'(\w+)\s*=\s*function', f)
-        if not fname:
-            continue
-        name = fname[0]
-        examples.append(f"{name}();  // Пример вызова")
-    return examples
-
-
-# ---------------------------------------------------------
-#  SAFE VIRTUAL EXECUTION (expr only)
-# ---------------------------------------------------------
+# ---------------- SAFE EVAL ----------------
 
 def safe_eval_expr(expr):
     try:
@@ -177,26 +136,19 @@ def safe_eval_expr(expr):
                 return "Запрещено для безопасной эмуляции"
         return eval(expr)
     except:
-        return "Не удалось выполнить безопасную эмуляцию"
+        return "Ошибка безопасной эмуляции"
 
-
-# ---------------------------------------------------------
-#  MAIN
-# ---------------------------------------------------------
+# ---------------- MAIN ----------------
 
 def analyze_js(path):
     text = read_file(path)
     if not text:
         return
 
-    REPORT_DIR.mkdir(exist_ok=True)
     report = {}
-
-    # BASIC METADATA
     report["file"] = path
     report["size"] = len(text)
 
-    # EXTRACTION
     urls = detect_urls(text)
     funcs = detect_functions(text)
     classes = detect_class_definitions(text)
@@ -206,39 +158,51 @@ def analyze_js(path):
     hexs = detect_hex_strings(text)
     imports, requires = detect_require_import(text)
 
-    report["urls"] = urls
-    report["functions"] = funcs
-    report["classes"] = classes
-    report["suspicious"] = susp
-    report["exports"] = exports
-    report["imports"] = imports
-    report["requires"] = requires
-    report["base64"] = b64
-    report["hex"] = hexs
+    report.update({
+        "urls": urls,
+        "functions": funcs,
+        "classes": classes,
+        "suspicious": susp,
+        "exports": exports,
+        "imports": imports,
+        "requires": requires,
+        "base64": b64,
+        "hex": hexs,
+        "jsfuck_detected": detect_jsfuck(text),
+        "obfuscator_io_detected": detect_obfuscator_io(text),
+        "simple_deobfuscation_preview": simple_deobfuscate_vars(text)[:500]
+    })
 
-    # OBFUSCATION
-    report["jsfuck_detected"] = detect_jsfuck(text)
-    report["obfuscator_io_detected"] = detect_obfuscator_io(text)
+    call_graph = build_call_graph(text)
+    report["call_graph"] = call_graph
 
-    # SIMPLE DEOBFUSCATION
-    report["simple_deobfuscation_preview"] = simple_deobfuscate_vars(text)[:500]
-
-    # CALL GRAPH
-    report["call_graph"] = build_call_graph(text)
-
-    # EXAMPLES
-    report["call_examples"] = generate_examples(funcs)
-
-    # SAFE EVAL TEST
-    report["safe_eval_example"] = safe_eval_expr("2 + 3 * 4")
-
-    # SAVE REPORT
     ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    out_file = REPORT_DIR / f"report_{ts}.json"
-    out_file.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    json_file = REPORT_DIR / f"report_{ts}.json"
+    html_file = REPORT_DIR / f"report_{ts}.html"
 
-    print(f"[OK] Отчёт сохранён: {out_file}")
+    # Сохраняем JSON
+    json_file.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    print(f"[*] JSON-отчёт сохранён: {json_file}")
 
+    # Сохраняем HTML с графиком
+    render_call_graph(call_graph, str(REPORT_DIR / f"callgraph_{ts}"))
+    html_content = f"""
+    <html>
+    <head><title>JS Анализ отчёт</title></head>
+    <body>
+    <h1>Отчёт по {path}</h1>
+    <p>Размер файла: {len(text)} байт</p>
+    <h2>Функции</h2><pre>{funcs}</pre>
+    <h2>Классы</h2><pre>{classes}</pre>
+    <h2>Подозрительные конструкции</h2><pre>{susp}</pre>
+    <h2>URLs</h2><pre>{urls}</pre>
+    <h2>Граф вызовов</h2>
+    <img src="callgraph_{ts}.png" alt="Call Graph"/>
+    </body>
+    </html>
+    """
+    html_file.write_text(html_content, encoding="utf-8")
+    print(f"[*] HTML-отчёт сохранён: {html_file}")
 
 if __name__ == "__main__":
     analyze_js(JS_PATH)
