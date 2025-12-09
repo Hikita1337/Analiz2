@@ -1,0 +1,19 @@
+[2025-12-09_09-46-41-378369] HTTP REQUEST
+URL: https://csgoih.run/sounds/colors_start.mp3
+Method: GET
+
+Headers:
+accept: */*
+sec-fetch-site: same-origin
+x-playback-session-id: FE255C6A-D647-4C49-B734-3F615A0B532C
+range: bytes=0-8847
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/double
+accept-encoding: identity
+sec-fetch-dest: audio
+accept-language: ru
+priority: u=3, i
+cookie: __ddg10_=1765251843, __ddg8_=5ui9U1M0N1zWYISG, __ddg9_=188.232.100.139, tmr_detect=0%7C1765251834325, AMP_37151ae393=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJhZTUwODliMi02YzlhLTRmNjgtOTczMS05NWYwODQ5MWI1NDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzY1MjUxNjE0MTU5JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2NTI1MTgzMjExMSUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjklMkMlMjJwYWdlQ291bnRlciUyMiUzQTIwJTdE, _ga=GA1.1.1528545187.1765251614, _ga_KBTMVREMQ9=GS2.1.s1765251614$o1$g1$t1765251832$j6$l0$h0, _ym_visorc=w, tmr_lvid=cfcec191d319f79d3b64c31628d6cfcf, tmr_lvidTS=1765251613973, AMP_MKTG_37151ae393=JTdCJTIycmVmZXJyZXIlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnN0ZWFtY29tbXVuaXR5LmNvbSUyRiUyMiUyQyUyMnJlZmVycmluZ19kb21haW4lMjIlM0ElMjJzdGVhbWNvbW11bml0eS5jb20lMjIlN0Q=, auth-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTg2ODYxLCJpYXQiOjE3NjUyNTE2NDksImV4cCI6MTc2NjExNTY0OX0.WRJ9VR50RRGSNShVNRlTAz4ls0r6-ZgaUNDxENZv5bQ, _ym_d=1765251615, _ym_isad=2, _ym_uid=1765251615122050168, domain_sid=JFICDqX4wdPxhK__b5pKN%3A1765251615370, __ddg1_=afx3LkjRCpYWchthq5vw
+
+Body:

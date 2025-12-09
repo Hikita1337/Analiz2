@@ -1,0 +1,20 @@
+[2025-12-09_09-44-43-053378] HTTP REQUEST
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=27&wv-type=6&wmode=0&wv-hit=498839795&page-url=https%3A%2F%2Fcsgoih.run%2Fprofile%2Fbonuses&rn=369643841&browser-info=bt%3A1%3Awe%3A1%3Aet%3A1765251725%3Aw%3A414x804%3Av%3A2292%3Az%3A360%3Ai%3A20251209094205%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251725&t=gdpr(14)ti(1)
+Method: POST
+
+Headers:
+accept: */*
+content-type: text/plain
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 1566
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+[{"type":"mutation","data":{"index":6434,"nodes":[9503]},"stamp":75917,"frameId":0,"event":"re"},{"type":"mutation","data":{"index":6436,"attributes":{},"deletedAttributes":["disabled"],"target":9432},"stamp":75917,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":6435,"nodes":[{"id":9517,"prev":null,"next":null,"parent":9502,"name":"div","attributes":{}},{"id":9518,"prev":null,"next":9520,"parent":9517,"name":"div","attributes":{"class":"text-lg text-[#cce9ff] mb-4"}},{"id":9519,"prev":null,"next":null,"parent":9518,"name":"#text","attributes":{},"content":"ÐÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼ÑÐµ ÑÑÐ»Ð¾Ð²Ð¸Ñ Ð´Ð»Ñ Ð¿Ð¾Ð»ÑÑÐµÐ½Ð¸Ñ ÐºÐµÑÐ±ÐµÐºÐ°"},{"id":9520,"prev":9518,"next":null,"parent":9517,"name":"ul","attributes":{"class":"grid grid-cols-1 gap-2"}},{"id":9521,"prev":null,"next":null,"parent":9520,"name":"li","attributes":{}},{"id":9522,"prev":null,"next":null,"parent":9521,"name":"div","attributes":{"data-type":"fail","class":"flex items-center antialiased font-semibold gap-2.5 rounded px-3.5 py-3 text-sm leading-tight bg-[#ff8b8b]/8 text-[#ff8b8b] w-fit backdrop-blur-lg"}},{"id":9523,"prev":null,"next":9524,"parent":9522,"name":"div","attributes":{"class":"icon  w-4","data-icon-name":"warning","style":"mask-image: url(\"/svg/warning.svg\");"}},{"id":9524,"prev":9523,"next":null,"parent":9522,"name":"div","attributes":{}},{"id":9525,"prev":null,"next":null,"parent":9524,"name":"#text","attributes":{},"content":"ÐÐ° Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ðµ ÑÐµÐ¼Ñ Ð´Ð½ÐµÐ¹ Ð´ÐµÐ¿Ð¾Ð·Ð¸Ñ Ð±Ð¾Ð»ÐµÐµ 1000.00â½"}]},"stamp":75917,"frameId":0,"event":"ad"}]

@@ -1,0 +1,17 @@
+[2025-12-09_09-43-13-263429] HTTP RESPONSE
+URL: https://api.steampowered.com/IAuthenticationService/PollAuthSessionStatus/v1
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-13-263429.bin
+
+Headers:
+server: nginx
+content-type: application/octet-stream
+content-length: 2
+access-control-allow-origin: https://steamcommunity.com
+vary: Origin
+access-control-expose-headers: X-eresult, X-error_message
+x-eresult: 1
+expires: Tue, 09 Dec 2025 03:40:35 GMT
+date: Tue, 09 Dec 2025 03:40:35 GMT
+
+(Body saved separately)

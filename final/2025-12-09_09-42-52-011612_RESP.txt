@@ -1,0 +1,26 @@
+[2025-12-09_09-42-52-011612] HTTP RESPONSE
+URL: https://top-fwz1.mail.ru/counter?_=0.3264237108410726;id=3686147;u=https%3A%2F%2Fcsgoih.run%2F;pid=USER_ID;title=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D0%B0%20%D1%81%D0%BA%D0%B8%D0%BD%D0%BE%D0%B2;s=414*896;vp=414*696;touch=1;hds=2;sid=e51c663a84670f3e;ver=60.6.0;tz=-360%2FAsia%2FOmsk;st=1765251613295;ct=2466/2473/2473//1453;rt=1456/319/0/0/0/1456/1456/1456/1458/1629/1527/1632/1771/1775;gl=u;ni=;lvid=1765251613973%3A1765251613977%3A1%3Acfcec191d319f79d3b64c31628d6cfcf;opts=dl%2Ccnhp%3Dh2;visible=true;js=13
+Status: 302
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-52-011612.bin
+
+Headers:
+server: nginx
+date: Tue, 09 Dec 2025 03:40:14 GMT
+content-length: 0
+location: https://top-fwz1.mail.ru/counter2?_=0.3264237108410726;id=3686147;u=https%3A%2F%2Fcsgoih.run%2F;pid=USER_ID;title=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D0%B0%20%D1%81%D0%BA%D0%B8%D0%BD%D0%BE%D0%B2;s=414*896;vp=414*696;touch=1;hds=2;sid=e51c663a84670f3e;ver=60.6.0;tz=-360%2FAsia%2FOmsk;st=1765251613295;ct=2466/2473/2473//1453;rt=1456/319/0/0/0/1456/1456/1456/1458/1629/1527/1632/1771/1775;gl=u;ni=;lvid=1765251613973%3A1765251613977%3A1%3Acfcec191d319f79d3b64c31628d6cfcf;opts=dl%2Ccnhp%3Dh2;visible=true;js=13
+set-cookie: FTID=2yw6IB0H8uIa:1765251614:3686147:::; path=/; expires=Thu, 10-Dec-26 03:40:14 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure, tmr_lvid=2d5e3faf6f1f44ae46fc265d72ab096d; path=/; expires=Thu, 10-Dec-26 03:40:14 GMT; domain=.mail.ru; Secure, tmr_lvidTS=1765251614000; path=/; expires=Thu, 10-Dec-26 03:40:14 GMT; domain=.mail.ru; Secure
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, HEAD, PUT, OPTIONS
+access-control-allow-headers: *
+amp-access-control-allow-source-origin: *
+access-control-expose-headers: AMP-Access-Control-Allow-Source-Origin
+timing-allow-origin: *
+x-content-type-options: nosniff
+p3p: CP="NOI DSP COR NID CUR PSA OUR NOR"
+cache-control: private, no-cache, no-store, max-age=0
+pragma: no-cache
+accept-ch: DPR, Width, Viewport-Width, Downlink, Device-Memory, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA, Sec-CH-UA-Full-Version
+accept-ch-lifetime: 86400
+
+(Body saved separately)

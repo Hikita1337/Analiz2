@@ -1,0 +1,22 @@
+[2025-12-09_09-43-18-060101] HTTP RESPONSE
+URL: https://gspe19-ssl.ls.apple.com/tile.vf
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-060101.bin
+
+Headers:
+content-type: application/octet-stream; UTF-8
+content-encoding: gzip
+x-envoy-upstream-service-time: 0
+strict-transport-security: max-age=31536000; includeSubDomains;, max-age=31536000; includeSubDomains;
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:40 GMT
+via: 1.1 varnish
+age: 22540
+x-cdn: fsly
+x-served-by: cache-fra-etou8220115-FRA
+x-cache: HIT
+x-cache-hits: 3
+x-timer: S1765251640.065375,VS0,VE0
+content-length: 46
+
+(Body saved separately)

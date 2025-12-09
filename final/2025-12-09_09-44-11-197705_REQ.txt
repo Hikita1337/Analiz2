@@ -1,0 +1,16 @@
+[2025-12-09_09-44-11-197705] HTTP REQUEST
+URL: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lc3qPIUAAAAAFGLONQbUEAOgbdU8WTiC3HpRqKI&co=aHR0cHM6Ly9jc2dvaWgucnVuOjQ0Mw..&hl=ru&type=image&v=jdMmXeCQEkPbnFDy9T04NbgJ&theme=light&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=15000&cb=cn86pbcdrb3t
+Method: GET
+
+Headers:
+sec-fetch-dest: iframe
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+referer: https://csgoih.run/
+sec-fetch-site: cross-site
+sec-fetch-mode: navigate
+accept-language: ru
+priority: u=0, i
+accept-encoding: gzip, deflate, br
+
+Body:

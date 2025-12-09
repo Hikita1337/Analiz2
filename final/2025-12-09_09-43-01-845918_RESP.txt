@@ -1,0 +1,20 @@
+[2025-12-09_09-43-01-845918] HTTP RESPONSE
+URL: https://login.steampowered.com/jwt/ajaxrefresh
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-845918.json
+
+Headers:
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://steamcommunity.com
+Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 604800
+Access-Control-Expose-Headers: X-NotLoggedIn
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Content-Length: 28
+Date: Tue, 09 Dec 2025 03:40:23 GMT
+Connection: keep-alive
+Set-Cookie: ak_bmsc=6EDED69A639D006E60579C629B538A6F~000000000000000000000000000000~YAAQBroXAqmCsaSaAQAAzysyAR4/AM8tEQB3nIKJnoYKpc+ixmlQO4jdzv3LMrEXVFZ0YpS5xyWKgvTZQ/UQ2C4heW6Q30medApYRGpx8rMX7P/7iIt6LLWlErBdg5T9wIGN2EbhZYAASgD0UTEtXM3M9S6na0GXCH2yABq54SgBuSEfGgqUjWmTzH+nmEA0F82b/4Hp50YlZ65LWAj1KuE9whgvjuiI2661x06NVKPvuYfSOeHcgXzK/b6UMW4tmTmPUM3JGuExbOQ4xZipYRfxf7I4wKIw194UVpe2MpCJHtxAHtsIUt9UcfjoM5QgiP+7YStL9jTE+9/hFzt9o7ZlD+bPFdVqggQmOBoN5X152p4MGQKwmZgB4RZVagVj6hMHcqt57tKR; Domain=.steampowered.com; Path=/; Expires=Tue, 09 Dec 2025 05:40:23 GMT; Max-Age=7200; HttpOnly
+
+(Body saved separately)

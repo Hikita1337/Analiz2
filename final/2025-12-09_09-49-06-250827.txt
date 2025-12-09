@@ -1,0 +1,18 @@
+[2025-12-09_09-49-06-250827] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 23
+
+HEX:
+7b226964223a372c22737562736372696265223a7b7d7d
+
+BASE64:
+eyJpZCI6Nywic3Vic2NyaWJlIjp7fX0=
+
+UTF‑8:
+{"id":7,"subscribe":{}}
+
+JSON:
+{
+    "id": 7,
+    "subscribe": {}
+}

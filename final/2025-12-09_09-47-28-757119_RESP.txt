@@ -1,0 +1,20 @@
+[2025-12-09_09-47-28-757119] HTTP RESPONSE
+URL: https://csgoih.run/img/stickers/animated-2.gif
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-47-28-757119.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=Le347bSWeiXjEhlw; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:47 GMT, __ddg10_=1765251887; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:47 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:47 GMT
+date: Tue, 09 Dec 2025 03:44:47 GMT
+content-type: image/gif
+content-length: 1390146
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: d45393d8ed746a444f3ed2ee0e7fd90d
+etag: "69371c4f-153642"
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

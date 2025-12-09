@@ -1,0 +1,15 @@
+[2025-12-09_09-43-18-075782] HTTP RESPONSE
+URL: https://store.akamai.steamstatic.com/public/javascript/applications/store/sales_russian-json.js?contenthash=1b54f01808de22423f60
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-075782.js
+
+Headers:
+Content-Type: text/javascript;charset=UTF-8
+Last-Modified: Tue, 07 Oct 2025 22:36:18 GMT
+ETag: "-kG-qtg9v5Uq"
+Cache-Control: public, must-revalidate, max-age=249750
+Expires: Fri, 12 Dec 2025 01:03:10 GMT
+Date: Tue, 09 Dec 2025 03:40:40 GMT
+Connection: keep-alive
+
+(Body saved separately)

@@ -1,0 +1,20 @@
+[2025-12-09_09-42-57-014638] HTTP RESPONSE
+URL: https://csgoih.run/img/auth/telegram-ill.webp
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-57-014638.webp
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=WbfXvfNCHbcAClJT; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:18 GMT, __ddg10_=1765251618; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:18 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:18 GMT
+date: Tue, 09 Dec 2025 03:40:18 GMT
+content-type: image/webp
+content-length: 12310
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: e74b79f7b7606803b58fb9caaad54e5c
+etag: "69371c4f-3016"
+age: 2
+ddg-cache-status: MISS
+
+(Body saved separately)

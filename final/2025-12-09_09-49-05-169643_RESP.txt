@@ -1,0 +1,19 @@
+[2025-12-09_09-49-05-169643] HTTP RESPONSE
+URL: https://sr-client-cfg.amplitude.com/config?api_key=37151ae3930236661a8b1c80a384c288&config_keys=analyticsSDK&session_id=1765251614159
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-49-05-169643.json
+
+Headers:
+content-type: application/json
+content-length: 31
+date: Tue, 09 Dec 2025 03:45:31 GMT
+cache-control: public, max-age=60, s-maxage=60, stale-if-error=86400, stale-while-revalidate=600
+x-cache: Hit from cloudfront
+via: 1.1 4ce635a828953f58113c07c2555ad08c.cloudfront.net (CloudFront)
+x-amz-cf-pop: HEL51-P5
+x-amz-cf-id: J6zkpndBAQbgt-vBE-2zwjMFLzmEEAQFjwY5OIoUIMJ-kjH0EP-inQ==
+age: 56
+access-control-allow-origin: *
+access-control-expose-headers: X-Cache,Age
+
+(Body saved separately)

@@ -1,0 +1,66 @@
+[2025-12-09_09-49-56-569175] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 752
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a2262657455706461746564222c22626574223a7b226964223a3639383635323838382c2267616d654964223a363235343836382c22737461747573223a322c22636f656666696369656e744175746f223a312e31352c2263757272656e63794964223a322c22636f656666696369656e74223a312e31352c226465706f736974223a7b22616d6f756e74223a302e342c2277616c6c6574416d6f756e74223a302e342c226974656d73223a5b7b226964223a313433313330383836372c226974656d4964223a313433313330383836372c226e616d65223a225553502d53207c20436865636b20456e67696e65202857656c6c2d576f726e29222c22636f6c6f724964223a312c2267616d654964223a3733302c2272657365727665644964223a31333435377d5d7d2c227769746864726177223a7b22616d6f756e74223a302e34363030303030303833343436353032372c226974656d73223a5b7b226964223a223631373131222c226974656d4964223a223631373131222c226e616d65223a22537469636b6572207c20736831726f2028486f6c6f2c204368616d70696f6e29207c205368616e676861692032303234222c22636f6c6f724964223a2235222c2267616d654964223a22373330222c2272657365727665644964223a223238353636227d5d7d2c2275736572223a7b226964223a3934333535392c226e616d65223a2270696e6b69736578222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f62312f623130343566643166336363343836306532333663323735613761316433373536623437393438655f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6ImJldFVwZGF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg4OCwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS4xNSwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuMTUsImRlcG9zaXQiOnsiYW1vdW50IjowLjQsIndhbGxldEFtb3VudCI6MC40LCJpdGVtcyI6W3siaWQiOjE0MzEzMDg4NjcsIml0ZW1JZCI6MTQzMTMwODg2NywibmFtZSI6IlVTUC1TIHwgQ2hlY2sgRW5naW5lIChXZWxsLVdvcm4pIiwiY29sb3JJZCI6MSwiZ2FtZUlkIjo3MzAsInJlc2VydmVkSWQiOjEzNDU3fV19LCJ3aXRoZHJhdyI6eyJhbW91bnQiOjAuNDYwMDAwMDA4MzQ0NjUwMjcsIml0ZW1zIjpbeyJpZCI6IjYxNzExIiwiaXRlbUlkIjoiNjE3MTEiLCJuYW1lIjoiU3RpY2tlciB8IHNoMXJvIChIb2xvLCBDaGFtcGlvbikgfCBTaGFuZ2hhaSAyMDI0IiwiY29sb3JJZCI6IjUiLCJnYW1lSWQiOiI3MzAiLCJyZXNlcnZlZElkIjoiMjg1NjYifV19LCJ1c2VyIjp7ImlkIjo5NDM1NTksIm5hbWUiOiJwaW5raXNleCIsImF2YXRhciI6Imh0dHBzOi8vc3RlYW1jZG4tYS5ha2FtYWloZC5uZXQvc3RlYW1jb21tdW5pdHkvcHVibGljL2ltYWdlcy9hdmF0YXJzL2IxL2IxMDQ1ZmQxZjNjYzQ4NjBlMjM2YzI3NWE3YTFkMzc1NmI0Nzk0OGVfbWVkaXVtLmpwZyJ9LCJsaWtlcyI6MCwic2hvd0xpa2UiOmZhbHNlfX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"betUpdated","bet":{"id":698652888,"gameId":6254868,"status":2,"coefficientAuto":1.15,"currencyId":2,"coefficient":1.15,"deposit":{"amount":0.4,"walletAmount":0.4,"items":[{"id":1431308867,"itemId":1431308867,"name":"USP-S | Check Engine (Well-Worn)","colorId":1,"gameId":730,"reservedId":13457}]},"withdraw":{"amount":0.46000000834465027,"items":[{"id":"61711","itemId":"61711","name":"Sticker | sh1ro (Holo, Champion) | Shanghai 2024","colorId":"5","gameId":"730","reservedId":"28566"}]},"user":{"id":943559,"name":"pinkisex","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "betUpdated",
+                "bet": {
+                    "id": 698652888,
+                    "gameId": 6254868,
+                    "status": 2,
+                    "coefficientAuto": 1.15,
+                    "currencyId": 2,
+                    "coefficient": 1.15,
+                    "deposit": {
+                        "amount": 0.4,
+                        "walletAmount": 0.4,
+                        "items": [
+                            {
+                                "id": 1431308867,
+                                "itemId": 1431308867,
+                                "name": "USP-S | Check Engine (Well-Worn)",
+                                "colorId": 1,
+                                "gameId": 730,
+                                "reservedId": 13457
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 0.46000000834465027,
+                        "items": [
+                            {
+                                "id": "61711",
+                                "itemId": "61711",
+                                "name": "Sticker | sh1ro (Holo, Champion) | Shanghai 2024",
+                                "colorId": "5",
+                                "gameId": "730",
+                                "reservedId": "28566"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 943559,
+                        "name": "pinkisex",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

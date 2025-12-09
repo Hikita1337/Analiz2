@@ -1,0 +1,20 @@
+[2025-12-09_09-42-52-381855] HTTP RESPONSE
+URL: https://cs2run.app/current-state?montaznayaPena=8321af10f167e7d684166e57ec89d94d
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-52-381855.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=t2sAP9rtRDAoBdyP; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:14 GMT, __ddg10_=1765251614; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:14 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:14 GMT, __ddg1_=SYBHoDf6cf9rx7dljbVU; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:40:14 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:40:14 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"49d-mmcuGLymRFzyz8fdPQD8ZnL9Fmc"
+content-encoding: br
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: c2f57e038b33efa8dc0d41a1fb6430ec
+
+(Body saved separately)

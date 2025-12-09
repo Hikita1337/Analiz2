@@ -1,0 +1,20 @@
+[2025-12-09_09-43-28-672308] HTTP RESPONSE
+URL: https://cs2run.app/v1/order/hold-orders?page=1&onlyAmount=false
+Status: 204
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-28-672308.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=pMtNLBuh6ejunbZ6; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg10_=1765251650; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg1_=KR0nHNz0g3OzD0aTigQE; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:40:50 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:40:50 GMT
+access-control-allow-credentials: true
+access-control-allow-headers: Content-Type,Content-Length,Accept-Encoding,X-Csrf-Token,Authorization,Accept,Origin,Cache-Control,X-Requested-With
+access-control-allow-methods: GET,POST,PUT,PATCH,DELETE,OPTIONS
+access-control-allow-origin: https://csgoih.run
+access-control-max-age: 43200
+vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: d0c8085f142cc2a7e90a924cc0f97628
+
+(Body saved separately)

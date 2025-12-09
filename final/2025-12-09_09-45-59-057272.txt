@@ -1,0 +1,36 @@
+[2025-12-09_09-45-59-057272] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 261
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a22757064617465222c22726f756e64223a7b226964223a363233333737392c22737461747573223a332c2262657474696e6754696d65223a2d36342c22656e6454696d65223a373933362c2272616e646f6d4f6666736574223a302e373037373438333136393835313431322c2272616e646f6d4e756d626572223a332c227370696e4e756d626572223a332c2277696e6e65724e756d626572223a312c226d756c7469706c696572223a6e756c6c2c226d756c7469706c6965724e756d626572223a317d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InVwZGF0ZSIsInJvdW5kIjp7ImlkIjo2MjMzNzc5LCJzdGF0dXMiOjMsImJldHRpbmdUaW1lIjotNjQsImVuZFRpbWUiOjc5MzYsInJhbmRvbU9mZnNldCI6MC43MDc3NDgzMTY5ODUxNDEyLCJyYW5kb21OdW1iZXIiOjMsInNwaW5OdW1iZXIiOjMsIndpbm5lck51bWJlciI6MSwibXVsdGlwbGllciI6bnVsbCwibXVsdGlwbGllck51bWJlciI6MX19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"update","round":{"id":6233779,"status":3,"bettingTime":-64,"endTime":7936,"randomOffset":0.7077483169851412,"randomNumber":3,"spinNumber":3,"winnerNumber":1,"multiplier":null,"multiplierNumber":1}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "update",
+                "round": {
+                    "id": 6233779,
+                    "status": 3,
+                    "bettingTime": -64,
+                    "endTime": 7936,
+                    "randomOffset": 0.7077483169851412,
+                    "randomNumber": 3,
+                    "spinNumber": 3,
+                    "winnerNumber": 1,
+                    "multiplier": null,
+                    "multiplierNumber": 1
+                }
+            }
+        }
+    }
+}

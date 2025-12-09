@@ -1,0 +1,20 @@
+[2025-12-09_09-44-16-217129] HTTP REQUEST
+URL: https://api2.amplitude.com/2/httpapi
+Method: POST
+
+Headers:
+accept: */*
+content-type: application/json
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 730
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+{"api_key":"37151ae3930236661a8b1c80a384c288","events":[{"device_id":"ae5089b2-6c9a-4f68-9731-95f08491b544","session_id":1765251614159,"time":1765251697224,"platform":"Web","language":"ru","ip":"$remote","insert_id":"3073cc02-b9e7-47d7-9bcf-ec9d94d98d0e","event_type":"promo_code_applied","event_properties":{"code":"хуй","transaction_id":"e831ca69-1004-4e9e-9b60-4a516fd5637f","success":false,"error":"LIMIT"},"event_id":18,"library":"amplitude-ts/2.20.1","user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1"}],"options":{},"client_upload_time":"2025-12-09T03:41:38.226Z","request_metadata":{"sdk":{"metrics":{"histogram":{}}}}}

@@ -1,0 +1,21 @@
+[2025-12-09_09-46-41-362329] HTTP RESPONSE
+URL: https://csgoih.run/sounds/colors_start.mp3
+Status: 206
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-46-41-362329.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=5ui9U1M0N1zWYISG; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:03 GMT, __ddg10_=1765251843; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:03 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:03 GMT
+date: Tue, 09 Dec 2025 03:43:00 GMT
+content-type: audio/mpeg
+content-length: 2
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 832828ea09a2170043acaf8aed456c51
+etag: "69371c4f-2290"
+age: 63
+content-range: bytes 0-1/8848
+ddg-cache-status: HIT
+
+(Body saved separately)

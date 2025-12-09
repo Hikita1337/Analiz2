@@ -1,0 +1,15 @@
+[2025-12-09_09-46-20-131343] HTTP REQUEST
+URL: https://chatgpt.com/c/69376fe4-071c-832b-a8c2-ce03d2db0f57
+Method: GET
+
+Headers:
+sec-fetch-dest: document
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-language: ru
+priority: u=0, i
+accept-encoding: gzip, deflate, br
+
+Body:

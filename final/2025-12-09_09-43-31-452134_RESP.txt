@@ -1,0 +1,21 @@
+[2025-12-09_09-43-31-452134] HTTP RESPONSE
+URL: https://csgoih.run/img/crash/dots.svg?v=1
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-31-452134.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=QCDOkUiKU8IPUIU9; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT, __ddg10_=1765251653; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT
+date: Tue, 09 Dec 2025 03:40:53 GMT
+content-type: image/svg+xml
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: c20432f9ecc7f6731f19e5a1fc9af641
+content-encoding: br
+etag: "69371c4f-20c7"
+age: 0
+content-length: 1890
+ddg-cache-status: MISS
+
+(Body saved separately)

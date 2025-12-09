@@ -1,0 +1,15 @@
+[2025-12-09_09-43-26-795238] HTTP REQUEST
+URL: https://mc.yandex.ru/watch/94742085/1?wmode=7&page-url=https%3A%2F%2Fcsgoih.run%2Fauth&charset=utf-8&uah=che%0A0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aru%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1431106912871%3Ahid%3A498839795%3Az%3A360%3Ai%3A20251209094048%3Aet%3A1765251649%3Ac%3A1%3Arn%3A811825116%3Au%3A1765251615122050168%3Aw%3A414x696%3As%3A414x896x24%3Ask%3A2%3Afp%3A1278%3Awv%3A2%3Ads%3A0%2C0%2C0%2C%2C%2C0%2C%2C171%2C0%2C%2C%2C%2C1185%3Aco%3A0%3Acpf%3A1%3Ans%3A1765251647210%3Agi%3AR0ExLjEuMTUyODU0NTE4Ny4xNzY1MjUxNjE0%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1765251649%3At%3A%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D0%B0%20%D1%81%D0%BA%D0%B8%D0%BD%D0%BE%D0%B2&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%280%29cdl%28na%29eco%2884476420%29ti%281%29&redirnss=1
+Method: GET
+
+Headers:
+accept: */*
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+accept-encoding: gzip, deflate, br
+
+Body:

@@ -1,0 +1,21 @@
+[2025-12-09_09-44-14-982106] HTTP REQUEST
+URL: https://cs2run.app/discount
+Method: POST
+
+Headers:
+accept: application/json, text/plain, */*
+content-type: application/json
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-dest: empty
+content-length: 810
+sec-fetch-mode: cors
+accept-language: ru
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTg2ODYxLCJpYXQiOjE3NjUyNTE2NDksImV4cCI6MTc2NjExNTY0OX0.WRJ9VR50RRGSNShVNRlTAz4ls0r6-ZgaUNDxENZv5bQ
+referer: https://csgoih.run/
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+{"code":"хуй","token":"0cAFcWeA5jyynbAAFb4mYD-wa8A9sfb6dqvaStFH1P4BJoik9OzZEPSu0OkKiQP7QrEolNQv1WVrfUnbJOmfSEmxvE6iN5apuS0q1Ihn4Xx5AZGiBcLLQTS5cxAm_xTsTKB4XQXmuVjGTGWMHFXiceagBgNSCbcutAt-Jf0sMybY_ABJpbMOLIG-iuLRi4ObDxhfZlhfzmZgH00jyTOnsJZU_nzL4HxyLFlGLYhHBF0dEjsY_2FKAdWVtX6VUR2I3csFJ0PUtIli-l5PYtt7NpIxmMqL-UrGG1R2UIKjfM_AGXl0uD7oZWySbYmfnkJnYw4qHHwXFUz4NEWH66nrmnB-zWE6tyQw5f4QoOTaTAHMDHPPJuECr-dGd7pyGoTY6SrVJSLd_2_C79mSJv7AisB06t7F2giZSN_31IHupMd4p4d6Yx8GrpRdxPVeELkctBM1oEjUATui7v-9AII23GKoWXwo8z74nFNG8xw7tsnfv8Z9zzzSSy-hM9O16k4XDphnYlRNGYqig7WDs_crWOiAJWW36_HzWUo8EqGI_K60PsTx-Rx-1ScJnZj5Ir0cCGDfGcEo46qX19VC8hppD_0RPrCtVpO_js5NSitFkSiCm6jTKBKrsfD5eO6Q_jqpFt8cZPkWUZ6ThIUjGe8oYbymKhFa1AP1ofzasfEtG6joOH3HjTRTwpdDF2UXP1_lz1yZ-nwQRzl5F4BCTk36_0FGKCljMFn1VDPMss0Li01s9_diQ3rbIBz36Eh4-ANZEI4ITTF9yeiJaN"}

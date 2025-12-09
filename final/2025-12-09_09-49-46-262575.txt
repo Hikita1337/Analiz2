@@ -1,0 +1,57 @@
+[2025-12-09_09-49-46-262575] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 619
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a2262657443726561746564222c22626574223a7b226964223a3639383635323839352c2267616d654964223a363235343836382c22737461747573223a312c22636f656666696369656e744175746f223a312e30352c2263757272656e63794964223a322c22636f656666696369656e74223a6e756c6c2c226465706f736974223a7b22616d6f756e74223a302e34342c2277616c6c6574416d6f756e74223a302e34342c226974656d73223a5b7b226964223a313433313330383837332c226974656d4964223a313433313330383837332c226e616d65223a22536f7576656e697220466976652d536576654e207c2057697468657265642056696e652028466163746f7279204e657729222c22636f6c6f724964223a322c2267616d654964223a3733302c2272657365727665644964223a31373539317d5d7d2c227769746864726177223a7b22616d6f756e74223a6e756c6c2c226974656d73223a5b5d7d2c2275736572223a7b226964223a313539343237312c226e616d65223a22383635313038333831222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f30372f303763616262633265333838376633626536353135363431383732653666653633623833653262305f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6ImJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg5NSwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjEsImNvZWZmaWNpZW50QXV0byI6MS4wNSwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOm51bGwsImRlcG9zaXQiOnsiYW1vdW50IjowLjQ0LCJ3YWxsZXRBbW91bnQiOjAuNDQsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODg3MywiaXRlbUlkIjoxNDMxMzA4ODczLCJuYW1lIjoiU291dmVuaXIgRml2ZS1TZXZlTiB8IFdpdGhlcmVkIFZpbmUgKEZhY3RvcnkgTmV3KSIsImNvbG9ySWQiOjIsImdhbWVJZCI6NzMwLCJyZXNlcnZlZElkIjoxNzU5MX1dfSwid2l0aGRyYXciOnsiYW1vdW50IjpudWxsLCJpdGVtcyI6W119LCJ1c2VyIjp7ImlkIjoxNTk0MjcxLCJuYW1lIjoiODY1MTA4MzgxIiwiYXZhdGFyIjoiaHR0cHM6Ly9zdGVhbWNkbi1hLmFrYW1haWhkLm5ldC9zdGVhbWNvbW11bml0eS9wdWJsaWMvaW1hZ2VzL2F2YXRhcnMvMDcvMDdjYWJiYzJlMzg4N2YzYmU2NTE1NjQxODcyZTZmZTYzYjgzZTJiMF9tZWRpdW0uanBnIn0sImxpa2VzIjowLCJzaG93TGlrZSI6ZmFsc2V9fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"betCreated","bet":{"id":698652895,"gameId":6254868,"status":1,"coefficientAuto":1.05,"currencyId":2,"coefficient":null,"deposit":{"amount":0.44,"walletAmount":0.44,"items":[{"id":1431308873,"itemId":1431308873,"name":"Souvenir Five-SeveN | Withered Vine (Factory New)","colorId":2,"gameId":730,"reservedId":17591}]},"withdraw":{"amount":null,"items":[]},"user":{"id":1594271,"name":"865108381","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "betCreated",
+                "bet": {
+                    "id": 698652895,
+                    "gameId": 6254868,
+                    "status": 1,
+                    "coefficientAuto": 1.05,
+                    "currencyId": 2,
+                    "coefficient": null,
+                    "deposit": {
+                        "amount": 0.44,
+                        "walletAmount": 0.44,
+                        "items": [
+                            {
+                                "id": 1431308873,
+                                "itemId": 1431308873,
+                                "name": "Souvenir Five-SeveN | Withered Vine (Factory New)",
+                                "colorId": 2,
+                                "gameId": 730,
+                                "reservedId": 17591
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": null,
+                        "items": []
+                    },
+                    "user": {
+                        "id": 1594271,
+                        "name": "865108381",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

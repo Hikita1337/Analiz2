@@ -1,0 +1,19 @@
+[2025-12-09_09-43-16-475488] HTTP RESPONSE
+URL: https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-16-475488.bin
+
+Headers:
+content-type: application/x-protobuf
+content-disposition: attachment
+vary: Origin, X-Origin, Referer
+content-encoding: gzip
+date: Tue, 09 Dec 2025 03:40:38 GMT
+server: ESF
+content-length: 35
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+(Body saved separately)

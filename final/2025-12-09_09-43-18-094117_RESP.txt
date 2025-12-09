@@ -1,0 +1,18 @@
+[2025-12-09_09-43-18-094117] HTTP RESPONSE
+URL: https://shared.akamai.steamstatic.com/store_item_assets/steam/clusters/frontpage/876102d9014b313bf227876a/page_bg_mobile_russian.jpg?t=1753297218
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-094117.jpg
+
+Headers:
+server: nginx
+content-type: image/jpeg
+content-length: 144050
+last-modified: Thu, 24 Jul 2025 21:50:40 GMT
+etag: "6882aab0-232b2"
+access-control-allow-origin: *
+accept-ranges: bytes
+cache-control: public, max-age=315325832
+expires: Thu, 06 Dec 2035 18:11:12 GMT
+date: Tue, 09 Dec 2025 03:40:40 GMT
+
+(Body saved separately)

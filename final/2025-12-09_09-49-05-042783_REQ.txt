@@ -1,0 +1,16 @@
+[2025-12-09_09-49-05-042783] HTTP REQUEST
+URL: https://top-fwz1.mail.ru/counter2?_=0.2163575500572864;id=3686147;u=https%3A%2F%2Fcsgoih.run%2Fdouble;pid=USER_ID;title=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D0%B0%20%D1%81%D0%BA%D0%B8%D0%BD%D0%BE%D0%B2;s=414*896;vp=414*696;touch=1;hds=2;sid=7ad79dd5448eb268;ver=60.6.0;tz=-360%2FAsia%2FOmsk;st=1765251986638;ct=1025/1030/1030//674;rt=674/0/0/0/0/674/674/674/674/674/0/674/674/674;gl=u;ni=;detect=0;lvid=1765251613973%3A1765251986966%3A1%3Acfcec191d319f79d3b64c31628d6cfcf;opts=dl%2Cjst-gtag;fpid=JFICDqX4wdPxhK__b5pKN;visible=true;js=13
+Method: GET
+
+Headers:
+accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+sec-fetch-site: cross-site
+priority: u=5, i
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept-language: ru
+sec-fetch-dest: image
+referer: https://csgoih.run/
+accept-encoding: gzip, deflate, br
+
+Body:

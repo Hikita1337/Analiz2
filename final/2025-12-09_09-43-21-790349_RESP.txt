@@ -1,0 +1,24 @@
+[2025-12-09_09-43-21-790349] HTTP RESPONSE
+URL: https://steamcommunity.com/login/settoken
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-21-790349.json
+
+Headers:
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding, Origin, Accept-Encoding
+Access-Control-Allow-Origin: https://steamcommunity.com
+Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 604800
+Access-Control-Expose-Headers: X-NotLoggedIn
+X-Frame-Options: DENY
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Length: 52
+Date: Tue, 09 Dec 2025 03:40:43 GMT
+Connection: keep-alive
+Set-Cookie: steamLoginSecure=76561198973038082%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAxMV8yNzU5MUIxRF9BQjg5NyIsICJzdWIiOiAiNzY1NjExOTg5NzMwMzgwODIiLCAiYXVkIjogWyAid2ViOmNvbW11bml0eSIgXSwgImV4cCI6IDE3NjUzMzkyNDksICJuYmYiOiAxNzU2NjExNjQzLCAiaWF0IjogMTc2NTI1MTY0MywgImp0aSI6ICIwMDA1XzI3NTkxQjFGXzI4QTM5IiwgIm9hdCI6IDE3NjUyNTE2NDIsICJydF9leHAiOiAxNzgzNTQxOTc0LCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTg4LjIzMi4xMDAuMTM5IiwgImlwX2NvbmZpcm1lciI6ICIxODguMjMyLjEwMC4xMzkiIH0.ZEjLlJqs_szMo212UAah2zZeCCo7WKUpnRuXSxrnKd1MRKDaeUhgT6KRCMs73K7TWcf9l8epqkQrlXzaKGV0AA; expires=Sun, 08 Dec 2030 03:40:43 GMT; Max-Age=157680000; path=/; secure; HttpOnly; SameSite=None
+
+(Body saved separately)

@@ -1,0 +1,20 @@
+[2025-12-09_09-43-21-472852] HTTP RESPONSE
+URL: https://login.steampowered.com/jwt/finalizelogin
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-21-472852.json
+
+Headers:
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://steamcommunity.com
+Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 604800
+Access-Control-Expose-Headers: X-NotLoggedIn
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Content-Length: 883
+Date: Tue, 09 Dec 2025 03:40:43 GMT
+Connection: keep-alive
+Set-Cookie: steamRefresh_steam=76561198973038082%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5ODk3MzAzODA4MiIsICJhdWQiOiBbICJ3ZWIiLCAicmVuZXciLCAiZGVyaXZlIiBdLCAiZXhwIjogMTc4MzU0MTk3NCwgIm5iZiI6IDE3NTY2MTE2NDIsICJpYXQiOiAxNzY1MjUxNjQyLCAianRpIjogIjAwMTFfMjc1OTFCMURfQUI4OTciLCAib2F0IjogMTc2NTI1MTY0MiwgInBlciI6IDEsICJpcF9zdWJqZWN0IjogIjE4OC4yMzIuMTAwLjEzOSIsICJpcF9jb25maXJtZXIiOiAiMTg4LjIzMi4xMDAuMTM5IiB9.oMGmSt9MqVitLvOKTVjRZ-qtl7ulq-HmIZIirNNBVY7LD1nbak5cdhwKpO4UnJoD1x2FSV31DwVxAgwBCXeeAQ; expires=Wed, 09 Dec 2026 03:40:43 GMT; Max-Age=31536000; path=/; secure; HttpOnly; SameSite=None, ak_bmsc=837B21A40ABAE5AADAB6305826626341~000000000000000000000000000000~YAAQBroXAgyDsaSaAQAAdngyAR6rPtCTfjojIjjCEhMoM/2jEx2q2a58EsYfGL+cSDOTVpL9KtcM7kLCllsfanHnCnZ2fMOOvKNhAca7ruc3cN+48qlOcniNKLRpqKKXdBuqKDuJ0Fz6jg0KKUVzgeTi636xILrSPxxEzi5bKRHv/SCnu9kdPqq36z+9UL+Ed5/AjgOXfXeK2bBWpUOXmijkk5Ms3s2j863Ctl9h0bX1dSQqNv9CZW3v6jgaKnprQjwfsuJ4WooEr6t6PTEcsnx1FN6gES9Nap2H87phq+4AoxNee2UUK2/CmiuBHpUnAbV5p+mNtUO3WQOCfDWntKk487bp1x4WlgBzG4mHEBGMa/MU1hU8RYsaolzGT5jMejImFEc+06Hp; Domain=.steampowered.com; Path=/; Expires=Tue, 09 Dec 2025 05:40:43 GMT; Max-Age=7200; HttpOnly
+
+(Body saved separately)

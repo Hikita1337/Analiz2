@@ -1,0 +1,345 @@
+[2025-12-09_09-49-15-518415] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 3175
+
+HEX:
+7b227265736f75726365223a227765627669736f722f3934373432303835222c227175657279223a7b2277762d70617274223a2235222c2262726f777365722d696e666f223a2265743a313736353235313939383a73743a313736353235313939383a693a32303235313230393039343633373a773a34313478363936222c2274223a2267647072283134297469283529227d2c22736571223a31302c22626f6479223a5b7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3336302c2279223a3335332c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383032302c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3335392c2279223a3336322c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383032332c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b227769647468223a3431342c22686569676874223a3737332c22706167655769647468223a3431342c2270616765486569676874223a323530347d2c227374616d70223a383038312c226672616d654964223a302c226576656e74223a22726573697a65227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3530372c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383038312c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3335392c2279223a3437382c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383038342c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3336312c2279223a3439392c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383130362c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3336332c2279223a3530352c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383132392c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3335382c2279223a3431362c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383036302c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3336342c2279223a3530342c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383133332c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2263633666363339352d363838392d396165652d633434612d346366623435653666633761222c2278223a3336342c2279223a3530342c22666f726365223a307d5d2c22746172676574223a333534387d2c227374616d70223a383135302c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3336312c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383231362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3238392c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383331362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3232392c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383431362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3138302c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383531362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3133392c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383631362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3130362c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383731362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a37392c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383831362c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b227769647468223a3431342c22686569676874223a3639362c22706167655769647468223a3431342c2270616765486569676874223a323530347d2c227374616d70223a383836352c226672616d654964223a302c226576656e74223a22726573697a65227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a35342c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a383933322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a33362c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a393033322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a32322c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a393133322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a31302c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a393233322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a302c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a393333322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226163746976697479222c2264617461223a313435357d5d7d
+
+BASE64:
+eyJyZXNvdXJjZSI6IndlYnZpc29yLzk0NzQyMDg1IiwicXVlcnkiOnsid3YtcGFydCI6IjUiLCJicm93c2VyLWluZm8iOiJldDoxNzY1MjUxOTk4OnN0OjE3NjUyNTE5OTg6aToyMDI1MTIwOTA5NDYzNzp3OjQxNHg2OTYiLCJ0IjoiZ2RwcigxNCl0aSg1KSJ9LCJzZXEiOjEwLCJib2R5IjpbeyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiY2M2ZjYzOTUtNjg4OS05YWVlLWM0NGEtNGNmYjQ1ZTZmYzdhIiwieCI6MzYwLCJ5IjozNTMsImZvcmNlIjowfV0sInRhcmdldCI6MzU0OH0sInN0YW1wIjo4MDIwLCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNoc3RhcnQifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiJjYzZmNjM5NS02ODg5LTlhZWUtYzQ0YS00Y2ZiNDVlNmZjN2EiLCJ4IjozNTksInkiOjM2MiwiZm9yY2UiOjB9XSwidGFyZ2V0IjozNTQ4fSwic3RhbXAiOjgwMjMsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IndpZHRoIjo0MTQsImhlaWdodCI6NzczLCJwYWdlV2lkdGgiOjQxNCwicGFnZUhlaWdodCI6MjUwNH0sInN0YW1wIjo4MDgxLCJmcmFtZUlkIjowLCJldmVudCI6InJlc2l6ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjowLCJ5Ijo1MDcsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6ODA4MSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiJjYzZmNjM5NS02ODg5LTlhZWUtYzQ0YS00Y2ZiNDVlNmZjN2EiLCJ4IjozNTksInkiOjQ3OCwiZm9yY2UiOjB9XSwidGFyZ2V0IjozNTQ4fSwic3RhbXAiOjgwODQsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiY2M2ZjYzOTUtNjg4OS05YWVlLWM0NGEtNGNmYjQ1ZTZmYzdhIiwieCI6MzYxLCJ5Ijo0OTksImZvcmNlIjowfV0sInRhcmdldCI6MzU0OH0sInN0YW1wIjo4MTA2LCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNobW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6ImNjNmY2Mzk1LTY4ODktOWFlZS1jNDRhLTRjZmI0NWU2ZmM3YSIsIngiOjM2MywieSI6NTA1LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjM1NDh9LCJzdGFtcCI6ODEyOSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaG1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiJjYzZmNjM5NS02ODg5LTlhZWUtYzQ0YS00Y2ZiNDVlNmZjN2EiLCJ4IjozNTgsInkiOjQxNiwiZm9yY2UiOjB9XSwidGFyZ2V0IjozNTQ4fSwic3RhbXAiOjgwNjAsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiY2M2ZjYzOTUtNjg4OS05YWVlLWM0NGEtNGNmYjQ1ZTZmYzdhIiwieCI6MzY0LCJ5Ijo1MDQsImZvcmNlIjowfV0sInRhcmdldCI6MzU0OH0sInN0YW1wIjo4MTMzLCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNobW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6ImNjNmY2Mzk1LTY4ODktOWFlZS1jNDRhLTRjZmI0NWU2ZmM3YSIsIngiOjM2NCwieSI6NTA0LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjM1NDh9LCJzdGFtcCI6ODE1MCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaGVuZCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjowLCJ5IjozNjEsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6ODIxNiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6Mjg5LCJwYWdlIjp0cnVlLCJ0YXJnZXQiOi0xfSwic3RhbXAiOjgzMTYsImZyYW1lSWQiOjAsImV2ZW50Ijoic2Nyb2xsIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IngiOjAsInkiOjIyOSwicGFnZSI6dHJ1ZSwidGFyZ2V0IjotMX0sInN0YW1wIjo4NDE2LCJmcmFtZUlkIjowLCJldmVudCI6InNjcm9sbCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjowLCJ5IjoxODAsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6ODUxNiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6MTM5LCJwYWdlIjp0cnVlLCJ0YXJnZXQiOi0xfSwic3RhbXAiOjg2MTYsImZyYW1lSWQiOjAsImV2ZW50Ijoic2Nyb2xsIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IngiOjAsInkiOjEwNiwicGFnZSI6dHJ1ZSwidGFyZ2V0IjotMX0sInN0YW1wIjo4NzE2LCJmcmFtZUlkIjowLCJldmVudCI6InNjcm9sbCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjowLCJ5Ijo3OSwicGFnZSI6dHJ1ZSwidGFyZ2V0IjotMX0sInN0YW1wIjo4ODE2LCJmcmFtZUlkIjowLCJldmVudCI6InNjcm9sbCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ3aWR0aCI6NDE0LCJoZWlnaHQiOjY5NiwicGFnZVdpZHRoIjo0MTQsInBhZ2VIZWlnaHQiOjI1MDR9LCJzdGFtcCI6ODg2NSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJyZXNpemUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6NTQsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6ODkzMiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6MzYsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6OTAzMiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6MjIsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6OTEzMiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6MTAsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6OTIzMiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6MCwicGFnZSI6dHJ1ZSwidGFyZ2V0IjotMX0sInN0YW1wIjo5MzMyLCJmcmFtZUlkIjowLCJldmVudCI6InNjcm9sbCJ9LHsidHlwZSI6ImFjdGl2aXR5IiwiZGF0YSI6MTQ1NX1dfQ==
+
+UTF‑8:
+{"resource":"webvisor/94742085","query":{"wv-part":"5","browser-info":"et:1765251998:st:1765251998:i:20251209094637:w:414x696","t":"gdpr(14)ti(5)"},"seq":10,"body":[{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":360,"y":353,"force":0}],"target":3548},"stamp":8020,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":359,"y":362,"force":0}],"target":3548},"stamp":8023,"frameId":0,"event":"touchmove"},{"type":"event","data":{"width":414,"height":773,"pageWidth":414,"pageHeight":2504},"stamp":8081,"frameId":0,"event":"resize"},{"type":"event","data":{"x":0,"y":507,"page":true,"target":-1},"stamp":8081,"frameId":0,"event":"scroll"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":359,"y":478,"force":0}],"target":3548},"stamp":8084,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":361,"y":499,"force":0}],"target":3548},"stamp":8106,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":363,"y":505,"force":0}],"target":3548},"stamp":8129,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":358,"y":416,"force":0}],"target":3548},"stamp":8060,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":364,"y":504,"force":0}],"target":3548},"stamp":8133,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"cc6f6395-6889-9aee-c44a-4cfb45e6fc7a","x":364,"y":504,"force":0}],"target":3548},"stamp":8150,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":0,"y":361,"page":true,"target":-1},"stamp":8216,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":289,"page":true,"target":-1},"stamp":8316,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":229,"page":true,"target":-1},"stamp":8416,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":180,"page":true,"target":-1},"stamp":8516,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":139,"page":true,"target":-1},"stamp":8616,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":106,"page":true,"target":-1},"stamp":8716,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":79,"page":true,"target":-1},"stamp":8816,"frameId":0,"event":"scroll"},{"type":"event","data":{"width":414,"height":696,"pageWidth":414,"pageHeight":2504},"stamp":8865,"frameId":0,"event":"resize"},{"type":"event","data":{"x":0,"y":54,"page":true,"target":-1},"stamp":8932,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":36,"page":true,"target":-1},"stamp":9032,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":22,"page":true,"target":-1},"stamp":9132,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":10,"page":true,"target":-1},"stamp":9232,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":0,"page":true,"target":-1},"stamp":9332,"frameId":0,"event":"scroll"},{"type":"activity","data":1455}]}
+
+JSON:
+{
+    "resource": "webvisor/94742085",
+    "query": {
+        "wv-part": "5",
+        "browser-info": "et:1765251998:st:1765251998:i:20251209094637:w:414x696",
+        "t": "gdpr(14)ti(5)"
+    },
+    "seq": 10,
+    "body": [
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 360,
+                        "y": 353,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8020,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 359,
+                        "y": 362,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8023,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "width": 414,
+                "height": 773,
+                "pageWidth": 414,
+                "pageHeight": 2504
+            },
+            "stamp": 8081,
+            "frameId": 0,
+            "event": "resize"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 507,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8081,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 359,
+                        "y": 478,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8084,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 361,
+                        "y": 499,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8106,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 363,
+                        "y": 505,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8129,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 358,
+                        "y": 416,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8060,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 364,
+                        "y": 504,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8133,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "cc6f6395-6889-9aee-c44a-4cfb45e6fc7a",
+                        "x": 364,
+                        "y": 504,
+                        "force": 0
+                    }
+                ],
+                "target": 3548
+            },
+            "stamp": 8150,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 361,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8216,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 289,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8316,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 229,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8416,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 180,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8516,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 139,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8616,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 106,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8716,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 79,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8816,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "width": 414,
+                "height": 696,
+                "pageWidth": 414,
+                "pageHeight": 2504
+            },
+            "stamp": 8865,
+            "frameId": 0,
+            "event": "resize"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 54,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 8932,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 36,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 9032,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 22,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 9132,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 10,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 9232,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 0,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 9332,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "activity",
+            "data": 1455
+        }
+    ]
+}

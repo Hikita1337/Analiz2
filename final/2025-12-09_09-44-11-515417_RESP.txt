@@ -1,0 +1,21 @@
+[2025-12-09_09-44-11-515417] HTTP RESPONSE
+URL: https://www.google.com/recaptcha/api2/pat?k=6Lc3qPIUAAAAAFGLONQbUEAOgbdU8WTiC3HpRqKI
+Status: 401
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-11-515417.bin
+
+Headers:
+content-type: application/binary
+www-authenticate: PrivateToken challenge=AAIAJnBwaXNzdWVyLXJlY2FwdGNoYS5tdGxzLmdvb2dsZWFwaXMuY29tIMCOYgKydUh4NJzAaRyg8hyY5PYRx4OAx6AwSndqDc-oAA53d3cuZ29vZ2xlLmNvbQ==, token-key=MIIBUjA9BgkqhkiG9w0BAQowMKANMAsGCWCGSAFlAwQCAqEaMBgGCSqGSIb3DQEBCDALBglghkgBZQMEAgKiAwIBMAOCAQ8AMIIBCgKCAQEAsUmioJzMzyi3yun47r9SGrq6hzDLUUVivWEB_ju2mlW1KU8GtgB1uiBYB3MSM2XH18sXhoutXgeI-JviELwEFkUa1yEAHNCcPbFnCW-l7cAiLv_aLpG6IUfD5K8qDUBNyoMliYdBmvd93P3xhs0zsqKJ5DOzqSBPDWrtZXD_MN4k8uxwgWiDDKgVgWk56EJ3BuxBV0b2eH_KrQQF-Z2cirWVhpG39DnH94qQpKWMuhJOywcCclPLRnB_MEmewr2fYg4SpzM9fKEvkwgHGnbiF1tfzZ2WBtsbiFuQXNHrfmSVAj_hAZwvkyw34OqRcJ1fb2W2UYQyts0bKZHeYyO5kwIDAQAB
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 09 Dec 2025 03:41:33 GMT
+report-to: {"group":"coop_38fac9d5b82543fc4729580d18ff2d3d","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d"}]}
+server: ESF
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+(Body saved separately)

@@ -1,0 +1,16 @@
+[2025-12-09_09-44-11-356100] HTTP REQUEST
+URL: https://www.gstatic.com/recaptcha/releases/jdMmXeCQEkPbnFDy9T04NbgJ/styles__ltr.css
+Method: GET
+
+Headers:
+sec-fetch-dest: style
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept: text/css,*/*;q=0.1
+referer: https://www.google.com/
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+accept-language: ru
+priority: u=1, i
+accept-encoding: gzip, deflate, br
+
+Body:

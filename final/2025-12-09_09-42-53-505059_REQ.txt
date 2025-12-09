@@ -1,0 +1,17 @@
+[2025-12-09_09-42-53-505059] HTTP REQUEST
+URL: https://csgoih.run/favicon.ico
+Method: GET
+
+Headers:
+sec-fetch-dest: image
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept: */*
+referer: https://csgoih.run/
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+cookie: __ddg10_=1765251615, __ddg8_=HdupNT88KWOUk7xY, __ddg9_=188.232.100.139, _ym_d=1765251615, _ym_isad=2, _ym_uid=1765251615122050168, _ym_visorc=w, domain_sid=JFICDqX4wdPxhK__b5pKN%3A1765251615370, AMP_37151ae393=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJhZTUwODliMi02YzlhLTRmNjgtOTczMS05NWYwODQ5MWI1NDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzY1MjUxNjE0MTU5JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2NTI1MTYxNDE2NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBMiUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMSU3RA==, AMP_MKTG_37151ae393=JTdCJTdE, _ga=GA1.1.1528545187.1765251614, _ga_KBTMVREMQ9=GS2.1.s1765251614$o1$g0$t1765251614$j60$l0$h0, tmr_lvid=cfcec191d319f79d3b64c31628d6cfcf, tmr_lvidTS=1765251613973, __ddg1_=afx3LkjRCpYWchthq5vw
+
+Body:

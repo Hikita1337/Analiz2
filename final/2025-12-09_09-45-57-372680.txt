@@ -1,0 +1,53 @@
+[2025-12-09_09-45-57-372680] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 510
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a226e657742657473222c2262657473223a5b7b226964223a3133333538343637352c226e756d626572223a312c22737461747573223a312c226465706f736974223a312c2277616c6c65744465706f736974223a312c2263757272656e63794964223a322c227769746864726177223a6e756c6c2c2277616c6c65745769746864726177223a6e756c6c2c2275736572223a7b226964223a313736313239352c226e616d65223a2276696c6c6167657273e284a2202057617a6f77736b69222c22617661746172223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f393231623235366162633865616134303263303436323037313863623766323534306631356236385f6d656469756d2e6a7067222c22626c6d223a66616c73657d2c226974656d73223a5b7b226964223a383137353733333132302c226974656d4964223a34303734302c226e616d65223a22496e73637269626564204e6167696e617461206f662074686520416c6c757265222c22636f6c6f724964223a32322c2267616d654964223a3537302c2272657365727665644964223a32303934377d5d2c226974656d73436f756e74223a317d5d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6Im5ld0JldHMiLCJiZXRzIjpbeyJpZCI6MTMzNTg0Njc1LCJudW1iZXIiOjEsInN0YXR1cyI6MSwiZGVwb3NpdCI6MSwid2FsbGV0RGVwb3NpdCI6MSwiY3VycmVuY3lJZCI6Miwid2l0aGRyYXciOm51bGwsIndhbGxldFdpdGhkcmF3IjpudWxsLCJ1c2VyIjp7ImlkIjoxNzYxMjk1LCJuYW1lIjoidmlsbGFnZXJz4oSiICBXYXpvd3NraSIsImF2YXRhciI6Imh0dHBzOi8vYXZhdGFycy5zdGVhbXN0YXRpYy5jb20vOTIxYjI1NmFiYzhlYWE0MDJjMDQ2MjA3MThjYjdmMjU0MGYxNWI2OF9tZWRpdW0uanBnIiwiYmxtIjpmYWxzZX0sIml0ZW1zIjpbeyJpZCI6ODE3NTczMzEyMCwiaXRlbUlkIjo0MDc0MCwibmFtZSI6Ikluc2NyaWJlZCBOYWdpbmF0YSBvZiB0aGUgQWxsdXJlIiwiY29sb3JJZCI6MjIsImdhbWVJZCI6NTcwLCJyZXNlcnZlZElkIjoyMDk0N31dLCJpdGVtc0NvdW50IjoxfV19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"newBets","bets":[{"id":133584675,"number":1,"status":1,"deposit":1,"walletDeposit":1,"currencyId":2,"withdraw":null,"walletWithdraw":null,"user":{"id":1761295,"name":"villagers™  Wazowski","avatar":"https://avatars.steamstatic.com/921b256abc8eaa402c04620718cb7f2540f15b68_medium.jpg","blm":false},"items":[{"id":8175733120,"itemId":40740,"name":"Inscribed Naginata of the Allure","colorId":22,"gameId":570,"reservedId":20947}],"itemsCount":1}]}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "newBets",
+                "bets": [
+                    {
+                        "id": 133584675,
+                        "number": 1,
+                        "status": 1,
+                        "deposit": 1,
+                        "walletDeposit": 1,
+                        "currencyId": 2,
+                        "withdraw": null,
+                        "walletWithdraw": null,
+                        "user": {
+                            "id": 1761295,
+                            "name": "villagers™  Wazowski",
+                            "avatar": "https://avatars.steamstatic.com/921b256abc8eaa402c04620718cb7f2540f15b68_medium.jpg",
+                            "blm": false
+                        },
+                        "items": [
+                            {
+                                "id": 8175733120,
+                                "itemId": 40740,
+                                "name": "Inscribed Naginata of the Allure",
+                                "colorId": 22,
+                                "gameId": 570,
+                                "reservedId": 20947
+                            }
+                        ],
+                        "itemsCount": 1
+                    }
+                ]
+            }
+        }
+    }
+}

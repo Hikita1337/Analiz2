@@ -1,0 +1,20 @@
+[2025-12-09_09-47-11-227100] HTTP RESPONSE
+URL: https://cs2run.app/chat/ru/all
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-47-11-227100.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=NWmRmcZLDTbTQ7RU; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:04:33 GMT, __ddg10_=1765251873; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:04:33 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:04:33 GMT, __ddg1_=wDBzInTDk5U2kfgrhVrJ; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:44:33 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:44:33 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"1e09-V9gaMe2IpG4ghyKApDerEcC2ud4"
+content-encoding: br
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 870716bf0502f2cb41de364295bfa256
+
+(Body saved separately)

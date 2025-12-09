@@ -1,0 +1,18 @@
+[2025-12-09_09-43-01-401353] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/javascript/applications/community/login.js?contenthash=d4044771bf8f29a627b3
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-401353.bin
+
+Headers:
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+cache-control: public,max-age=259200,must-revalidate
+etag: "IHpCFcAgBIrh"
+expires: Mon, 08 Dec 2025 23:10:11 GMT
+age: 16211
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: HIT
+x-cache-hits: 50
+x-timer: S1765251623.426372,VS0,VE0
+
+(Body saved separately)

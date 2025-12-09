@@ -1,0 +1,13 @@
+[2025-12-09_09-42-57-030569] HTTP RESPONSE
+URL: https://mc.yandex.ru/solid.ws
+Status: 101
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-57-030569.bin
+
+Headers:
+Sec-WebSocket-Extensions: permessage-deflate;server_max_window_bits=15
+Upgrade: websocket
+Sec-WebSocket-Accept: cn9DGvLY+Or7l8iazBQ8uoLdpgE=
+Set-Cookie: bh=YKO03skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:40:19 GMT
+Connection: Upgrade
+
+(Body saved separately)

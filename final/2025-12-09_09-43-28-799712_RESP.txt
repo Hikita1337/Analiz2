@@ -1,0 +1,21 @@
+[2025-12-09_09-43-28-799712] HTTP RESPONSE
+URL: https://csgoih.run/sounds//boxes/boxes-tick.mp3
+Status: 206
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-28-799712.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=e3mrBwIrzJQ7pHFP; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg10_=1765251650; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT
+date: Tue, 09 Dec 2025 03:11:48 GMT
+content-type: audio/mpeg
+content-length: 8403
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: bf87103ad221e229b5849afcfef5de9e
+etag: "69371c4f-20d3"
+age: 1743
+content-range: bytes 0-8402/8403
+ddg-cache-status: HIT
+
+(Body saved separately)

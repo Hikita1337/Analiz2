@@ -1,0 +1,17 @@
+[2025-12-09_09-43-17-795831] HTTP REQUEST
+URL: https://store.akamai.steamstatic.com/public/css/applications/store/main.css?v=zJuHDsNwn4ap&l=russian&_cdn=akamai
+Method: GET
+
+Headers:
+Host: store.akamai.steamstatic.com
+Sec-Fetch-Site: cross-site
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Referer: https://store.steampowered.com/
+Sec-Fetch-Dest: style
+Accept-Language: ru
+
+Body:

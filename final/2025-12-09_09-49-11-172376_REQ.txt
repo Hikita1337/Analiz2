@@ -1,0 +1,16 @@
+[2025-12-09_09-49-11-172376] HTTP REQUEST
+URL: https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200
+Method: GET
+
+Headers:
+sec-fetch-dest: image
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+referer: https://csgoih.run/
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+accept-language: ru
+priority: u=5, i
+accept-encoding: gzip, deflate, br
+
+Body:

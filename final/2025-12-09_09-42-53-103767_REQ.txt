@@ -1,0 +1,18 @@
+[2025-12-09_09-42-53-103767] HTTP REQUEST
+URL: https://privacy-cs.mail.ru/static/sync-loader.js
+Method: GET
+
+Headers:
+Host: privacy-cs.mail.ru
+Sec-Fetch-Dest: script
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+Accept: */*
+Referer: https://csgoih.run/
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Accept-Language: ru
+Priority: u=3, i
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+Body:
