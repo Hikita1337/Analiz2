@@ -11,7 +11,7 @@ OUTPUT_JSON_CMD = "reports/chat_admin_commands.json"
 OUTPUT_TXT_CMD  = "reports/chat_admin_commands.txt"
 SKIP_FILE       = "reports/skipped_lines.txt"
 CHUNK_SIZE      = 100
-LOG_EVERY       = 1000
+LOG_EVERY       = 1
 
 os.makedirs("reports", exist_ok=True)
 
