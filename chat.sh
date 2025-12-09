@@ -1,25 +1,27 @@
 #!/bin/bash
 
-# Папки, которые нужно проверить
 PARTS=("final_part1" "final_part2" "final_part3")
+BIG_FILE="bigdump.txt"
+TMP_FILE="tmp_combined.txt"
 
-TOTAL_SIZE=0
-
-echo "Проверка размеров папок..."
-
+# 1. Объединяем все файлы из папок в один временный файл
+> "$TMP_FILE"
 for DIR in "${PARTS[@]}"; do
     if [ -d "$DIR" ]; then
-        SIZE=$(du -sb "$DIR" | awk '{print $1}')
-        echo "Размер папки $DIR: $SIZE байт"
-        TOTAL_SIZE=$((TOTAL_SIZE + SIZE))
-    else
-        echo "Папка $DIR не найдена"
+        find "$DIR" -type f -exec cat {} + >> "$TMP_FILE"
     fi
 done
 
-echo "-----------------------------------"
-echo "Общий размер всех папок: $TOTAL_SIZE байт"
+# 2. Сравниваем с bigdump.txt
+if cmp -s "$TMP_FILE" "$BIG_FILE"; then
+    echo "✅ Все строки из папок точно совпадают с bigdump.txt"
+else
+    echo "⚠️ Найдены различия между папками и bigdump.txt"
 
-# Для более читаемого формата (КБ, МБ, ГБ)
-echo "Общий размер (читаемый формат):"
-du -ch "${PARTS[@]}" | grep total$
+    # Выводим первые 20 различий для анализа
+    echo "Первые 20 различий:"
+    diff -u "$TMP_FILE" "$BIG_FILE" | head -n 40
+fi
+
+# 3. Убираем временный файл
+rm "$TMP_FILE"
