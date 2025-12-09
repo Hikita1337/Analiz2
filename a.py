@@ -1,9 +1,10 @@
 import re, ast, base64, json, subprocess, sys
 from pathlib import Path
 from datetime import datetime
+from tqdm import tqdm
 
 # ---------------- CONFIG ----------------
-JS_PATHS = ["2025-12-09_09-42-51-297323.js", "2025-12-09_09-43-26-128433.js"]
+JS_PATHS = ["2025-12-09_09-42-51-297323.js","2025-12-09_09-43-26-128433.js"]
 TRAFFIC_PATH = "bigdump.txt"
 REPORT_DIR = Path("reports"); REPORT_DIR.mkdir(exist_ok=True)
 BASE64_LIMIT = 100; HEX_LIMIT = 100
@@ -17,7 +18,6 @@ def ensure_package(pkg):
 
 ensure_package("tqdm")
 ensure_package("graphviz")
-from tqdm import tqdm
 
 # ---------------- UTIL ----------------
 def read_file(path):
@@ -41,7 +41,6 @@ def detect_base64(text, limit=BASE64_LIMIT):
                 seen.add(d)
         except: pass
     return decoded
-
 def detect_hex_strings(text, limit=HEX_LIMIT):
     found = re.findall(r'(?:[0-9a-fA-F]{2}){8,}', text)[:limit]
     decoded, seen = [], set()
@@ -53,11 +52,9 @@ def detect_hex_strings(text, limit=HEX_LIMIT):
                 seen.add(d)
         except: pass
     return decoded
-
 def detect_functions(text):
     pattern = r'(function\s+(\w+)|(\w+)\s*=\s*function|\w+\s*=>)'
     return list(dict.fromkeys([l.strip() for l in text.splitlines() if re.search(pattern,l)]))
-
 def detect_class_definitions(text): return list(set(re.findall(r'class\s+(\w+)',text)))
 def detect_exports(text): return list(set(re.findall(r'export\s+(?:default\s+)?(\w+)',text)))
 def detect_require_import(text):
@@ -90,26 +87,7 @@ def build_call_graph_unique(text):
         body="\n".join(func_lines.get(f,[]))
         for other in functions:
             if f!=other and re.search(rf'\b{other}\s*\(',body): call_graph[f].add(other)
-    # преобразуем множества в списки
     return {f:list(c) for f,c in call_graph.items()}
-
-# ---------------- SAFE EVAL ----------------
-def safe_eval_expr(expr):
-    try:
-        node=ast.parse(expr,mode="eval")
-        allowed=(ast.Expression, ast.BinOp, ast.UnaryOp, ast.Num, ast.Constant)
-        for n in ast.walk(node):
-            if not isinstance(n,allowed): return "Запрещено для безопасной эмуляции"
-        return eval(expr)
-    except: return "Ошибка безопасной эмуляции"
-
-# ---------------- V8 SANDBOX ----------------
-def run_js_sandbox(js_code):
-    try:
-        result=subprocess.run(["node","-e",js_code],capture_output=True,text=True,timeout=2)
-        return result.stdout.strip() or "Нет вывода"
-    except subprocess.TimeoutExpired: return "Время выполнения превышено"
-    except Exception as e: return f"Ошибка: {e}"
 
 # ---------------- FUNCTION-EVENT LINK ----------------
 def link_functions_to_events(js_text, websocket_payloads):
@@ -123,7 +101,7 @@ def link_functions_to_events(js_text, websocket_payloads):
                 mapping[f].append(payload)
     return mapping
 
-# ---------------- GIT PUSH ----------------
+# ---------------- SAFE PUSH ----------------
 def git_add_commit_push(files, commit_msg="Авто-отчёт"):
     try:
         subprocess.run(["git","add"]+files,check=True)
@@ -134,69 +112,50 @@ def git_add_commit_push(files, commit_msg="Авто-отчёт"):
     except subprocess.CalledProcessError as e:
         print(f"[ERROR] Git ошибка: {e}")
 
-# ---------------- ULTRA ANALYZER ----------------
-def ultra_analyze(js_paths, traffic_path):
+# ---------------- ULTRA ANALYZER С РАЗБИВКОЙ ----------------
+def ultra_analyze_split(js_paths, traffic_path):
     steps=["Чтение файлов","Детектируем URL","Детектируем Base64","Детектируем HEX",
            "Детектируем функции и классы","Детектируем экспорты и импорты","Детектируем подозрительные конструкции",
            "Строим граф вызовов","Привязываем функции к событиям WebSocket/трафика",
-           "V8 Sandbox тест","Сохраняем отчёты"]
+           "Сохраняем нарезанные отчёты"]
     report = {}
-    from tqdm import tqdm
-    with tqdm(total=len(steps), desc="Прогресс анализа", ncols=100) as pbar:
-        combined_js_text = ""
-        for path in js_paths: combined_js_text += read_file(path) + "\n"
-        traffic_text = read_file(traffic_path)
-        # уникальные JSON payloads из трафика
-        raw_payloads = re.findall(r'\{.*?\}', traffic_text, re.DOTALL)
-        websocket_payloads = []
-        seen_payloads = set()
-        for p in raw_payloads:
-            normalized = re.sub(r'\s+', '', p)
-            if normalized not in seen_payloads:
-                websocket_payloads.append(p)
-                seen_payloads.add(normalized)
-        pbar.update(1)
-        report["urls"] = list(set(detect_urls(combined_js_text))); pbar.update(1)
-        report["base64"] = detect_base64(combined_js_text); pbar.update(1)
-        report["hex"] = detect_hex_strings(combined_js_text); pbar.update(1)
-        report["functions"] = detect_functions(combined_js_text)
-        report["classes"] = detect_class_definitions(combined_js_text); pbar.update(1)
-        report["exports"] = detect_exports(combined_js_text)
-        report["imports"], report["requires"] = detect_require_import(combined_js_text); pbar.update(1)
-        report["suspicious"] = detect_suspicious(combined_js_text)
-        report["jsfuck_detected"] = detect_jsfuck(combined_js_text)
-        report["obfuscator_io_detected"] = detect_obfuscator_io(combined_js_text)
-        report["simple_deobfuscation_preview"] = simple_deobfuscate_vars(combined_js_text)[:500]; pbar.update(1)
-        report["call_graph"] = build_call_graph_unique(combined_js_text); pbar.update(1)
-        report["function_event_mapping"] = link_functions_to_events(combined_js_text, websocket_payloads); pbar.update(1)
-        if report["functions"]:
-            sample_func = report["functions"][0].split()[1].split('(')[0] if "function" in report["functions"][0] else "console.log('sample')"
-            report["v8_sandbox_test"] = run_js_sandbox(f"{sample_func}; console.log('sandbox OK');")
-        pbar.update(1)
-        ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        json_file = REPORT_DIR / f"ultra_report_{ts}.json"
-        html_file = REPORT_DIR / f"ultra_report_{ts}.html"
-        json_file.write_text(json.dumps(report, indent=2, ensure_ascii=False))
-        html_content = f"""
-<html>
-<head><meta charset="UTF-8"><title>Ультра-анализ JS</title></head>
-<body>
-<h1>Отчёт по файлам {js_paths+[traffic_path]}</h1>
-<p>Общий размер: {sum(len(read_file(p)) for p in js_paths)+len(traffic_text)} байт</p>
-<h2>Функции</h2><pre>{report['functions']}</pre>
-<h2>Классы</h2><pre>{report['classes']}</pre>
-<h2>Подозрительные конструкции</h2><pre>{report['suspicious']}</pre>
-<h2>URLs</h2><pre>{report['urls']}</pre>
-<h2>Граф вызовов</h2><pre>{json.dumps(report['call_graph'],indent=2)}</pre>
-<h2>Привязка функций к событиям</h2><pre>{json.dumps(report['function_event_mapping'],indent=2)}</pre>
-<h2>V8 Sandbox тест</h2><pre>{report.get('v8_sandbox_test')}</pre>
-</body>
-</html>
-"""
-        html_file.write_text(html_content, encoding="utf-8"); pbar.update(1)
-    print(f"[*] JSON-отчёт сохранён: {json_file}")
-    print(f"[*] HTML-отчёт сохранён: {html_file}")
-    git_add_commit_push([str(json_file), str(html_file)], commit_msg=f"Отчёт {ts}")
+    combined_js_text = ""
+    for path in js_paths: combined_js_text += read_file(path) + "\n"
+    traffic_text = read_file(traffic_path)
+    raw_payloads = re.findall(r'\{.*?\}', traffic_text, re.DOTALL)
+    websocket_payloads = []
+    seen_payloads = set()
+    for p in raw_payloads:
+        normalized = re.sub(r'\s+', '', p)
+        if normalized not in seen_payloads:
+            websocket_payloads.append(p)
+            seen_payloads.add(normalized)
+    report["urls"] = list(set(detect_urls(combined_js_text)))
+    report["base64"] = detect_base64(combined_js_text)
+    report["hex"] = detect_hex_strings(combined_js_text)
+    report["functions"] = detect_functions(combined_js_text)
+    report["classes"] = detect_class_definitions(combined_js_text)
+    report["exports"] = detect_exports(combined_js_text)
+    report["imports"], report["requires"] = detect_require_import(combined_js_text)
+    report["suspicious"] = detect_suspicious(combined_js_text)
+    report["jsfuck_detected"] = detect_jsfuck(combined_js_text)
+    report["obfuscator_io_detected"] = detect_obfuscator_io(combined_js_text)
+    report["simple_deobfuscation_preview"] = simple_deobfuscate_vars(combined_js_text)[:500]
+    report["call_graph"] = build_call_graph_unique(combined_js_text)
+    report["function_event_mapping"] = link_functions_to_events(combined_js_text, websocket_payloads)
+
+    ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    for key, value in report.items():
+        json_file = REPORT_DIR / f"ultra_report_{key}_{ts}.json"
+        html_file = REPORT_DIR / f"ultra_report_{key}_{ts}.html"
+        json_file.write_text(json.dumps({key:value}, indent=2, ensure_ascii=False))
+        html_content = f"<html><head><meta charset='UTF-8'><title>{key}</title></head><body><h2>{key}</h2><pre>{json.dumps(value, indent=2, ensure_ascii=False)}</pre></body></html>"
+        html_file.write_text(html_content, encoding="utf-8")
+        print(f"[*] Сохранены файлы: {json_file}, {html_file}")
+
+    # пушим все
+    files_to_push = list(REPORT_DIR.glob(f"ultra_report_*_{ts}.*"))
+    git_add_commit_push([str(f) for f in files_to_push], commit_msg=f"Нарезанные отчёты {ts}")
 
 if __name__=="__main__":
-    ultra_analyze(JS_PATHS, TRAFFIC_PATH)
+    ultra_analyze_split(JS_PATHS, TRAFFIC_PATH)
