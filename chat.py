@@ -6,10 +6,10 @@ OUTPUT_API = "reports/api_ws.txt"
 OUTPUT_FUNC = "reports/functions.txt"
 SKIP_FILE  = "reports/skipped_lines.txt"
 CONTEXT_LINES = 2
-LOG_EVERY = 1000
+LOG_EVERY = 1
 
-# Строки, которые точно вызывают падение
-SKIP_LINES = {41502, 41599}
+# Пропуск диапазона строк
+SKIP_LINES = set(range(41000, 42001))
 
 os.makedirs("reports", exist_ok=True)
 
@@ -30,7 +30,7 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
 
     for line_number, line in enumerate(f, start=1):
         if line_number in SKIP_LINES:
-            skip_file.write(f"Line {line_number} manually skipped.\n{line}\n{'-'*50}\n")
+            skip_file.write(f"Line {line_number} skipped.\n{line}\n{'-'*50}\n")
             continue
 
         try:
@@ -51,7 +51,6 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
                 func_file.write("="*80 + "\n")
 
         except Exception as e:
-            # Любая ошибка — записываем в отдельный файл и продолжаем
             skip_file.write(f"Line {line_number} skipped. Exception: {e}\n{line}\n{'-'*50}\n")
 
         if line_number % LOG_EVERY == 0:
