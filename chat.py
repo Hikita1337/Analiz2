@@ -1,17 +1,18 @@
 import re
 import json
 import os
-import subprocess
 import hashlib
-from tqdm import tqdm
+import subprocess
 
-# --- Параметры ---
 INPUT_FILE = "bigdump.txt"
 OUTPUT_JSON = "reports/full_deep_analysis.json"
 OUTPUT_TXT  = "reports/full_deep_analysis.txt"
-CHUNK_SIZE = 1000  # количество строк за один пакет
+HASH_FILE   = "reports/seen_hashes.txt"
+LOG_INTERVAL = 5000  # строки
 
-# --- Регулярки и классификатор ---
+os.makedirs("reports", exist_ok=True)
+
+# --- Регулярки ---
 re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
 re_fetch = re.compile(r"fetch\s*\(\s*[\"']([^\"']+)[\"']")
 re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
@@ -35,104 +36,74 @@ def classify_block(text):
     if re.search(keywords_files, t): return "Files"
     return "Other"
 
-# --- Создание папки reports ---
-os.makedirs("reports", exist_ok=True)
-
-# --- Множество для уникальных блоков ---
+# --- Инициализация ---
 seen_hashes = set()
+if os.path.exists(HASH_FILE):
+    with open(HASH_FILE, "r") as hf:
+        for line in hf:
+            seen_hashes.add(line.strip())
 
-# --- Определяем общее количество строк для прогресс-бара ---
+fj = open(OUTPUT_JSON, "w", encoding="utf-8")
+ft = open(OUTPUT_TXT, "w", encoding="utf-8")
+fh = open(HASH_FILE, "a", encoding="utf-8")
+
+fj.write("[\n")
+first_entry = True
+
+context_window = []  # 5 строк до/после для контекста
+WINDOW_SIZE = 5
+
 with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f:
-    total_lines = sum(1 for _ in f)
+    for idx, line in enumerate(f, 1):
+        context_window.append(line.rstrip())
+        if len(context_window) > 2*WINDOW_SIZE+1:
+            context_window.pop(0)
 
-# --- Начало JSON ---
-with open(OUTPUT_JSON, "w", encoding="utf-8") as fj, open(OUTPUT_TXT, "w", encoding="utf-8") as ft:
-    fj.write("[\n")
-    first_entry = True
-    chunk_lines = []
+        context = "\n".join(context_window)
 
-    with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, tqdm(total=total_lines, desc="Processing lines") as pbar:
-        for line_number, line in enumerate(f, start=1):
-            chunk_lines.append(line.rstrip())
+        items = []
 
-            if len(chunk_lines) >= CHUNK_SIZE:
-                for i, l in enumerate(chunk_lines):
-                    context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
-                    items = []
+        m = re_api.search(line)
+        if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
+        m = re_fetch.search(line)
+        if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
+        m = re_ws_send.search(line)
+        if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
+        if re_ws_recv.search(line):
+            items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
+        m = re_function.search(line)
+        if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
+        m = re_arrow.search(line)
+        if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
+        if "{" in line and "}" in line:
+            for jb in re_json_block.findall(line):
+                if len(jb)<2000: items.append({"type":"JSON_BLOCK","json":jb,"classification":classify_block(jb)})
 
-                    m = re_api.search(l)
-                    if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
-                    m = re_fetch.search(l)
-                    if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
-                    m = re_ws_send.search(l)
-                    if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
-                    if re_ws_recv.search(l):
-                        items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
-                    m = re_function.search(l)
-                    if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-                    m = re_arrow.search(l)
-                    if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-                    if "{" in l and "}" in l:
-                        for jb in re_json_block.findall(l):
-                            if len(jb)<2000: items.append({"type":"JSON_BLOCK","json":jb,"classification":classify_block(jb)})
+        # --- проверка уникальности и запись ---
+        for it in items:
+            content_str = it.get("context", it.get("json","")).encode('utf-8')
+            content_hash = hashlib.md5(content_str).hexdigest()
+            if content_hash in seen_hashes:
+                continue
+            seen_hashes.add(content_hash)
+            fh.write(content_hash+"\n")
+            fh.flush()
 
-                    # --- проверка на уникальность ---
-                    for it in items:
-                        content_str = it.get("context", it.get("json","")).encode('utf-8')
-                        content_hash = hashlib.md5(content_str).hexdigest()
-                        if content_hash in seen_hashes:
-                            continue
-                        seen_hashes.add(content_hash)
+            if not first_entry:
+                fj.write(",\n")
+            else:
+                first_entry = False
+            json.dump(it, fj, ensure_ascii=False)
+            ft.write(f"[{it['type']} / {it['classification']}]\n")
+            ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
 
-                        if not first_entry:
-                            fj.write(",\n")
-                        else:
-                            first_entry = False
-                        json.dump(it, fj, ensure_ascii=False)
-                        ft.write(f"[{it['type']} / {it['classification']}]\n")
-                        ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
+        if idx % LOG_INTERVAL == 0:
+            print(f"Processed {idx} lines...")
 
-                chunk_lines = []
-
-            pbar.update(1)
-
-        # --- обработка оставшихся строк ---
-        for i, l in enumerate(chunk_lines):
-            context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
-            items = []
-
-            m = re_api.search(l)
-            if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
-            m = re_fetch.search(l)
-            if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
-            m = re_ws_send.search(l)
-            if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
-            if re_ws_recv.search(l):
-                items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
-            m = re_function.search(l)
-            if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-            m = re_arrow.search(l)
-            if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-            if "{" in l and "}" in l:
-                for jb in re_json_block.findall(l):
-                    if len(jb)<2000: items.append({"type":"JSON_BLOCK","json":jb,"classification":classify_block(jb)})
-
-            for it in items:
-                content_str = it.get("context", it.get("json","")).encode('utf-8')
-                content_hash = hashlib.md5(content_str).hexdigest()
-                if content_hash in seen_hashes:
-                    continue
-                seen_hashes.add(content_hash)
-
-                if not first_entry:
-                    fj.write(",\n")
-                else:
-                    first_entry = False
-                json.dump(it, fj, ensure_ascii=False)
-                ft.write(f"[{it['type']} / {it['classification']}]\n")
-                ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
-
-    fj.write("\n]\n")
+fj.write("\n]\n")
+fj.close()
+ft.close()
+fh.close()
 
 # --- git push ---
 subprocess.run(["git","add","."])
