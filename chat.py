@@ -6,7 +6,10 @@ OUTPUT_API = "reports/api_ws.txt"
 OUTPUT_FUNC = "reports/functions.txt"
 SKIP_FILE  = "reports/skipped_lines.txt"
 CONTEXT_LINES = 2
-LOG_EVERY = 1
+LOG_EVERY = 1000
+
+# Строки, которые точно вызывают падение
+SKIP_LINES = {41502, 41599}
 
 os.makedirs("reports", exist_ok=True)
 
@@ -26,6 +29,10 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
      open(SKIP_FILE,"w",encoding="utf-8") as skip_file:
 
     for line_number, line in enumerate(f, start=1):
+        if line_number in SKIP_LINES:
+            skip_file.write(f"Line {line_number} manually skipped.\n{line}\n{'-'*50}\n")
+            continue
+
         try:
             lines_buffer.append(line.rstrip())
             if len(lines_buffer) > CONTEXT_LINES*2+1:
