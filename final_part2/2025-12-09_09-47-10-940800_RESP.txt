@@ -1,0 +1,20 @@
+[2025-12-09_09-47-10-940800] HTTP RESPONSE
+URL: https://csgoih.run/icons/apple-touch-icon-57x57.png
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-47-10-940800.png
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=1dElKcrPakaOq4P1; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:32 GMT, __ddg10_=1765251872; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:32 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:04:32 GMT
+date: Tue, 09 Dec 2025 03:12:01 GMT
+content-type: image/png
+content-length: 13154
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 3a605b31006dc8a2b768f561f7dd4304
+etag: "69371c4f-3362"
+age: 1951
+ddg-cache-status: HIT
+
+(Body saved separately)

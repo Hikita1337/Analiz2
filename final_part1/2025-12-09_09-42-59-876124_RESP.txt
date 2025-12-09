@@ -1,0 +1,21 @@
+[2025-12-09_09-42-59-876124] HTTP RESPONSE
+URL: https://steamcommunity.com/openid/login?openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.realm=https%3A%2F%2Fcs2run.app&openid.return_to=https%3A%2F%2Fcs2run.app%2Fauth%2F1%2Fstart-sign-in%2F%3FreturnUrl%3Dhttps%3A%2F%2Fcsgoih.run%2Fauth
+Status: 302
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-59-876124.html
+
+Headers:
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: DENY
+Content-Security-Policy: default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://community.fastly.steamstatic.com/ https://cdn.fastly.steamstatic.com/steamcommunity/public/assets/ https://api.steampowered.com/ https://recaptcha.net https://www.google.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.youtube.com/ https://s.ytimg.com; object-src 'none'; connect-src 'self' https://community.fastly.steamstatic.com/ https://store.steampowered.com/ https://checkout.steampowered.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://steam.tv/ https://steamcommunity.com/ https://*.valvesoftware.com https://*.steambeta.net https://*.discovery.beta.steamserver.net https://*.steamcontent.com https://steambroadcast.akamaized.net https://steambroadcast-test.akamaized.net https://broadcast.st.dl.eccdnx.com https://lv.queniujq.cn https://steambroadcastchat.akamaized.net http://127.0.0.1:27060 ws://127.0.0.1:27060; frame-src 'self' steam: https://store.steampowered.com/ https://help.steampowered.com/ https://login.steampowered.com/ https://checkout.steampowered.com/ https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://medal.tv https://www.google.com/recaptcha/ https://recaptcha.net/recaptcha/ https://help.steampowered.com/; frame-ancestors 'self' https://steamloopback.host ;
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Cache-Control: no-cache
+Location: https://steamcommunity.com/openid/loginform/?goto=%2Fopenid%2Flogin%3Fopenid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.realm%3Dhttps%253A%252F%252Fcs2run.app%26openid.return_to%3Dhttps%253A%252F%252Fcs2run.app%252Fauth%252F1%252Fstart-sign-in%252F%253FreturnUrl%253Dhttps%253A%252F%252Fcsgoih.run%252Fauth
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Length: 20
+Date: Tue, 09 Dec 2025 03:40:21 GMT
+Connection: keep-alive
+Set-Cookie: steamCountry=RU%7Cf36ecc7770e494c147cf470f3b1b5545; path=/; secure; HttpOnly; SameSite=None
+
+(Body saved separately)

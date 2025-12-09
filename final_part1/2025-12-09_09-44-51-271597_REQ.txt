@@ -1,0 +1,18 @@
+[2025-12-09_09-44-51-271597] HTTP REQUEST
+URL: https://csgoih.run/svg/repeat.svg
+Method: GET
+
+Headers:
+accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+sec-fetch-site: same-origin
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/profile
+sec-fetch-dest: image
+accept-language: ru
+priority: u=5, i
+accept-encoding: gzip, deflate, br
+cookie: __ddg10_=1765251731, __ddg8_=nTH5wUMCTjBNJxiZ, __ddg9_=188.232.100.139, AMP_37151ae393=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJhZTUwODliMi02YzlhLTRmNjgtOTczMS05NWYwODQ5MWI1NDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzY1MjUxNjE0MTU5JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2NTI1MTczMDg5NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjElMkMlMjJwYWdlQ291bnRlciUyMiUzQTE0JTdE, _ga_KBTMVREMQ9=GS2.1.s1765251614$o1$g1$t1765251730$j5$l0$h0, AMP_MKTG_37151ae393=JTdCJTIycmVmZXJyZXIlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnN0ZWFtY29tbXVuaXR5LmNvbSUyRiUyMiUyQyUyMnJlZmVycmluZ19kb21haW4lMjIlM0ElMjJzdGVhbWNvbW11bml0eS5jb20lMjIlN0Q=, tmr_detect=0%7C1765251650912, auth-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTg2ODYxLCJpYXQiOjE3NjUyNTE2NDksImV4cCI6MTc2NjExNTY0OX0.WRJ9VR50RRGSNShVNRlTAz4ls0r6-ZgaUNDxENZv5bQ, _ga=GA1.1.1528545187.1765251614, _ym_visorc=w, tmr_lvid=cfcec191d319f79d3b64c31628d6cfcf, tmr_lvidTS=1765251613973, _ym_d=1765251615, _ym_isad=2, _ym_uid=1765251615122050168, domain_sid=JFICDqX4wdPxhK__b5pKN%3A1765251615370, __ddg1_=afx3LkjRCpYWchthq5vw
+
+Body:

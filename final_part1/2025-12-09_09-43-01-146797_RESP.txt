@@ -1,0 +1,23 @@
+[2025-12-09_09-43-01-146797] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/javascript/applications/community/localization/shared_english-json.js?contenthash=5956a6f31c9aa044e171
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-146797.js
+
+Headers:
+server: nginx
+content-type: text/javascript;charset=UTF-8
+last-modified: Mon, 01 Dec 2025 22:28:24 GMT
+etag: "tv-ORze-D3oM"
+cache-control: public,max-age=259200,must-revalidate
+expires: Thu, 04 Dec 2025 22:30:02 GMT
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+age: 105020
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: HIT, HIT
+x-cache-hits: 5223
+x-timer: S1765251623.150211,VS0,VE0
+content-length: 249247
+
+(Body saved separately)

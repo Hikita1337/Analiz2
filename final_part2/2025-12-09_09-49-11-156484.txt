@@ -1,0 +1,66 @@
+[2025-12-09_09-49-11-156484] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 737
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323837382c2267616d654964223a363235343836372c22737461747573223a322c22636f656666696369656e744175746f223a312e34362c2263757272656e63794964223a322c22636f656666696369656e74223a312e34362c226465706f736974223a7b22616d6f756e74223a312e322c2277616c6c6574416d6f756e74223a312e322c226974656d73223a5b7b226964223a313433313330383835362c226974656d4964223a313433313330383835362c226e616d65223a225665696c206f662074686520537562746c652044656d6f6e222c22636f6c6f724964223a32342c2267616d654964223a3537302c2272657365727665644964223a32373737387d5d7d2c227769746864726177223a7b22616d6f756e74223a312e3735323030303039333436303038332c226974656d73223a5b7b226964223a223535343838222c226974656d4964223a223535343838222c226e616d65223a22537469636b6572207c20616c6953746169722028476f6c6429207c2050617269732032303233222c22636f6c6f724964223a2237222c2267616d654964223a22373330222c2272657365727665644964223a223231303438227d5d7d2c2275736572223a7b226964223a3934333535352c226e616d65223a22436834724c69453330222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f31632f316362323865646662626164643136643838663131643530646331313765353131373336323661645f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg3OCwiZ2FtZUlkIjo2MjU0ODY3LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS40NiwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuNDYsImRlcG9zaXQiOnsiYW1vdW50IjoxLjIsIndhbGxldEFtb3VudCI6MS4yLCJpdGVtcyI6W3siaWQiOjE0MzEzMDg4NTYsIml0ZW1JZCI6MTQzMTMwODg1NiwibmFtZSI6IlZlaWwgb2YgdGhlIFN1YnRsZSBEZW1vbiIsImNvbG9ySWQiOjI0LCJnYW1lSWQiOjU3MCwicmVzZXJ2ZWRJZCI6Mjc3Nzh9XX0sIndpdGhkcmF3Ijp7ImFtb3VudCI6MS43NTIwMDAwOTM0NjAwODMsIml0ZW1zIjpbeyJpZCI6IjU1NDg4IiwiaXRlbUlkIjoiNTU0ODgiLCJuYW1lIjoiU3RpY2tlciB8IGFsaVN0YWlyIChHb2xkKSB8IFBhcmlzIDIwMjMiLCJjb2xvcklkIjoiNyIsImdhbWVJZCI6IjczMCIsInJlc2VydmVkSWQiOiIyMTA0OCJ9XX0sInVzZXIiOnsiaWQiOjk0MzU1NSwibmFtZSI6IkNoNHJMaUUzMCIsImF2YXRhciI6Imh0dHBzOi8vc3RlYW1jZG4tYS5ha2FtYWloZC5uZXQvc3RlYW1jb21tdW5pdHkvcHVibGljL2ltYWdlcy9hdmF0YXJzLzFjLzFjYjI4ZWRmYmJhZGQxNmQ4OGYxMWQ1MGRjMTE3ZTUxMTczNjI2YWRfbWVkaXVtLmpwZyJ9LCJsaWtlcyI6MCwic2hvd0xpa2UiOmZhbHNlfX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652878,"gameId":6254867,"status":2,"coefficientAuto":1.46,"currencyId":2,"coefficient":1.46,"deposit":{"amount":1.2,"walletAmount":1.2,"items":[{"id":1431308856,"itemId":1431308856,"name":"Veil of the Subtle Demon","colorId":24,"gameId":570,"reservedId":27778}]},"withdraw":{"amount":1.752000093460083,"items":[{"id":"55488","itemId":"55488","name":"Sticker | aliStair (Gold) | Paris 2023","colorId":"7","gameId":"730","reservedId":"21048"}]},"user":{"id":943555,"name":"Ch4rLiE30","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1c/1cb28edfbbadd16d88f11d50dc117e51173626ad_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652878,
+                    "gameId": 6254867,
+                    "status": 2,
+                    "coefficientAuto": 1.46,
+                    "currencyId": 2,
+                    "coefficient": 1.46,
+                    "deposit": {
+                        "amount": 1.2,
+                        "walletAmount": 1.2,
+                        "items": [
+                            {
+                                "id": 1431308856,
+                                "itemId": 1431308856,
+                                "name": "Veil of the Subtle Demon",
+                                "colorId": 24,
+                                "gameId": 570,
+                                "reservedId": 27778
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 1.752000093460083,
+                        "items": [
+                            {
+                                "id": "55488",
+                                "itemId": "55488",
+                                "name": "Sticker | aliStair (Gold) | Paris 2023",
+                                "colorId": "7",
+                                "gameId": "730",
+                                "reservedId": "21048"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 943555,
+                        "name": "Ch4rLiE30",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1c/1cb28edfbbadd16d88f11d50dc117e51173626ad_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

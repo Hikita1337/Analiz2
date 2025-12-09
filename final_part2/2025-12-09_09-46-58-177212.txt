@@ -1,0 +1,44 @@
+[2025-12-09_09-46-58-177212] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 392
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a226e657742657473222c2262657473223a5b7b226964223a3133333538343638342c226e756d626572223a322c22737461747573223a312c226465706f736974223a312e3934313136323130393337352c2277616c6c65744465706f736974223a3135302c2263757272656e63794964223a312c227769746864726177223a6e756c6c2c2277616c6c65745769746864726177223a6e756c6c2c2275736572223a7b226964223a33313433312c226e616d65223a224d722e466f782052756e222c22617661746172223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f346436306431663533636637613133653632333532633530663165363066386337343666636438665f6d656469756d2e6a7067222c22626c6d223a66616c73657d2c226974656d73223a5b5d2c226974656d73436f756e74223a307d5d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6Im5ld0JldHMiLCJiZXRzIjpbeyJpZCI6MTMzNTg0Njg0LCJudW1iZXIiOjIsInN0YXR1cyI6MSwiZGVwb3NpdCI6MS45NDExNjIxMDkzNzUsIndhbGxldERlcG9zaXQiOjE1MCwiY3VycmVuY3lJZCI6MSwid2l0aGRyYXciOm51bGwsIndhbGxldFdpdGhkcmF3IjpudWxsLCJ1c2VyIjp7ImlkIjozMTQzMSwibmFtZSI6Ik1yLkZveCBSdW4iLCJhdmF0YXIiOiJodHRwczovL2F2YXRhcnMuc3RlYW1zdGF0aWMuY29tLzRkNjBkMWY1M2NmN2ExM2U2MjM1MmM1MGYxZTYwZjhjNzQ2ZmNkOGZfbWVkaXVtLmpwZyIsImJsbSI6ZmFsc2V9LCJpdGVtcyI6W10sIml0ZW1zQ291bnQiOjB9XX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"newBets","bets":[{"id":133584684,"number":2,"status":1,"deposit":1.941162109375,"walletDeposit":150,"currencyId":1,"withdraw":null,"walletWithdraw":null,"user":{"id":31431,"name":"Mr.Fox Run","avatar":"https://avatars.steamstatic.com/4d60d1f53cf7a13e62352c50f1e60f8c746fcd8f_medium.jpg","blm":false},"items":[],"itemsCount":0}]}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "newBets",
+                "bets": [
+                    {
+                        "id": 133584684,
+                        "number": 2,
+                        "status": 1,
+                        "deposit": 1.941162109375,
+                        "walletDeposit": 150,
+                        "currencyId": 1,
+                        "withdraw": null,
+                        "walletWithdraw": null,
+                        "user": {
+                            "id": 31431,
+                            "name": "Mr.Fox Run",
+                            "avatar": "https://avatars.steamstatic.com/4d60d1f53cf7a13e62352c50f1e60f8c746fcd8f_medium.jpg",
+                            "blm": false
+                        },
+                        "items": [],
+                        "itemsCount": 0
+                    }
+                ]
+            }
+        }
+    }
+}

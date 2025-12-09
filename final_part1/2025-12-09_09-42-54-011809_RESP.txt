@@ -1,0 +1,27 @@
+[2025-12-09_09-42-54-011809] HTTP RESPONSE
+URL: https://www.gstatic.com/firebasejs/9.2.0/firebase-messaging-compat.js
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-54-011809.js
+
+Headers:
+accept-ranges: bytes
+content-encoding: gzip
+access-control-allow-origin: *
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/firebase-js
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: same-origin-allow-popups; report-to="firebase-js"
+report-to: {"group":"firebase-js","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/firebase-js"}]}
+content-length: 9846
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+date: Sun, 07 Dec 2025 01:03:26 GMT
+expires: Mon, 07 Dec 2026 01:03:26 GMT
+cache-control: public, max-age=31536000
+last-modified: Thu, 28 Oct 2021 21:57:03 GMT
+content-type: text/javascript; charset=UTF-8
+vary: Accept-Encoding
+age: 182210
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+(Body saved separately)

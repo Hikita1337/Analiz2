@@ -1,0 +1,207 @@
+[2025-12-09_09-49-11-584546] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 1843
+
+HEX:
+7b227265736f75726365223a227765627669736f722f3934373432303835222c227175657279223a7b2277762d70617274223a2233222c2262726f777365722d696e666f223a2265743a313736353235313939343a73743a313736353235313939343a693a32303235313230393039343633333a773a34313478363936222c2274223a2267647072283134297469283529227d2c22736571223a362c22626f6479223a5b7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2233346566373338612d323562622d303633642d333564372d656234643135313262613635222c2278223a36312c2279223a33332c22666f726365223a307d5d2c22746172676574223a3134387d2c227374616d70223a343532302c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2233346566373338612d323562622d303633642d333564372d656234643135313262613635222c2278223a36312c2279223a33332c22666f726365223a307d5d2c22746172676574223a3134387d2c227374616d70223a343538332c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a36312c2279223a33342c22746172676574223a3134387d2c227374616d70223a343538372c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a36312c2279223a33342c22746172676574223a3134387d2c227374616d70223a343638382c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a36312c2279223a33342c22746172676574223a3134387d2c227374616d70223a343638392c226672616d654964223a302c226576656e74223a226d6f757365646f776e227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a36312c2279223a33342c22746172676574223a3134387d2c227374616d70223a343639302c226672616d654964223a302c226576656e74223a226d6f7573657570227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a36312c2279223a33342c22746172676574223a3134387d2c227374616d70223a343639312c226672616d654964223a302c226576656e74223a22636c69636b227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2236633663623261372d616466622d363131652d386263612d373231346535336362613966222c2278223a34322c2279223a3338312c22666f726365223a307d5d2c22746172676574223a323534317d2c227374616d70223a353338372c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2236633663623261372d616466622d363131652d386263612d373231346535336362613966222c2278223a34322c2279223a3338312c22666f726365223a307d5d2c22746172676574223a323534317d2c227374616d70223a353433342c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a34322c2279223a3338312c22746172676574223a323534317d2c227374616d70223a353433372c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a34322c2279223a3338312c22746172676574223a323534317d2c227374616d70223a353533372c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a34322c2279223a3338312c22746172676574223a323534317d2c227374616d70223a353533382c226672616d654964223a302c226576656e74223a226d6f757365646f776e227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a34322c2279223a3338312c22746172676574223a323534317d2c227374616d70223a353534302c226672616d654964223a302c226576656e74223a226d6f7573657570227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a34322c2279223a3338312c22746172676574223a323534317d2c227374616d70223a353534302c226672616d654964223a302c226576656e74223a22636c69636b227d2c7b2274797065223a226163746976697479222c2264617461223a313139317d5d7d
+
+BASE64:
+eyJyZXNvdXJjZSI6IndlYnZpc29yLzk0NzQyMDg1IiwicXVlcnkiOnsid3YtcGFydCI6IjMiLCJicm93c2VyLWluZm8iOiJldDoxNzY1MjUxOTk0OnN0OjE3NjUyNTE5OTQ6aToyMDI1MTIwOTA5NDYzMzp3OjQxNHg2OTYiLCJ0IjoiZ2RwcigxNCl0aSg1KSJ9LCJzZXEiOjYsImJvZHkiOlt7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiIzNGVmNzM4YS0yNWJiLTA2M2QtMzVkNy1lYjRkMTUxMmJhNjUiLCJ4Ijo2MSwieSI6MzMsImZvcmNlIjowfV0sInRhcmdldCI6MTQ4fSwic3RhbXAiOjQ1MjAsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2hzdGFydCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6IjM0ZWY3MzhhLTI1YmItMDYzZC0zNWQ3LWViNGQxNTEyYmE2NSIsIngiOjYxLCJ5IjozMywiZm9yY2UiOjB9XSwidGFyZ2V0IjoxNDh9LCJzdGFtcCI6NDU4MywiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaGVuZCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4Ijo2MSwieSI6MzQsInRhcmdldCI6MTQ4fSwic3RhbXAiOjQ1ODcsImZyYW1lSWQiOjAsImV2ZW50IjoibW91c2Vtb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IngiOjYxLCJ5IjozNCwidGFyZ2V0IjoxNDh9LCJzdGFtcCI6NDY4OCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJtb3VzZW1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6NjEsInkiOjM0LCJ0YXJnZXQiOjE0OH0sInN0YW1wIjo0Njg5LCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlZG93biJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4Ijo2MSwieSI6MzQsInRhcmdldCI6MTQ4fSwic3RhbXAiOjQ2OTAsImZyYW1lSWQiOjAsImV2ZW50IjoibW91c2V1cCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4Ijo2MSwieSI6MzQsInRhcmdldCI6MTQ4fSwic3RhbXAiOjQ2OTEsImZyYW1lSWQiOjAsImV2ZW50IjoiY2xpY2sifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiI2YzZjYjJhNy1hZGZiLTYxMWUtOGJjYS03MjE0ZTUzY2JhOWYiLCJ4Ijo0MiwieSI6MzgxLCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjI1NDF9LCJzdGFtcCI6NTM4NywiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaHN0YXJ0In0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiNmM2Y2IyYTctYWRmYi02MTFlLThiY2EtNzIxNGU1M2NiYTlmIiwieCI6NDIsInkiOjM4MSwiZm9yY2UiOjB9XSwidGFyZ2V0IjoyNTQxfSwic3RhbXAiOjU0MzQsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2hlbmQifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6NDIsInkiOjM4MSwidGFyZ2V0IjoyNTQxfSwic3RhbXAiOjU0MzcsImZyYW1lSWQiOjAsImV2ZW50IjoibW91c2Vtb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IngiOjQyLCJ5IjozODEsInRhcmdldCI6MjU0MX0sInN0YW1wIjo1NTM3LCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlbW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4Ijo0MiwieSI6MzgxLCJ0YXJnZXQiOjI1NDF9LCJzdGFtcCI6NTUzOCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJtb3VzZWRvd24ifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6NDIsInkiOjM4MSwidGFyZ2V0IjoyNTQxfSwic3RhbXAiOjU1NDAsImZyYW1lSWQiOjAsImV2ZW50IjoibW91c2V1cCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4Ijo0MiwieSI6MzgxLCJ0YXJnZXQiOjI1NDF9LCJzdGFtcCI6NTU0MCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJjbGljayJ9LHsidHlwZSI6ImFjdGl2aXR5IiwiZGF0YSI6MTE5MX1dfQ==
+
+UTF‑8:
+{"resource":"webvisor/94742085","query":{"wv-part":"3","browser-info":"et:1765251994:st:1765251994:i:20251209094633:w:414x696","t":"gdpr(14)ti(5)"},"seq":6,"body":[{"type":"event","data":{"touches":[{"id":"34ef738a-25bb-063d-35d7-eb4d1512ba65","x":61,"y":33,"force":0}],"target":148},"stamp":4520,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"34ef738a-25bb-063d-35d7-eb4d1512ba65","x":61,"y":33,"force":0}],"target":148},"stamp":4583,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":61,"y":34,"target":148},"stamp":4587,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":61,"y":34,"target":148},"stamp":4688,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":61,"y":34,"target":148},"stamp":4689,"frameId":0,"event":"mousedown"},{"type":"event","data":{"x":61,"y":34,"target":148},"stamp":4690,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":61,"y":34,"target":148},"stamp":4691,"frameId":0,"event":"click"},{"type":"event","data":{"touches":[{"id":"6c6cb2a7-adfb-611e-8bca-7214e53cba9f","x":42,"y":381,"force":0}],"target":2541},"stamp":5387,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"6c6cb2a7-adfb-611e-8bca-7214e53cba9f","x":42,"y":381,"force":0}],"target":2541},"stamp":5434,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":42,"y":381,"target":2541},"stamp":5437,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":42,"y":381,"target":2541},"stamp":5537,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":42,"y":381,"target":2541},"stamp":5538,"frameId":0,"event":"mousedown"},{"type":"event","data":{"x":42,"y":381,"target":2541},"stamp":5540,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":42,"y":381,"target":2541},"stamp":5540,"frameId":0,"event":"click"},{"type":"activity","data":1191}]}
+
+JSON:
+{
+    "resource": "webvisor/94742085",
+    "query": {
+        "wv-part": "3",
+        "browser-info": "et:1765251994:st:1765251994:i:20251209094633:w:414x696",
+        "t": "gdpr(14)ti(5)"
+    },
+    "seq": 6,
+    "body": [
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "34ef738a-25bb-063d-35d7-eb4d1512ba65",
+                        "x": 61,
+                        "y": 33,
+                        "force": 0
+                    }
+                ],
+                "target": 148
+            },
+            "stamp": 4520,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "34ef738a-25bb-063d-35d7-eb4d1512ba65",
+                        "x": 61,
+                        "y": 33,
+                        "force": 0
+                    }
+                ],
+                "target": 148
+            },
+            "stamp": 4583,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 61,
+                "y": 34,
+                "target": 148
+            },
+            "stamp": 4587,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 61,
+                "y": 34,
+                "target": 148
+            },
+            "stamp": 4688,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 61,
+                "y": 34,
+                "target": 148
+            },
+            "stamp": 4689,
+            "frameId": 0,
+            "event": "mousedown"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 61,
+                "y": 34,
+                "target": 148
+            },
+            "stamp": 4690,
+            "frameId": 0,
+            "event": "mouseup"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 61,
+                "y": 34,
+                "target": 148
+            },
+            "stamp": 4691,
+            "frameId": 0,
+            "event": "click"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "6c6cb2a7-adfb-611e-8bca-7214e53cba9f",
+                        "x": 42,
+                        "y": 381,
+                        "force": 0
+                    }
+                ],
+                "target": 2541
+            },
+            "stamp": 5387,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "6c6cb2a7-adfb-611e-8bca-7214e53cba9f",
+                        "x": 42,
+                        "y": 381,
+                        "force": 0
+                    }
+                ],
+                "target": 2541
+            },
+            "stamp": 5434,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 42,
+                "y": 381,
+                "target": 2541
+            },
+            "stamp": 5437,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 42,
+                "y": 381,
+                "target": 2541
+            },
+            "stamp": 5537,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 42,
+                "y": 381,
+                "target": 2541
+            },
+            "stamp": 5538,
+            "frameId": 0,
+            "event": "mousedown"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 42,
+                "y": 381,
+                "target": 2541
+            },
+            "stamp": 5540,
+            "frameId": 0,
+            "event": "mouseup"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 42,
+                "y": 381,
+                "target": 2541
+            },
+            "stamp": 5540,
+            "frameId": 0,
+            "event": "click"
+        },
+        {
+            "type": "activity",
+            "data": 1191
+        }
+    ]
+}

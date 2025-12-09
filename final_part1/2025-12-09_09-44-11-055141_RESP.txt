@@ -1,0 +1,28 @@
+[2025-12-09_09-44-11-055141] HTTP RESPONSE
+URL: https://www.gstatic.com/recaptcha/releases/jdMmXeCQEkPbnFDy9T04NbgJ/recaptcha__ru.js
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-11-055141.js
+
+Headers:
+accept-ranges: bytes
+content-encoding: gzip
+access-control-allow-origin: *
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: same-origin-allow-popups; report-to="recaptcha-scs"
+report-to: {"group":"recaptcha-scs","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/recaptcha-scs"}]}
+timing-allow-origin: *
+content-length: 364937
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+date: Sat, 06 Dec 2025 18:31:49 GMT
+expires: Sun, 06 Dec 2026 18:31:49 GMT
+cache-control: public, max-age=31536000
+last-modified: Fri, 28 Nov 2025 03:01:16 GMT
+content-type: text/javascript
+vary: Accept-Encoding
+age: 205783
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+(Body saved separately)

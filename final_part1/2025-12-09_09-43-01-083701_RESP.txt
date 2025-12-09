@@ -1,0 +1,23 @@
+[2025-12-09_09-43-01-083701] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/javascript/applications/community/localization/shared_russian-json.js?contenthash=430b08c28c825ea28f2e
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-083701.js
+
+Headers:
+server: nginx
+content-type: text/javascript;charset=UTF-8
+last-modified: Tue, 02 Dec 2025 23:43:18 GMT
+etag: "bIR32URcy6vV"
+cache-control: public,max-age=259200,must-revalidate
+expires: Fri, 05 Dec 2025 23:45:58 GMT
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+age: 243870
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: MISS, HIT
+x-cache-hits: 1635
+x-timer: S1765251623.077089,VS0,VE0
+content-length: 366439
+
+(Body saved separately)

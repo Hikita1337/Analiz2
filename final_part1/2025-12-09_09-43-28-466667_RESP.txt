@@ -1,0 +1,24 @@
+[2025-12-09_09-43-28-466667] HTTP RESPONSE
+URL: https://cloud.this.team/rimming/20251122/2603i073331p9KrF8.webp
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-28-466667.webp
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=Z5mBYBMSB6tVPmZj; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg10_=1765251650; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg9_=188.232.100.139; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:00:50 GMT, __ddg1_=S0Ufpe5jE59DGOE06ZOh; Domain=.this.team; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:40:50 GMT
+content-security-policy: upgrade-insecure-requests;
+content-length: 92422
+accept-ranges: bytes
+last-modified: Sat, 22 Nov 2025 07:33:31 GMT
+x-rgw-object-type: Normal
+x-amz-request-id: tx0000058ffb0e4116f2fca-006937967c-1846aa54e-fra1b
+content-type: image/webp
+date: Tue, 09 Dec 2025 03:24:44 GMT
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+x-do-cdn-uuid: bfde7bd0-6393-426c-9ccd-b2c8865bc9da
+cache-control: max-age=3600
+age: 966
+ddg-cache-status: HIT
+
+(Body saved separately)

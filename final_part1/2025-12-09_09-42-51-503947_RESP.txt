@@ -1,0 +1,21 @@
+[2025-12-09_09-42-51-503947] HTTP RESPONSE
+URL: https://csgoih.run/svg/burger.svg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-51-503947.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=AqNoqVwyt64RDAFE; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT, __ddg10_=1765251613; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT
+date: Tue, 09 Dec 2025 03:40:13 GMT
+content-type: image/svg+xml
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 330f4cb151720450c85be663e2c620de
+content-encoding: br
+etag: "69371c4f-2c5"
+age: 0
+content-length: 342
+ddg-cache-status: MISS
+
+(Body saved separately)

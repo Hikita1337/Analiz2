@@ -1,0 +1,20 @@
+[2025-12-09_09-45-35-100927] HTTP REQUEST
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=42&wv-type=6&wmode=0&wv-hit=498839795&page-url=https%3A%2F%2Fcsgoih.run%2Fprofile&rn=772339652&browser-info=we%3A1%3Aet%3A1765251777%3Aw%3A414x696%3Av%3A2292%3Az%3A360%3Ai%3A20251209094257%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251777&t=gdpr(14)ti(1)
+Method: POST
+
+Headers:
+accept: */*
+content-type: text/plain
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 2249
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+[{"type":"event","data":{"x":0,"y":1900,"page":false,"target":12188},"stamp":126229,"frameId":0,"event":"scroll"},{"type":"event","data":{"touches":[{"id":"95f84b58-aa08-b22c-b1d5-d3a494024c57","x":387,"y":28,"force":0}],"target":12178},"stamp":127474,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"95f84b58-aa08-b22c-b1d5-d3a494024c57","x":387,"y":28,"force":0}],"target":12178},"stamp":127519,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":388,"y":28,"target":12178},"stamp":127523,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":388,"y":28,"target":12178},"stamp":127524,"frameId":0,"event":"mousedown"},{"type":"event","data":{"target":12176},"stamp":127525,"frameId":0,"event":"blur"},{"type":"event","data":{"target":12177},"stamp":127525,"frameId":0,"event":"focus"},{"type":"event","data":{"x":388,"y":28,"target":12178},"stamp":127527,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":388,"y":28,"target":12178},"stamp":127528,"frameId":0,"event":"click"},{"type":"event","data":{"x":388,"y":28,"target":12178},"stamp":127623,"frameId":0,"event":"mousemove"},{"type":"event","data":{"target":230},"stamp":127694,"frameId":0,"event":"focus"},{"type":"event","data":{"touches":[{"id":"8df75114-773b-aba4-3b1d-8f0e4aa0cfc4","x":387,"y":33,"force":0}],"target":161},"stamp":127929,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"8df75114-773b-aba4-3b1d-8f0e4aa0cfc4","x":387,"y":33,"force":0}],"target":161},"stamp":127987,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":388,"y":33,"target":161},"stamp":127988,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":388,"y":33,"target":161},"stamp":127991,"frameId":0,"event":"mousedown"},{"type":"event","data":{"target":230},"stamp":127992,"frameId":0,"event":"blur"},{"type":"event","data":{"x":388,"y":33,"target":161},"stamp":127994,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":388,"y":33,"target":161},"stamp":127994,"frameId":0,"event":"click"},{"type":"event","data":{"target":12618},"stamp":128048,"frameId":0,"event":"focus"},{"type":"event","data":{"x":388,"y":33,"target":161},"stamp":128092,"frameId":0,"event":"mousemove"},{"type":"activity","data":20958}]

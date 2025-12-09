@@ -1,0 +1,20 @@
+[2025-12-09_09-43-45-864513] HTTP RESPONSE
+URL: https://cs2run.app/games/6254856
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-45-864513.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=JmLtZyShT64A4ZfJ; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:07 GMT, __ddg10_=1765251667; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:07 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:07 GMT, __ddg1_=VXRbTfVuaOsxgIbTPi3s; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:41:07 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:41:07 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"2a87-/YiaX54UrKkRbj4EcEPEJqG60KE"
+content-encoding: br
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: c2fb8187a8f1b15042bcae8c1e409646
+
+(Body saved separately)

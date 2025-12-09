@@ -1,0 +1,17 @@
+[2025-12-09_09-43-07-504615] HTTP RESPONSE
+URL: https://api.steampowered.com/IAuthenticationService/GetPasswordRSAPublicKey/v1?origin=https:%2F%2Fsteamcommunity.com&input_protobuf_encoded=CgdNcWFkMXYy
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-07-504615.bin
+
+Headers:
+server: nginx
+content-type: application/octet-stream
+content-length: 530
+access-control-allow-origin: https://steamcommunity.com
+vary: Origin
+access-control-expose-headers: X-eresult, X-error_message
+x-eresult: 1
+expires: Tue, 09 Dec 2025 03:40:29 GMT
+date: Tue, 09 Dec 2025 03:40:29 GMT
+
+(Body saved separately)

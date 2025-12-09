@@ -1,0 +1,395 @@
+[2025-12-09_09-50-13-649651] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 3775
+
+HEX:
+7b227265736f75726365223a227765627669736f722f3934373432303835222c227175657279223a7b2277762d70617274223a2238222c2262726f777365722d696e666f223a2265743a313736353235323035363a73743a313736353235323035363a693a32303235313230393039343733353a773a34313478383033222c2274223a2267647072283134297469283529227d2c22736571223a34302c22626f6479223a5b7b2274797065223a226576656e74222c2264617461223a7b2276616c7565223a2238222c2268696464656e223a66616c73652c22746172676574223a333237307d2c227374616d70223a36363232322c226672616d654964223a302c226576656e74223a226368616e6765227d2c7b2274797065223a226576656e74222c2264617461223a7b2276616c7565223a223830222c2268696464656e223a66616c73652c22746172676574223a333237307d2c227374616d70223a36363338372c226672616d654964223a302c226576656e74223a226368616e6765227d2c7b2274797065223a226576656e74222c2264617461223a7b2276616c7565223a22383030222c2268696464656e223a66616c73652c22746172676574223a333237307d2c227374616d70223a36363535342c226672616d654964223a302c226576656e74223a226368616e6765227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2239396537646162632d623637632d343161362d363934372d366637373036633065326666222c2278223a3237372c2279223a3336382c22666f726365223a307d5d2c22746172676574223a333330367d2c227374616d70223a36363835322c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2239396537646162632d623637632d343161362d363934372d366637373036633065326666222c2278223a3237372c2279223a3336382c22666f726365223a307d5d2c22746172676574223a333330367d2c227374616d70223a36363839382c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3237372c2279223a3336392c22746172676574223a333330367d2c227374616d70223a36363930302c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3237372c2279223a3336392c22746172676574223a333330367d2c227374616d70223a36363930322c226672616d654964223a302c226576656e74223a226d6f757365646f776e227d2c7b2274797065223a226576656e74222c2264617461223a7b22746172676574223a333237307d2c227374616d70223a36363930342c226672616d654964223a302c226576656e74223a22626c7572227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3237372c2279223a3336392c22746172676574223a333330367d2c227374616d70223a36363930362c226672616d654964223a302c226576656e74223a226d6f7573657570227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3237372c2279223a3336392c22746172676574223a333330367d2c227374616d70223a36363930362c226672616d654964223a302c226576656e74223a22636c69636b227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3237372c2279223a3336392c22746172676574223a333330367d2c227374616d70223a36373030312c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3239382c2279223a3539362c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373735302c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3330302c2279223a3537392c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373737392c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3330392c2279223a3532342c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373832392c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b227769647468223a3431342c22686569676874223a3731392c22706167655769647468223a3431342c2270616765486569676874223a323433367d2c227374616d70223a36373834322c226672616d654964223a302c226576656e74223a22726573697a65227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3239342c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a36373834322c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3331332c2279223a3439352c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373834362c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3331372c2279223a3436342c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373836322c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3332312c2279223a3433322c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373837392c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3330392c2279223a3532342c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373832392c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3332352c2279223a3430332c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373839352c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3332382c2279223a3337382c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373931322c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3333322c2279223a3335382c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373932382c226672616d654964223a302c226576656e74223a22746f7563686d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2232643963363263352d386466612d323234312d633235322d326138316639393735653033222c2278223a3333322c2279223a3335382c22666f726365223a307d5d2c22746172676574223a363038307d2c227374616d70223a36373935302c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3531332c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a36373936372c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a302c2279223a3730372c2270616765223a747275652c22746172676574223a2d317d2c227374616d70223a36383130312c226672616d654964223a302c226576656e74223a227363726f6c6c227d2c7b2274797065223a226163746976697479222c2264617461223a323937317d5d7d
+
+BASE64:
+eyJyZXNvdXJjZSI6IndlYnZpc29yLzk0NzQyMDg1IiwicXVlcnkiOnsid3YtcGFydCI6IjgiLCJicm93c2VyLWluZm8iOiJldDoxNzY1MjUyMDU2OnN0OjE3NjUyNTIwNTY6aToyMDI1MTIwOTA5NDczNTp3OjQxNHg4MDMiLCJ0IjoiZ2RwcigxNCl0aSg1KSJ9LCJzZXEiOjQwLCJib2R5IjpbeyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InZhbHVlIjoiOCIsImhpZGRlbiI6ZmFsc2UsInRhcmdldCI6MzI3MH0sInN0YW1wIjo2NjIyMiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJjaGFuZ2UifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidmFsdWUiOiI4MCIsImhpZGRlbiI6ZmFsc2UsInRhcmdldCI6MzI3MH0sInN0YW1wIjo2NjM4NywiZnJhbWVJZCI6MCwiZXZlbnQiOiJjaGFuZ2UifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidmFsdWUiOiI4MDAiLCJoaWRkZW4iOmZhbHNlLCJ0YXJnZXQiOjMyNzB9LCJzdGFtcCI6NjY1NTQsImZyYW1lSWQiOjAsImV2ZW50IjoiY2hhbmdlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiOTllN2RhYmMtYjY3Yy00MWE2LTY5NDctNmY3NzA2YzBlMmZmIiwieCI6Mjc3LCJ5IjozNjgsImZvcmNlIjowfV0sInRhcmdldCI6MzMwNn0sInN0YW1wIjo2Njg1MiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaHN0YXJ0In0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiOTllN2RhYmMtYjY3Yy00MWE2LTY5NDctNmY3NzA2YzBlMmZmIiwieCI6Mjc3LCJ5IjozNjgsImZvcmNlIjowfV0sInRhcmdldCI6MzMwNn0sInN0YW1wIjo2Njg5OCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaGVuZCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNzcsInkiOjM2OSwidGFyZ2V0IjozMzA2fSwic3RhbXAiOjY2OTAwLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlbW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNzcsInkiOjM2OSwidGFyZ2V0IjozMzA2fSwic3RhbXAiOjY2OTAyLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlZG93biJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0YXJnZXQiOjMyNzB9LCJzdGFtcCI6NjY5MDQsImZyYW1lSWQiOjAsImV2ZW50IjoiYmx1ciJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNzcsInkiOjM2OSwidGFyZ2V0IjozMzA2fSwic3RhbXAiOjY2OTA2LCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNldXAifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6Mjc3LCJ5IjozNjksInRhcmdldCI6MzMwNn0sInN0YW1wIjo2NjkwNiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJjbGljayJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNzcsInkiOjM2OSwidGFyZ2V0IjozMzA2fSwic3RhbXAiOjY3MDAxLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlbW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6IjJkOWM2MmM1LThkZmEtMjI0MS1jMjUyLTJhODFmOTk3NWUwMyIsIngiOjI5OCwieSI6NTk2LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjYwODB9LCJzdGFtcCI6Njc3NTAsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2hzdGFydCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6IjJkOWM2MmM1LThkZmEtMjI0MS1jMjUyLTJhODFmOTk3NWUwMyIsIngiOjMwMCwieSI6NTc5LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjYwODB9LCJzdGFtcCI6Njc3NzksImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiMmQ5YzYyYzUtOGRmYS0yMjQxLWMyNTItMmE4MWY5OTc1ZTAzIiwieCI6MzA5LCJ5Ijo1MjQsImZvcmNlIjowfV0sInRhcmdldCI6NjA4MH0sInN0YW1wIjo2NzgyOSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaG1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsid2lkdGgiOjQxNCwiaGVpZ2h0Ijo3MTksInBhZ2VXaWR0aCI6NDE0LCJwYWdlSGVpZ2h0IjoyNDM2fSwic3RhbXAiOjY3ODQyLCJmcmFtZUlkIjowLCJldmVudCI6InJlc2l6ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjowLCJ5IjoyOTQsInBhZ2UiOnRydWUsInRhcmdldCI6LTF9LCJzdGFtcCI6Njc4NDIsImZyYW1lSWQiOjAsImV2ZW50Ijoic2Nyb2xsIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiMmQ5YzYyYzUtOGRmYS0yMjQxLWMyNTItMmE4MWY5OTc1ZTAzIiwieCI6MzEzLCJ5Ijo0OTUsImZvcmNlIjowfV0sInRhcmdldCI6NjA4MH0sInN0YW1wIjo2Nzg0NiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaG1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiIyZDljNjJjNS04ZGZhLTIyNDEtYzI1Mi0yYTgxZjk5NzVlMDMiLCJ4IjozMTcsInkiOjQ2NCwiZm9yY2UiOjB9XSwidGFyZ2V0Ijo2MDgwfSwic3RhbXAiOjY3ODYyLCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNobW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6IjJkOWM2MmM1LThkZmEtMjI0MS1jMjUyLTJhODFmOTk3NWUwMyIsIngiOjMyMSwieSI6NDMyLCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjYwODB9LCJzdGFtcCI6Njc4NzksImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiMmQ5YzYyYzUtOGRmYS0yMjQxLWMyNTItMmE4MWY5OTc1ZTAzIiwieCI6MzA5LCJ5Ijo1MjQsImZvcmNlIjowfV0sInRhcmdldCI6NjA4MH0sInN0YW1wIjo2NzgyOSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaG1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiIyZDljNjJjNS04ZGZhLTIyNDEtYzI1Mi0yYTgxZjk5NzVlMDMiLCJ4IjozMjUsInkiOjQwMywiZm9yY2UiOjB9XSwidGFyZ2V0Ijo2MDgwfSwic3RhbXAiOjY3ODk1LCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNobW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ0b3VjaGVzIjpbeyJpZCI6IjJkOWM2MmM1LThkZmEtMjI0MS1jMjUyLTJhODFmOTk3NWUwMyIsIngiOjMyOCwieSI6Mzc4LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjYwODB9LCJzdGFtcCI6Njc5MTIsImZyYW1lSWQiOjAsImV2ZW50IjoidG91Y2htb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiMmQ5YzYyYzUtOGRmYS0yMjQxLWMyNTItMmE4MWY5OTc1ZTAzIiwieCI6MzMyLCJ5IjozNTgsImZvcmNlIjowfV0sInRhcmdldCI6NjA4MH0sInN0YW1wIjo2NzkyOCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaG1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsidG91Y2hlcyI6W3siaWQiOiIyZDljNjJjNS04ZGZhLTIyNDEtYzI1Mi0yYTgxZjk5NzVlMDMiLCJ4IjozMzIsInkiOjM1OCwiZm9yY2UiOjB9XSwidGFyZ2V0Ijo2MDgwfSwic3RhbXAiOjY3OTUwLCJmcmFtZUlkIjowLCJldmVudCI6InRvdWNoZW5kIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7IngiOjAsInkiOjUxMywicGFnZSI6dHJ1ZSwidGFyZ2V0IjotMX0sInN0YW1wIjo2Nzk2NywiZnJhbWVJZCI6MCwiZXZlbnQiOiJzY3JvbGwifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MCwieSI6NzA3LCJwYWdlIjp0cnVlLCJ0YXJnZXQiOi0xfSwic3RhbXAiOjY4MTAxLCJmcmFtZUlkIjowLCJldmVudCI6InNjcm9sbCJ9LHsidHlwZSI6ImFjdGl2aXR5IiwiZGF0YSI6Mjk3MX1dfQ==
+
+UTF‑8:
+{"resource":"webvisor/94742085","query":{"wv-part":"8","browser-info":"et:1765252056:st:1765252056:i:20251209094735:w:414x803","t":"gdpr(14)ti(5)"},"seq":40,"body":[{"type":"event","data":{"value":"8","hidden":false,"target":3270},"stamp":66222,"frameId":0,"event":"change"},{"type":"event","data":{"value":"80","hidden":false,"target":3270},"stamp":66387,"frameId":0,"event":"change"},{"type":"event","data":{"value":"800","hidden":false,"target":3270},"stamp":66554,"frameId":0,"event":"change"},{"type":"event","data":{"touches":[{"id":"99e7dabc-b67c-41a6-6947-6f7706c0e2ff","x":277,"y":368,"force":0}],"target":3306},"stamp":66852,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"99e7dabc-b67c-41a6-6947-6f7706c0e2ff","x":277,"y":368,"force":0}],"target":3306},"stamp":66898,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":277,"y":369,"target":3306},"stamp":66900,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":277,"y":369,"target":3306},"stamp":66902,"frameId":0,"event":"mousedown"},{"type":"event","data":{"target":3270},"stamp":66904,"frameId":0,"event":"blur"},{"type":"event","data":{"x":277,"y":369,"target":3306},"stamp":66906,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":277,"y":369,"target":3306},"stamp":66906,"frameId":0,"event":"click"},{"type":"event","data":{"x":277,"y":369,"target":3306},"stamp":67001,"frameId":0,"event":"mousemove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":298,"y":596,"force":0}],"target":6080},"stamp":67750,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":300,"y":579,"force":0}],"target":6080},"stamp":67779,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":309,"y":524,"force":0}],"target":6080},"stamp":67829,"frameId":0,"event":"touchmove"},{"type":"event","data":{"width":414,"height":719,"pageWidth":414,"pageHeight":2436},"stamp":67842,"frameId":0,"event":"resize"},{"type":"event","data":{"x":0,"y":294,"page":true,"target":-1},"stamp":67842,"frameId":0,"event":"scroll"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":313,"y":495,"force":0}],"target":6080},"stamp":67846,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":317,"y":464,"force":0}],"target":6080},"stamp":67862,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":321,"y":432,"force":0}],"target":6080},"stamp":67879,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":309,"y":524,"force":0}],"target":6080},"stamp":67829,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":325,"y":403,"force":0}],"target":6080},"stamp":67895,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":328,"y":378,"force":0}],"target":6080},"stamp":67912,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":332,"y":358,"force":0}],"target":6080},"stamp":67928,"frameId":0,"event":"touchmove"},{"type":"event","data":{"touches":[{"id":"2d9c62c5-8dfa-2241-c252-2a81f9975e03","x":332,"y":358,"force":0}],"target":6080},"stamp":67950,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":0,"y":513,"page":true,"target":-1},"stamp":67967,"frameId":0,"event":"scroll"},{"type":"event","data":{"x":0,"y":707,"page":true,"target":-1},"stamp":68101,"frameId":0,"event":"scroll"},{"type":"activity","data":2971}]}
+
+JSON:
+{
+    "resource": "webvisor/94742085",
+    "query": {
+        "wv-part": "8",
+        "browser-info": "et:1765252056:st:1765252056:i:20251209094735:w:414x803",
+        "t": "gdpr(14)ti(5)"
+    },
+    "seq": 40,
+    "body": [
+        {
+            "type": "event",
+            "data": {
+                "value": "8",
+                "hidden": false,
+                "target": 3270
+            },
+            "stamp": 66222,
+            "frameId": 0,
+            "event": "change"
+        },
+        {
+            "type": "event",
+            "data": {
+                "value": "80",
+                "hidden": false,
+                "target": 3270
+            },
+            "stamp": 66387,
+            "frameId": 0,
+            "event": "change"
+        },
+        {
+            "type": "event",
+            "data": {
+                "value": "800",
+                "hidden": false,
+                "target": 3270
+            },
+            "stamp": 66554,
+            "frameId": 0,
+            "event": "change"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "99e7dabc-b67c-41a6-6947-6f7706c0e2ff",
+                        "x": 277,
+                        "y": 368,
+                        "force": 0
+                    }
+                ],
+                "target": 3306
+            },
+            "stamp": 66852,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "99e7dabc-b67c-41a6-6947-6f7706c0e2ff",
+                        "x": 277,
+                        "y": 368,
+                        "force": 0
+                    }
+                ],
+                "target": 3306
+            },
+            "stamp": 66898,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 277,
+                "y": 369,
+                "target": 3306
+            },
+            "stamp": 66900,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 277,
+                "y": 369,
+                "target": 3306
+            },
+            "stamp": 66902,
+            "frameId": 0,
+            "event": "mousedown"
+        },
+        {
+            "type": "event",
+            "data": {
+                "target": 3270
+            },
+            "stamp": 66904,
+            "frameId": 0,
+            "event": "blur"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 277,
+                "y": 369,
+                "target": 3306
+            },
+            "stamp": 66906,
+            "frameId": 0,
+            "event": "mouseup"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 277,
+                "y": 369,
+                "target": 3306
+            },
+            "stamp": 66906,
+            "frameId": 0,
+            "event": "click"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 277,
+                "y": 369,
+                "target": 3306
+            },
+            "stamp": 67001,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 298,
+                        "y": 596,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67750,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 300,
+                        "y": 579,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67779,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 309,
+                        "y": 524,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67829,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "width": 414,
+                "height": 719,
+                "pageWidth": 414,
+                "pageHeight": 2436
+            },
+            "stamp": 67842,
+            "frameId": 0,
+            "event": "resize"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 294,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 67842,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 313,
+                        "y": 495,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67846,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 317,
+                        "y": 464,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67862,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 321,
+                        "y": 432,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67879,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 309,
+                        "y": 524,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67829,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 325,
+                        "y": 403,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67895,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 328,
+                        "y": 378,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67912,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 332,
+                        "y": 358,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67928,
+            "frameId": 0,
+            "event": "touchmove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "2d9c62c5-8dfa-2241-c252-2a81f9975e03",
+                        "x": 332,
+                        "y": 358,
+                        "force": 0
+                    }
+                ],
+                "target": 6080
+            },
+            "stamp": 67950,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 513,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 67967,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 0,
+                "y": 707,
+                "page": true,
+                "target": -1
+            },
+            "stamp": 68101,
+            "frameId": 0,
+            "event": "scroll"
+        },
+        {
+            "type": "activity",
+            "data": 2971
+        }
+    ]
+}

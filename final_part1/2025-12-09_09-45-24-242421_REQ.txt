@@ -1,0 +1,19 @@
+[2025-12-09_09-45-24-242421] HTTP REQUEST
+URL: https://mc.yandex.ru/watch/94742085/1?page-url=https%3A%2F%2Fcsgoih.run%2Fprofile&charset=utf-8&uah=che%0A0&hittoken=1765251648_611514556fac11b7fcf140a9496a94932ee39b75645af65f1d31eefbe300afcc&browser-info=pa%3A1%3Aar%3A1%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aru%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1431106912871%3Ahid%3A498839795%3Az%3A360%3Ai%3A20251209094246%3Aet%3A1765251766%3Ac%3A1%3Arn%3A227268466%3Au%3A1765251615122050168%3Aw%3A414x402%3As%3A414x896x24%3Ask%3A2%3Awv%3A2%3Aco%3A0%3Acpf%3A1%3Aeu%3A0%3Ans%3A1765251647210%3Agi%3AR0ExLjEuMTUyODU0NTE4Ny4xNzY1MjUxNjE0%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1765251766&t=gdpr(14)mc(p-1)clc(37-250-254)rqnt(3)hc(1)aw(1)rcm(0)ecs(0)cdl(na)eco(84476420)oms(0)prs(1)w2s(16)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22fi%22%3A%22a(1)b(PsAA2AA17)c(0cJ1N5OkxhR6MZFTY1VzLYALmh%2FNRnQquV4O5h54ME4%3D)%22%7D%7D
+Method: POST
+
+Headers:
+accept: */*
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+content-length: 0
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+cache-control: max-age=0
+sec-fetch-dest: empty
+accept-language: ru
+priority: u=7, i
+accept-encoding: gzip, deflate, br
+
+Body:

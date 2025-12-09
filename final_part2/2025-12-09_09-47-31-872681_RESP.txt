@@ -1,0 +1,21 @@
+[2025-12-09_09-47-31-872681] HTTP RESPONSE
+URL: https://upload-widget.cloudinary.com/global/all.js
+Status: 301
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-47-31-872681.bin
+
+Headers:
+location: https://upload-widget.cloudinary.com/2.55.2/global/all.js
+apigw-requestid: VTUWnhOJIAMEcoA=
+access-control-allow-origin: *
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:44:53 GMT
+via: 1.1 varnish
+age: 165
+x-served-by: cache-fra-etou8220144-FRA
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1765251894.881972,VS0,VE1
+cache-control: public, s-maxage=365 days, max-age=600
+content-length: 0
+
+(Body saved separately)

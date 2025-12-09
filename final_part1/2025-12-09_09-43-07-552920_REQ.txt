@@ -1,0 +1,24 @@
+[2025-12-09_09-43-07-552920] HTTP REQUEST
+URL: https://api.steampowered.com/IAuthenticationService/BeginAuthSessionViaCredentials/v1
+Method: POST
+
+Headers:
+accept: application/json, text/plain, */*
+content-type: multipart/form-data; boundary=----WebKitFormBoundarym4PCzrNs3bjBEj7d
+sec-fetch-site: cross-site
+origin: https://steamcommunity.com
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://steamcommunity.com/
+sec-fetch-dest: empty
+content-length: 853
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+------WebKitFormBoundarym4PCzrNs3bjBEj7d
+Content-Disposition: form-data; name="input_protobuf_encoded"
+
+EgdNcWFkMXYyGtgCT01aQ2VUdDBLa2JnK2toWXM4Qm1rN2JOdm1GbVFXelZIam51SzltaVZDWjRqUzdUOXJLN245dGdMVTZyVnpMSEYrMVZTeitPMW8wT2ZtOGVVdVZSUGxYZnFaL3RMWGh5aHliVjNNWUNGak1hcXBHaER1bk1YaldmcXk3S0h0dExVNkpXRVF0SmNkK3pIS2Q2Zk5NN1JBZ3I3Z0IzOGljZ21iZ0gyRFhXckpLRm5pS0pwSktHU2V5cUtlTG5IMExQZjZ2ZmpWejE1MVB0ZjUzUlNuaEl5V1N4UVoxQ0hUVDZrcVc2c1NKalRablRndHR3L3RwR1E0blVEeEFIZ1R1Ylh1T0xpaVZabllXMlhDa21WQXdyQnJQNDdIQ0RFT0dnY2Z0MkpFamFzcW1nWWVuNnlJSTBMZFZpZ1NRRTBXV1EyVytHcjRCSG1LSVRxczF5OUdzOG13PT0goJH8sLwPKAE4AUIJQ29tbXVuaXR5SowBCocBTW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxOF83IGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8yNi4xIE1vYmlsZS8xNUUxNDggU2FmYXJpLzYwNC4xEAJYCA==
+------WebKitFormBoundarym4PCzrNs3bjBEj7d--

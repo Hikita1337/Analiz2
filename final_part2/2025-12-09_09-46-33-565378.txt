@@ -1,0 +1,81 @@
+[2025-12-09_09-46-33-565378] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 990
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a226e657742657473222c2262657473223a5b7b226964223a3133333538343637392c226e756d626572223a332c22737461747573223a312c226465706f736974223a302e33333030303030313331313330323138352c2277616c6c65744465706f736974223a302e33332c2263757272656e63794964223a322c227769746864726177223a6e756c6c2c2277616c6c65745769746864726177223a6e756c6c2c2275736572223a7b226964223a333933323433352c226e616d65223a22536f6b323331222c22617661746172223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f383234646330396563313135396166333533386538306239396632663163323933306161386536355f6d656469756d2e6a7067222c226973566970223a747275652c22626c6d223a66616c73657d2c226974656d73223a5b7b226964223a383137353733333033312c226974656d4964223a343637372c226e616d65223a22537461745472616be284a22050323530207c2056657264696772697320284669656c642d54657374656429222c22636f6c6f724964223a312c2267616d654964223a3733302c2272657365727665644964223a383735317d5d2c226974656d73436f756e74223a317d2c7b226964223a3133333538343638302c226e756d626572223a312c22737461747573223a312c226465706f736974223a302e32352c2277616c6c65744465706f736974223a302e32352c2263757272656e63794964223a322c227769746864726177223a6e756c6c2c2277616c6c65745769746864726177223a6e756c6c2c2275736572223a7b226964223a313736313239352c226e616d65223a2276696c6c6167657273e284a2202057617a6f77736b69222c22617661746172223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f393231623235366162633865616134303263303436323037313863623766323534306631356236385f6d656469756d2e6a7067222c22626c6d223a66616c73657d2c226974656d73223a5b7b226964223a383137353733333131382c226974656d4964223a31313738332c226e616d65223a22537461745472616be284a2205238205265766f6c766572207c20426f6e6520466f726765642028426174746c652d5363617272656429222c22636f6c6f724964223a312c2267616d654964223a3733302c2272657365727665644964223a383932327d5d2c226974656d73436f756e74223a317d5d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6Im5ld0JldHMiLCJiZXRzIjpbeyJpZCI6MTMzNTg0Njc5LCJudW1iZXIiOjMsInN0YXR1cyI6MSwiZGVwb3NpdCI6MC4zMzAwMDAwMTMxMTMwMjE4NSwid2FsbGV0RGVwb3NpdCI6MC4zMywiY3VycmVuY3lJZCI6Miwid2l0aGRyYXciOm51bGwsIndhbGxldFdpdGhkcmF3IjpudWxsLCJ1c2VyIjp7ImlkIjozOTMyNDM1LCJuYW1lIjoiU29rMjMxIiwiYXZhdGFyIjoiaHR0cHM6Ly9hdmF0YXJzLnN0ZWFtc3RhdGljLmNvbS84MjRkYzA5ZWMxMTU5YWYzNTM4ZTgwYjk5ZjJmMWMyOTMwYWE4ZTY1X21lZGl1bS5qcGciLCJpc1ZpcCI6dHJ1ZSwiYmxtIjpmYWxzZX0sIml0ZW1zIjpbeyJpZCI6ODE3NTczMzAzMSwiaXRlbUlkIjo0Njc3LCJuYW1lIjoiU3RhdFRyYWvihKIgUDI1MCB8IFZlcmRpZ3JpcyAoRmllbGQtVGVzdGVkKSIsImNvbG9ySWQiOjEsImdhbWVJZCI6NzMwLCJyZXNlcnZlZElkIjo4NzUxfV0sIml0ZW1zQ291bnQiOjF9LHsiaWQiOjEzMzU4NDY4MCwibnVtYmVyIjoxLCJzdGF0dXMiOjEsImRlcG9zaXQiOjAuMjUsIndhbGxldERlcG9zaXQiOjAuMjUsImN1cnJlbmN5SWQiOjIsIndpdGhkcmF3IjpudWxsLCJ3YWxsZXRXaXRoZHJhdyI6bnVsbCwidXNlciI6eyJpZCI6MTc2MTI5NSwibmFtZSI6InZpbGxhZ2Vyc+KEoiAgV2F6b3dza2kiLCJhdmF0YXIiOiJodHRwczovL2F2YXRhcnMuc3RlYW1zdGF0aWMuY29tLzkyMWIyNTZhYmM4ZWFhNDAyYzA0NjIwNzE4Y2I3ZjI1NDBmMTViNjhfbWVkaXVtLmpwZyIsImJsbSI6ZmFsc2V9LCJpdGVtcyI6W3siaWQiOjgxNzU3MzMxMTgsIml0ZW1JZCI6MTE3ODMsIm5hbWUiOiJTdGF0VHJha+KEoiBSOCBSZXZvbHZlciB8IEJvbmUgRm9yZ2VkIChCYXR0bGUtU2NhcnJlZCkiLCJjb2xvcklkIjoxLCJnYW1lSWQiOjczMCwicmVzZXJ2ZWRJZCI6ODkyMn1dLCJpdGVtc0NvdW50IjoxfV19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"newBets","bets":[{"id":133584679,"number":3,"status":1,"deposit":0.33000001311302185,"walletDeposit":0.33,"currencyId":2,"withdraw":null,"walletWithdraw":null,"user":{"id":3932435,"name":"Sok231","avatar":"https://avatars.steamstatic.com/824dc09ec1159af3538e80b99f2f1c2930aa8e65_medium.jpg","isVip":true,"blm":false},"items":[{"id":8175733031,"itemId":4677,"name":"StatTrak™ P250 | Verdigris (Field-Tested)","colorId":1,"gameId":730,"reservedId":8751}],"itemsCount":1},{"id":133584680,"number":1,"status":1,"deposit":0.25,"walletDeposit":0.25,"currencyId":2,"withdraw":null,"walletWithdraw":null,"user":{"id":1761295,"name":"villagers™  Wazowski","avatar":"https://avatars.steamstatic.com/921b256abc8eaa402c04620718cb7f2540f15b68_medium.jpg","blm":false},"items":[{"id":8175733118,"itemId":11783,"name":"StatTrak™ R8 Revolver | Bone Forged (Battle-Scarred)","colorId":1,"gameId":730,"reservedId":8922}],"itemsCount":1}]}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "newBets",
+                "bets": [
+                    {
+                        "id": 133584679,
+                        "number": 3,
+                        "status": 1,
+                        "deposit": 0.33000001311302185,
+                        "walletDeposit": 0.33,
+                        "currencyId": 2,
+                        "withdraw": null,
+                        "walletWithdraw": null,
+                        "user": {
+                            "id": 3932435,
+                            "name": "Sok231",
+                            "avatar": "https://avatars.steamstatic.com/824dc09ec1159af3538e80b99f2f1c2930aa8e65_medium.jpg",
+                            "isVip": true,
+                            "blm": false
+                        },
+                        "items": [
+                            {
+                                "id": 8175733031,
+                                "itemId": 4677,
+                                "name": "StatTrak™ P250 | Verdigris (Field-Tested)",
+                                "colorId": 1,
+                                "gameId": 730,
+                                "reservedId": 8751
+                            }
+                        ],
+                        "itemsCount": 1
+                    },
+                    {
+                        "id": 133584680,
+                        "number": 1,
+                        "status": 1,
+                        "deposit": 0.25,
+                        "walletDeposit": 0.25,
+                        "currencyId": 2,
+                        "withdraw": null,
+                        "walletWithdraw": null,
+                        "user": {
+                            "id": 1761295,
+                            "name": "villagers™  Wazowski",
+                            "avatar": "https://avatars.steamstatic.com/921b256abc8eaa402c04620718cb7f2540f15b68_medium.jpg",
+                            "blm": false
+                        },
+                        "items": [
+                            {
+                                "id": 8175733118,
+                                "itemId": 11783,
+                                "name": "StatTrak™ R8 Revolver | Bone Forged (Battle-Scarred)",
+                                "colorId": 1,
+                                "gameId": 730,
+                                "reservedId": 8922
+                            }
+                        ],
+                        "itemsCount": 1
+                    }
+                ]
+            }
+        }
+    }
+}

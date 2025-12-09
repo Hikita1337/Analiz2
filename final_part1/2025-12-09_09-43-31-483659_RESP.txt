@@ -1,0 +1,20 @@
+[2025-12-09_09-43-31-483659] HTTP RESPONSE
+URL: https://csgoih.run/img/crash/begun-v-1.gif
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-31-483659.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=FQgpUn9nILL89wu4; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT, __ddg10_=1765251653; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:53 GMT
+date: Tue, 09 Dec 2025 03:40:53 GMT
+content-type: image/gif
+content-length: 175580
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: b419e5d58d67368d929d3b51a883f9cf
+etag: "69371c4f-2addc"
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

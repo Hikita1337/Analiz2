@@ -1,0 +1,20 @@
+[2025-12-09_09-44-15-188301] HTTP RESPONSE
+URL: https://cs2run.app/discount
+Status: 403
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-15-188301.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=oSKKxHs8IOx9HfE7; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:37 GMT, __ddg10_=1765251697; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:37 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:37 GMT, __ddg1_=YpjAXj47IDxq65DkcoYs; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:41:37 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:41:37 GMT
+content-type: application/json; charset=utf-8
+content-length: 42
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"2a-JaxKukrN789OtEHd0nfy84kWq4g"
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 90274430989372f5b7871e652cf26bd4
+
+(Body saved separately)

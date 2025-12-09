@@ -1,0 +1,19 @@
+[2025-12-09_09-50-09-700954] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 14
+
+HEX:
+7b0a20202261636b223a33360a7d
+
+BASE64:
+ewogICJhY2siOjM2Cn0=
+
+UTF‑8:
+{
+  "ack":36
+}
+
+JSON:
+{
+    "ack": 36
+}

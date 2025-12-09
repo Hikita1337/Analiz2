@@ -1,0 +1,20 @@
+[2025-12-09_09-42-53-329986] HTTP RESPONSE
+URL: https://csgoih.run/img/games/botgame-preview.webp
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-53-329986.webp
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=UI5ARB454oRVlCiP; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:15 GMT, __ddg10_=1765251615; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:15 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:15 GMT
+date: Tue, 09 Dec 2025 03:40:15 GMT
+content-type: image/webp
+content-length: 130012
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 4afd7ffacd3f295e7b8111590904621a
+etag: "69371c4f-1fbdc"
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

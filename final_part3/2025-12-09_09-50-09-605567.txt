@@ -1,0 +1,174 @@
+[2025-12-09_09-50-09-605567] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 1576
+
+HEX:
+7b227265736f75726365223a227765627669736f722f3934373432303835222c227175657279223a7b2277762d70617274223a2236222c2262726f777365722d696e666f223a2265743a313736353235323035323a73743a313736353235323035323a693a32303235313230393039343733313a773a34313478363936222c2274223a2267647072283134297469283529227d2c22736571223a33362c22626f6479223a5b7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2237643733313336302d613932382d383163332d383430632d306461313631363436616562222c2278223a39392c2279223a32372c22666f726365223a307d5d2c22746172676574223a3134387d2c227374616d70223a36323435312c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2237643733313336302d613932382d383163332d383430632d306461313631363436616562222c2278223a39392c2279223a32372c22666f726365223a307d5d2c22746172676574223a3134387d2c227374616d70223a36323534362c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3130302c2279223a32372c22746172676574223a3134387d2c227374616d70223a36323535302c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3130302c2279223a32372c22746172676574223a3134387d2c227374616d70223a36323635312c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2237666266303465642d666339392d656633652d343934322d343137613263363730326430222c2278223a3235342c2279223a3633372c22666f726365223a307d5d2c22746172676574223a333330327d2c227374616d70223a36333536382c226672616d654964223a302c226576656e74223a22746f7563687374617274227d2c7b2274797065223a226576656e74222c2264617461223a7b22746f7563686573223a5b7b226964223a2237666266303465642d666339392d656633652d343934322d343137613263363730326430222c2278223a3235342c2279223a3633372c22666f726365223a307d5d2c22746172676574223a333330327d2c227374616d70223a36333634372c226672616d654964223a302c226576656e74223a22746f756368656e64227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3235342c2279223a3633382c22746172676574223a333330327d2c227374616d70223a36333635302c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3235342c2279223a3633382c22746172676574223a333330327d2c227374616d70223a36333635312c226672616d654964223a302c226576656e74223a226d6f757365646f776e227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3235342c2279223a3633382c22746172676574223a333330327d2c227374616d70223a36333635332c226672616d654964223a302c226576656e74223a226d6f7573657570227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3235342c2279223a3633382c22746172676574223a333330327d2c227374616d70223a36333635342c226672616d654964223a302c226576656e74223a22636c69636b227d2c7b2274797065223a226576656e74222c2264617461223a7b2278223a3235342c2279223a3633382c22746172676574223a333330327d2c227374616d70223a36333735302c226672616d654964223a302c226576656e74223a226d6f7573656d6f7665227d2c7b2274797065223a226163746976697479222c2264617461223a313730347d5d7d
+
+BASE64:
+eyJyZXNvdXJjZSI6IndlYnZpc29yLzk0NzQyMDg1IiwicXVlcnkiOnsid3YtcGFydCI6IjYiLCJicm93c2VyLWluZm8iOiJldDoxNzY1MjUyMDUyOnN0OjE3NjUyNTIwNTI6aToyMDI1MTIwOTA5NDczMTp3OjQxNHg2OTYiLCJ0IjoiZ2RwcigxNCl0aSg1KSJ9LCJzZXEiOjM2LCJib2R5IjpbeyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiN2Q3MzEzNjAtYTkyOC04MWMzLTg0MGMtMGRhMTYxNjQ2YWViIiwieCI6OTksInkiOjI3LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjE0OH0sInN0YW1wIjo2MjQ1MSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaHN0YXJ0In0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiN2Q3MzEzNjAtYTkyOC04MWMzLTg0MGMtMGRhMTYxNjQ2YWViIiwieCI6OTksInkiOjI3LCJmb3JjZSI6MH1dLCJ0YXJnZXQiOjE0OH0sInN0YW1wIjo2MjU0NiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaGVuZCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoxMDAsInkiOjI3LCJ0YXJnZXQiOjE0OH0sInN0YW1wIjo2MjU1MCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJtb3VzZW1vdmUifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MTAwLCJ5IjoyNywidGFyZ2V0IjoxNDh9LCJzdGFtcCI6NjI2NTEsImZyYW1lSWQiOjAsImV2ZW50IjoibW91c2Vtb3ZlIn0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiN2ZiZjA0ZWQtZmM5OS1lZjNlLTQ5NDItNDE3YTJjNjcwMmQwIiwieCI6MjU0LCJ5Ijo2MzcsImZvcmNlIjowfV0sInRhcmdldCI6MzMwMn0sInN0YW1wIjo2MzU2OCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaHN0YXJ0In0seyJ0eXBlIjoiZXZlbnQiLCJkYXRhIjp7InRvdWNoZXMiOlt7ImlkIjoiN2ZiZjA0ZWQtZmM5OS1lZjNlLTQ5NDItNDE3YTJjNjcwMmQwIiwieCI6MjU0LCJ5Ijo2MzcsImZvcmNlIjowfV0sInRhcmdldCI6MzMwMn0sInN0YW1wIjo2MzY0NywiZnJhbWVJZCI6MCwiZXZlbnQiOiJ0b3VjaGVuZCJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNTQsInkiOjYzOCwidGFyZ2V0IjozMzAyfSwic3RhbXAiOjYzNjUwLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlbW92ZSJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNTQsInkiOjYzOCwidGFyZ2V0IjozMzAyfSwic3RhbXAiOjYzNjUxLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlZG93biJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNTQsInkiOjYzOCwidGFyZ2V0IjozMzAyfSwic3RhbXAiOjYzNjUzLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNldXAifSx7InR5cGUiOiJldmVudCIsImRhdGEiOnsieCI6MjU0LCJ5Ijo2MzgsInRhcmdldCI6MzMwMn0sInN0YW1wIjo2MzY1NCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJjbGljayJ9LHsidHlwZSI6ImV2ZW50IiwiZGF0YSI6eyJ4IjoyNTQsInkiOjYzOCwidGFyZ2V0IjozMzAyfSwic3RhbXAiOjYzNzUwLCJmcmFtZUlkIjowLCJldmVudCI6Im1vdXNlbW92ZSJ9LHsidHlwZSI6ImFjdGl2aXR5IiwiZGF0YSI6MTcwNH1dfQ==
+
+UTF‑8:
+{"resource":"webvisor/94742085","query":{"wv-part":"6","browser-info":"et:1765252052:st:1765252052:i:20251209094731:w:414x696","t":"gdpr(14)ti(5)"},"seq":36,"body":[{"type":"event","data":{"touches":[{"id":"7d731360-a928-81c3-840c-0da161646aeb","x":99,"y":27,"force":0}],"target":148},"stamp":62451,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"7d731360-a928-81c3-840c-0da161646aeb","x":99,"y":27,"force":0}],"target":148},"stamp":62546,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":100,"y":27,"target":148},"stamp":62550,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":100,"y":27,"target":148},"stamp":62651,"frameId":0,"event":"mousemove"},{"type":"event","data":{"touches":[{"id":"7fbf04ed-fc99-ef3e-4942-417a2c6702d0","x":254,"y":637,"force":0}],"target":3302},"stamp":63568,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"7fbf04ed-fc99-ef3e-4942-417a2c6702d0","x":254,"y":637,"force":0}],"target":3302},"stamp":63647,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":254,"y":638,"target":3302},"stamp":63650,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":254,"y":638,"target":3302},"stamp":63651,"frameId":0,"event":"mousedown"},{"type":"event","data":{"x":254,"y":638,"target":3302},"stamp":63653,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":254,"y":638,"target":3302},"stamp":63654,"frameId":0,"event":"click"},{"type":"event","data":{"x":254,"y":638,"target":3302},"stamp":63750,"frameId":0,"event":"mousemove"},{"type":"activity","data":1704}]}
+
+JSON:
+{
+    "resource": "webvisor/94742085",
+    "query": {
+        "wv-part": "6",
+        "browser-info": "et:1765252052:st:1765252052:i:20251209094731:w:414x696",
+        "t": "gdpr(14)ti(5)"
+    },
+    "seq": 36,
+    "body": [
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "7d731360-a928-81c3-840c-0da161646aeb",
+                        "x": 99,
+                        "y": 27,
+                        "force": 0
+                    }
+                ],
+                "target": 148
+            },
+            "stamp": 62451,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "7d731360-a928-81c3-840c-0da161646aeb",
+                        "x": 99,
+                        "y": 27,
+                        "force": 0
+                    }
+                ],
+                "target": 148
+            },
+            "stamp": 62546,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 100,
+                "y": 27,
+                "target": 148
+            },
+            "stamp": 62550,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 100,
+                "y": 27,
+                "target": 148
+            },
+            "stamp": 62651,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "7fbf04ed-fc99-ef3e-4942-417a2c6702d0",
+                        "x": 254,
+                        "y": 637,
+                        "force": 0
+                    }
+                ],
+                "target": 3302
+            },
+            "stamp": 63568,
+            "frameId": 0,
+            "event": "touchstart"
+        },
+        {
+            "type": "event",
+            "data": {
+                "touches": [
+                    {
+                        "id": "7fbf04ed-fc99-ef3e-4942-417a2c6702d0",
+                        "x": 254,
+                        "y": 637,
+                        "force": 0
+                    }
+                ],
+                "target": 3302
+            },
+            "stamp": 63647,
+            "frameId": 0,
+            "event": "touchend"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 254,
+                "y": 638,
+                "target": 3302
+            },
+            "stamp": 63650,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 254,
+                "y": 638,
+                "target": 3302
+            },
+            "stamp": 63651,
+            "frameId": 0,
+            "event": "mousedown"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 254,
+                "y": 638,
+                "target": 3302
+            },
+            "stamp": 63653,
+            "frameId": 0,
+            "event": "mouseup"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 254,
+                "y": 638,
+                "target": 3302
+            },
+            "stamp": 63654,
+            "frameId": 0,
+            "event": "click"
+        },
+        {
+            "type": "event",
+            "data": {
+                "x": 254,
+                "y": 638,
+                "target": 3302
+            },
+            "stamp": 63750,
+            "frameId": 0,
+            "event": "mousemove"
+        },
+        {
+            "type": "activity",
+            "data": 1704
+        }
+    ]
+}

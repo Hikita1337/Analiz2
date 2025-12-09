@@ -1,0 +1,16 @@
+[2025-12-09_09-43-21-265389] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/images/applications/community/steam_spinner.png?v=8669e97b288da32670e77181618c3dfb
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-21-265389.bin
+
+Headers:
+date: Tue, 09 Dec 2025 03:40:43 GMT
+via: 1.1 varnish
+etag: "6740ce0a-188512"
+age: 60482
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: HIT
+x-cache-hits: 901
+x-timer: S1765251643.291636,VS0,VE0
+
+(Body saved separately)

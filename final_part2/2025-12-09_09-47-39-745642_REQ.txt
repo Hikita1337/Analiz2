@@ -1,0 +1,13 @@
+[2025-12-09_09-47-39-745642] HTTP REQUEST
+URL: https://configuration.ls.apple.com/config/defaults?os=ios&os_version=26.1&hardware=iPhone12,1
+Method: GET
+
+Headers:
+accept: */*
+if-none-match: "7b2d0abc4fad2b410d923a2801cb5d2fa2531103"
+user-agent: geod/1 CFNetwork/3860.200.71 Darwin/25.1.0
+priority: u=3
+accept-language: ru
+accept-encoding: gzip, deflate, br
+
+Body:

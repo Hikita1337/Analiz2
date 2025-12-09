@@ -1,0 +1,66 @@
+[2025-12-09_09-49-55-913708] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 755
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323839322c2267616d654964223a363235343836382c22737461747573223a322c22636f656666696369656e744175746f223a312e31312c2263757272656e63794964223a322c22636f656666696369656e74223a312e31312c226465706f736974223a7b22616d6f756e74223a302e35352c2277616c6c6574416d6f756e74223a302e35352c226974656d73223a5b7b226964223a313433313330383837302c226974656d4964223a313433313330383837302c226e616d65223a224d5037207c20466f726573742044445041542028466163746f7279204e657729222c22636f6c6f724964223a342c2267616d654964223a3733302c2272657365727665644964223a323539317d5d7d2c227769746864726177223a7b22616d6f756e74223a302e363130353030303337363730313335352c226974656d73223a5b7b226964223a223631393534222c226974656d4964223a223631393534222c226e616d65223a22584d31303134207c2052756e2052756e2052756e20284669656c642d54657374656429222c22636f6c6f724964223a2231222c2267616d654964223a22373330222c2272657365727665644964223a223237393539227d5d7d2c2275736572223a7b226964223a313539343230382c226e616d65223a2278787847494c7878782067616d646f6d2e636f6d222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f38392f383937633235326530643161633935356462643261356135303937343363623336376130643033615f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg5MiwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS4xMSwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuMTEsImRlcG9zaXQiOnsiYW1vdW50IjowLjU1LCJ3YWxsZXRBbW91bnQiOjAuNTUsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODg3MCwiaXRlbUlkIjoxNDMxMzA4ODcwLCJuYW1lIjoiTVA3IHwgRm9yZXN0IEREUEFUIChGYWN0b3J5IE5ldykiLCJjb2xvcklkIjo0LCJnYW1lSWQiOjczMCwicmVzZXJ2ZWRJZCI6MjU5MX1dfSwid2l0aGRyYXciOnsiYW1vdW50IjowLjYxMDUwMDAzNzY3MDEzNTUsIml0ZW1zIjpbeyJpZCI6IjYxOTU0IiwiaXRlbUlkIjoiNjE5NTQiLCJuYW1lIjoiWE0xMDE0IHwgUnVuIFJ1biBSdW4gKEZpZWxkLVRlc3RlZCkiLCJjb2xvcklkIjoiMSIsImdhbWVJZCI6IjczMCIsInJlc2VydmVkSWQiOiIyNzk1OSJ9XX0sInVzZXIiOnsiaWQiOjE1OTQyMDgsIm5hbWUiOiJ4eHhHSUx4eHggZ2FtZG9tLmNvbSIsImF2YXRhciI6Imh0dHBzOi8vc3RlYW1jZG4tYS5ha2FtYWloZC5uZXQvc3RlYW1jb21tdW5pdHkvcHVibGljL2ltYWdlcy9hdmF0YXJzLzg5Lzg5N2MyNTJlMGQxYWM5NTVkYmQyYTVhNTA5NzQzY2IzNjdhMGQwM2FfbWVkaXVtLmpwZyJ9LCJsaWtlcyI6MCwic2hvd0xpa2UiOmZhbHNlfX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652892,"gameId":6254868,"status":2,"coefficientAuto":1.11,"currencyId":2,"coefficient":1.11,"deposit":{"amount":0.55,"walletAmount":0.55,"items":[{"id":1431308870,"itemId":1431308870,"name":"MP7 | Forest DDPAT (Factory New)","colorId":4,"gameId":730,"reservedId":2591}]},"withdraw":{"amount":0.6105000376701355,"items":[{"id":"61954","itemId":"61954","name":"XM1014 | Run Run Run (Field-Tested)","colorId":"1","gameId":"730","reservedId":"27959"}]},"user":{"id":1594208,"name":"xxxGILxxx gamdom.com","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652892,
+                    "gameId": 6254868,
+                    "status": 2,
+                    "coefficientAuto": 1.11,
+                    "currencyId": 2,
+                    "coefficient": 1.11,
+                    "deposit": {
+                        "amount": 0.55,
+                        "walletAmount": 0.55,
+                        "items": [
+                            {
+                                "id": 1431308870,
+                                "itemId": 1431308870,
+                                "name": "MP7 | Forest DDPAT (Factory New)",
+                                "colorId": 4,
+                                "gameId": 730,
+                                "reservedId": 2591
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 0.6105000376701355,
+                        "items": [
+                            {
+                                "id": "61954",
+                                "itemId": "61954",
+                                "name": "XM1014 | Run Run Run (Field-Tested)",
+                                "colorId": "1",
+                                "gameId": "730",
+                                "reservedId": "27959"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 1594208,
+                        "name": "xxxGILxxx gamdom.com",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

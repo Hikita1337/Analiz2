@@ -1,0 +1,66 @@
+[2025-12-09_09-49-14-767329] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 739
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323838332c2267616d654964223a363235343836372c22737461747573223a322c22636f656666696369656e744175746f223a312e382c2263757272656e63794964223a322c22636f656666696369656e74223a312e382c226465706f736974223a7b22616d6f756e74223a312e39342c2277616c6c6574416d6f756e74223a312e39342c226974656d73223a5b7b226964223a313433313330383836312c226974656d4964223a313433313330383836312c226e616d65223a22496e7363726962656420437275656c204772656576696c222c22636f6c6f724964223a32332c2267616d654964223a3537302c2272657365727665644964223a31383837307d5d7d2c227769746864726177223a7b22616d6f756e74223a332e3439323030303130323939363832362c226974656d73223a5b7b226964223a223538353638222c226974656d4964223a223538353638222c226e616d65223a22436f70656e686167656e2032303234204d697261676520536f7576656e6972205061636b616765222c22636f6c6f724964223a2234222c2267616d654964223a22373330222c2272657365727665644964223a223236343733227d5d7d2c2275736572223a7b226964223a3934333630332c226e616d65223a22416e656272696c696e6465222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f31382f313864383030626466626161653837303438393030313635383534363533646463326134343334375f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg4MywiZ2FtZUlkIjo2MjU0ODY3LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS44LCJjdXJyZW5jeUlkIjoyLCJjb2VmZmljaWVudCI6MS44LCJkZXBvc2l0Ijp7ImFtb3VudCI6MS45NCwid2FsbGV0QW1vdW50IjoxLjk0LCJpdGVtcyI6W3siaWQiOjE0MzEzMDg4NjEsIml0ZW1JZCI6MTQzMTMwODg2MSwibmFtZSI6Ikluc2NyaWJlZCBDcnVlbCBHcmVldmlsIiwiY29sb3JJZCI6MjMsImdhbWVJZCI6NTcwLCJyZXNlcnZlZElkIjoxODg3MH1dfSwid2l0aGRyYXciOnsiYW1vdW50IjozLjQ5MjAwMDEwMjk5NjgyNiwiaXRlbXMiOlt7ImlkIjoiNTg1NjgiLCJpdGVtSWQiOiI1ODU2OCIsIm5hbWUiOiJDb3BlbmhhZ2VuIDIwMjQgTWlyYWdlIFNvdXZlbmlyIFBhY2thZ2UiLCJjb2xvcklkIjoiNCIsImdhbWVJZCI6IjczMCIsInJlc2VydmVkSWQiOiIyNjQ3MyJ9XX0sInVzZXIiOnsiaWQiOjk0MzYwMywibmFtZSI6IkFuZWJyaWxpbmRlIiwiYXZhdGFyIjoiaHR0cHM6Ly9zdGVhbWNkbi1hLmFrYW1haWhkLm5ldC9zdGVhbWNvbW11bml0eS9wdWJsaWMvaW1hZ2VzL2F2YXRhcnMvMTgvMThkODAwYmRmYmFhZTg3MDQ4OTAwMTY1ODU0NjUzZGRjMmE0NDM0N19tZWRpdW0uanBnIn0sImxpa2VzIjowLCJzaG93TGlrZSI6ZmFsc2V9fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652883,"gameId":6254867,"status":2,"coefficientAuto":1.8,"currencyId":2,"coefficient":1.8,"deposit":{"amount":1.94,"walletAmount":1.94,"items":[{"id":1431308861,"itemId":1431308861,"name":"Inscribed Cruel Greevil","colorId":23,"gameId":570,"reservedId":18870}]},"withdraw":{"amount":3.492000102996826,"items":[{"id":"58568","itemId":"58568","name":"Copenhagen 2024 Mirage Souvenir Package","colorId":"4","gameId":"730","reservedId":"26473"}]},"user":{"id":943603,"name":"Anebrilinde","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18d800bdfbaae87048900165854653ddc2a44347_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652883,
+                    "gameId": 6254867,
+                    "status": 2,
+                    "coefficientAuto": 1.8,
+                    "currencyId": 2,
+                    "coefficient": 1.8,
+                    "deposit": {
+                        "amount": 1.94,
+                        "walletAmount": 1.94,
+                        "items": [
+                            {
+                                "id": 1431308861,
+                                "itemId": 1431308861,
+                                "name": "Inscribed Cruel Greevil",
+                                "colorId": 23,
+                                "gameId": 570,
+                                "reservedId": 18870
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 3.492000102996826,
+                        "items": [
+                            {
+                                "id": "58568",
+                                "itemId": "58568",
+                                "name": "Copenhagen 2024 Mirage Souvenir Package",
+                                "colorId": "4",
+                                "gameId": "730",
+                                "reservedId": "26473"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 943603,
+                        "name": "Anebrilinde",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18d800bdfbaae87048900165854653ddc2a44347_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

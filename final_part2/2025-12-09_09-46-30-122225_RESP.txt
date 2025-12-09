@@ -1,0 +1,20 @@
+[2025-12-09_09-46-30-122225] HTTP RESPONSE
+URL: https://telegram.org/pxl
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-46-30-122225.json
+
+Headers:
+server: nginx/1.18.0
+date: Tue, 09 Dec 2025 03:43:52 GMT
+content-type: application/json; charset=utf-8
+content-length: 31
+set-cookie: stel_ssid=010fab09fda0c6af86_18399764439299843914; expires=Tue, 09 Dec 2025 14:50:32 GMT; path=/; samesite=None; secure; HttpOnly
+access-control-allow-origin: https://csgoih.run
+access-control-allow-credentials: true
+access-control-allow-headers: Content-Type
+pragma: no-cache
+cache-control: no-store
+content-encoding: gzip
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+(Body saved separately)

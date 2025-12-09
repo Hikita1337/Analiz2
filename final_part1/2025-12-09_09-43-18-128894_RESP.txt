@@ -1,0 +1,22 @@
+[2025-12-09_09-43-18-128894] HTTP RESPONSE
+URL: https://gspe19-ssl.ls.apple.com/tile.vf?style=61&size=2&scale=0&v=18652003&z=7&x=90&y=40&vertical_datum=wgs84&preflight=2&accessKey=1765255839_EhZ8xVLwlRbeV2Dp_XXTgybkQrNojsGLru8TCrdEWiUzuKcyQU9J1DXDHXP5GtP%2BjB329iUl8l8J2BjHC3hlcDlrJmWc%2FiLLPZrHd8YI9MyZ68OAsbUWAaxjzkPlqvyghZpLwxS%2BjXswII0zzrby7wv2UBWMBVhTjnYRcG351Q%2FRUZb8HeCmdwFLYcB0%3D
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-128894.bin
+
+Headers:
+content-type: application/octet-stream; UTF-8
+content-encoding: gzip
+x-envoy-upstream-service-time: 0
+strict-transport-security: max-age=31536000; includeSubDomains;, max-age=31536000; includeSubDomains;
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:40 GMT
+via: 1.1 varnish
+age: 22540
+x-cdn: fsly
+x-served-by: cache-fra-etou8220115-FRA
+x-cache: HIT
+x-cache-hits: 6
+x-timer: S1765251640.154076,VS0,VE0
+content-length: 46
+
+(Body saved separately)

@@ -1,0 +1,571 @@
+[2025-12-09_09-49-25-537871] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 6178
+
+HEX:
+7b227265736f75726365223a227765627669736f722f3934373432303835222c227175657279223a7b2277762d70617274223a223130222c2262726f777365722d696e666f223a2262743a313a65743a313736353235323030383a73743a313736353235323030383a693a32303235313230393039343634373a773a34313478363936222c2274223a2267647072283134297469283529227d2c22736571223a31352c22626f6479223a5b7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337342c2261747472696275746573223a7b22646174612d76616c7565223a22332e303778227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383036352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337352c2261747472696275746573223a7b22646174612d76616c7565223a22332e303878227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383131352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337362c2261747472696275746573223a7b22646174612d76616c7565223a22332e303978227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383136352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337372c2261747472696275746573223a7b22646174612d76616c7565223a22332e313078227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383231352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337382c2261747472696275746573223a7b22646174612d76616c7565223a22332e313178227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383238322c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353337392c2261747472696275746573223a7b22646174612d76616c7565223a22332e313278227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383333322c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338302c2261747472696275746573223a7b22646174612d76616c7565223a22332e313378227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383338322c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338312c2261747472696275746573223a7b22646174612d76616c7565223a22332e313478227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383433322c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338322c2261747472696275746573223a7b22646174612d76616c7565223a22332e313578227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383439382c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338332c2261747472696275746573223a7b22646174612d76616c7565223a22332e313678227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383534382c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338342c2261747472696275746573223a7b22646174612d76616c7565223a22332e313778227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383539382c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338352c2261747472696275746573223a7b22646174612d76616c7565223a22332e313878227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383634392c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338362c2261747472696275746573223a7b22646174612d76616c7565223a22332e313978227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383639392c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338372c2261747472696275746573223a7b22646174612d76616c7565223a22332e323078227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383734392c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338382c2261747472696275746573223a7b22646174612d76616c7565223a22332e323178227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383831352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353338392c2261747472696275746573223a7b22646174612d76616c7565223a22332e323278227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383836352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339302c2261747472696275746573223a7b22646174612d76616c7565223a22332e323378227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383931352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339312c2261747472696275746573223a7b22646174612d76616c7565223a22332e323478227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31383936352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339322c2261747472696275746573223a7b22646174612d76616c7565223a22332e323578227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393031352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339332c2261747472696275746573223a7b22646174612d76616c7565223a22332e323678227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393036352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339342c2261747472696275746573223a7b22646174612d76616c7565223a22332e323778227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393131352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339352c2261747472696275746573223a7b22646174612d76616c7565223a22332e323878227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393136352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339362c2261747472696275746573223a7b22646174612d76616c7565223a22332e323978227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393231352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339372c2261747472696275746573223a7b22646174612d76616c7565223a22332e333078227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393236352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339382c2261747472696275746573223a7b22646174612d76616c7565223a22332e333178227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393331352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353339392c2261747472696275746573223a7b22646174612d76616c7565223a22332e333278227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393336352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430302c2261747472696275746573223a7b22646174612d76616c7565223a22332e333378227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393431352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430312c2261747472696275746573223a7b22646174612d76616c7565223a22332e333478227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393438322c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430322c2261747472696275746573223a7b22646174612d76616c7565223a22332e333578227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393531352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430332c2261747472696275746573223a7b22646174612d76616c7565223a22332e333678227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393536352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430342c2261747472696275746573223a7b22646174612d76616c7565223a22332e333778227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393631352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430352c2261747472696275746573223a7b22646174612d76616c7565223a22332e333878227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393636352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430362c2261747472696275746573223a7b22646174612d76616c7565223a22332e333978227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393731352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430372c2261747472696275746573223a7b22646174612d76616c7565223a22332e343078227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393736352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430382c2261747472696275746573223a7b22646174612d76616c7565223a22332e343178227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393831352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353430392c2261747472696275746573223a7b22646174612d76616c7565223a22332e343278227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393836352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353431302c2261747472696275746573223a7b22646174612d76616c7565223a22332e343378227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393931352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353431312c2261747472696275746573223a7b22646174612d76616c7565223a22332e343478227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a31393936352c226672616d654964223a302c226576656e74223a226163227d2c7b2274797065223a226d75746174696f6e222c2264617461223a7b22696e646578223a353431322c2261747472696275746573223a7b22646174612d76616c7565223a22332e343578227d2c2264656c6574656441747472696275746573223a5b5d2c22746172676574223a333935347d2c227374616d70223a32303031352c226672616d654964223a302c226576656e74223a226163227d5d7d
+
+BASE64:
+eyJyZXNvdXJjZSI6IndlYnZpc29yLzk0NzQyMDg1IiwicXVlcnkiOnsid3YtcGFydCI6IjEwIiwiYnJvd3Nlci1pbmZvIjoiYnQ6MTpldDoxNzY1MjUyMDA4OnN0OjE3NjUyNTIwMDg6aToyMDI1MTIwOTA5NDY0Nzp3OjQxNHg2OTYiLCJ0IjoiZ2RwcigxNCl0aSg1KSJ9LCJzZXEiOjE1LCJib2R5IjpbeyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzc0LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjA3eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODA2NSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM3NSwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4wOHgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTgxMTUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzNzYsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMDl4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4MTY1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzc3LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjEweCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODIxNSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM3OCwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4xMXgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTgyODIsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzNzksImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMTJ4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4MzMyLCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1MzgwLCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjEzeCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODM4MiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM4MSwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4xNHgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTg0MzIsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzODIsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMTV4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4NDk4LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1MzgzLCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjE2eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODU0OCwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM4NCwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4xN3gifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTg1OTgsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzODUsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMTh4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4NjQ5LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzg2LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjE5eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODY5OSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM4NywiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4yMHgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTg3NDksImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzODgsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMjF4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4ODE1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzg5LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjIyeCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxODg2NSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM5MCwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4yM3gifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTg5MTUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzOTEsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMjR4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE4OTY1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1MzkyLCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjI1eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTAxNSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM5MywiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4yNngifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTkwNjUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzOTQsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMjd4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5MTE1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzk1LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjI4eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTE2NSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM5NiwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4yOXgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTkyMTUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjUzOTcsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMzB4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5MjY1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1Mzk4LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjMxeCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTMxNSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTM5OSwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4zMngifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTkzNjUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjU0MDAsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMzN4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5NDE1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1NDAxLCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjM0eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTQ4MiwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTQwMiwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4zNXgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTk1MTUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjU0MDMsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMzZ4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5NTY1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1NDA0LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjM3eCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTYxNSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTQwNSwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy4zOHgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTk2NjUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjU0MDYsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuMzl4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5NzE1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1NDA3LCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjQweCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTc2NSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTQwOCwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy40MXgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTk4MTUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjU0MDksImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuNDJ4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjE5ODY1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn0seyJ0eXBlIjoibXV0YXRpb24iLCJkYXRhIjp7ImluZGV4Ijo1NDEwLCJhdHRyaWJ1dGVzIjp7ImRhdGEtdmFsdWUiOiIzLjQzeCJ9LCJkZWxldGVkQXR0cmlidXRlcyI6W10sInRhcmdldCI6Mzk1NH0sInN0YW1wIjoxOTkxNSwiZnJhbWVJZCI6MCwiZXZlbnQiOiJhYyJ9LHsidHlwZSI6Im11dGF0aW9uIiwiZGF0YSI6eyJpbmRleCI6NTQxMSwiYXR0cmlidXRlcyI6eyJkYXRhLXZhbHVlIjoiMy40NHgifSwiZGVsZXRlZEF0dHJpYnV0ZXMiOltdLCJ0YXJnZXQiOjM5NTR9LCJzdGFtcCI6MTk5NjUsImZyYW1lSWQiOjAsImV2ZW50IjoiYWMifSx7InR5cGUiOiJtdXRhdGlvbiIsImRhdGEiOnsiaW5kZXgiOjU0MTIsImF0dHJpYnV0ZXMiOnsiZGF0YS12YWx1ZSI6IjMuNDV4In0sImRlbGV0ZWRBdHRyaWJ1dGVzIjpbXSwidGFyZ2V0IjozOTU0fSwic3RhbXAiOjIwMDE1LCJmcmFtZUlkIjowLCJldmVudCI6ImFjIn1dfQ==
+
+UTF‑8:
+{"resource":"webvisor/94742085","query":{"wv-part":"10","browser-info":"bt:1:et:1765252008:st:1765252008:i:20251209094647:w:414x696","t":"gdpr(14)ti(5)"},"seq":15,"body":[{"type":"mutation","data":{"index":5374,"attributes":{"data-value":"3.07x"},"deletedAttributes":[],"target":3954},"stamp":18065,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5375,"attributes":{"data-value":"3.08x"},"deletedAttributes":[],"target":3954},"stamp":18115,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5376,"attributes":{"data-value":"3.09x"},"deletedAttributes":[],"target":3954},"stamp":18165,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5377,"attributes":{"data-value":"3.10x"},"deletedAttributes":[],"target":3954},"stamp":18215,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5378,"attributes":{"data-value":"3.11x"},"deletedAttributes":[],"target":3954},"stamp":18282,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5379,"attributes":{"data-value":"3.12x"},"deletedAttributes":[],"target":3954},"stamp":18332,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5380,"attributes":{"data-value":"3.13x"},"deletedAttributes":[],"target":3954},"stamp":18382,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5381,"attributes":{"data-value":"3.14x"},"deletedAttributes":[],"target":3954},"stamp":18432,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5382,"attributes":{"data-value":"3.15x"},"deletedAttributes":[],"target":3954},"stamp":18498,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5383,"attributes":{"data-value":"3.16x"},"deletedAttributes":[],"target":3954},"stamp":18548,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5384,"attributes":{"data-value":"3.17x"},"deletedAttributes":[],"target":3954},"stamp":18598,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5385,"attributes":{"data-value":"3.18x"},"deletedAttributes":[],"target":3954},"stamp":18649,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5386,"attributes":{"data-value":"3.19x"},"deletedAttributes":[],"target":3954},"stamp":18699,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5387,"attributes":{"data-value":"3.20x"},"deletedAttributes":[],"target":3954},"stamp":18749,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5388,"attributes":{"data-value":"3.21x"},"deletedAttributes":[],"target":3954},"stamp":18815,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5389,"attributes":{"data-value":"3.22x"},"deletedAttributes":[],"target":3954},"stamp":18865,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5390,"attributes":{"data-value":"3.23x"},"deletedAttributes":[],"target":3954},"stamp":18915,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5391,"attributes":{"data-value":"3.24x"},"deletedAttributes":[],"target":3954},"stamp":18965,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5392,"attributes":{"data-value":"3.25x"},"deletedAttributes":[],"target":3954},"stamp":19015,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5393,"attributes":{"data-value":"3.26x"},"deletedAttributes":[],"target":3954},"stamp":19065,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5394,"attributes":{"data-value":"3.27x"},"deletedAttributes":[],"target":3954},"stamp":19115,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5395,"attributes":{"data-value":"3.28x"},"deletedAttributes":[],"target":3954},"stamp":19165,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5396,"attributes":{"data-value":"3.29x"},"deletedAttributes":[],"target":3954},"stamp":19215,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5397,"attributes":{"data-value":"3.30x"},"deletedAttributes":[],"target":3954},"stamp":19265,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5398,"attributes":{"data-value":"3.31x"},"deletedAttributes":[],"target":3954},"stamp":19315,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5399,"attributes":{"data-value":"3.32x"},"deletedAttributes":[],"target":3954},"stamp":19365,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5400,"attributes":{"data-value":"3.33x"},"deletedAttributes":[],"target":3954},"stamp":19415,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5401,"attributes":{"data-value":"3.34x"},"deletedAttributes":[],"target":3954},"stamp":19482,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5402,"attributes":{"data-value":"3.35x"},"deletedAttributes":[],"target":3954},"stamp":19515,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5403,"attributes":{"data-value":"3.36x"},"deletedAttributes":[],"target":3954},"stamp":19565,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5404,"attributes":{"data-value":"3.37x"},"deletedAttributes":[],"target":3954},"stamp":19615,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5405,"attributes":{"data-value":"3.38x"},"deletedAttributes":[],"target":3954},"stamp":19665,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5406,"attributes":{"data-value":"3.39x"},"deletedAttributes":[],"target":3954},"stamp":19715,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5407,"attributes":{"data-value":"3.40x"},"deletedAttributes":[],"target":3954},"stamp":19765,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5408,"attributes":{"data-value":"3.41x"},"deletedAttributes":[],"target":3954},"stamp":19815,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5409,"attributes":{"data-value":"3.42x"},"deletedAttributes":[],"target":3954},"stamp":19865,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5410,"attributes":{"data-value":"3.43x"},"deletedAttributes":[],"target":3954},"stamp":19915,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5411,"attributes":{"data-value":"3.44x"},"deletedAttributes":[],"target":3954},"stamp":19965,"frameId":0,"event":"ac"},{"type":"mutation","data":{"index":5412,"attributes":{"data-value":"3.45x"},"deletedAttributes":[],"target":3954},"stamp":20015,"frameId":0,"event":"ac"}]}
+
+JSON:
+{
+    "resource": "webvisor/94742085",
+    "query": {
+        "wv-part": "10",
+        "browser-info": "bt:1:et:1765252008:st:1765252008:i:20251209094647:w:414x696",
+        "t": "gdpr(14)ti(5)"
+    },
+    "seq": 15,
+    "body": [
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5374,
+                "attributes": {
+                    "data-value": "3.07x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18065,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5375,
+                "attributes": {
+                    "data-value": "3.08x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18115,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5376,
+                "attributes": {
+                    "data-value": "3.09x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18165,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5377,
+                "attributes": {
+                    "data-value": "3.10x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18215,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5378,
+                "attributes": {
+                    "data-value": "3.11x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18282,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5379,
+                "attributes": {
+                    "data-value": "3.12x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18332,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5380,
+                "attributes": {
+                    "data-value": "3.13x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18382,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5381,
+                "attributes": {
+                    "data-value": "3.14x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18432,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5382,
+                "attributes": {
+                    "data-value": "3.15x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18498,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5383,
+                "attributes": {
+                    "data-value": "3.16x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18548,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5384,
+                "attributes": {
+                    "data-value": "3.17x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18598,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5385,
+                "attributes": {
+                    "data-value": "3.18x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18649,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5386,
+                "attributes": {
+                    "data-value": "3.19x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18699,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5387,
+                "attributes": {
+                    "data-value": "3.20x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18749,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5388,
+                "attributes": {
+                    "data-value": "3.21x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18815,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5389,
+                "attributes": {
+                    "data-value": "3.22x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18865,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5390,
+                "attributes": {
+                    "data-value": "3.23x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18915,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5391,
+                "attributes": {
+                    "data-value": "3.24x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 18965,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5392,
+                "attributes": {
+                    "data-value": "3.25x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19015,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5393,
+                "attributes": {
+                    "data-value": "3.26x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19065,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5394,
+                "attributes": {
+                    "data-value": "3.27x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19115,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5395,
+                "attributes": {
+                    "data-value": "3.28x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19165,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5396,
+                "attributes": {
+                    "data-value": "3.29x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19215,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5397,
+                "attributes": {
+                    "data-value": "3.30x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19265,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5398,
+                "attributes": {
+                    "data-value": "3.31x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19315,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5399,
+                "attributes": {
+                    "data-value": "3.32x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19365,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5400,
+                "attributes": {
+                    "data-value": "3.33x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19415,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5401,
+                "attributes": {
+                    "data-value": "3.34x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19482,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5402,
+                "attributes": {
+                    "data-value": "3.35x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19515,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5403,
+                "attributes": {
+                    "data-value": "3.36x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19565,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5404,
+                "attributes": {
+                    "data-value": "3.37x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19615,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5405,
+                "attributes": {
+                    "data-value": "3.38x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19665,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5406,
+                "attributes": {
+                    "data-value": "3.39x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19715,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5407,
+                "attributes": {
+                    "data-value": "3.40x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19765,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5408,
+                "attributes": {
+                    "data-value": "3.41x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19815,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5409,
+                "attributes": {
+                    "data-value": "3.42x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19865,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5410,
+                "attributes": {
+                    "data-value": "3.43x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19915,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5411,
+                "attributes": {
+                    "data-value": "3.44x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 19965,
+            "frameId": 0,
+            "event": "ac"
+        },
+        {
+            "type": "mutation",
+            "data": {
+                "index": 5412,
+                "attributes": {
+                    "data-value": "3.45x"
+                },
+                "deletedAttributes": [],
+                "target": 3954
+            },
+            "stamp": 20015,
+            "frameId": 0,
+            "event": "ac"
+        }
+    ]
+}

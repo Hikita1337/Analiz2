@@ -1,0 +1,19 @@
+[2025-12-09_09-42-53-552510] HTTP RESPONSE
+URL: https://privacy-cs.mail.ru/fp/?id=JFICDqX4wdPxhK__b5pKN
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-53-552510.bin
+
+Headers:
+server: envoy-lb7-prod
+date: Tue, 09 Dec 2025 03:40:15 GMT
+content-type: application/octet-stream
+expires: Tue, 09 Dec 2025 05:40:15 GMT
+cache-control: max-age=7200
+p3p: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSAo PSDo OUR BUS UNI NAV STA INT"
+access-control-allow-origin: https://csgoih.run
+access-control-allow-credentials: true
+timing-allow-origin: *
+x-envoy-upstream-service-time: 8
+transfer-encoding: chunked
+
+(Body saved separately)

@@ -1,0 +1,20 @@
+[2025-12-09_09-44-42-815376] HTTP RESPONSE
+URL: https://cs2run.app/cashback
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-42-815376.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=huGdexkvzrrtwQgY; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:02:04 GMT, __ddg10_=1765251724; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:02:04 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:02:04 GMT, __ddg1_=V5IyptjfaOMKesh9pLtd; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:42:04 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:42:04 GMT
+content-type: application/json; charset=utf-8
+content-length: 97
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"61-Dn8iscK1B5TevHLag07O+cAoJWE"
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 35fa1151bec31e4851114a554dfa12aa
+
+(Body saved separately)

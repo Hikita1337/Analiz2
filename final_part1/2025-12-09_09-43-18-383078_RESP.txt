@@ -1,0 +1,18 @@
+[2025-12-09_09-43-18-383078] HTTP RESPONSE
+URL: https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/12261/fooxyohgkvdhm2av/header_292x136.jpg?t=1652280228
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-383078.jpg
+
+Headers:
+server: nginx
+content-type: image/jpeg
+content-length: 24084
+last-modified: Mon, 07 Oct 2019 17:47:43 GMT
+etag: "5d9b7a3f-5e14"
+access-control-allow-origin: *
+accept-ranges: bytes
+cache-control: public, max-age=315327612
+expires: Thu, 06 Dec 2035 18:40:52 GMT
+date: Tue, 09 Dec 2025 03:40:40 GMT
+
+(Body saved separately)

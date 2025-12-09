@@ -1,0 +1,49 @@
+[2025-12-09_09-49-45-913321] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 627
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323838392c2267616d654964223a363235343836382c22737461747573223a312c22636f656666696369656e744175746f223a313530302c2263757272656e63794964223a322c22636f656666696369656e74223a6e756c6c2c226465706f736974223a7b22616d6f756e74223a342e3539303030303135323538373839312c2277616c6c6574416d6f756e74223a342e35392c226974656d73223a5b5d7d2c227769746864726177223a7b22616d6f756e74223a302c226974656d73223a5b5d7d2c2275736572223a7b226964223a323934313331302c226e616d65223a22d094d0b8d0bcd0b020d0a9d183d0bad0b8d0bd222c22617661746172223a2268747470733a2f2f73756e362d32332e757365726170692e636f6d2f732f76312f6967312f6135735a7936316a7a2d527931656f446751615642552d466e317170385f41424a574348384d72693463336b697149377231656946786755685865726e6f376c5357654b325569742e6a70673f7175616c6974793d39362663726f703d312c302c3731362c3731362661733d33327833322c34387834382c37327837322c313038783130382c313630783136302c323430783234302c333630783336302c343830783438302c353430783534302c36343078363430266176613d312663733d32303078323030222c226973566970223a747275657d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg4OSwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjEsImNvZWZmaWNpZW50QXV0byI6MTUwMCwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOm51bGwsImRlcG9zaXQiOnsiYW1vdW50Ijo0LjU5MDAwMDE1MjU4Nzg5MSwid2FsbGV0QW1vdW50Ijo0LjU5LCJpdGVtcyI6W119LCJ3aXRoZHJhdyI6eyJhbW91bnQiOjAsIml0ZW1zIjpbXX0sInVzZXIiOnsiaWQiOjI5NDEzMTAsIm5hbWUiOiLQlNC40LzQsCDQqdGD0LrQuNC9IiwiYXZhdGFyIjoiaHR0cHM6Ly9zdW42LTIzLnVzZXJhcGkuY29tL3MvdjEvaWcxL2E1c1p5NjFqei1SeTFlb0RnUWFWQlUtRm4xcXA4X0FCSldDSDhNcmk0YzNraXFJN3IxZWlGeGdVaFhlcm5vN2xTV2VLMlVpdC5qcGc/cXVhbGl0eT05NiZjcm9wPTEsMCw3MTYsNzE2JmFzPTMyeDMyLDQ4eDQ4LDcyeDcyLDEwOHgxMDgsMTYweDE2MCwyNDB4MjQwLDM2MHgzNjAsNDgweDQ4MCw1NDB4NTQwLDY0MHg2NDAmYXZhPTEmY3M9MjAweDIwMCIsImlzVmlwIjp0cnVlfSwibGlrZXMiOjAsInNob3dMaWtlIjpmYWxzZX19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652889,"gameId":6254868,"status":1,"coefficientAuto":1500,"currencyId":2,"coefficient":null,"deposit":{"amount":4.590000152587891,"walletAmount":4.59,"items":[]},"withdraw":{"amount":0,"items":[]},"user":{"id":2941310,"name":"Дима Щукин","avatar":"https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200","isVip":true},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652889,
+                    "gameId": 6254868,
+                    "status": 1,
+                    "coefficientAuto": 1500,
+                    "currencyId": 2,
+                    "coefficient": null,
+                    "deposit": {
+                        "amount": 4.590000152587891,
+                        "walletAmount": 4.59,
+                        "items": []
+                    },
+                    "withdraw": {
+                        "amount": 0,
+                        "items": []
+                    },
+                    "user": {
+                        "id": 2941310,
+                        "name": "Дима Щукин",
+                        "avatar": "https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200",
+                        "isVip": true
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

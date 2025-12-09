@@ -1,0 +1,19 @@
+[2025-12-09_09-43-18-084094] HTTP REQUEST
+URL: https://store.akamai.steamstatic.com/public/javascript/applications/store/shoppingcart_russian-json.js?contenthash=83021bf51807c3feb5e7
+Method: GET
+
+Headers:
+Host: store.akamai.steamstatic.com
+Sec-Fetch-Site: cross-site
+If-Modified-Since: Tue, 18 Nov 2025 23:46:22 GMT
+Accept-Encoding: gzip, deflate, br
+If-None-Match: "CMUncMYEBMEy"
+Sec-Fetch-Mode: no-cors
+Accept-Language: ru
+Accept: */*
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Connection: keep-alive
+Referer: https://store.steampowered.com/
+Sec-Fetch-Dest: script
+
+Body:

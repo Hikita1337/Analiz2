@@ -1,0 +1,20 @@
+[2025-12-09_09-45-25-076274] HTTP REQUEST
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=38&wv-type=6&wmode=0&wv-hit=498839795&page-url=https%3A%2F%2Fcsgoih.run%2Fprofile&rn=517385084&browser-info=we%3A1%3Aet%3A1765251767%3Aw%3A414x375%3Av%3A2292%3Az%3A360%3Ai%3A20251209094247%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251767&t=gdpr(14)ti(1)
+Method: POST
+
+Headers:
+accept: */*
+content-type: text/plain
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 1481
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+[{"type":"event","data":{"value":"â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢â¢","hidden":true,"target":12133},"stamp":116315,"frameId":0,"event":"change"},{"type":"event","data":{"keystrokes":[{"id":8,"key":"&#9003;","isMeta":true,"modifier":"backspace"}]},"stamp":116814,"frameId":0,"event":"keystroke"},{"type":"event","data":{"target":12133},"stamp":117290,"frameId":0,"event":"blur"},{"type":"event","data":{"touches":[{"id":"12427a74-c103-dd35-d227-7c910d8c1bd4","x":271,"y":553,"force":0}],"target":12148},"stamp":117831,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"12427a74-c103-dd35-d227-7c910d8c1bd4","x":271,"y":553,"force":0}],"target":12148},"stamp":117870,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":271,"y":553,"target":12148},"stamp":117872,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":271,"y":553,"target":12148},"stamp":117874,"frameId":0,"event":"mousedown"},{"type":"event","data":{"target":12148},"stamp":117875,"frameId":0,"event":"focus"},{"type":"event","data":{"x":271,"y":553,"target":12148},"stamp":117884,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":271,"y":553,"target":12148},"stamp":117885,"frameId":0,"event":"click"},{"type":"event","data":{"x":271,"y":553,"target":12148},"stamp":117972,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":0,"y":891,"page":true,"target":-1},"stamp":118016,"frameId":0,"event":"scroll"},{"type":"activity","data":18017}]

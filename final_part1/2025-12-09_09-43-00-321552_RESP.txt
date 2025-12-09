@@ -1,0 +1,26 @@
+[2025-12-09_09-43-00-321552] HTTP RESPONSE
+URL: https://top-fwz1.mail.ru/tracker?_=0.3373008708992441;id=3686147;u=https%3A%2F%2Fcsgoih.run%2F;pid=USER_ID;title=CSGORUN%20%D1%81%D0%BA%D0%B8%D0%BD%D1%8B%20%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%8B%20CS%202%20(CS%3AGO)%2C%20%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%BC%D0%B0%D1%82%D1%87%D0%B8%2C%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0%20%D1%81%D0%BA%D0%B8%D0%BD%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BD%D0%B0%20%D0%9A%D0%A1%D0%93%D0%9E%D0%A0%D0%90%D0%9D;s=414*896;vp=414*696;touch=1;hds=2;sid=e51c663a84670f3e;ver=60.6.0;tz=-360%2FAsia%2FOmsk;st=1765251613295;nt=0/0/1765251611503/////1/1/1/2/1018/954/1021/1366/1366/1415/1792/2137/2137/3947/3948/3949;ct=2466/2473/2473/2475/1453;rt=1456/319/0/0/0/1456/1456/1456/1458/1629/1527/1632/1771/1775;gl=u;ni=;detect=0;lvid=1765251613973%3A1765251622267%3A3%3Acfcec191d319f79d3b64c31628d6cfcf;opts=dl%2Cjst-gtag-ym%2Ccnhp%3Dh2;fpid=JFICDqX4wdPxhK__b5pKN;visible=true;js=13;e=RT%2Funload;et=1765251622266;pvt=8971;vtauto=8293
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-00-321552.bin
+
+Headers:
+server: nginx
+date: Tue, 09 Dec 2025 03:40:22 GMT
+content-type: image/gif
+content-length: 43
+set-cookie: FTID=2yw6IB0H8uIa:1765251622:3686147:::; path=/; expires=Thu, 10-Dec-26 03:40:22 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure, tmr_lvid=6fded4d532ffadde63db1ae00fefac39; path=/; expires=Thu, 10-Dec-26 03:40:22 GMT; domain=.mail.ru; Secure, tmr_lvidTS=1765251622000; path=/; expires=Thu, 10-Dec-26 03:40:22 GMT; domain=.mail.ru; Secure
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, HEAD, PUT, OPTIONS
+access-control-allow-headers: *
+amp-access-control-allow-source-origin: *
+access-control-expose-headers: AMP-Access-Control-Allow-Source-Origin
+timing-allow-origin: *
+x-content-type-options: nosniff
+p3p: CP="NOI DSP COR NID CUR PSA OUR NOR"
+cache-control: private, no-cache, no-store, max-age=0
+pragma: no-cache
+accept-ch: DPR, Width, Viewport-Width, Downlink, Device-Memory, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA, Sec-CH-UA-Full-Version
+accept-ch-lifetime: 86400
+
+(Body saved separately)

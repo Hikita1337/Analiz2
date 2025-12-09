@@ -1,0 +1,15 @@
+[2025-12-09_09-43-17-763865] HTTP RESPONSE
+URL: https://store.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=4Vj7bvhvv_UL&l=russian&_cdn=akamai
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-17-763865.css
+
+Headers:
+Content-Type: text/css;charset=UTF-8
+Last-Modified: Sun, 09 Sep 2001 01:46:40 GMT
+ETag: "4Vj7bvhvv_UL"
+Cache-Control: public, max-age=4273626
+Expires: Tue, 27 Jan 2026 14:47:45 GMT
+Date: Tue, 09 Dec 2025 03:40:39 GMT
+Connection: keep-alive
+
+(Body saved separately)

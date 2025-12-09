@@ -1,0 +1,66 @@
+[2025-12-09_09-46-19-064514] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 747
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323734322c2267616d654964223a363235343836312c22737461747573223a322c22636f656666696369656e744175746f223a312e34382c2263757272656e63794964223a322c22636f656666696369656e74223a312e34382c226465706f736974223a7b22616d6f756e74223a302e32352c2277616c6c6574416d6f756e74223a302e32352c226974656d73223a5b7b226964223a313433313330383731312c226974656d4964223a313433313330383731312c226e616d65223a225465632d39207c20466c617368204f7574202857656c6c2d576f726e29222c22636f6c6f724964223a312c2267616d654964223a3733302c2272657365727665644964223a31333139307d5d7d2c227769746864726177223a7b22616d6f756e74223a302e333730303030303034373638333731362c226974656d73223a5b7b226964223a223631363231222c226974656d4964223a223631363231222c226e616d65223a22537469636b6572207c204d4f555a2028476c697474657229207c205368616e676861692032303234222c22636f6c6f724964223a2233222c2267616d654964223a22373330222c2272657365727665644964223a223237393839227d5d7d2c2275736572223a7b226964223a313539343331352c226e616d65223a224178656c426c617a65222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f33382f333839613638363062353236633366363733623636376665623331356661623862383933323331395f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjc0MiwiZ2FtZUlkIjo2MjU0ODYxLCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS40OCwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuNDgsImRlcG9zaXQiOnsiYW1vdW50IjowLjI1LCJ3YWxsZXRBbW91bnQiOjAuMjUsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODcxMSwiaXRlbUlkIjoxNDMxMzA4NzExLCJuYW1lIjoiVGVjLTkgfCBGbGFzaCBPdXQgKFdlbGwtV29ybikiLCJjb2xvcklkIjoxLCJnYW1lSWQiOjczMCwicmVzZXJ2ZWRJZCI6MTMxOTB9XX0sIndpdGhkcmF3Ijp7ImFtb3VudCI6MC4zNzAwMDAwMDQ3NjgzNzE2LCJpdGVtcyI6W3siaWQiOiI2MTYyMSIsIml0ZW1JZCI6IjYxNjIxIiwibmFtZSI6IlN0aWNrZXIgfCBNT1VaIChHbGl0dGVyKSB8IFNoYW5naGFpIDIwMjQiLCJjb2xvcklkIjoiMyIsImdhbWVJZCI6IjczMCIsInJlc2VydmVkSWQiOiIyNzk4OSJ9XX0sInVzZXIiOnsiaWQiOjE1OTQzMTUsIm5hbWUiOiJBeGVsQmxhemUiLCJhdmF0YXIiOiJodHRwczovL3N0ZWFtY2RuLWEuYWthbWFpaGQubmV0L3N0ZWFtY29tbXVuaXR5L3B1YmxpYy9pbWFnZXMvYXZhdGFycy8zOC8zODlhNjg2MGI1MjZjM2Y2NzNiNjY3ZmViMzE1ZmFiOGI4OTMyMzE5X21lZGl1bS5qcGcifSwibGlrZXMiOjAsInNob3dMaWtlIjpmYWxzZX19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652742,"gameId":6254861,"status":2,"coefficientAuto":1.48,"currencyId":2,"coefficient":1.48,"deposit":{"amount":0.25,"walletAmount":0.25,"items":[{"id":1431308711,"itemId":1431308711,"name":"Tec-9 | Flash Out (Well-Worn)","colorId":1,"gameId":730,"reservedId":13190}]},"withdraw":{"amount":0.3700000047683716,"items":[{"id":"61621","itemId":"61621","name":"Sticker | MOUZ (Glitter) | Shanghai 2024","colorId":"3","gameId":"730","reservedId":"27989"}]},"user":{"id":1594315,"name":"AxelBlaze","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652742,
+                    "gameId": 6254861,
+                    "status": 2,
+                    "coefficientAuto": 1.48,
+                    "currencyId": 2,
+                    "coefficient": 1.48,
+                    "deposit": {
+                        "amount": 0.25,
+                        "walletAmount": 0.25,
+                        "items": [
+                            {
+                                "id": 1431308711,
+                                "itemId": 1431308711,
+                                "name": "Tec-9 | Flash Out (Well-Worn)",
+                                "colorId": 1,
+                                "gameId": 730,
+                                "reservedId": 13190
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 0.3700000047683716,
+                        "items": [
+                            {
+                                "id": "61621",
+                                "itemId": "61621",
+                                "name": "Sticker | MOUZ (Glitter) | Shanghai 2024",
+                                "colorId": "3",
+                                "gameId": "730",
+                                "reservedId": "27989"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 1594315,
+                        "name": "AxelBlaze",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

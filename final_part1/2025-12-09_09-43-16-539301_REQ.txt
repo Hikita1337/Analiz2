@@ -1,0 +1,17 @@
+[2025-12-09_09-43-16-539301] HTTP REQUEST
+URL: https://store.steampowered.com/
+Method: GET
+
+Headers:
+Host: store.steampowered.com
+Sec-Fetch-Site: none
+Cookie: Steam_Language=russian; mobileClient=ios; mobileClientVersion=777777 3.10.5; sessionid=per9ubwa8kjzaiefvw8xx7u2; steamLoginSecure=76561198973038082%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAwN18yNkEwN0FFMV81MDM0QSIsICJzdWIiOiAiNzY1NjExOTg5NzMwMzgwODIiLCAiYXVkIjogWyAid2ViIiwgIm1vYmlsZSIgXSwgImV4cCI6IDE3NjQ3MDQ5ODMsICJuYmYiOiAxNzU1OTc2ODQ0LCAiaWF0IjogMTc2NDYxNjg0NCwgImp0aSI6ICIwMDA1XzI3NEZEREYzXzEzNEQ4IiwgIm9hdCI6IDE3NTI2NzU5ODYsICJydF9leHAiOiAxNzgxMzg3NTI0LCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTg4LjIzMi4xMDAuODYiLCAiaXBfY29uZmlybWVyIjogIjE4OC4yMzIuMTAwLjg2IiB9.dBoCV9MlfiI9ijsJ7xcKbDrsdC7zufJX-zV5HJvAyOTahyDkuxsZ6PbuZtu4JrZeFQOvF8WyLOid645uBcfLCg; timezoneOffset=21600,0; cookieSettings=%7B%22version%22%3A1%2C%22preference_state%22%3A1%2C%22content_customization%22%3Anull%2C%22valve_analytics%22%3Anull%2C%22third_party_analytics%22%3Anull%2C%22third_party_content%22%3Anull%2C%22utm_enabled%22%3Atrue%7D; browserid=463424392888717810
+Connection: keep-alive
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Accept-Language: ru
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+
+Body:

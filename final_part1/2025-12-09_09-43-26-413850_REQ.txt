@@ -1,0 +1,21 @@
+[2025-12-09_09-43-26-413850] HTTP REQUEST
+URL: https://telegram.org/pxl
+Method: POST
+
+Headers:
+accept: */*
+content-type: application/x-www-form-urlencoded;charset=UTF-8
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+content-length: 910
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+cache-control: max-age=0
+accept-language: ru
+priority: u=7, i
+accept-encoding: gzip, deflate, br
+
+Body:
+p=sWeNP9ms&t=1765251648429&l=https%3A%2F%2Fcsgoih.run%2Fauth%3Fopenid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.mode%3Did_res%26openid.op_endpoint%3Dhttps%253A%252F%252Fsteamcommunity.com%252Fopenid%252Flogin%26openid.claimed_id%3Dhttps%253A%252F%252Fsteamcommunity.com%252Fopenid%252Fid%252F76561198973038082%26openid.identity%3Dhttps%253A%252F%252Fsteamcommunity.com%252Fopenid%252Fid%252F76561198973038082%26openid.return_to%3Dhttps%253A%252F%252Fcs2run.app%252Fauth%252F1%252Fstart-sign-in%252F%253FreturnUrl%253Dhttps%253A%252F%252Fcsgoih.run%252Fauth%26openid.response_nonce%3D2025-12-09T03%253A40%253A46Z%252FPyVSdhr%252BFgybOe%252FDsq%252BektQ7EM%253D%26openid.assoc_handle%3D1234567890%26openid.signed%3Dsigned%252Cop_endpoint%252Cclaimed_id%252Cidentity%252Creturn_to%252Cresponse_nonce%252Cassoc_handle%26openid.sig%3DUmhKSXLLggEuh6c%252BcICSU3FRXCE%253D%26provider_type%3D1

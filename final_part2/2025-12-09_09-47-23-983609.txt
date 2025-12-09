@@ -1,0 +1,18 @@
+[2025-12-09_09-47-23-983609] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 26
+
+HEX:
+7b226964223a31362c22756e737562736372696265223a7b7d7d
+
+BASE64:
+eyJpZCI6MTYsInVuc3Vic2NyaWJlIjp7fX0=
+
+UTF‑8:
+{"id":16,"unsubscribe":{}}
+
+JSON:
+{
+    "id": 16,
+    "unsubscribe": {}
+}

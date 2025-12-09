@@ -1,0 +1,17 @@
+[2025-12-09_09-43-22-589875] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/shared/javascript/login.js?v=FY82e0EG90T2&l=russian&_cdn=fastly
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-22-589875.bin
+
+Headers:
+date: Tue, 09 Dec 2025 03:40:44 GMT
+via: 1.1 varnish
+cache-control: public,max-age=0,must-revalidate
+etag: "fltFz4Q0cFuD"
+expires: Sun, 09 Sep 2001 01:46:40 GMT
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1765251644.277270,VS0,VE335
+
+(Body saved separately)

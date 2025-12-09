@@ -1,0 +1,19 @@
+[2025-12-09_09-43-31-039819] HTTP RESPONSE
+URL: https://mc.yandex.ru/clmap/94742085?page-url=https%3A%2F%2Fcsgoih.run%2F&pointer-click=rn%3A578526846%3Ax%3A33450%3Ay%3A31619%3At%3A42%3Ap%3A%3BQd%C2%84AAA1A1%3AX%3A108%3AY%3A409&browser-info=u%3A1765251615122050168%3Av%3A2292%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Arqnl%3A1%3Ast%3A1765251653&t=gdpr(14)ti(1)
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-31-039819.bin
+
+Headers:
+content-length: 43
+access-control-allow-origin: https://csgoih.run
+last-modified: Tue, 09-Dec-2025 03:40:53 GMT
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+pragma: no-cache
+access-control-allow-credentials: true
+content-type: image/gif
+expires: Tue, 09-Dec-2025 03:40:53 GMT
+x-xss-protection: 1; mode=block
+set-cookie: _yasc=JsVIej/qGSFp3a6WRrG/OwInsggu6GCshshMHkEGw/5fRAQWaBjGGL8ieFjiPUs/yg==; domain=.yandex.ru; path=/; expires=Fri, 07 Dec 2035 03:40:53 GMT; secure, bh=YMW03skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:40:53 GMT
+strict-transport-security: max-age=31536000
+
+(Body saved separately)

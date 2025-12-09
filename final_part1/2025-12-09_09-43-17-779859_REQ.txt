@@ -1,0 +1,19 @@
+[2025-12-09_09-43-17-779859] HTTP REQUEST
+URL: https://store.akamai.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&l=russian&_cdn=akamai
+Method: GET
+
+Headers:
+Host: store.akamai.steamstatic.com
+Sec-Fetch-Site: cross-site
+If-Modified-Since: Sun, 09 Sep 2001 01:46:40 GMT
+Accept-Encoding: gzip, deflate, br
+If-None-Match: "NXam5zydzNu8"
+Sec-Fetch-Mode: no-cors
+Accept-Language: ru
+Accept: */*
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Connection: keep-alive
+Referer: https://store.steampowered.com/
+Sec-Fetch-Dest: script
+
+Body:

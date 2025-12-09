@@ -1,0 +1,20 @@
+[2025-12-09_09-45-04-531919] HTTP RESPONSE
+URL: https://mc.yandex.ru/watch/94742085/1?page-url=https%3A%2F%2Fcsgoih.run%2Fprofile&charset=utf-8&uah=che%0A0&hittoken=1765251648_611514556fac11b7fcf140a9496a94932ee39b75645af65f1d31eefbe300afcc&browser-info=pa%3A1%3Aar%3A1%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aru%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1431106912871%3Ahid%3A498839795%3Az%3A360%3Ai%3A20251209094226%3Aet%3A1765251746%3Ac%3A1%3Arn%3A847041490%3Au%3A1765251615122050168%3Aw%3A414x375%3As%3A414x896x24%3Ask%3A2%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C1612%2C1612%2C1%2C%3Aco%3A0%3Acpf%3A1%3Aeu%3A0%3Ans%3A1765251647210%3Agi%3AR0ExLjEuMTUyODU0NTE4Ny4xNzY1MjUxNjE0%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1765251746&t=gdpr(14)clc(34-257-252)rqnt(2)hc(1)aw(1)rcm(0)ecs(0)cdl(na)eco(84476420)oms(0)prs(1)w2s(16)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22fi%22%3A%22a(0)b(PsAA2AA17)c(XgmttNwqlsjfoAi9gceN9UGMqkUHnj5FreVADjRhvKU%3D)%22%7D%7D
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-45-04-531919.bin
+
+Headers:
+content-length: 43
+x-xss-protection: 1; mode=block
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+set-cookie: bh=YKK13skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:42:26 GMT
+access-control-allow-origin: https://csgoih.run
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+access-control-allow-credentials: true
+content-type: image/gif
+pragma: no-cache
+last-modified: Tue, 09-Dec-2025 03:42:26 GMT
+expires: Tue, 09-Dec-2025 03:42:26 GMT
+strict-transport-security: max-age=31536000
+
+(Body saved separately)
