@@ -1,0 +1,6 @@
+{
+  "requires": [
+    "@emotion/is-prop-valid",
+    "util"
+  ]
+}

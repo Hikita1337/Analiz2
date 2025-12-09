@@ -1,0 +1,12 @@
+{
+  "suspicious": [
+    "eval",
+    "Function(",
+    "atob",
+    "btoa",
+    "setInterval",
+    "crypto",
+    "fetch",
+    "XMLHttpRequest"
+  ]
+}
