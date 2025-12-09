@@ -9,8 +9,8 @@ INPUT_FILE = "bigdump.txt"
 OUTPUT_JSON = "reports/full_deep_analysis.json"
 OUTPUT_TXT  = "reports/full_deep_analysis.txt"
 HASH_FILE   = "reports/seen_hashes.txt"
-CHUNK_LINES = 10000  # строки за один блок
-LOG_INTERVAL = 1  # строки для логов
+LOG_INTERVAL = 1
+WINDOW_SIZE = 30  # контекст ±5 строк
 
 os.makedirs("reports", exist_ok=True)
 
@@ -19,7 +19,6 @@ re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
 re_fetch = re.compile(r"fetch\s*\(\s*[\"']([^\"']+)[\"']")
 re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
 re_ws_recv = re.compile(r"onmessage\s*=\s*function\s*\(.*?\)")
-re_json_block = re.compile(r"\{[\s\S]{10,5000}?\}", re.MULTILINE)
 re_function = re.compile(r"function\s+([A-Za-z0-9_]+)\s*\(")
 re_arrow = re.compile(r"([A-Za-z0-9_]+)\s*=\s*\((.*?)\)\s*=>")
 
@@ -54,9 +53,8 @@ fh = open(HASH_FILE, "a", encoding="utf-8")
 fj.write("[\n")
 first_entry = True
 context_window = []
-WINDOW_SIZE = 5
 
-# --- Функция обработки строки ---
+# --- Обработка строки ---
 def process_line(line, context_window, first_entry, fj, ft, fh):
     context_window.append(line.rstrip())
     if len(context_window) > 2*WINDOW_SIZE+1:
@@ -77,18 +75,15 @@ def process_line(line, context_window, first_entry, fj, ft, fh):
     if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
     m = re_arrow.search(line)
     if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-    if "{" in line and "}" in line:
-        for jb in re_json_block.findall(line):
-            if len(jb)<2000: items.append({"type":"JSON_BLOCK","json":jb,"classification":classify_block(jb)})
 
     # --- Проверка уникальности и запись ---
     for it in items:
-        content_str = it.get("context", it.get("json","")).encode('utf-8')
+        content_str = it.get("context", "").encode('utf-8')
         content_hash = hashlib.md5(content_str).hexdigest()
         if content_hash in seen_hashes:
             continue
         seen_hashes.add(content_hash)
-        fh.write(content_hash+"\n")
+        fh.write(content_hash + "\n")
         fh.flush()
 
         if not first_entry:
