@@ -1,54 +1,76 @@
-import re2 as re  
 import os
+import re
+import json
+import hashlib
+from tqdm import tqdm
 
-INPUT_FILE = "bigdump.txt"
-OUTPUT_API = "reports/api_ws.txt"
-OUTPUT_FUNC = "reports/functions.txt"
-SKIP_FILE  = "reports/skipped_lines.txt"
-CONTEXT_LINES = 3
-LOG_EVERY = 1
+# --- Настройки ---
+INPUT_DIRS = ["final_part1", "final_part2", "final_part3"]
+OUTPUT_JSON = "reports/api_ws_analysis.json"
+OUTPUT_TXT = "reports/api_ws_analysis.txt"
 
-os.makedirs("reports", exist_ok=True)
-
-# Регулярки
+# --- Регулярки ---
 re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
-re_fetch = re.compile(r"fetch\s*\(\s*[\"']([^\"']+)[\"']")
 re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
 re_ws_recv = re.compile(r"onmessage\s*=\s*function\s*\(.*?\)")
-re_function = re.compile(r"function\s+([A-Za-z0-9_]+)\s*\(")
-re_arrow = re.compile(r"([A-Za-z0-9_]+)\s*=\s*\((.*?)\)\s*=>")
 
-lines_buffer = []
+# --- Создание папки для отчётов ---
+os.makedirs("reports", exist_ok=True)
 
-with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
-     open(OUTPUT_API,"w",encoding="utf-8") as api_file, \
-     open(OUTPUT_FUNC,"w",encoding="utf-8") as func_file, \
-     open(SKIP_FILE,"w",encoding="utf-8") as skip_file:
+# --- Множество для уникальных записей ---
+seen_hashes = set()
 
-    for line_number, line in enumerate(f, start=1):
-        try:
-            lines_buffer.append(line.rstrip())
-            if len(lines_buffer) > CONTEXT_LINES*2+1:
-                lines_buffer.pop(0)
+# --- Функция обработки файла ---
+def process_file(file_path):
+    items = []
+    try:
+        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+            lines = f.readlines()
+            for i, line in enumerate(lines):
+                context = "\n".join(lines[max(i-5,0):min(i+6,len(lines))])
+                
+                # HTTP API
+                for m in re_api.findall(line):
+                    h = hashlib.md5((m+context).encode()).hexdigest()
+                    if h not in seen_hashes:
+                        seen_hashes.add(h)
+                        items.append({"type":"HTTP_API","match":m,"context":context})
+                
+                # WS send
+                for m in re_ws_send.findall(line):
+                    h = hashlib.md5((m+context).encode()).hexdigest()
+                    if h not in seen_hashes:
+                        seen_hashes.add(h)
+                        items.append({"type":"WS_SEND","payload":m,"context":context})
+                
+                # WS receive
+                if re_ws_recv.search(line):
+                    h = hashlib.md5(("WS_RECEIVE"+context).encode()).hexdigest()
+                    if h not in seen_hashes:
+                        seen_hashes.add(h)
+                        items.append({"type":"WS_RECEIVE_HANDLER","context":context})
+    except Exception as e:
+        print(f"Ошибка при обработке {file_path}: {e}")
+    return items
 
-            context = "\n".join(lines_buffer)
+# --- Основной цикл по папкам ---
+all_items = []
+for folder in INPUT_DIRS:
+    print(f"Обрабатываем папку {folder}...")
+    files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(folder) for f in filenames
+             if not f.lower().endswith(('.png', '.webp', '.bin'))]
+    for file in tqdm(files, desc=f"Файлы в {folder}"):
+        all_items.extend(process_file(file))
 
-            # API / fetch / WS
-            if re_api.search(line) or re_fetch.search(line) or re_ws_send.search(line) or re_ws_recv.search(line):
-                api_file.write(f"Line {line_number}:\n{context}\n{'='*80}\n")
+# --- Сохраняем JSON ---
+with open(OUTPUT_JSON, "w", encoding="utf-8") as fjson:
+    json.dump(all_items, fjson, ensure_ascii=False, indent=2)
 
-            # Functions
-            if re_function.search(line) or re_arrow.search(line):
-                func_file.write(f"Line {line_number}:\n{context}\n")
-                func_file.write("Usage/Interaction: Check above context for API/WebSocket calls\n")
-                func_file.write("="*80 + "\n")
+# --- Сохраняем TXT ---
+with open(OUTPUT_TXT, "w", encoding="utf-8") as ftxt:
+    for it in all_items:
+        ftxt.write(f"[{it['type']}]\n")
+        ftxt.write(it.get("match", it.get("payload","")) + "\n")
+        ftxt.write(it["context"] + "\n" + "="*80 + "\n")
 
-        except Exception as e:
-            skip_file.write(f"Line {line_number} skipped automatically. Exception: {e}\n{line}\n{'-'*50}\n")
-            # сбрасываем буфер для пропущенной строки
-            lines_buffer = lines_buffer[-CONTEXT_LINES:]
-
-        if line_number % LOG_EVERY == 0:
-            print(f"Processed {line_number} lines")
-
-print("DONE. API/WS saved in api_ws.txt, functions saved in functions.txt, skipped lines in skipped_lines.txt")
+print(f"Готово! Найдено {len(all_items)} уникальных записей.")
