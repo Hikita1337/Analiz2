@@ -34,7 +34,7 @@ GRAPH_FUNCS_LIMIT = 400           # сколько функций рендери
 DETAIL_FUNCS_LIMIT = 1200        # сколько функций детально описывать (ограничение)
 SANDBOX_TIMEOUT = 2              # сек
 AUTO_INSTALL_PY = True           # пытаться pip install недостающие python-пакеты
-AUTO_INSTALL_SYS = False         # True попытается sudo apt install dot/node — отключено по умолчанию
+AUTO_INSTALL_SYS = True         # True попытается sudo apt install dot/node — отключено по умолчанию
 # ---------------------------------------------------------------------
 
 # ---------------------------------------------------------------------
