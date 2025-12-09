@@ -10,6 +10,7 @@ if ! command -v pyenv >/dev/null 2>&1; then
   curl https://pyenv.run | bash
 fi
 
+
 # --- Настройка окружения pyenv ---
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
