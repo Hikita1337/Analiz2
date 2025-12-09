@@ -6,7 +6,7 @@ OUTPUT_API = "reports/api_ws.txt"
 OUTPUT_FUNC = "reports/functions.txt"
 SKIP_FILE  = "reports/skipped_lines.txt"
 CONTEXT_LINES = 2
-LOG_EVERY = 1000
+LOG_EVERY = 1
 
 os.makedirs("reports", exist_ok=True)
 
@@ -26,13 +26,13 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
      open(SKIP_FILE,"w",encoding="utf-8") as skip_file:
 
     for line_number, line in enumerate(f, start=1):
-        lines_buffer.append(line.rstrip())
-        if len(lines_buffer) > CONTEXT_LINES*2+1:
-            lines_buffer.pop(0)
-
-        context = "\n".join(lines_buffer)
-
         try:
+            lines_buffer.append(line.rstrip())
+            if len(lines_buffer) > CONTEXT_LINES*2+1:
+                lines_buffer.pop(0)
+
+            context = "\n".join(lines_buffer)
+
             # API / fetch / WS
             if re_api.search(line) or re_fetch.search(line) or re_ws_send.search(line) or re_ws_recv.search(line):
                 api_file.write(f"Line {line_number}:\n{context}\n{'='*80}\n")
@@ -44,6 +44,7 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
                 func_file.write("="*80 + "\n")
 
         except Exception as e:
+            # Любая ошибка — записываем в отдельный файл и продолжаем
             skip_file.write(f"Line {line_number} skipped. Exception: {e}\n{line}\n{'-'*50}\n")
 
         if line_number % LOG_EVERY == 0:
