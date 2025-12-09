@@ -10,7 +10,7 @@ OUTPUT_JSON = "reports/full_deep_analysis.json"
 OUTPUT_TXT  = "reports/full_deep_analysis.txt"
 HASH_FILE   = "reports/seen_hashes.txt"
 CHUNK_LINES = 10000  # строки за один блок
-LOG_INTERVAL = 500  # строки для логов
+LOG_INTERVAL = 1  # строки для логов
 
 os.makedirs("reports", exist_ok=True)
 
