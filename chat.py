@@ -1,4 +1,4 @@
-import re2 as re  # используем RE2 вместо стандартного re
+import re2 as re  
 import os
 
 INPUT_FILE = "bigdump.txt"
