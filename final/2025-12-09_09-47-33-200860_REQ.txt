@@ -1,0 +1,21 @@
+[2025-12-09_09-47-33-200860] HTTP REQUEST
+URL: https://cs2run.app/support-chat/message/create
+Method: POST
+
+Headers:
+accept: application/json, text/plain, */*
+content-type: application/json
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-dest: empty
+content-length: 75
+sec-fetch-mode: cors
+accept-language: ru
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTg2ODYxLCJpYXQiOjE3NjUyNTE2NDksImV4cCI6MTc2NjExNTY0OX0.WRJ9VR50RRGSNShVNRlTAz4ls0r6-ZgaUNDxENZv5bQ
+referer: https://csgoih.run/
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+{"uuid":"2fc55d82-ff02-42e0-b117-2be5f4941279","text":"Ку","attaches":[]}

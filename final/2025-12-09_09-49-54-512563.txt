@@ -1,0 +1,66 @@
+[2025-12-09_09-49-54-512563] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 755
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a2262657455706461746564222c22626574223a7b226964223a3639383635323930302c2267616d654964223a363235343836382c22737461747573223a322c22636f656666696369656e744175746f223a312e30322c2263757272656e63794964223a322c22636f656666696369656e74223a312e30322c226465706f736974223a7b22616d6f756e74223a302e38362c2277616c6c6574416d6f756e74223a302e38362c226974656d73223a5b7b226964223a313433313330383837382c226974656d4964223a313433313330383837382c226e616d65223a22496e7363726962656420536b656c6574616c20436c6177206f66207468652056616e64616c222c22636f6c6f724964223a32302c2267616d654964223a3537302c2272657365727665644964223a32323030367d5d7d2c227769746864726177223a7b22616d6f756e74223a302e383737323030303037343338363539372c226974656d73223a5b7b226964223a223631323334222c226974656d4964223a223631323334222c226e616d65223a22537461745472616be284a220503930207c205761766520427265616b6572202857656c6c2d576f726e29222c22636f6c6f724964223a2233222c2267616d654964223a22373330222c2272657365727665644964223a223237373735227d5d7d2c2275736572223a7b226964223a313130373435312c226e616d65223a22537570657268616173222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f39612f396165326566346135636633353864336163343762623633356562653530636432363930663061345f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6ImJldFVwZGF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1MjkwMCwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS4wMiwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuMDIsImRlcG9zaXQiOnsiYW1vdW50IjowLjg2LCJ3YWxsZXRBbW91bnQiOjAuODYsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODg3OCwiaXRlbUlkIjoxNDMxMzA4ODc4LCJuYW1lIjoiSW5zY3JpYmVkIFNrZWxldGFsIENsYXcgb2YgdGhlIFZhbmRhbCIsImNvbG9ySWQiOjIwLCJnYW1lSWQiOjU3MCwicmVzZXJ2ZWRJZCI6MjIwMDZ9XX0sIndpdGhkcmF3Ijp7ImFtb3VudCI6MC44NzcyMDAwMDc0Mzg2NTk3LCJpdGVtcyI6W3siaWQiOiI2MTIzNCIsIml0ZW1JZCI6IjYxMjM0IiwibmFtZSI6IlN0YXRUcmFr4oSiIFA5MCB8IFdhdmUgQnJlYWtlciAoV2VsbC1Xb3JuKSIsImNvbG9ySWQiOiIzIiwiZ2FtZUlkIjoiNzMwIiwicmVzZXJ2ZWRJZCI6IjI3Nzc1In1dfSwidXNlciI6eyJpZCI6MTEwNzQ1MSwibmFtZSI6IlN1cGVyaGFhcyIsImF2YXRhciI6Imh0dHBzOi8vc3RlYW1jZG4tYS5ha2FtYWloZC5uZXQvc3RlYW1jb21tdW5pdHkvcHVibGljL2ltYWdlcy9hdmF0YXJzLzlhLzlhZTJlZjRhNWNmMzU4ZDNhYzQ3YmI2MzVlYmU1MGNkMjY5MGYwYTRfbWVkaXVtLmpwZyJ9LCJsaWtlcyI6MCwic2hvd0xpa2UiOmZhbHNlfX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"betUpdated","bet":{"id":698652900,"gameId":6254868,"status":2,"coefficientAuto":1.02,"currencyId":2,"coefficient":1.02,"deposit":{"amount":0.86,"walletAmount":0.86,"items":[{"id":1431308878,"itemId":1431308878,"name":"Inscribed Skeletal Claw of the Vandal","colorId":20,"gameId":570,"reservedId":22006}]},"withdraw":{"amount":0.8772000074386597,"items":[{"id":"61234","itemId":"61234","name":"StatTrak™ P90 | Wave Breaker (Well-Worn)","colorId":"3","gameId":"730","reservedId":"27775"}]},"user":{"id":1107451,"name":"Superhaas","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9a/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "betUpdated",
+                "bet": {
+                    "id": 698652900,
+                    "gameId": 6254868,
+                    "status": 2,
+                    "coefficientAuto": 1.02,
+                    "currencyId": 2,
+                    "coefficient": 1.02,
+                    "deposit": {
+                        "amount": 0.86,
+                        "walletAmount": 0.86,
+                        "items": [
+                            {
+                                "id": 1431308878,
+                                "itemId": 1431308878,
+                                "name": "Inscribed Skeletal Claw of the Vandal",
+                                "colorId": 20,
+                                "gameId": 570,
+                                "reservedId": 22006
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 0.8772000074386597,
+                        "items": [
+                            {
+                                "id": "61234",
+                                "itemId": "61234",
+                                "name": "StatTrak™ P90 | Wave Breaker (Well-Worn)",
+                                "colorId": "3",
+                                "gameId": "730",
+                                "reservedId": "27775"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 1107451,
+                        "name": "Superhaas",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9a/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

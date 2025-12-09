@@ -1,0 +1,20 @@
+[2025-12-09_09-47-36-296993] HTTP REQUEST
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=10&wv-type=6&wmode=0&wv-hit=782855324&page-url=https%3A%2F%2Fcsgoih.run%2Fdouble&rn=637502483&browser-info=we%3A1%3Aet%3A1765251878%3Aw%3A414x375%3Av%3A2292%3Az%3A360%3Ai%3A20251209094438%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251898&t=gdpr(14)ti(1)
+Method: POST
+
+Headers:
+accept: */*
+content-type: text/plain
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 919
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+[{"type":"event","data":{"value":"Ð","hidden":false,"target":4117},"stamp":44412,"frameId":0,"event":"change"},{"type":"event","data":{"value":"ÐÑ","hidden":false,"target":4117},"stamp":44590,"frameId":0,"event":"change"},{"type":"event","data":{"value":"ÐÑ ","hidden":false,"target":4117},"stamp":44752,"frameId":0,"event":"change"},{"type":"event","data":{"value":"ÐÑ Ðº","hidden":false,"target":4117},"stamp":44840,"frameId":0,"event":"change"},{"type":"event","data":{"value":"ÐÑ ÐºÑ","hidden":false,"target":4117},"stamp":45026,"frameId":0,"event":"change"},{"type":"event","data":{"x":372,"y":332,"target":4122},"stamp":45193,"frameId":0,"event":"click"},{"type":"event","data":{"formId":4115,"filledDomNodes":[4117]},"stamp":45209,"frameId":0,"event":"submit"},{"type":"event","data":{"value":"","hidden":false,"target":4117},"stamp":45214,"frameId":0,"event":"change"},{"type":"activity","data":3254}]

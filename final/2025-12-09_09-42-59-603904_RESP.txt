@@ -1,0 +1,16 @@
+[2025-12-09_09-42-59-603904] HTTP RESPONSE
+URL: https://login.steampowered.com/jwt/refresh?redir=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin%3Fopenid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.realm%3Dhttps%253A%252F%252Fcs2run.app%26openid.return_to%3Dhttps%253A%252F%252Fcs2run.app%252Fauth%252F1%252Fstart-sign-in%252F%253FreturnUrl%253Dhttps%253A%252F%252Fcsgoih.run%252Fauth
+Status: 302
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-59-603904.html
+
+Headers:
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Location: https://steamcommunity.com/openid/login?openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.realm=https%3A%2F%2Fcs2run.app&openid.return_to=https%3A%2F%2Fcs2run.app%2Fauth%2F1%2Fstart-sign-in%2F%3FreturnUrl%3Dhttps%3A%2F%2Fcsgoih.run%2Fauth
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Content-Length: 0
+Date: Tue, 09 Dec 2025 03:40:21 GMT
+Connection: keep-alive
+Set-Cookie: ak_bmsc=22308E1634C33AFCAE39EF03C03D7A11~000000000000000000000000000000~YAAQBroXAp6CsaSaAQAAByMyAR41IAM6bLPooKqF3nWZg6vgvvyp/X2hlecTC321Zkn3nJ1bot5GGrW0M36CIypyZ4RBC0gagDHIOZdvoX9BUEkI5rdl/GhzpCQyTas80oql32HHZmzRwJjbj6h4ohdwsEjC8o75t2tH479+6mR/num4nnrCtFhaGRsqt4cm6P6au+bXM61gROg1PKDA/dQr+/X1pPTpFR3WH43gbIZD09j0+goPdW83D//xGDb0q11VKmyTlA70tk8pRsqsvJm8jwfhoju2VVbxWR7fPu3s/G+iEOx9UJSR4p0CMBihKESA4galYJ9di35wQ/bDzwVnhtOYp69XmZeaLToHcjC+4aM8JLQAEVj6TSKck4B0gWI+yo87H78i; Domain=.steampowered.com; Path=/; Expires=Tue, 09 Dec 2025 05:40:21 GMT; Max-Age=7200; HttpOnly
+
+(Body saved separately)

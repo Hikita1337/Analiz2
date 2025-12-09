@@ -1,0 +1,38 @@
+[2025-12-09_09-47-15-682609] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 276
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a632d7275222c22707562223a7b2264617461223a7b2261223a226e6577222c2270223a7b2269223a39373730332c2263223a22d09ad18320d0bad183222c2274223a2230333a3434222c2275223a7b2269223a3138363836312c226e223a22e282a1e282b3d0a5e282b3e282b1c7bee282ad222c2261223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f633462643062616537303263343163643766343638376635336438633932386331316537656236655f6d656469756d2e6a7067222c2272223a312c2276223a66616c73652c2272756e70617373223a307d2c2274797065223a317d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmMtcnUiLCJwdWIiOnsiZGF0YSI6eyJhIjoibmV3IiwicCI6eyJpIjo5NzcwMywiYyI6ItCa0YMg0LrRgyIsInQiOiIwMzo0NCIsInUiOnsiaSI6MTg2ODYxLCJuIjoi4oKh4oKz0KXigrPigrHHvuKCrSIsImEiOiJodHRwczovL2F2YXRhcnMuc3RlYW1zdGF0aWMuY29tL2M0YmQwYmFlNzAyYzQxY2Q3ZjQ2ODdmNTNkOGM5MjhjMTFlN2ViNmVfbWVkaXVtLmpwZyIsInIiOjEsInYiOmZhbHNlLCJydW5wYXNzIjowfSwidHlwZSI6MX19fX19
+
+UTF‑8:
+{"push":{"channel":"csgorun:c-ru","pub":{"data":{"a":"new","p":{"i":97703,"c":"Ку ку","t":"03:44","u":{"i":186861,"n":"₡₳Х₳₱Ǿ₭","a":"https://avatars.steamstatic.com/c4bd0bae702c41cd7f4687f53d8c928c11e7eb6e_medium.jpg","r":1,"v":false,"runpass":0},"type":1}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:c-ru",
+        "pub": {
+            "data": {
+                "a": "new",
+                "p": {
+                    "i": 97703,
+                    "c": "Ку ку",
+                    "t": "03:44",
+                    "u": {
+                        "i": 186861,
+                        "n": "₡₳Х₳₱Ǿ₭",
+                        "a": "https://avatars.steamstatic.com/c4bd0bae702c41cd7f4687f53d8c928c11e7eb6e_medium.jpg",
+                        "r": 1,
+                        "v": false,
+                        "runpass": 0
+                    },
+                    "type": 1
+                }
+            }
+        }
+    }
+}

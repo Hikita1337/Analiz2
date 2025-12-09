@@ -1,0 +1,20 @@
+[2025-12-09_09-44-00-590408] HTTP RESPONSE
+URL: https://csgoih.run/img/case-tournaments/case-tournaments-banner-mob.webp
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-00-590408.webp
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=sak4OxoaYZDjGo3v; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:01:22 GMT, __ddg10_=1765251682; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:01:22 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:01:22 GMT
+date: Tue, 09 Dec 2025 03:41:22 GMT
+content-type: image/webp
+content-length: 37270
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 454b4b5b7cc2da4bb66a42ff20a500cf
+etag: "69371c4f-9196"
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

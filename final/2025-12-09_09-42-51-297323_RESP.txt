@@ -1,0 +1,21 @@
+[2025-12-09_09-42-51-297323] HTTP RESPONSE
+URL: https://csgoih.run/assets/index-f0f04576.js
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-51-297323.js
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=btMipm9lopsEVgwC; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT, __ddg10_=1765251613; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:00:13 GMT
+date: Tue, 09 Dec 2025 03:40:13 GMT
+content-type: application/javascript
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:32 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 8154bf1dc4151784f1dcdf3ad1ae08a4
+content-encoding: br
+etag: "69371c54-5d9e6c"
+age: 0
+content-length: 1470798
+ddg-cache-status: MISS
+
+(Body saved separately)

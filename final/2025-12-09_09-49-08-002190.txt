@@ -1,0 +1,44 @@
+[2025-12-09_09-49-08-002190] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 394
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a226e657742657473222c2262657473223a5b7b226964223a3133333538343731342c226e756d626572223a322c22737461747573223a312c226465706f736974223a312e323230303030303238363130323239352c2277616c6c65744465706f736974223a312e32322c2263757272656e63794964223a322c227769746864726177223a6e756c6c2c2277616c6c65745769746864726177223a6e756c6c2c2275736572223a7b226964223a333234373936392c226e616d65223a224d6f6e6579222c22617661746172223a2268747470733a2f2f617661746172732e737465616d7374617469632e636f6d2f376263646634396339306462666536333839666131313439633338316664616631346166343934395f6d656469756d2e6a7067222c22626c6d223a66616c73657d2c226974656d73223a5b5d2c226974656d73436f756e74223a307d5d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6Im5ld0JldHMiLCJiZXRzIjpbeyJpZCI6MTMzNTg0NzE0LCJudW1iZXIiOjIsInN0YXR1cyI6MSwiZGVwb3NpdCI6MS4yMjAwMDAwMjg2MTAyMjk1LCJ3YWxsZXREZXBvc2l0IjoxLjIyLCJjdXJyZW5jeUlkIjoyLCJ3aXRoZHJhdyI6bnVsbCwid2FsbGV0V2l0aGRyYXciOm51bGwsInVzZXIiOnsiaWQiOjMyNDc5NjksIm5hbWUiOiJNb25leSIsImF2YXRhciI6Imh0dHBzOi8vYXZhdGFycy5zdGVhbXN0YXRpYy5jb20vN2JjZGY0OWM5MGRiZmU2Mzg5ZmExMTQ5YzM4MWZkYWYxNGFmNDk0OV9tZWRpdW0uanBnIiwiYmxtIjpmYWxzZX0sIml0ZW1zIjpbXSwiaXRlbXNDb3VudCI6MH1dfX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"newBets","bets":[{"id":133584714,"number":2,"status":1,"deposit":1.2200000286102295,"walletDeposit":1.22,"currencyId":2,"withdraw":null,"walletWithdraw":null,"user":{"id":3247969,"name":"Money","avatar":"https://avatars.steamstatic.com/7bcdf49c90dbfe6389fa1149c381fdaf14af4949_medium.jpg","blm":false},"items":[],"itemsCount":0}]}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "newBets",
+                "bets": [
+                    {
+                        "id": 133584714,
+                        "number": 2,
+                        "status": 1,
+                        "deposit": 1.2200000286102295,
+                        "walletDeposit": 1.22,
+                        "currencyId": 2,
+                        "withdraw": null,
+                        "walletWithdraw": null,
+                        "user": {
+                            "id": 3247969,
+                            "name": "Money",
+                            "avatar": "https://avatars.steamstatic.com/7bcdf49c90dbfe6389fa1149c381fdaf14af4949_medium.jpg",
+                            "blm": false
+                        },
+                        "items": [],
+                        "itemsCount": 0
+                    }
+                ]
+            }
+        }
+    }
+}

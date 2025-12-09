@@ -1,0 +1,19 @@
+[2025-12-09_09-44-33-351787] HTTP RESPONSE
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=10&wv-type=6&wmode=0&wv-hit=498839795&page-url=https%3A%2F%2Fcsgoih.run%2Fcrash%2F6254856&rn=977329190&browser-info=bt%3A1%3Awe%3A1%3Aet%3A1765251669%3Aw%3A414x696%3Av%3A2292%3Az%3A360%3Ai%3A20251209094108%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251715&t=gdpr(14)ti(1)
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-33-351787.bin
+
+Headers:
+content-length: 43
+strict-transport-security: max-age=31536000
+access-control-allow-origin: https://csgoih.run
+x-xss-protection: 1; mode=block
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+last-modified: Tue, 09-Dec-2025 03:41:55 GMT
+set-cookie: bh=YIO13skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:41:55 GMT
+content-type: image/gif
+expires: Tue, 09-Dec-2025 03:41:55 GMT
+pragma: no-cache
+access-control-allow-credentials: true
+
+(Body saved separately)

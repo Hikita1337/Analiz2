@@ -1,0 +1,21 @@
+[2025-12-09_09-44-49-039716] HTTP RESPONSE
+URL: https://csgoih.run/img/payment-methods/t-bank.svg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-49-039716.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=CrjKRnuMH0kkSQ8M; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:10 GMT, __ddg10_=1765251730; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:10 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:10 GMT
+date: Tue, 09 Dec 2025 03:42:11 GMT
+content-type: image/svg+xml
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 878f42217065f884cfc6e1e9bf0440fb
+content-encoding: br
+etag: "69371c4f-a58"
+age: 1
+content-length: 1227
+ddg-cache-status: MISS
+
+(Body saved separately)

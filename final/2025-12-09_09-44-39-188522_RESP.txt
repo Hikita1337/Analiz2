@@ -1,0 +1,21 @@
+[2025-12-09_09-44-39-188522] HTTP RESPONSE
+URL: https://csgoih.run/svg/key.svg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-39-188522.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=o2U6DAWmeDqDIRrh; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:01 GMT, __ddg10_=1765251721; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:01 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:01 GMT
+date: Tue, 09 Dec 2025 03:42:01 GMT
+content-type: image/svg+xml
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 96e5606b0d05da1240d1bbe279dcafa3
+content-encoding: br
+etag: "69371c4f-686"
+age: 0
+content-length: 826
+ddg-cache-status: MISS
+
+(Body saved separately)

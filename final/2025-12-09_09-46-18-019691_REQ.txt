@@ -1,0 +1,20 @@
+[2025-12-09_09-46-18-019691] HTTP REQUEST
+URL: https://api2.amplitude.com/2/httpapi
+Method: POST
+
+Headers:
+accept: */*
+content-type: application/json
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 1082
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+{"api_key":"37151ae3930236661a8b1c80a384c288","events":[{"device_id":"ae5089b2-6c9a-4f68-9731-95f08491b544","session_id":1765251614159,"time":1765251819030,"platform":"Web","language":"ru","ip":"$remote","insert_id":"ad75fbc1-0cf0-4b7d-b12f-cfd170d3b4ea","event_type":"[Amplitude] Page Viewed","event_properties":{"referrer":"https://steamcommunity.com/","referring_domain":"steamcommunity.com","[Amplitude] Page Domain":"csgoih.run","[Amplitude] Page Location":"https://csgoih.run/crash","[Amplitude] Page Path":"/crash","[Amplitude] Page Title":"Ставки на КС 2 и Дота 2: ставки на киберспорт, коэффициенты на матчи CS 2 и Dota 2","[Amplitude] Page URL":"https://csgoih.run/crash","[Amplitude] Page Counter":18},"event_id":27,"library":"amplitude-ts/2.20.1","user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1"}],"options":{},"client_upload_time":"2025-12-09T03:43:40.031Z","request_metadata":{"sdk":{"metrics":{"histogram":{}}}}}

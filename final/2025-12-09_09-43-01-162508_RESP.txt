@@ -1,0 +1,18 @@
+[2025-12-09_09-43-01-162508] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/shared/javascript/crypto/rsa.js
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-162508.bin
+
+Headers:
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+cache-control: public,max-age=894,must-revalidate
+etag: "qk9fEPGknjOt"
+expires: Mon, 24 Nov 2025 00:46:10 GMT
+age: 54
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1765251623.149799,VS0,VE2
+
+(Body saved separately)

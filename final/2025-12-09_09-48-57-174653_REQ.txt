@@ -1,0 +1,20 @@
+[2025-12-09_09-48-57-174653] HTTP REQUEST
+URL: https://mc.yandex.ru/webvisor/94742085?wv-part=23&wv-type=6&wmode=0&wv-hit=782855324&page-url=https%3A%2F%2Fcsgoih.run%2Fdouble&rn=735220297&browser-info=we%3A1%3Aet%3A1765251979%3Aw%3A414x696%3Av%3A2292%3Az%3A360%3Ai%3A20251209094619%3Au%3A1765251615122050168%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Ast%3A1765251979&t=gdpr(14)ti(1)
+Method: POST
+
+Headers:
+accept: */*
+content-type: text/plain
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+content-length: 1963
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:
+[{"type":"event","data":{"touches":[{"id":"58ec7698-819d-3e27-0a2c-ffb60ddeb1a9","x":397,"y":30,"force":0}],"target":164},"stamp":145364,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"58ec7698-819d-3e27-0a2c-ffb60ddeb1a9","x":397,"y":30,"force":0}],"target":164},"stamp":145412,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":398,"y":30,"target":164},"stamp":145415,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":398,"y":30,"target":164},"stamp":145417,"frameId":0,"event":"mousedown"},{"type":"event","data":{"x":398,"y":30,"target":164},"stamp":145420,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":398,"y":30,"target":164},"stamp":145421,"frameId":0,"event":"click"},{"type":"event","data":{"target":7035},"stamp":145483,"frameId":0,"event":"focus"},{"type":"event","data":{"x":398,"y":30,"target":164},"stamp":145543,"frameId":0,"event":"mousemove"},{"type":"event","data":{"touches":[{"id":"cc39dcdf-ba33-dfcd-80c5-da2f5a8c9f1b","x":347,"y":97,"force":0}],"target":7070},"stamp":145880,"frameId":0,"event":"touchstart"},{"type":"event","data":{"touches":[{"id":"cc39dcdf-ba33-dfcd-80c5-da2f5a8c9f1b","x":347,"y":97,"force":0}],"target":7070},"stamp":145944,"frameId":0,"event":"touchend"},{"type":"event","data":{"x":347,"y":97,"target":7070},"stamp":145947,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":347,"y":97,"target":7070},"stamp":146047,"frameId":0,"event":"mousemove"},{"type":"event","data":{"x":347,"y":97,"target":7070},"stamp":146048,"frameId":0,"event":"mousedown"},{"type":"event","data":{"target":7035},"stamp":146050,"frameId":0,"event":"blur"},{"type":"event","data":{"target":7042},"stamp":146050,"frameId":0,"event":"focus"},{"type":"event","data":{"x":347,"y":97,"target":7070},"stamp":146051,"frameId":0,"event":"mouseup"},{"type":"event","data":{"x":347,"y":97,"target":7070},"stamp":146052,"frameId":0,"event":"click"},{"type":"activity","data":11609}]

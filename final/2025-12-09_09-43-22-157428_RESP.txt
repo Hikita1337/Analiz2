@@ -1,0 +1,18 @@
+[2025-12-09_09-43-22-157428] HTTP RESPONSE
+URL: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261550/ss_1ab88f5c0198a16f75db23af8477811c0996b864.600x338.jpg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-22-157428.jpg
+
+Headers:
+server: nginx
+content-type: image/jpeg
+content-length: 112021
+last-modified: Tue, 25 Oct 2022 18:11:33 GMT
+etag: "635826d5-1b595"
+access-control-allow-origin: *
+accept-ranges: bytes
+cache-control: public, max-age=309853864
+expires: Thu, 04 Oct 2035 10:11:48 GMT
+date: Tue, 09 Dec 2025 03:40:44 GMT
+
+(Body saved separately)

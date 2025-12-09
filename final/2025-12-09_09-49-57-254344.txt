@@ -1,0 +1,66 @@
+[2025-12-09_09-49-57-254344] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 733
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a2262657455706461746564222c22626574223a7b226964223a3639383635323839362c2267616d654964223a363235343836382c22737461747573223a322c22636f656666696369656e744175746f223a312e32312c2263757272656e63794964223a322c22636f656666696369656e74223a312e32312c226465706f736974223a7b22616d6f756e74223a312e37382c2277616c6c6574416d6f756e74223a312e37382c226974656d73223a5b7b226964223a313433313330383837342c226974656d4964223a313433313330383837342c226e616d65223a224d41432d3130207c204c61737420446976652028426174746c652d5363617272656429222c22636f6c6f724964223a332c2267616d654964223a3733302c2272657365727665644964223a323239327d5d7d2c227769746864726177223a7b22616d6f756e74223a322e313533383030303130363831313532332c226974656d73223a5b7b226964223a223533353436222c226974656d4964223a223533353436222c226e616d65223a22537469636b6572207c2053616c74792028486f6c6f29222c22636f6c6f724964223a2233222c2267616d654964223a22373330222c2272657365727665644964223a223230323332227d5d7d2c2275736572223a7b226964223a3934333534332c226e616d65223a22537570657267757934323331222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f39312f393133303734346463666437636333663366633463666666353031343561666638373335356231315f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6ImJldFVwZGF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1Mjg5NiwiZ2FtZUlkIjo2MjU0ODY4LCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS4yMSwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuMjEsImRlcG9zaXQiOnsiYW1vdW50IjoxLjc4LCJ3YWxsZXRBbW91bnQiOjEuNzgsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODg3NCwiaXRlbUlkIjoxNDMxMzA4ODc0LCJuYW1lIjoiTUFDLTEwIHwgTGFzdCBEaXZlIChCYXR0bGUtU2NhcnJlZCkiLCJjb2xvcklkIjozLCJnYW1lSWQiOjczMCwicmVzZXJ2ZWRJZCI6MjI5Mn1dfSwid2l0aGRyYXciOnsiYW1vdW50IjoyLjE1MzgwMDAxMDY4MTE1MjMsIml0ZW1zIjpbeyJpZCI6IjUzNTQ2IiwiaXRlbUlkIjoiNTM1NDYiLCJuYW1lIjoiU3RpY2tlciB8IFNhbHR5IChIb2xvKSIsImNvbG9ySWQiOiIzIiwiZ2FtZUlkIjoiNzMwIiwicmVzZXJ2ZWRJZCI6IjIwMjMyIn1dfSwidXNlciI6eyJpZCI6OTQzNTQzLCJuYW1lIjoiU3VwZXJndXk0MjMxIiwiYXZhdGFyIjoiaHR0cHM6Ly9zdGVhbWNkbi1hLmFrYW1haWhkLm5ldC9zdGVhbWNvbW11bml0eS9wdWJsaWMvaW1hZ2VzL2F2YXRhcnMvOTEvOTEzMDc0NGRjZmQ3Y2MzZjNmYzRjZmZmNTAxNDVhZmY4NzM1NWIxMV9tZWRpdW0uanBnIn0sImxpa2VzIjowLCJzaG93TGlrZSI6ZmFsc2V9fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"betUpdated","bet":{"id":698652896,"gameId":6254868,"status":2,"coefficientAuto":1.21,"currencyId":2,"coefficient":1.21,"deposit":{"amount":1.78,"walletAmount":1.78,"items":[{"id":1431308874,"itemId":1431308874,"name":"MAC-10 | Last Dive (Battle-Scarred)","colorId":3,"gameId":730,"reservedId":2292}]},"withdraw":{"amount":2.1538000106811523,"items":[{"id":"53546","itemId":"53546","name":"Sticker | Salty (Holo)","colorId":"3","gameId":"730","reservedId":"20232"}]},"user":{"id":943543,"name":"Superguy4231","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "betUpdated",
+                "bet": {
+                    "id": 698652896,
+                    "gameId": 6254868,
+                    "status": 2,
+                    "coefficientAuto": 1.21,
+                    "currencyId": 2,
+                    "coefficient": 1.21,
+                    "deposit": {
+                        "amount": 1.78,
+                        "walletAmount": 1.78,
+                        "items": [
+                            {
+                                "id": 1431308874,
+                                "itemId": 1431308874,
+                                "name": "MAC-10 | Last Dive (Battle-Scarred)",
+                                "colorId": 3,
+                                "gameId": 730,
+                                "reservedId": 2292
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 2.1538000106811523,
+                        "items": [
+                            {
+                                "id": "53546",
+                                "itemId": "53546",
+                                "name": "Sticker | Salty (Holo)",
+                                "colorId": "3",
+                                "gameId": "730",
+                                "reservedId": "20232"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 943543,
+                        "name": "Superguy4231",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

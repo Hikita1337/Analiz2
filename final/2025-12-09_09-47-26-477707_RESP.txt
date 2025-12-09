@@ -1,0 +1,24 @@
+[2025-12-09_09-47-26-477707] HTTP RESPONSE
+URL: https://cloud.this.team/csgorun-stickers/29/5ca75e4b-e67d-468f-91d8-31e095c0ea9b.png
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-47-26-477707.png
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=GhTyi00dqLy6DXK8; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:04:48 GMT, __ddg10_=1765251888; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:04:48 GMT, __ddg9_=188.232.100.139; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:04:48 GMT, __ddg1_=1UmWyie3FxomulFbw2Wz; Domain=.this.team; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:44:48 GMT
+content-security-policy: upgrade-insecure-requests;
+content-length: 179222
+accept-ranges: bytes
+last-modified: Wed, 30 Apr 2025 14:33:14 GMT
+x-rgw-object-type: Normal
+x-amz-request-id: tx000002792251d393d3d44-0069378db6-1846aa512-fra1b
+content-type: image/png
+date: Tue, 09 Dec 2025 02:47:18 GMT
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+x-do-cdn-uuid: bfde7bd0-6393-426c-9ccd-b2c8865bc9da
+cache-control: max-age=3600
+age: 3450
+ddg-cache-status: HIT
+
+(Body saved separately)

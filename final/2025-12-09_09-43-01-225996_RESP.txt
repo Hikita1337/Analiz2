@@ -1,0 +1,23 @@
+[2025-12-09_09-43-01-225996] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/javascript/applications/community/localization/main_english-json.js?contenthash=4486d85603a602ff2929
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-225996.js
+
+Headers:
+server: nginx
+content-type: text/javascript;charset=UTF-8
+last-modified: Fri, 05 Dec 2025 21:28:50 GMT
+etag: "QfG7es_WJ-No"
+cache-control: public,max-age=259200,must-revalidate
+expires: Mon, 08 Dec 2025 23:57:43 GMT
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+age: 13358
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: MISS, HIT
+x-cache-hits: 786
+x-timer: S1765251623.150851,VS0,VE0
+content-length: 271357
+
+(Body saved separately)

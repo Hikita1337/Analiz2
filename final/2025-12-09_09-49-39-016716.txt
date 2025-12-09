@@ -1,0 +1,26 @@
+[2025-12-09_09-49-39-016716] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 94
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a226372617368222c226964223a363235343836372c226372617368223a372e36357d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6ImNyYXNoIiwiaWQiOjYyNTQ4NjcsImNyYXNoIjo3LjY1fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"crash","id":6254867,"crash":7.65}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "crash",
+                "id": 6254867,
+                "crash": 7.65
+            }
+        }
+    }
+}

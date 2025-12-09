@@ -1,0 +1,20 @@
+[2025-12-09_09-44-57-671856] HTTP RESPONSE
+URL: https://csgoih.run/img/payment-methods/promsviaz-mini.svg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-57-671856.bin
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=PQGzghLXOZiFNMbH; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT, __ddg10_=1765251739; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT
+date: Tue, 09 Dec 2025 03:42:19 GMT
+content-type: image/svg+xml
+vary: Accept-Encoding
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+etag: W/"69371c4f-102"
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: b26a896ca5618444b0fa39564288e47d
+content-encoding: br
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

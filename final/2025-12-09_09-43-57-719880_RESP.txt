@@ -1,0 +1,20 @@
+[2025-12-09_09-43-57-719880] HTTP RESPONSE
+URL: https://cs2run.app/profile/withdraws?page=1
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-57-719880.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=UHK8D65Hj5AAnhWj; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:19 GMT, __ddg10_=1765251679; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:19 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:01:19 GMT, __ddg1_=Mtg8Vp7RmbEEWkEHTV3W; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:41:19 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:41:19 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"1b38-kC8rZbyCQVczpnr+0xCzPup1UWY"
+content-encoding: br
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: b27968067e7d96985a090c42d4d09bbc
+
+(Body saved separately)

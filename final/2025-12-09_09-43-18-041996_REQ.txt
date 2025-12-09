@@ -1,0 +1,20 @@
+[2025-12-09_09-43-18-041996] HTTP REQUEST
+URL: https://store.steampowered.com/dynamicstore/saledata/?cc=RU
+Method: GET
+
+Headers:
+Host: store.steampowered.com
+X-Requested-With: XMLHttpRequest
+Sec-Fetch-Site: same-origin
+If-Modified-Since: Wed, 26 Nov 2025 07:10:00 GMT
+Accept-Language: ru
+Accept-Encoding: gzip, deflate, br
+Sec-Fetch-Mode: cors
+Accept: */*
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Referer: https://store.steampowered.com/
+Connection: keep-alive
+Cookie: steamCountry=RU%7Cf36ecc7770e494c147cf470f3b1b5545; timezoneOffset=21600,0; Steam_Language=russian; mobileClient=ios; mobileClientVersion=777777 3.10.5; sessionid=per9ubwa8kjzaiefvw8xx7u2; cookieSettings=%7B%22version%22%3A1%2C%22preference_state%22%3A1%2C%22content_customization%22%3Anull%2C%22valve_analytics%22%3Anull%2C%22third_party_analytics%22%3Anull%2C%22third_party_content%22%3Anull%2C%22utm_enabled%22%3Atrue%7D; browserid=463424392888717810
+Sec-Fetch-Dest: empty
+
+Body:

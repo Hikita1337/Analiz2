@@ -1,0 +1,19 @@
+[2025-12-09_09-43-22-171441] HTTP REQUEST
+URL: https://steamcommunity.com/openid/login?openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.realm=https%3A%2F%2Fcs2run.app&openid.return_to=https%3A%2F%2Fcs2run.app%2Fauth%2F1%2Fstart-sign-in%2F%3FreturnUrl%3Dhttps%3A%2F%2Fcsgoih.run%2Fauth
+Method: GET
+
+Headers:
+Host: steamcommunity.com
+Sec-Fetch-Dest: document
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: https://steamcommunity.com/openid/loginform/?goto=%2Fopenid%2Flogin%3Fopenid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.realm%3Dhttps%253A%252F%252Fcs2run.app%26openid.return_to%3Dhttps%253A%252F%252Fcs2run.app%252Fauth%252F1%252Fstart-sign-in%252F%253FreturnUrl%253Dhttps%253A%252F%252Fcsgoih.run%252Fauth
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Accept-Language: ru
+Priority: u=0, i
+Accept-Encoding: gzip, deflate, br
+Cookie: steamLoginSecure=76561198973038082%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAxMV8yNzU5MUIxRF9BQjg5NyIsICJzdWIiOiAiNzY1NjExOTg5NzMwMzgwODIiLCAiYXVkIjogWyAid2ViOmNvbW11bml0eSIgXSwgImV4cCI6IDE3NjUzMzkyNDksICJuYmYiOiAxNzU2NjExNjQzLCAiaWF0IjogMTc2NTI1MTY0MywgImp0aSI6ICIwMDA1XzI3NTkxQjFGXzI4QTM5IiwgIm9hdCI6IDE3NjUyNTE2NDIsICJydF9leHAiOiAxNzgzNTQxOTc0LCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTg4LjIzMi4xMDAuMTM5IiwgImlwX2NvbmZpcm1lciI6ICIxODguMjMyLjEwMC4xMzkiIH0.ZEjLlJqs_szMo212UAah2zZeCCo7WKUpnRuXSxrnKd1MRKDaeUhgT6KRCMs73K7TWcf9l8epqkQrlXzaKGV0AA; strResponsiveViewPrefs=touch; timezoneOffset=21600,0; steamCountry=RU%7Cf36ecc7770e494c147cf470f3b1b5545; sessionid=42a47cec94bd52b1413536a1; cookieSettings=%7B%22version%22%3A1%2C%22preference_state%22%3A1%2C%22content_customization%22%3Anull%2C%22valve_analytics%22%3Anull%2C%22third_party_analytics%22%3Anull%2C%22third_party_content%22%3Anull%2C%22utm_enabled%22%3Atrue%7D; browserid=97506923163971913
+Connection: keep-alive
+
+Body:

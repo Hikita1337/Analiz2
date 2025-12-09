@@ -1,0 +1,17 @@
+[2025-12-09_09-43-35-191774] HTTP REQUEST
+URL: https://mc.yandex.ru/clmap/94742085?page-url=https%3A%2F%2Fcsgoih.run%2Fcrash&pointer-click=rn%3A57286464%3Ax%3A44782%3Ay%3A18022%3At%3A84%3Ap%3A%3F2A2A1AA1AAAA1A1%3AX%3A369%3AY%3A523&browser-info=u%3A1765251615122050168%3Av%3A2292%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Arqnl%3A1%3Ast%3A1765251657&t=gdpr(14)ti(1)
+Method: GET
+
+Headers:
+accept: */*
+sec-fetch-site: cross-site
+origin: https://csgoih.run
+sec-fetch-mode: cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+referer: https://csgoih.run/
+sec-fetch-dest: empty
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+
+Body:

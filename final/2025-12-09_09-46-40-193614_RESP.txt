@@ -1,0 +1,25 @@
+[2025-12-09_09-46-40-193614] HTTP RESPONSE
+URL: https://avatars.steamstatic.com/4d60d1f53cf7a13e62352c50f1e60f8c746fcd8f_medium.jpg
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-46-40-193614.jpg
+
+Headers:
+server: nginx
+content-type: image/jpeg
+content-md5: 8Z2nIrFJHOZwsRDdDIadTg==
+last-modified: Tue, 17 Jun 2025 17:52:24 GMT
+etag: "0x8DDADC7B7590FC3"
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+cache-control: max-age=315360000, public
+access-control-allow-origin: *
+accept-ranges: bytes
+age: 431405
+date: Tue, 09 Dec 2025 03:44:02 GMT
+via: 1.1 varnish
+x-served-by: cache-hel1410027-HEL
+x-cache: MISS, HIT
+x-cache-hits: 0
+x-timer: S1765251842.228381,VS0,VE1
+content-length: 3275
+
+(Body saved separately)

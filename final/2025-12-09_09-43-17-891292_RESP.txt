@@ -1,0 +1,15 @@
+[2025-12-09_09-43-17-891292] HTTP RESPONSE
+URL: https://store.akamai.steamstatic.com/public/css/v6/creator_hub.css?v=W3_oCd4QrKak&l=russian&_cdn=akamai
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-17-891292.css
+
+Headers:
+Content-Type: text/css;charset=UTF-8
+Last-Modified: Sun, 09 Sep 2001 01:46:40 GMT
+ETag: "W3_oCd4QrKak"
+Cache-Control: public, max-age=2391314
+Expires: Mon, 05 Jan 2026 19:55:53 GMT
+Date: Tue, 09 Dec 2025 03:40:39 GMT
+Connection: keep-alive
+
+(Body saved separately)

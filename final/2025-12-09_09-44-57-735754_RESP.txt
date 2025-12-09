@@ -1,0 +1,20 @@
+[2025-12-09_09-44-57-735754] HTTP RESPONSE
+URL: https://csgoih.run/img/payment-methods/vtb.png
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-44-57-735754.png
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=N4U7rf0TRijRcY2r; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT, __ddg10_=1765251739; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT, __ddg9_=188.232.100.139; Domain=.csgoih.run; Path=/; Expires=Tue, 09-Dec-2025 04:02:19 GMT
+date: Tue, 09 Dec 2025 03:42:19 GMT
+content-type: image/png
+content-length: 14352
+last-modified: Mon, 08 Dec 2025 18:43:27 GMT
+etag: "69371c4f-3810"
+accept-ranges: bytes
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: ba323a56de1dcede3efa6ff74766063d
+age: 0
+ddg-cache-status: MISS
+
+(Body saved separately)

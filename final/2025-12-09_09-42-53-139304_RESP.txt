@@ -1,0 +1,21 @@
+[2025-12-09_09-42-53-139304] HTTP RESPONSE
+URL: https://mc.yandex.ru/metrika/advert.gif
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-53-139304.bin
+
+Headers:
+content-length: 43
+cache-control: max-age=3600
+expires: Tue, 09 Dec 2025 04:40:15 GMT
+etag: "6932d034-2b"
+timing-allow-origin: *
+strict-transport-security: max-age=31536000
+last-modified: Fri, 05 Dec 2025 12:29:40 GMT
+access-control-allow-origin: *
+set-cookie: bh=YJ+03skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:40:15 GMT
+accept-ranges: bytes
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+date: Tue, 09 Dec 2025 03:40:15 GMT
+content-type: image/gif
+
+(Body saved separately)

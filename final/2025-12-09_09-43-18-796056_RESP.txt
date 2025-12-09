@@ -1,0 +1,17 @@
+[2025-12-09_09-43-18-796056] HTTP RESPONSE
+URL: https://gspe19-ssl.ls.apple.com/asset/v3/material/1225542048598196448/18652003?style=60&vertical_datum=wgs84&preflight=2&accessKey=1765255840_0lvnWJygpWBp0ulr_orxOSp62Pm1uC6W5Ya6BjHSUJWPayYC%2FUDDQNMtE2qUMBph5Dha5n%2FTjcdlvch%2FVh8OKoqlbC6AvSs9OQiaIplre%2BrQSvRj1aEJuhmMib7kMF7n%2FX%2BmDtSsgeBYqE9XQ3AFCnT1UxKVMkcbPG6xky8nFZ3SzYNB8HdC7QoN9UAs%3D
+Status: 304
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-18-796056.bin
+
+Headers:
+date: Tue, 09 Dec 2025 03:40:40 GMT
+via: 1.1 varnish
+etag: 9e0bc2f6e26bf5e2ca4dacaf854a96e6
+age: 24493
+x-cdn: fsly
+x-served-by: cache-fra-etou8220157-FRA
+x-cache: HIT
+x-cache-hits: 2518
+x-timer: S1765251641.819481,VS0,VE0
+
+(Body saved separately)

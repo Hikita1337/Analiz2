@@ -1,0 +1,73 @@
+[2025-12-09_09-50-08-096469] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 829
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323932372c2267616d654964223a363235343836392c22737461747573223a312c22636f656666696369656e744175746f223a312e35332c2263757272656e63794964223a322c22636f656666696369656e74223a6e756c6c2c226465706f736974223a7b22616d6f756e74223a312e38382c2277616c6c6574416d6f756e74223a312e38382c226974656d73223a5b7b226964223a313433313330383930352c226974656d4964223a313433313330383930352c226e616d65223a22466c69676874206f662074686520556e6479696e67204c69676874222c22636f6c6f724964223a32322c2267616d654964223a3537302c2272657365727665644964223a31313837327d2c7b226964223a313433313330383930362c226974656d4964223a313433313330383930362c226e616d65223a22496e7363726962656420486569722773205374657073222c22636f6c6f724964223a32342c2267616d654964223a3537302c2272657365727665644964223a32303036397d2c7b226964223a313433313330383930372c226974656d4964223a313433313330383930372c226e616d65223a225665696c206f662074686520537562746c652044656d6f6e222c22636f6c6f724964223a32342c2267616d654964223a3537302c2272657365727665644964223a32373737387d5d7d2c227769746864726177223a7b22616d6f756e74223a6e756c6c2c226974656d73223a5b5d7d2c2275736572223a7b226964223a313130373435372c226e616d65223a224a6f686e46222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f34352f343564643561656535343137313962383266336533653339373363373963326363663234313761625f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1MjkyNywiZ2FtZUlkIjo2MjU0ODY5LCJzdGF0dXMiOjEsImNvZWZmaWNpZW50QXV0byI6MS41MywiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOm51bGwsImRlcG9zaXQiOnsiYW1vdW50IjoxLjg4LCJ3YWxsZXRBbW91bnQiOjEuODgsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODkwNSwiaXRlbUlkIjoxNDMxMzA4OTA1LCJuYW1lIjoiRmxpZ2h0IG9mIHRoZSBVbmR5aW5nIExpZ2h0IiwiY29sb3JJZCI6MjIsImdhbWVJZCI6NTcwLCJyZXNlcnZlZElkIjoxMTg3Mn0seyJpZCI6MTQzMTMwODkwNiwiaXRlbUlkIjoxNDMxMzA4OTA2LCJuYW1lIjoiSW5zY3JpYmVkIEhlaXIncyBTdGVwcyIsImNvbG9ySWQiOjI0LCJnYW1lSWQiOjU3MCwicmVzZXJ2ZWRJZCI6MjAwNjl9LHsiaWQiOjE0MzEzMDg5MDcsIml0ZW1JZCI6MTQzMTMwODkwNywibmFtZSI6IlZlaWwgb2YgdGhlIFN1YnRsZSBEZW1vbiIsImNvbG9ySWQiOjI0LCJnYW1lSWQiOjU3MCwicmVzZXJ2ZWRJZCI6Mjc3Nzh9XX0sIndpdGhkcmF3Ijp7ImFtb3VudCI6bnVsbCwiaXRlbXMiOltdfSwidXNlciI6eyJpZCI6MTEwNzQ1NywibmFtZSI6IkpvaG5GIiwiYXZhdGFyIjoiaHR0cHM6Ly9zdGVhbWNkbi1hLmFrYW1haWhkLm5ldC9zdGVhbWNvbW11bml0eS9wdWJsaWMvaW1hZ2VzL2F2YXRhcnMvNDUvNDVkZDVhZWU1NDE3MTliODJmM2UzZTM5NzNjNzljMmNjZjI0MTdhYl9tZWRpdW0uanBnIn0sImxpa2VzIjowLCJzaG93TGlrZSI6ZmFsc2V9fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652927,"gameId":6254869,"status":1,"coefficientAuto":1.53,"currencyId":2,"coefficient":null,"deposit":{"amount":1.88,"walletAmount":1.88,"items":[{"id":1431308905,"itemId":1431308905,"name":"Flight of the Undying Light","colorId":22,"gameId":570,"reservedId":11872},{"id":1431308906,"itemId":1431308906,"name":"Inscribed Heir's Steps","colorId":24,"gameId":570,"reservedId":20069},{"id":1431308907,"itemId":1431308907,"name":"Veil of the Subtle Demon","colorId":24,"gameId":570,"reservedId":27778}]},"withdraw":{"amount":null,"items":[]},"user":{"id":1107457,"name":"JohnF","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/45/45dd5aee541719b82f3e3e3973c79c2ccf2417ab_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652927,
+                    "gameId": 6254869,
+                    "status": 1,
+                    "coefficientAuto": 1.53,
+                    "currencyId": 2,
+                    "coefficient": null,
+                    "deposit": {
+                        "amount": 1.88,
+                        "walletAmount": 1.88,
+                        "items": [
+                            {
+                                "id": 1431308905,
+                                "itemId": 1431308905,
+                                "name": "Flight of the Undying Light",
+                                "colorId": 22,
+                                "gameId": 570,
+                                "reservedId": 11872
+                            },
+                            {
+                                "id": 1431308906,
+                                "itemId": 1431308906,
+                                "name": "Inscribed Heir's Steps",
+                                "colorId": 24,
+                                "gameId": 570,
+                                "reservedId": 20069
+                            },
+                            {
+                                "id": 1431308907,
+                                "itemId": 1431308907,
+                                "name": "Veil of the Subtle Demon",
+                                "colorId": 24,
+                                "gameId": 570,
+                                "reservedId": 27778
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": null,
+                        "items": []
+                    },
+                    "user": {
+                        "id": 1107457,
+                        "name": "JohnF",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/45/45dd5aee541719b82f3e3e3973c79c2ccf2417ab_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

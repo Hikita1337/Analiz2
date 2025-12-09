@@ -1,0 +1,17 @@
+[2025-12-09_09-43-26-826845] HTTP REQUEST
+URL: https://csgoih.run/favicon.ico
+Method: GET
+
+Headers:
+sec-fetch-dest: image
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+accept: */*
+referer: https://csgoih.run/auth?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=https%3A%2F%2Fcs2run.app%2Fauth%2F1%2Fstart-sign-in%2F%3FreturnUrl%3Dhttps%3A%2F%2Fcsgoih.run%2Fauth&openid.response_nonce=2025-12-09T03%3A40%3A46Z%2FPyVSdhr%2BFgybOe%2FDsq%2BektQ7EM%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=UmhKSXLLggEuh6c%2BcICSU3FRXCE%3D&provider_type=1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+accept-language: ru
+priority: u=3, i
+accept-encoding: gzip, deflate, br
+cookie: __ddg10_=1765251648, __ddg8_=GqMpSKGJbpTXyGYK, __ddg9_=188.232.100.139, _ga=GA1.1.1528545187.1765251614, _ga_KBTMVREMQ9=GS2.1.s1765251614$o1$g1$t1765251648$j26$l0$h0, tmr_lvid=cfcec191d319f79d3b64c31628d6cfcf, tmr_lvidTS=1765251613973, AMP_37151ae393=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJhZTUwODliMi02YzlhLTRmNjgtOTczMS05NWYwODQ5MWI1NDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzY1MjUxNjE0MTU5JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2NTI1MTYxOTgyMiUyQyUyMmxhc3RFdmVudElkJTIyJTNBNCUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMSU3RA==, tmr_detect=0%7C1765251616858, _ym_d=1765251615, _ym_isad=2, _ym_uid=1765251615122050168, _ym_visorc=w, domain_sid=JFICDqX4wdPxhK__b5pKN%3A1765251615370, AMP_MKTG_37151ae393=JTdCJTdE, __ddg1_=afx3LkjRCpYWchthq5vw
+
+Body:

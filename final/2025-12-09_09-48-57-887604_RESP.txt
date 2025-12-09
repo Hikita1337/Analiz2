@@ -1,0 +1,26 @@
+[2025-12-09_09-48-57-887604] HTTP RESPONSE
+URL: https://sun6-23.userapi.com/s/v1/ig2/YqmrAdv8AsSA4s6A_iZzHN-jDzPslgcEdrr6HYM3uGr2Gf9awnhnAOZnLF2nGLokyESpV-nz7NEeT9eiVdjNRNGa.jpg?quality=95&crop=298,357,375,375&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&cs=200x200
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-48-57-887604.jpg
+
+Headers:
+server: kittenx
+date: Tue, 09 Dec 2025 03:46:19 GMT
+content-type: image/jpeg
+content-length: 25554
+last-modified: Thu, 01 Jan 1970 00:00:00 GMT
+x-imp: 842328
+expires: Thu, 08 Jan 2026 03:46:19 GMT
+cache-control: max-age=2592000
+alt-svc: h3=":443"; ma=86400
+x-frontend: front6-23
+access-control-expose-headers: X-Frontend
+access-control-allow-origin: *
+access-control-allow-methods: GET, HEAD, OPTIONS
+strict-transport-security: max-age=15768000
+access-control-allow-headers: X-Quic
+x-trace-id: B33xScl7Pro-HDYpxRRdAVFYcTQWWg
+server-timing: tid;desc="B33xScl7Pro-HDYpxRRdAVFYcTQWWg",front;dur=0.178
+accept-ranges: bytes
+
+(Body saved separately)

@@ -1,0 +1,24 @@
+[2025-12-09_09-46-33-739568] HTTP RESPONSE
+URL: https://cloud.this.team/256/730/8922/medium.png
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-46-33-739568.png
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=U5JN9Pmsm30DqrBr; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:03:55 GMT, __ddg10_=1765251835; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:03:55 GMT, __ddg9_=188.232.100.139; Domain=.this.team; Path=/; Expires=Tue, 09-Dec-2025 04:03:55 GMT, __ddg1_=ka34W22UJOsRNCLXNHkz; Domain=.this.team; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:43:55 GMT
+content-security-policy: upgrade-insecure-requests;
+content-length: 21392
+accept-ranges: bytes
+last-modified: Mon, 18 Mar 2024 23:22:43 GMT
+x-rgw-object-type: Normal
+x-amz-request-id: tx000006b2b6d9933a4af65-0069379a26-1846a8f6d-fra1b
+content-type: image/png
+date: Tue, 09 Dec 2025 03:40:22 GMT
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+x-do-cdn-uuid: bfde7bd0-6393-426c-9ccd-b2c8865bc9da
+cache-control: max-age=3600
+age: 213
+ddg-cache-status: HIT
+
+(Body saved separately)

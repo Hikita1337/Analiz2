@@ -1,0 +1,16 @@
+[2025-12-09_09-43-22-092311] HTTP REQUEST
+URL: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261550/ss_1ab88f5c0198a16f75db23af8477811c0996b864.600x338.jpg
+Method: GET
+
+Headers:
+accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+sec-fetch-site: cross-site
+referer: https://store.steampowered.com/
+sec-fetch-dest: image
+accept-language: ru
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X; Valve Steam App Version/3) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+priority: u=5, i
+accept-encoding: gzip, deflate, br
+
+Body:

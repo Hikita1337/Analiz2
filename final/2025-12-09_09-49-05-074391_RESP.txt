@@ -1,0 +1,20 @@
+[2025-12-09_09-49-05-074391] HTTP RESPONSE
+URL: https://cs2run.app/roulette/state
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-49-05-074391.json
+
+Headers:
+server: ddos-guard
+set-cookie: __ddg8_=0GGWxWzwTj3ipa8p; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:06:27 GMT, __ddg10_=1765251987; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:06:27 GMT, __ddg9_=188.232.100.139; Domain=.cs2run.app; Path=/; Expires=Tue, 09-Dec-2025 04:06:27 GMT, __ddg1_=cAMJy2VAPiL1rGsU4gYw; Domain=.cs2run.app; HttpOnly; Path=/; Expires=Wed, 09-Dec-2026 03:46:27 GMT
+content-security-policy: upgrade-insecure-requests;
+date: Tue, 09 Dec 2025 03:46:27 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-origin: https://csgoih.run
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+etag: W/"1729-RzzfRnRq0fngIn8NnD+LtNT0LTM"
+content-encoding: br
+strict-transport-security: max-age=31536000; includeSubDomains
+x-request-id: 4159c83727e65123942b38d9c93dafb6
+
+(Body saved separately)

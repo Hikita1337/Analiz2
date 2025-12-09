@@ -1,0 +1,20 @@
+[2025-12-09_09-50-14-674268] CLIENT→SERVER
+TYPE: TEXT
+LENGTH: 51
+
+HEX:
+7b22756e737562736372696265223a7b226368616e6e656c223a226373676f72756e3a6372617368227d2c226964223a31377d
+
+BASE64:
+eyJ1bnN1YnNjcmliZSI6eyJjaGFubmVsIjoiY3Nnb3J1bjpjcmFzaCJ9LCJpZCI6MTd9
+
+UTF‑8:
+{"unsubscribe":{"channel":"csgorun:crash"},"id":17}
+
+JSON:
+{
+    "unsubscribe": {
+        "channel": "csgorun:crash"
+    },
+    "id": 17
+}

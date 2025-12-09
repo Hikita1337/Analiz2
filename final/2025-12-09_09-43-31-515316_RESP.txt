@@ -1,0 +1,13 @@
+[2025-12-09_09-43-31-515316] HTTP RESPONSE
+URL: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9a/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg
+Status: 301
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-31-515316.html
+
+Headers:
+server: nginx
+content-type: text/html
+content-length: 162
+location: https://avatars.steamstatic.com/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg
+date: Tue, 09 Dec 2025 03:40:53 GMT
+
+(Body saved separately)

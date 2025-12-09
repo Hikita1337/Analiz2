@@ -1,0 +1,29 @@
+[2025-12-09_09-49-08-320515] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 145
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a726f756c65747465222c22707562223a7b2264617461223a7b2274797065223a22737461746973746963222c22737461746973746963223a7b22636f756e74223a382c22746f74616c4974656d73223a362c22746f74616c4465706f736974223a372e343934303532343939353332377d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOnJvdWxldHRlIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InN0YXRpc3RpYyIsInN0YXRpc3RpYyI6eyJjb3VudCI6OCwidG90YWxJdGVtcyI6NiwidG90YWxEZXBvc2l0Ijo3LjQ5NDA1MjQ5OTUzMjd9fX19fQ==
+
+UTF‑8:
+{"push":{"channel":"csgorun:roulette","pub":{"data":{"type":"statistic","statistic":{"count":8,"totalItems":6,"totalDeposit":7.4940524995327}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:roulette",
+        "pub": {
+            "data": {
+                "type": "statistic",
+                "statistic": {
+                    "count": 8,
+                    "totalItems": 6,
+                    "totalDeposit": 7.4940524995327
+                }
+            }
+        }
+    }
+}

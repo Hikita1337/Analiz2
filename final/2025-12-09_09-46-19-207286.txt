@@ -1,0 +1,66 @@
+[2025-12-09_09-46-19-207286] SERVER→CLIENT
+TYPE: TEXT
+LENGTH: 752
+
+HEX:
+7b2270757368223a7b226368616e6e656c223a226373676f72756e3a6372617368222c22707562223a7b2264617461223a7b2274797065223a22746f7042657443726561746564222c22626574223a7b226964223a3639383635323733372c2267616d654964223a363235343836312c22737461747573223a322c22636f656666696369656e744175746f223a312e34392c2263757272656e63794964223a322c22636f656666696369656e74223a312e34392c226465706f736974223a7b22616d6f756e74223a302e38362c2277616c6c6574416d6f756e74223a302e38362c226974656d73223a5b7b226964223a313433313330383730362c226974656d4964223a313433313330383730362c226e616d65223a22496e7363726962656420416c6769642046616c636f6e20427261636572222c22636f6c6f724964223a32332c2267616d654964223a3537302c2272657365727665644964223a31373238347d5d7d2c227769746864726177223a7b22616d6f756e74223a312e323831343030303834343935353434342c226974656d73223a5b7b226964223a223631363734222c226974656d4964223a223631363734222c226e616d65223a22537469636b6572207c2070687a792028476c697474657229207c205368616e676861692032303234222c22636f6c6f724964223a2233222c2267616d654964223a22373330222c2272657365727665644964223a223238353035227d5d7d2c2275736572223a7b226964223a313539343231322c226e616d65223a22527573747953616c7361373737222c22617661746172223a2268747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f617661746172732f32392f323963316166306439626237363663376238643763626566316661333664366234363836333666385f6d656469756d2e6a7067227d2c226c696b6573223a302c2273686f774c696b65223a66616c73657d7d7d7d7d
+
+BASE64:
+eyJwdXNoIjp7ImNoYW5uZWwiOiJjc2dvcnVuOmNyYXNoIiwicHViIjp7ImRhdGEiOnsidHlwZSI6InRvcEJldENyZWF0ZWQiLCJiZXQiOnsiaWQiOjY5ODY1MjczNywiZ2FtZUlkIjo2MjU0ODYxLCJzdGF0dXMiOjIsImNvZWZmaWNpZW50QXV0byI6MS40OSwiY3VycmVuY3lJZCI6MiwiY29lZmZpY2llbnQiOjEuNDksImRlcG9zaXQiOnsiYW1vdW50IjowLjg2LCJ3YWxsZXRBbW91bnQiOjAuODYsIml0ZW1zIjpbeyJpZCI6MTQzMTMwODcwNiwiaXRlbUlkIjoxNDMxMzA4NzA2LCJuYW1lIjoiSW5zY3JpYmVkIEFsZ2lkIEZhbGNvbiBCcmFjZXIiLCJjb2xvcklkIjoyMywiZ2FtZUlkIjo1NzAsInJlc2VydmVkSWQiOjE3Mjg0fV19LCJ3aXRoZHJhdyI6eyJhbW91bnQiOjEuMjgxNDAwMDg0NDk1NTQ0NCwiaXRlbXMiOlt7ImlkIjoiNjE2NzQiLCJpdGVtSWQiOiI2MTY3NCIsIm5hbWUiOiJTdGlja2VyIHwgcGh6eSAoR2xpdHRlcikgfCBTaGFuZ2hhaSAyMDI0IiwiY29sb3JJZCI6IjMiLCJnYW1lSWQiOiI3MzAiLCJyZXNlcnZlZElkIjoiMjg1MDUifV19LCJ1c2VyIjp7ImlkIjoxNTk0MjEyLCJuYW1lIjoiUnVzdHlTYWxzYTc3NyIsImF2YXRhciI6Imh0dHBzOi8vc3RlYW1jZG4tYS5ha2FtYWloZC5uZXQvc3RlYW1jb21tdW5pdHkvcHVibGljL2ltYWdlcy9hdmF0YXJzLzI5LzI5YzFhZjBkOWJiNzY2YzdiOGQ3Y2JlZjFmYTM2ZDZiNDY4NjM2ZjhfbWVkaXVtLmpwZyJ9LCJsaWtlcyI6MCwic2hvd0xpa2UiOmZhbHNlfX19fX0=
+
+UTF‑8:
+{"push":{"channel":"csgorun:crash","pub":{"data":{"type":"topBetCreated","bet":{"id":698652737,"gameId":6254861,"status":2,"coefficientAuto":1.49,"currencyId":2,"coefficient":1.49,"deposit":{"amount":0.86,"walletAmount":0.86,"items":[{"id":1431308706,"itemId":1431308706,"name":"Inscribed Algid Falcon Bracer","colorId":23,"gameId":570,"reservedId":17284}]},"withdraw":{"amount":1.2814000844955444,"items":[{"id":"61674","itemId":"61674","name":"Sticker | phzy (Glitter) | Shanghai 2024","colorId":"3","gameId":"730","reservedId":"28505"}]},"user":{"id":1594212,"name":"RustySalsa777","avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg"},"likes":0,"showLike":false}}}}}
+
+JSON:
+{
+    "push": {
+        "channel": "csgorun:crash",
+        "pub": {
+            "data": {
+                "type": "topBetCreated",
+                "bet": {
+                    "id": 698652737,
+                    "gameId": 6254861,
+                    "status": 2,
+                    "coefficientAuto": 1.49,
+                    "currencyId": 2,
+                    "coefficient": 1.49,
+                    "deposit": {
+                        "amount": 0.86,
+                        "walletAmount": 0.86,
+                        "items": [
+                            {
+                                "id": 1431308706,
+                                "itemId": 1431308706,
+                                "name": "Inscribed Algid Falcon Bracer",
+                                "colorId": 23,
+                                "gameId": 570,
+                                "reservedId": 17284
+                            }
+                        ]
+                    },
+                    "withdraw": {
+                        "amount": 1.2814000844955444,
+                        "items": [
+                            {
+                                "id": "61674",
+                                "itemId": "61674",
+                                "name": "Sticker | phzy (Glitter) | Shanghai 2024",
+                                "colorId": "3",
+                                "gameId": "730",
+                                "reservedId": "28505"
+                            }
+                        ]
+                    },
+                    "user": {
+                        "id": 1594212,
+                        "name": "RustySalsa777",
+                        "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg"
+                    },
+                    "likes": 0,
+                    "showLike": false
+                }
+            }
+        }
+    }
+}

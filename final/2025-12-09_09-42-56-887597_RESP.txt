@@ -1,0 +1,19 @@
+[2025-12-09_09-42-56-887597] HTTP RESPONSE
+URL: https://mc.yandex.ru/clmap/94742085?page-url=https%3A%2F%2Fcsgoih.run%2F&pointer-click=rn%3A641980220%3Ax%3A44556%3Ay%3A35746%3At%3A37%3Ap%3A%3F%7FAA1A1%3AX%3A320%3AY%3A32&browser-info=u%3A1765251615122050168%3Av%3A2292%3Avf%3A6dxo56vtzxzyyc4em9c7ihxjzousf%3Arqnl%3A1%3Ast%3A1765251619&t=gdpr(14)ti(1)
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-42-56-887597.bin
+
+Headers:
+content-length: 43
+set-cookie: bh=YKK03skGaivcyv3sCqnSo90C+tbaigzr/52rBPrWoqUPhuTx5w3r//32D5vNy6cO9/MB; Path=/; Domain=.yandex.ru; Expires=Wed, 13 Jan 2027 03:40:18 GMT
+last-modified: Tue, 09-Dec-2025 03:40:18 GMT
+pragma: no-cache
+strict-transport-security: max-age=31536000
+access-control-allow-credentials: true
+access-control-allow-origin: https://csgoih.run
+content-type: image/gif
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+x-xss-protection: 1; mode=block
+expires: Tue, 09-Dec-2025 03:40:18 GMT
+
+(Body saved separately)

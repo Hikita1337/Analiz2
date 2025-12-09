@@ -1,0 +1,23 @@
+[2025-12-09_09-43-01-337818] HTTP RESPONSE
+URL: https://community.fastly.steamstatic.com/public/javascript/applications/community/libraries~215b3e016.js?contenthash=8a098afa33bde36fd5ad
+Status: 200
+Saved file: C:\Users\Marat\Desktop\трафика\http\files\2025-12-09_09-43-01-337818.js
+
+Headers:
+server: nginx
+content-type: text/javascript;charset=UTF-8
+last-modified: Tue, 25 Nov 2025 23:21:17 GMT
+etag: "KI1TZ690lGan"
+cache-control: public,max-age=259200,must-revalidate
+expires: Fri, 28 Nov 2025 23:23:58 GMT
+accept-ranges: bytes
+date: Tue, 09 Dec 2025 03:40:23 GMT
+via: 1.1 varnish
+age: 101784
+x-served-by: cache-fra-etou8220093-FRA
+x-cache: HIT, HIT
+x-cache-hits: 9805
+x-timer: S1765251623.354608,VS0,VE0
+content-length: 13938
+
+(Body saved separately)
