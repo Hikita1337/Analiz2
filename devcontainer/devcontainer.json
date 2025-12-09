@@ -1,5 +1,0 @@
-{
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
-  "features": {},
-  "postCreateCommand": "pip install re2"
-}
