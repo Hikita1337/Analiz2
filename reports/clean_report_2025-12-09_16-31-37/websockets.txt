@@ -1,0 +1,6 @@
+ws://localhost:${r}/transportsocket/`,sAuthKey:i,eClientExecutionSite:e};this.m_mapConnectionDetails.set(e,s)}SendMsg(e,t,r,i){return
+ws://127.0.0.1:27060;
+ws://127.0.0.1:27060
+wss://community.steam-api.com/websocket/
+wss://ws.cs2run.app/connection/websocket
+ws://localhost:${r}/transportsocket/`,sAuthKey:i,eClientExecutionSite:e};this.m_mapConnectionDetails.set(e,a)}SendMsg(e,t,r,i){return
