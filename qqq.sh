@@ -1,12 +1,11 @@
 #!/bin/bash
 
-# Папка для распаковки и финальные файлы
+# Настройки
 EXTRACTED_DIR="extracted"
 FINAL_DIR="final"
-
-# Ссылка на Google Drive (замени на свою, если надо)
 FILE_ID="1UlFwdxNXRAEcgy8Fh5bzh8PgxikO9C6t"
 ZIP_FILE="temp.zip"
+COMMIT_MSG="Добавлены файлы из zip"
 
 # Установка gdown, если нет
 if ! command -v gdown &> /dev/null; then
@@ -31,4 +30,10 @@ find "${EXTRACTED_DIR}" -type f ! -name "*.png" ! -name "*.webp" ! -name "*.bin"
 # Чистим временный zip
 rm "${ZIP_FILE}"
 
-echo "Готово! Все файлы в папке ${FINAL_DIR}"
+# Добавляем в Git и пушим
+echo "Добавляем файлы в Git..."
+git add -f "${FINAL_DIR}"
+git commit -m "${COMMIT_MSG}"
+git push origin main
+
+echo "Готово! Все файлы в папке ${FINAL_DIR} добавлены в репозиторий."
