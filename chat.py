@@ -9,7 +9,7 @@ from tqdm import tqdm
 INPUT_FILE = "bigdump.txt"
 OUTPUT_JSON = "reports/full_deep_analysis.json"
 OUTPUT_TXT  = "reports/full_deep_analysis.txt"
-CHUNK_SIZE = 10000  # количество строк за один пакет
+CHUNK_SIZE = 1000  # количество строк за один пакет
 
 # --- Регулярки и классификатор ---
 re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
