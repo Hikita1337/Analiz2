@@ -1,22 +1,16 @@
 import re
-import json
 import os
-import hashlib
-import subprocess
 
-# --- Настройки ---
 INPUT_FILE = "bigdump.txt"
-OUTPUT_JSON_ALL = "reports/full_safe_analysis.json"
-OUTPUT_TXT_ALL  = "reports/full_safe_analysis.txt"
-OUTPUT_JSON_CMD = "reports/chat_admin_commands.json"
-OUTPUT_TXT_CMD  = "reports/chat_admin_commands.txt"
-SKIP_FILE       = "reports/skipped_lines.txt"
-LOG_EVERY       = 1
-CONTEXT_LINES   = 2  # сколько строк вверх/вниз для контекста
+OUTPUT_API = "reports/api_ws.txt"
+OUTPUT_FUNC = "reports/functions.txt"
+SKIP_FILE  = "reports/skipped_lines.txt"
+CONTEXT_LINES = 2
+LOG_EVERY = 1000
 
 os.makedirs("reports", exist_ok=True)
 
-# --- Регулярки ---
+# Регулярки
 re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
 re_fetch = re.compile(r"fetch\s*\(\s*[\"']([^\"']+)[\"']")
 re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
@@ -24,103 +18,35 @@ re_ws_recv = re.compile(r"onmessage\s*=\s*function\s*\(.*?\)")
 re_function = re.compile(r"function\s+([A-Za-z0-9_]+)\s*\(")
 re_arrow = re.compile(r"([A-Za-z0-9_]+)\s*=\s*\((.*?)\)\s*=>")
 
-keywords_admin = r"(ban|mute|kick|delete|pin|unpin|admin|moderator|privilege)"
-keywords_chat  = r"(message|chat|sticker|typing|room|send|receive)"
-keywords_user  = r"(profile|avatar|user|account)"
-keywords_system= r"(system|internal|debug|log)"
-keywords_files = r"(file|upload|download)"
-
-def classify_block(text):
-    t = text.lower()
-    if re.search(keywords_admin, t): return "Admin"
-    if re.search(keywords_chat, t): return "Chat"
-    if re.search(keywords_user, t): return "User"
-    if re.search(keywords_system, t): return "System"
-    if re.search(keywords_files, t): return "Files"
-    return "Other"
-
-# --- Потоковая обработка строки ---
-def process_line(line, context):
-    items = []
-    try:
-        m = re_api.search(line)
-        if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
-        m = re_fetch.search(line)
-        if m: items.append({"type":"FETCH","url":m.group(1),"context":context,"classification":classify_block(context)})
-        m = re_ws_send.search(line)
-        if m: items.append({"type":"WS_SEND","payload":m.group(1),"context":context,"classification":classify_block(context)})
-        if re_ws_recv.search(line):
-            items.append({"type":"WS_RECEIVE_HANDLER","context":context,"classification":classify_block(context)})
-        m = re_function.search(line)
-        if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-        m = re_arrow.search(line)
-        if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
-    except Exception as e:
-        with open(SKIP_FILE, "a", encoding="utf-8") as sf:
-            sf.write(f"LINE ERROR: {line}\nException: {e}\n{'-'*50}\n")
-    return items
-
-# --- MAIN ---
-seen_hashes = set()
 lines_buffer = []
 
-with open(INPUT_FILE,"r",encoding="utf-8",errors="ignore") as f, \
-     open(OUTPUT_JSON_ALL,"w",encoding="utf-8") as fj, \
-     open(OUTPUT_TXT_ALL,"w",encoding="utf-8") as ft:
+with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
+     open(OUTPUT_API,"w",encoding="utf-8") as api_file, \
+     open(OUTPUT_FUNC,"w",encoding="utf-8") as func_file, \
+     open(SKIP_FILE,"w",encoding="utf-8") as skip_file:
 
-    fj.write("[\n")
-    first_entry = True
-    line_count = 0
-    items_written = 0
-
-    # Буфер для контекста
-    for line in f:
+    for line_number, line in enumerate(f, start=1):
         lines_buffer.append(line.rstrip())
         if len(lines_buffer) > CONTEXT_LINES*2+1:
             lines_buffer.pop(0)
 
-        line_count += 1
         context = "\n".join(lines_buffer)
 
-        items = process_line(line.rstrip(), context)
+        try:
+            # API / fetch / WS
+            if re_api.search(line) or re_fetch.search(line) or re_ws_send.search(line) or re_ws_recv.search(line):
+                api_file.write(f"Line {line_number}:\n{context}\n{'='*80}\n")
 
-        for it in items:
-            content_str = it.get("context","").encode("utf-8")
-            content_hash = hashlib.md5(content_str).hexdigest()
-            if content_hash in seen_hashes: continue
-            seen_hashes.add(content_hash)
+            # Functions
+            if re_function.search(line) or re_arrow.search(line):
+                func_file.write(f"Line {line_number}:\n{context}\n")
+                func_file.write("Usage/Interaction: Check above context for API/WebSocket calls\n")
+                func_file.write("="*80 + "\n")
 
-            if not first_entry: fj.write(",\n")
-            else: first_entry = False
+        except Exception as e:
+            skip_file.write(f"Line {line_number} skipped. Exception: {e}\n{line}\n{'-'*50}\n")
 
-            json.dump(it, fj, ensure_ascii=False)
-            ft.write(f"[{it['type']} / {it['classification']}]\n")
-            ft.write(it.get("context","") + "\n" + "="*80 + "\n")
-            items_written += 1
+        if line_number % LOG_EVERY == 0:
+            print(f"Processed {line_number} lines")
 
-        if line_count % LOG_EVERY == 0:
-            print(f"Processed {line_count} lines, items written: {items_written}")
-
-fj.write("\n]\n")
-print(f"Completed {line_count} lines, total items: {items_written}")
-
-# --- Chat/Admin фильтрация ---
-with open(OUTPUT_JSON_ALL,"r",encoding="utf-8") as fj:
-    all_items = json.load(fj)
-
-chat_admin = [x for x in all_items if x["classification"] in ["Chat","Admin"]]
-
-with open(OUTPUT_JSON_CMD,"w",encoding="utf-8") as fj:
-    json.dump(chat_admin,fj,ensure_ascii=False,indent=2)
-
-with open(OUTPUT_TXT_CMD,"w",encoding="utf-8") as ft:
-    for it in chat_admin:
-        ft.write(f"[{it['type']} / {it['classification']}]\n")
-        ft.write(it.get("context","") + "\n" + "="*80 + "\n")
-
-# --- git push ---
-subprocess.run(["git","add","."])
-subprocess.run(["git","commit","-m","Safe stream analysis with skipped lines"])
-subprocess.run(["git","push"])
-
-print("DONE: Stream analysis complete, Chat/Admin extracted.")
+print("DONE. API/WS saved in api_ws.txt, functions saved in functions.txt, skipped lines in skipped_lines.txt")
