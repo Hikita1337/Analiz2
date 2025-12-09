@@ -1,0 +1,39 @@
+			GHomepage.rgMarketingMessages = rgParams.rgMarketingMessages;
+							}).prop("muted", true).append($J("<source>", {src: rgData.microtrailer, type: "video/webm"}));
+		var rgAppInfo = {};
+			rgAppInfo = GStoreItemData.rgAppData[ unAppID ];
+		if ( rgAppInfo && rgAppInfo.has_live_broadcast )
+		if ( rgAppInfo && rgAppInfo.mastersub_granting_app )
+			$imgMasterSub = $J('<img/>', {'class': 'grantedbymastersub_app', 'src': rgAppInfo.mastersub_granting_app.capsule, 'alt': rgAppInfo.mastersub_granting_app.name } );
+		var rgAppInfo = {};
+			rgAppInfo = GStoreItemData.rgAppData[ unAppID ];
+		if ( rgAppInfo && rgAppInfo.has_live_broadcast )
+		if ( rgAppInfo && rgAppInfo.mastersub_granting_app )
+			let $imgMasterSub = $J('<img/>', {'class': 'grantedbymastersub_app', 'src': rgAppInfo.mastersub_granting_app.capsule, 'alt': rgAppInfo.mastersub_granting_app.name } );
+		if ( rgAppInfo.microtrailer )
+			GHomepage.AddMicrotrailerToCapsule( $CapCtn, rgAppInfo.microtrailer );
+		// we load with a fixed height to prevent the page from jumping around.  Eliminate that now.
+					delete data.item_data;
+					delete data.account_data;
+							// we may have someone showing delayed.  clear them out if that's the case.
+							window.clearTimeout( GHomepage.m_iTabItemPreviewMountTimeout );
+							// we may have someone showing delayed.  clear them out if that's the case.
+							window.clearTimeout( GHomepage.m_iTabItemPreviewMountTimeout );
+				$J(window).on('Responsive_SmallScreenModeToggled.StoreHomeLayout', function () {
+					if (window.UseSmallScreenMode && window.UseSmallScreenMode()) {
+				}).trigger('Responsive_SmallScreenModeToggled.StoreHomeLayout');
+		if ( window.Responsive_ReparentItemsInResponsiveMode )
+			window.Responsive_ReparentItemsInResponsiveMode( '.spotlight_block', $J('#home_responsive_spotlight_ctn') );
+			window.Responsive_ReparentItemsInResponsiveMode( '*[data-content-dive=true]', function ( $el ) {
+		var bUseTabletScreenMode = window.UseTabletScreenMode && window.UseTabletScreenMode();
+		if( !bUseTabletScreenMode )
+		$J(window ).on('Responsive_SmallScreenModeToggled.StoreHome', function() {
+		var bUseTabletScreenMode = window.UseTabletScreenMode && window.UseTabletScreenMode();
+		if( rgScreenshots && rgScreenshots.length && !bUseTabletScreenMode )
+		var bUseTabletScreenMode = window.UseTabletScreenMode && window.UseTabletScreenMode();
+		if( rgScreenshots && rgScreenshots.length && !bUseTabletScreenMode )
+		const $Parent = $J( '#module_special_offers' );
+				$J( spotlight.capsule ).find( 'a' ).each( function() { ModifyLinkSNR( $J(this), fnSetSNRDepth ); } );
+				$J( dailydeal.capsule ).find( 'a' ).each( function() { ModifyLinkSNR( $J(this), fnSetSNRDepth ); } );
+		var bUseTabletScreenMode = window.UseTabletScreenMode && window.UseTabletScreenMode();
+				if ( bUseTabletScreenMode )
