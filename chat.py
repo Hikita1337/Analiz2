@@ -5,11 +5,12 @@ INPUT_FILE = "bigdump.txt"
 OUTPUT_API = "reports/api_ws.txt"
 OUTPUT_FUNC = "reports/functions.txt"
 SKIP_FILE  = "reports/skipped_lines.txt"
-CONTEXT_LINES = 2
+CONTEXT_LINES = 3
 LOG_EVERY = 1
 
-# Пропуск диапазона строк
-SKIP_LINES = set(range(41000, 42001))
+# Пропуск диапазонов строк
+SKIP_LINES = set(range(41000, 42001))  # первый проблемный диапазон
+SKIP_LINES.update(range(91240, 91301))  # второй проблемный диапазон
 
 os.makedirs("reports", exist_ok=True)
 
