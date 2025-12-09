@@ -113,24 +113,29 @@ print(f"[+] Скрытые/неиспользуемые функции: {OUT_HID
 
 
 # ======================================================
-# 5. Анализ RNG / Seed / Hash / Salt
+# 5. Анализ RNG / Seed / Hash / Salt с авто‑созданием ключей
 # ======================================================
-rng_report = {
-    "seeds": [],
-    "salts": [],
-    "hashes": [],
-    "crashes": [],
-    "nonce": [],
-}
+rng_report = defaultdict(list)
 
 for evt in rng_events:
     for k, v in evt.items():
-        rng_report[k + "s"].append(v)
+        # нормализация названий
+        normalized = k.lower().strip()
+
+        # принудительная множественная форма
+        if not normalized.endswith("s"):
+            normalized = normalized + "s"
+
+        rng_report[normalized].append(v)
+
+# конвертация обратно в json-friendly dict
+rng_report = dict(rng_report)
 
 with open(OUT_RNG, "w", encoding="utf8") as f:
     json.dump(rng_report, f, indent=2, ensure_ascii=False)
 
 print(f"[+] Анализ RNG: {OUT_RNG}")
+
 
 
 # ======================================================
