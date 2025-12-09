@@ -1,4 +1,4 @@
-import re
+import re2 as re  # используем RE2 вместо стандартного re
 import os
 
 INPUT_FILE = "bigdump.txt"
@@ -7,10 +7,6 @@ OUTPUT_FUNC = "reports/functions.txt"
 SKIP_FILE  = "reports/skipped_lines.txt"
 CONTEXT_LINES = 3
 LOG_EVERY = 1
-
-# Пропуск диапазонов строк
-SKIP_LINES = set(range(41000, 42001))  # первый проблемный диапазон
-SKIP_LINES.update(range(91240, 91301))  # второй проблемный диапазон
 
 os.makedirs("reports", exist_ok=True)
 
@@ -30,10 +26,6 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
      open(SKIP_FILE,"w",encoding="utf-8") as skip_file:
 
     for line_number, line in enumerate(f, start=1):
-        if line_number in SKIP_LINES:
-            skip_file.write(f"Line {line_number} skipped.\n{line}\n{'-'*50}\n")
-            continue
-
         try:
             lines_buffer.append(line.rstrip())
             if len(lines_buffer) > CONTEXT_LINES*2+1:
@@ -52,7 +44,9 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
                 func_file.write("="*80 + "\n")
 
         except Exception as e:
-            skip_file.write(f"Line {line_number} skipped. Exception: {e}\n{line}\n{'-'*50}\n")
+            skip_file.write(f"Line {line_number} skipped automatically. Exception: {e}\n{line}\n{'-'*50}\n")
+            # сбрасываем буфер для пропущенной строки
+            lines_buffer = lines_buffer[-CONTEXT_LINES:]
 
         if line_number % LOG_EVERY == 0:
             print(f"Processed {line_number} lines")
