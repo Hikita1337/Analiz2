@@ -10,7 +10,8 @@ OUTPUT_TXT_ALL  = "reports/full_safe_analysis.txt"
 OUTPUT_JSON_CMD = "reports/chat_admin_commands.json"
 OUTPUT_TXT_CMD  = "reports/chat_admin_commands.txt"
 SKIP_FILE       = "reports/skipped_lines.txt"
-CHUNK_SIZE      = 1000  # количество строк за один пакет
+CHUNK_SIZE      = 500  # строки за один пакет
+LOG_EVERY       = 1000 # лог каждые N строк
 
 os.makedirs("reports", exist_ok=True)
 
@@ -41,7 +42,7 @@ def classify_block(text):
 # --- Для уникальности ---
 seen_hashes = set()
 
-# --- Функция обработки строки ---
+# --- Процесс строки ---
 def process_line(line, context):
     items = []
     try:
@@ -61,43 +62,75 @@ def process_line(line, context):
             items.append({"type":"JSON_BLOCK","json":line,"classification":classify_block(line)})
     except Exception as e:
         with open(SKIP_FILE, "a", encoding="utf-8") as sf:
-            sf.write(f"{line}\nERROR: {e}\n{'-'*50}\n")
+            sf.write(f"LINE ERROR: {line}\nException: {e}\n{'-'*50}\n")
     return items
 
 # --- MAIN PROCESSING ---
-with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f:
+line_count = 0
+all_items_written = 0
+
+with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f, \
+     open(OUTPUT_JSON_ALL, "w", encoding="utf-8") as fj, \
+     open(OUTPUT_TXT_ALL, "w", encoding="utf-8") as ft:
+
+    fj.write("[\n")
+    first_entry = True
     chunk_lines = []
-    all_items = []
-    for idx, line in enumerate(f, 1):
+    prev_lines = []
+
+    for line in f:
+        line_count += 1
         chunk_lines.append(line.rstrip())
+        prev_lines.append(line.rstrip())
+        if len(prev_lines) > 10:  # храним контекст ±5
+            prev_lines.pop(0)
+
         if len(chunk_lines) >= CHUNK_SIZE:
             for i, l in enumerate(chunk_lines):
                 context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
                 for it in process_line(l, context):
                     content_hash = hashlib.md5(it.get("context", it.get("json","")).encode('utf-8')).hexdigest()
-                    if content_hash not in seen_hashes:
-                        seen_hashes.add(content_hash)
-                        all_items.append(it)
+                    if content_hash in seen_hashes:
+                        continue
+                    seen_hashes.add(content_hash)
+                    if not first_entry:
+                        fj.write(",\n")
+                    else:
+                        first_entry = False
+                    json.dump(it, fj, ensure_ascii=False)
+                    ft.write(f"[{it['type']} / {it['classification']}]\n")
+                    ft.write(it.get("context", it.get("json","")) + "\n" + "="*80 + "\n")
+                    all_items_written += 1
             chunk_lines = []
-    # --- Обработка остатка ---
+
+        if line_count % LOG_EVERY == 0:
+            print(f"Processed {line_count} lines, written items: {all_items_written}")
+
+    # --- остаток ---
     for i, l in enumerate(chunk_lines):
         context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
         for it in process_line(l, context):
             content_hash = hashlib.md5(it.get("context", it.get("json","")).encode('utf-8')).hexdigest()
-            if content_hash not in seen_hashes:
-                seen_hashes.add(content_hash)
-                all_items.append(it)
+            if content_hash in seen_hashes:
+                continue
+            seen_hashes.add(content_hash)
+            if not first_entry:
+                fj.write(",\n")
+            else:
+                first_entry = False
+            json.dump(it, fj, ensure_ascii=False)
+            ft.write(f"[{it['type']} / {it['classification']}]\n")
+            ft.write(it.get("context", it.get("json","")) + "\n" + "="*80 + "\n")
+            all_items_written += 1
 
-# --- Сохраняем полный JSON и текст ---
-with open(OUTPUT_JSON_ALL,"w",encoding="utf-8") as fj:
-    json.dump(all_items,fj,ensure_ascii=False,indent=2)
+    fj.write("\n]\n")
 
-with open(OUTPUT_TXT_ALL,"w",encoding="utf-8") as ft:
-    for it in all_items:
-        ft.write(f"[{it['type']} / {it['classification']}]\n")
-        ft.write(it.get("context", it.get("json","")) + "\n" + "="*80 + "\n")
+print(f"Completed processing {line_count} lines, total items: {all_items_written}")
 
 # --- Фильтрация Chat/Admin ---
+with open(OUTPUT_JSON_ALL,"r",encoding="utf-8") as fj:
+    all_items = json.load(fj)
+
 chat_admin = [x for x in all_items if x["classification"] in ["Chat","Admin"]]
 
 with open(OUTPUT_JSON_CMD,"w",encoding="utf-8") as fj:
@@ -110,9 +143,8 @@ with open(OUTPUT_TXT_CMD,"w",encoding="utf-8") as ft:
 
 # --- git push ---
 subprocess.run(["git","add","."])
-subprocess.run(["git","commit","-m","Full chat/admin analysis update"])
+subprocess.run(["git","commit","-m","Full safe chat/admin analysis update"])
 subprocess.run(["git","push"])
 
-print("DONE: Full analysis + Chat/Admin extraction complete.")
-print(f"Total items: {len(all_items)}, Chat/Admin items: {len(chat_admin)}")
+print("DONE: Full safe analysis complete. Chat/Admin extracted.")
 print(f"Skipped lines logged in {SKIP_FILE}")
