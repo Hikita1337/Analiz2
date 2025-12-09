@@ -1,59 +1,150 @@
 import re
 import json
 import os
-from collections import defaultdict
+import subprocess
 
-BIG_FILE = "bigdump.txt"
-REPORT_DIR = "reports"
-OUTPUT_FILE = os.path.join(REPORT_DIR, "chat_full_analysis.json")
+INPUT_FILE = "bigdump.txt"
+OUTPUT_JSON = "reports/full_deep_analysis.json"
+OUTPUT_TXT  = "reports/full_deep_analysis.txt"
 
-KEYWORDS = {
-    "chat": ["chat", "message", "send", "receive", "sticker"],
-    "admin": ["admin", "mute", "pin", "delete", "clear", "ban", "kick", "setbalance"]
-}
+# --- Детекторы паттернов -----------------------------
 
-# Создаём папку для отчётов
-os.makedirs(REPORT_DIR, exist_ok=True)
+re_api = re.compile(r"(GET|POST|PUT|DELETE)\s+https?://[^\s\"']+")
+re_fetch = re.compile(r"fetch\s*\(\s*[\"']([^\"']+)[\"']")
+re_ws_send = re.compile(r"ws\.send\s*\(\s*(.+?)\s*\)")
+re_ws_recv = re.compile(r"onmessage\s*=\s*function\s*\(.*?\)")
+re_json_block = re.compile(r"\{[\s\S]{10,5000}?\}", re.MULTILINE)
+re_function = re.compile(r"function\s+([A-Za-z0-9_]+)\s*\(")
+re_arrow = re.compile(r"([A-Za-z0-9_]+)\s*=\s*\((.*?)\)\s*=>")
+re_roles = re.compile(r"(admin|moderator|owner|staff|privilege)", re.IGNORECASE)
+re_chat_keywords = re.compile(
+    r"(message|chat|sticker|pin|unpin|delete|mute|ban|kick|join|leave|room|typing)",
+    re.IGNORECASE
+)
 
-# Словарь для хранения функций и блоков кода
-functions = defaultdict(list)
-graph = defaultdict(list)
+# --- Рутовый классификатор ---------------------------
 
-# Читаем bigdump.txt
-with open(BIG_FILE, "r", encoding="utf-8", errors="ignore") as f:
-    lines = f.readlines()
+def classify_block(text):
+    t = text.lower()
 
-# Проходим построчно и выделяем блоки вокруг ключевых слов
-context_size = 15  # сколько строк до и после
-for i, line in enumerate(lines):
-    for category, words in KEYWORDS.items():
-        for word in words:
-            if re.search(rf"\b{word}\b", line, re.IGNORECASE):
-                start = max(0, i - context_size)
-                end = min(len(lines), i + context_size + 1)
-                block = "".join(lines[start:end])
-                functions[category].append(block)
-                # Простейший граф: категория -> слово
-                graph[category].append(word)
+    if re.search(r"(ban|mute|kick|delete|pin|unpin|admin|moderator|privilege)", t):
+        return "Admin"
+    if re.search(r"(message|chat|sticker|typing|room|send|receive)", t):
+        return "Chat"
+    if re.search(r"(profile|avatar|user|account)", t):
+        return "User"
+    if re.search(r"(system|internal|debug|log)", t):
+        return "System"
+    if re.search(r"(file|upload|download)", t):
+        return "Files"
+    return "Other"
 
-# Убираем дубликаты блоков
-for k in functions:
-    functions[k] = list(set(functions[k]))
-    graph[k] = list(set(graph[k]))
+# --- Универсальный сборщик --------------------------------------------------------
 
-# Формируем JSON структуру
-result = {
-    "functions": functions,
-    "graph": graph
-}
+def extract_all(dump):
+    items = []
 
-# Сохраняем в JSON
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(result, f, ensure_ascii=False, indent=4)
+    lines = dump.splitlines()
 
-# Git push (если репозиторий и git уже инициализирован)
-os.system(f"git add {OUTPUT_FILE}")
-os.system(f'git commit -m "Добавлен структурированный анализ чата с классификацией и графом"')
-os.system("git push origin main")
+    for i, line in enumerate(lines):
+        context = "\n".join(lines[max(i-5,0):min(i+6, len(lines))])
 
-print(f"Готово! Отчёт сохранён: {OUTPUT_FILE}")
+        # API
+        m = re_api.search(line)
+        if m:
+            items.append({
+                "type": "HTTP_API",
+                "match": m.group(),
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # fetch
+        m = re_fetch.search(line)
+        if m:
+            items.append({
+                "type": "FETCH",
+                "url": m.group(1),
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # WS send
+        m = re_ws_send.search(line)
+        if m:
+            items.append({
+                "type": "WS_SEND",
+                "payload": m.group(1),
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # WS receive handler
+        if re_ws_recv.search(line):
+            items.append({
+                "type": "WS_RECEIVE_HANDLER",
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # functions
+        m = re_function.search(line)
+        if m:
+            items.append({
+                "type": "FUNCTION",
+                "name": m.group(1),
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # arrow functions
+        m = re_arrow.search(line)
+        if m:
+            items.append({
+                "type": "ARROW_FUNCTION",
+                "name": m.group(1),
+                "context": context,
+                "classification": classify_block(context)
+            })
+
+        # JSON blocks
+        if "{" in line and "}" in line:
+            for jb in re_json_block.findall(line):
+                if len(jb) < 2000:
+                    items.append({
+                        "type": "JSON_BLOCK",
+                        "json": jb,
+                        "classification": classify_block(jb)
+                    })
+
+    return items
+
+
+# --- MAIN -------------------------------------------------------------
+
+print("Loading dump...")
+with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f:
+    dump = f.read()
+
+print("Extracting structures...")
+items = extract_all(dump)
+
+os.makedirs("reports", exist_ok=True)
+
+print("Writing JSON report...")
+with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+    json.dump(items, f, ensure_ascii=False, indent=2)
+
+print("Writing TXT summary...")
+with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
+    for it in items:
+        f.write(f"[{it['type']} / {it['classification']}]\n")
+        f.write(it["context"])
+        f.write("\n" + "="*80 + "\n")
+
+print("Committing to repo...")
+subprocess.run(["git", "add", "."])
+subprocess.run(["git", "commit", "-m", "Deep full analysis update"])
+subprocess.run(["git", "push"])
+
+print("DONE.")
