@@ -3,16 +3,14 @@ import json
 import os
 import hashlib
 import subprocess
-import traceback
 
-# --- Параметры ---
 INPUT_FILE = "bigdump.txt"
-OUTPUT_JSON = "reports/full_deep_analysis.json"
-OUTPUT_TXT = "reports/full_deep_analysis.txt"
-SKIPPED_FILE = "reports/skipped_lines.txt"
-HASH_FILE   = "reports/seen_hashes.txt"
-LOG_INTERVAL = 1
-WINDOW_SIZE = 10  # контекст ±5 строк
+OUTPUT_JSON_ALL = "reports/full_safe_analysis.json"
+OUTPUT_TXT_ALL  = "reports/full_safe_analysis.txt"
+OUTPUT_JSON_CMD = "reports/chat_admin_commands.json"
+OUTPUT_TXT_CMD  = "reports/chat_admin_commands.txt"
+SKIP_FILE       = "reports/skipped_lines.txt"
+CHUNK_SIZE      = 1000  # количество строк за один пакет
 
 os.makedirs("reports", exist_ok=True)
 
@@ -40,33 +38,13 @@ def classify_block(text):
     if re.search(keywords_files, t): return "Files"
     return "Other"
 
-# --- Загрузка уже известных хэшей ---
+# --- Для уникальности ---
 seen_hashes = set()
-if os.path.exists(HASH_FILE):
-    with open(HASH_FILE, "r") as hf:
-        for line in hf:
-            seen_hashes.add(line.strip())
 
-# --- Открытие файлов для записи ---
-fj = open(OUTPUT_JSON, "w", encoding="utf-8")
-ft = open(OUTPUT_TXT, "w", encoding="utf-8")
-fs = open(SKIPPED_FILE, "w", encoding="utf-8")
-fh = open(HASH_FILE, "a", encoding="utf-8")
-
-fj.write("[\n")
-first_entry = True
-context_window = []
-
-# --- Обработка строки ---
-def process_line(line, context_window, first_entry, fj, ft, fh, fs, line_number):
+# --- Функция обработки строки ---
+def process_line(line, context):
+    items = []
     try:
-        context_window.append(line.rstrip())
-        if len(context_window) > 2*WINDOW_SIZE+1:
-            context_window.pop(0)
-        context = "\n".join(context_window)
-        items = []
-
-        # --- Детекторы ---
         m = re_api.search(line)
         if m: items.append({"type":"HTTP_API","match":m.group(),"context":context,"classification":classify_block(context)})
         m = re_fetch.search(line)
@@ -79,52 +57,62 @@ def process_line(line, context_window, first_entry, fj, ft, fh, fs, line_number)
         if m: items.append({"type":"FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
         m = re_arrow.search(line)
         if m: items.append({"type":"ARROW_FUNCTION","name":m.group(1),"context":context,"classification":classify_block(context)})
+        if "{" in line and "}" in line:
+            items.append({"type":"JSON_BLOCK","json":line,"classification":classify_block(line)})
+    except Exception as e:
+        with open(SKIP_FILE, "a", encoding="utf-8") as sf:
+            sf.write(f"{line}\nERROR: {e}\n{'-'*50}\n")
+    return items
 
-        # --- Проверка уникальности и запись ---
-        for it in items:
-            content_str = it.get("context", "").encode('utf-8')
-            content_hash = hashlib.md5(content_str).hexdigest()
-            if content_hash in seen_hashes:
-                continue
-            seen_hashes.add(content_hash)
-            fh.write(content_hash + "\n")
-            fh.flush()
-
-            if not first_entry:
-                fj.write(",\n")
-            else:
-                first_entry = False
-            json.dump(it, fj, ensure_ascii=False)
-            ft.write(f"[{it['type']} / {it['classification']}]\n")
-            ft.write(content_str.decode('utf-8') + "\n" + "="*80 + "\n")
-
-    except Exception:
-        # Ловим все ошибки и сохраняем "опасную" строку
-        fs.write(f"Line {line_number} skipped due to error:\n")
-        fs.write(line)
-        fs.write("\nContext:\n")
-        fs.write("\n".join(context_window) + "\n")
-        fs.write("="*80 + "\n")
-        fs.flush()
-
-    return first_entry
-
-# --- Основной цикл ---
+# --- MAIN PROCESSING ---
 with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as f:
+    chunk_lines = []
+    all_items = []
     for idx, line in enumerate(f, 1):
-        first_entry = process_line(line, context_window, first_entry, fj, ft, fh, fs, idx)
-        if idx % LOG_INTERVAL == 0:
-            print(f"Processed {idx} lines...")
+        chunk_lines.append(line.rstrip())
+        if len(chunk_lines) >= CHUNK_SIZE:
+            for i, l in enumerate(chunk_lines):
+                context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
+                for it in process_line(l, context):
+                    content_hash = hashlib.md5(it.get("context", it.get("json","")).encode('utf-8')).hexdigest()
+                    if content_hash not in seen_hashes:
+                        seen_hashes.add(content_hash)
+                        all_items.append(it)
+            chunk_lines = []
+    # --- Обработка остатка ---
+    for i, l in enumerate(chunk_lines):
+        context = "\n".join(chunk_lines[max(i-5,0):min(i+6,len(chunk_lines))])
+        for it in process_line(l, context):
+            content_hash = hashlib.md5(it.get("context", it.get("json","")).encode('utf-8')).hexdigest()
+            if content_hash not in seen_hashes:
+                seen_hashes.add(content_hash)
+                all_items.append(it)
 
-fj.write("\n]\n")
-fj.close()
-ft.close()
-fh.close()
-fs.close()
+# --- Сохраняем полный JSON и текст ---
+with open(OUTPUT_JSON_ALL,"w",encoding="utf-8") as fj:
+    json.dump(all_items,fj,ensure_ascii=False,indent=2)
+
+with open(OUTPUT_TXT_ALL,"w",encoding="utf-8") as ft:
+    for it in all_items:
+        ft.write(f"[{it['type']} / {it['classification']}]\n")
+        ft.write(it.get("context", it.get("json","")) + "\n" + "="*80 + "\n")
+
+# --- Фильтрация Chat/Admin ---
+chat_admin = [x for x in all_items if x["classification"] in ["Chat","Admin"]]
+
+with open(OUTPUT_JSON_CMD,"w",encoding="utf-8") as fj:
+    json.dump(chat_admin,fj,ensure_ascii=False,indent=2)
+
+with open(OUTPUT_TXT_CMD,"w",encoding="utf-8") as ft:
+    for it in chat_admin:
+        ft.write(f"[{it['type']} / {it['classification']}]\n")
+        ft.write(it.get("context", it.get("json","")) + "\n" + "="*80 + "\n")
 
 # --- git push ---
 subprocess.run(["git","add","."])
-subprocess.run(["git","commit","-m","Deep full analysis update"])
+subprocess.run(["git","commit","-m","Full chat/admin analysis update"])
 subprocess.run(["git","push"])
 
-print("DONE.")
+print("DONE: Full analysis + Chat/Admin extraction complete.")
+print(f"Total items: {len(all_items)}, Chat/Admin items: {len(chat_admin)}")
+print(f"Skipped lines logged in {SKIP_FILE}")
