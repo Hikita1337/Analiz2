@@ -1,53 +1,59 @@
 import os
-import json
 from pathlib import Path
+from datetime import datetime
 import subprocess
+import sys
 
+REPO_URL = "https://github.com/Hikita1337/Analiz2"
 REPORT_DIR = Path("reports")
-files = list(REPORT_DIR.glob("ultra_report_*.json"))
-html_files = list(REPORT_DIR.glob("ultra_report_*.html"))
+OUTPUT_RTF = REPORT_DIR / "ultra_reports_index.rtf"
 
-if not files and not html_files:
-    print("Файлы отчёта не найдены.")
-    exit()
+def ensure_pypandoc():
+    try:
+        import pypandoc
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pypandoc"])
 
-json_path = files[0] if files else None
-html_path = html_files[0] if html_files else None
+def list_reports():
+    REPORT_DIR.mkdir(exist_ok=True)
+    return sorted([f for f in REPORT_DIR.iterdir() if f.name.startswith("ultra_report_")])
 
-base_name = json_path.stem if json_path else html_path.stem
-OUT = REPORT_DIR / f"split_{base_name}"
-OUT.mkdir(exist_ok=True)
+def generate_rtf(reports):
+    lines = ["# Отчёты Ultra Analyzer\n"]
+    for f in reports:
+        github_link = f"{REPO_URL}/blob/main/{f.as_posix()}"
+        lines.append(f"- [{f.name}]({github_link})")
 
-def split_json(path):
-    with path.open("r", encoding="utf-8") as f:
-        data = json.load(f)
+    md_text = "\n".join(lines)
 
-    blocks = {}
-    for key, value in data.items():
-        blocks[key] = value
+    import pypandoc
+    pypandoc.convert_text(
+        md_text,
+        to="rtf",
+        format="md",
+        outputfile=str(OUTPUT_RTF),
+        extra_args=["--standalone"]
+    )
 
-    for key, value in blocks.items():
-        out = OUT / f"{key}.json"
-        with out.open("w", encoding="utf-8") as f:
-            json.dump(value, f, ensure_ascii=False, indent=2)
+def git_push():
+    try:
+        subprocess.run(["git", "add", str(OUTPUT_RTF)], check=True)
+        subprocess.run(["git", "commit", "-m", "Индекс отчётов"], check=True)
+        subprocess.run(["git", "pull", "--rebase"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("[*] Индекс успешно запушен.")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Git: {e}")
 
-if json_path:
-    split_json(json_path)
+if __name__ == "__main__":
+    ensure_pypandoc()
+    reports = list_reports()
+    if not reports:
+        print("[!] Нет файлов ultra_report_*")
+        sys.exit(0)
 
-if html_path:
-    with html_path.open("r", encoding="utf-8") as f:
-        html = f.read()
+    generate_rtf(reports)
+    git_push()
 
-    size = 5_000_000
-    parts = [html[i:i+size] for i in range(0, len(html), size)]
-
-    for idx, part in enumerate(parts, 1):
-        out = OUT / f"html_part_{idx}.html"
-        with out.open("w", encoding="utf-8") as f:
-            f.write(part)
-
-subprocess.run(["git", "add", str(OUT)])
-subprocess.run(["git", "commit", "-m", f"Split {base_name} into multiple files"])
-subprocess.run(["git", "push"])
-
-print("Готово. Разделено и запушено.")
+    print(f"[*] Создан файл: {OUTPUT_RTF}")
+    print("[*] Готово.")
