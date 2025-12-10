@@ -109,12 +109,22 @@ def save_json(data, suffix="ws_rounds"):
     return file_path
 
 # ---------------- GIT LFS PUSH ----------------
+# ---------------- GIT LFS PUSH ----------------
 def git_lfs_push(file_path):
     try:
+        # Отслеживаем через LFS
         subprocess.run(["git", "lfs", "track", str(file_path)], check=True)
-        subprocess.run(["git", "add", str(file_path)], check=True)
-        subprocess.run(["git", "commit", "-m", GIT_COMMIT_MSG], check=True)
-        subprocess.run(["git", "pull", "--rebase"], check=True)
+
+        # Добавляем все изменения (включая новые файлы)
+        subprocess.run(["git", "add", "-A"], check=True)
+
+        # Коммитим любые изменения
+        subprocess.run(["git", "commit", "-m", GIT_COMMIT_MSG], check=False)  # False чтобы не падало если нет изменений
+
+        # Pull без rebase (чтобы не ломало на unstaged changes)
+        subprocess.run(["git", "pull"], check=True)
+
+        # Push изменений в LFS
         subprocess.run(["git", "push"], check=True)
         print(f"[*] Файл успешно запушен через Git LFS: {file_path}")
     except subprocess.CalledProcessError as e:
