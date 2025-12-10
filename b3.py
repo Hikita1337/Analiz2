@@ -1,59 +1,69 @@
-import json, os, subprocess, sys
+import json
 from pathlib import Path
-from datetime import datetime
+from collections import defaultdict, Counter
 
-REPORT_DIR = Path("deep_reports_processed")
-REPORT_DIR.mkdir(exist_ok=True)
+# ---------------- CONFIG ----------------
+DATA_DIR = Path("deep_reports_processed")
+OUTPUT_DIR = Path("deep_reports_advanced_analysis")
+OUTPUT_DIR.mkdir(exist_ok=True)
 
-FILES_TO_PROCESS = [
-    "deep_reports/base64_2025-12-10_09-19-04.json",
-    "deep_reports/hex_2025-12-10_09-19-05.json",
-    "deep_reports/pf_predictive_analysis_2025-12-10_09-19-05.json",
-    "deep_reports/ws_raw_unique_2025-12-10_09-19-06.json"
-]
+FILES = {
+    "base64": DATA_DIR / "base64_2025-12-10_09-19-04_unique_2025-12-10_09-56-47.json",
+    "hex": DATA_DIR / "hex_2025-12-10_09-19-05_unique_2025-12-10_09-56-47.json",
+    "pf": DATA_DIR / "pf_predictive_analysis_2025-12-10_09-19-05_unique_2025-12-10_09-56-49.json",
+    "ws": DATA_DIR / "ws_raw_unique_2025-12-10_09-19-06_unique_2025-12-10_09-56-56.json"
+}
 
-def load_json(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
+# ---------------- HELPERS ----------------
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def save_json(data, suffix):
-    ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    file_path = REPORT_DIR / f"{suffix}_{ts}.json"
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    return file_path
+def correlate_pf(ws_list, pf_events):
+    correlation = defaultdict(list)
+    for key, events in pf_events.items():
+        for event in events:
+            payload = event.get("payload", "")
+            for idx, ws_msg in enumerate(ws_list):
+                ws_text = str(ws_msg)
+                if payload in ws_text:
+                    correlation[key].append({"ws_index": idx, **event})
+                    break
+    return correlation
 
-def git_lfs_push(file_path, msg="Авто-отчет"):
-    try:
-        subprocess.run(["git", "lfs", "track", str(file_path)], check=True)
-        subprocess.run(["git", "add", str(file_path)], check=True)
-        subprocess.run(["git", "commit", "-m", msg], check=True)
-        subprocess.run(["git", "pull", "--rebase"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print(f"[*] Файл успешно запушен через Git LFS: {file_path}")
-    except subprocess.CalledProcessError as e:
-        print(f"[ERROR] Git ошибка: {e}")
+def analyze_sequences(ws_list):
+    sequence_counts = Counter()
+    for msg in ws_list:
+        key = tuple(sorted((k, str(v)) for k, v in msg.items())) if isinstance(msg, dict) else (str(msg),)
+        sequence_counts[key] += 1
+    return sequence_counts
 
-def process_files():
-    for file_path in FILES_TO_PROCESS:
-        data = load_json(file_path)
-        print(f"[INFO] Обработка {file_path} ({len(data)} элементов)")
-        
-        # Разделяем на уникальные элементы
-        if isinstance(data, list):
-            unique_items = list({json.dumps(item, sort_keys=True): item for item in data}.values())
-            save_json(unique_items, Path(file_path).stem + "_unique")
-        elif isinstance(data, dict):
-            # Для pf_predictive_analysis
-            result = {}
-            for key, items in data.items():
-                if isinstance(items, list):
-                    result[key] = list({json.dumps(item, sort_keys=True): item for item in items}.values())
-                else:
-                    result[key] = items
-            save_json(result, Path(file_path).stem + "_unique")
-        else:
-            print(f"[WARN] Неизвестный формат: {file_path}")
+# ---------------- MAIN ----------------
+def main():
+    base64_data = load_json(FILES["base64"])
+    hex_data = load_json(FILES["hex"])
+    pf_data = load_json(FILES["pf"])["pf_predictive_analysis"]
+    ws_data = load_json(FILES["ws"])
+    
+    # Корреляция PF-событий с WS
+    pf_correlation = correlate_pf(ws_data, pf_data)
+    
+    # Анализ повторяющихся последовательностей сообщений WS
+    sequence_stats = analyze_sequences(ws_data)
+    
+    # Сбор продвинутого отчёта с хронологической картой PF
+    report = {
+        "pf_summary": {k: len(v) for k, v in pf_data.items()},
+        "ws_total_messages": len(ws_data),
+        "pf_correlation": pf_correlation,
+        "ws_sequence_patterns": {str(list(k)): v for k, v in sequence_stats.items() if v > 1}
+    }
+    
+    output_file = OUTPUT_DIR / "advanced_pf_ws_analysis.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+    
+    print(f"[INFO] Хронологический PF-анализ завершён. Результат сохранён: {output_file}")
 
-if __name__=="__main__":
-    process_files()
+if __name__ == "__main__":
+    main()
