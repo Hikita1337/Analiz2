@@ -5,8 +5,9 @@ from tqdm import tqdm
 
 # ---------------- DEPENDENCIES ----------------
 try:
-    import tqdm
+    from tqdm import tqdm
 except ImportError:
+    import subprocess, sys
     subprocess.run([sys.executable, "-m", "pip", "install", "tqdm"], check=True)
     from tqdm import tqdm
 
