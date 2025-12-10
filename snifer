@@ -1,0 +1,1037 @@
+[
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:15.681Z",
+    "data": "{\"connect\":{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxODY4NjEiLCJpYXQiOjE3NjUzNzEyMTl9.rROQU7_AoIu8GUdViIGq_vikpnaq67JO6zeOBvasHcE\",\"name\":\"js\"},\"id\":50}\n{\"subscribe\":{\"channel\":\"csgorun:medkit\"},\"id\":51}\n{\"subscribe\":{\"channel\":\"csgorun:main\"},\"id\":52}\n{\"subscribe\":{\"channel\":\"csgorun:online\"},\"id\":53}\n{\"subscribe\":{\"channel\":\"csgorun:g-noty\"},\"id\":54}\n{\"subscribe\":{\"channel\":\"csgorun:runpass-active-state#186861\"},\"id\":55}\n{\"subscribe\":{\"channel\":\"csgorun:u-r#186861\"},\"id\":56}\n{\"subscribe\":{\"channel\":\"csgorun:u-#186861\"},\"id\":57}\n{\"subscribe\":{\"channel\":\"csgorun:user-action#186861\"},\"id\":58}\n{\"subscribe\":{\"channel\":\"csgorun:u-i#186861\"},\"id\":59}\n{\"subscribe\":{\"channel\":\"csgorun:noty#186861\"},\"id\":60}\n{\"subscribe\":{\"channel\":\"csgorun:sound#186861\"},\"id\":61}\n{\"subscribe\":{\"channel\":\"csgorun:u-noty#186861\"},\"id\":62}\n{\"subscribe\":{\"channel\":\"csgorun:crash\"},\"id\":63}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.846Z",
+    "data": "{\"id\":50,\"connect\":{\"client\":\"a7ea7a7f-eee0-47e1-857f-8ddfe9f638de\",\"version\":\"6.3.1 OSS\",\"ping\":25,\"pong\":true}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.849Z",
+    "data": "{\"id\":51,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.849Z",
+    "data": "{\"id\":52,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.849Z",
+    "data": "{\"id\":53,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.849Z",
+    "data": "{\"id\":54,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.849Z",
+    "data": "{\"id\":55,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.851Z",
+    "data": "{\"id\":56,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.851Z",
+    "data": "{\"id\":57,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.851Z",
+    "data": "{\"id\":58,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.851Z",
+    "data": "{\"id\":59,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.852Z",
+    "data": "{\"id\":60,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.852Z",
+    "data": "{\"id\":61,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.852Z",
+    "data": "{\"id\":62,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:15.852Z",
+    "data": "{\"id\":63,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:16.150Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":36.88599991798401,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:16.513Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":37.28600001335144,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:16.527Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":150},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:16.699Z",
+    "data": "{\"unsubscribe\":{\"channel\":\"csgorun:crash\"},\"id\":64}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:16.859Z",
+    "data": "{\"id\":64,\"unsubscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:17.481Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":150},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:18.113Z",
+    "data": "{\"subscribe\":{\"channel\":\"csgorun:crash\"},\"id\":65}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:18.334Z",
+    "data": "{\"id\":65,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:18.334Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":152},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:18.516Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":39.28600001335144,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:18.963Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":39.68600010871887,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:19.314Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":40.085999965667725,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:19.532Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":152},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:19.740Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":40.486000061035156,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:20.143Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":40.88700008392334,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:20.450Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":106},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":156},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:20.513Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":41.28600001335144,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:20.962Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":41.68600010871887,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:21.315Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":42.08699989318848,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:21.327Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":108},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":156},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:21.780Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":42.486000061035156,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:22.191Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":42.88599991798401,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:22.601Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":43.28600001335144,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:22.602Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":104},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":154},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:22.910Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":43.68600010871887,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:22.958Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"online\",\"count\":3088}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:23.423Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":44.08699989318848,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:23.431Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":158},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:23.828Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":44.48699998855591,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:24.143Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":44.88599991798401,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:24.330Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":158},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":120}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:24.514Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":45.28699994087219,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:24.916Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":45.68600010871887,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:25.311Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":46.08699989318848,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:25.531Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":104},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":158},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":120}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:25.714Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":46.48699998855591,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:26.190Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":46.88800001144409,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:26.432Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":158},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":120}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:26.518Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":47.28800010681152,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:26.921Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":47.687999963760376,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:27.414Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":48.08899998664856,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:27.415Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":154},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":120}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:27.823Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":48.48900008201599,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:28.246Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":48.890000104904175,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:28.540Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":49.289000034332275,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:28.541Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":162},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":120}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:28.949Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":49.68899989128113,\"status\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:29.088Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"crash\",\"id\":6258812,\"crash\":19.49}}}}"
+  },
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:29.424Z",
+    "data": "{\"unsubscribe\":{\"channel\":\"csgorun:crash\"},\"id\":66}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:29.481Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":102},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:29.587Z",
+    "data": "{\"id\":66,\"unsubscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:30.377Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":96},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:31.052Z",
+    "data": "{\"subscribe\":{\"channel\":\"csgorun:crash\"},\"id\":67}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:31.213Z",
+    "data": "{\"id\":67,\"subscribe\":{}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:31.612Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":98},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:32.446Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":96},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:33.354Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":98},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":166},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:34.173Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"start\",\"id\":6258813,\"hash\":\"61214c6f4125f9b9ee91794ad3b10de7530d9bbc2b1ca63210b836ba24c6cd92\"}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:34.664Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":9.588000059127808,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:34.741Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":98},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.048Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":9.188000202178955,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.404Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":8.787000179290771,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.404Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748170,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1500,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":25,\"walletAmount\":25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2941310,\"name\":\"ÐÐ¸Ð¼Ð° Ð©ÑÐºÐ¸Ð½\",\"avatar\":\"https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748170,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1500,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":25,\"walletAmount\":25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2941310,\"name\":\"ÐÐ¸Ð¼Ð° Ð©ÑÐºÐ¸Ð½\",\"avatar\":\"https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.407Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748168,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":2.02,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.07,\"walletAmount\":4.07,\"items\":[{\"id\":1431398949,\"itemId\":1431398949,\"name\":\"MAC-10 | Heat (Battle-Scarred)\",\"colorId\":3,\"gameId\":730,\"reservedId\":2272}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594239,\"name\":\"DerMaddin\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/cf/cf1f2322d93a65d991711b8de104bcd7a358e0ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.407Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748168,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":2.02,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.07,\"walletAmount\":4.07,\"items\":[{\"id\":1431398949,\"itemId\":1431398949,\"name\":\"MAC-10 | Heat (Battle-Scarred)\",\"colorId\":3,\"gameId\":730,\"reservedId\":2272}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594239,\"name\":\"DerMaddin\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/cf/cf1f2322d93a65d991711b8de104bcd7a358e0ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.409Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748169,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.76,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":2.73,\"walletAmount\":2.73,\"items\":[{\"id\":1431398950,\"itemId\":1431398950,\"name\":\"MP5-SD | Statics (Factory New)\",\"colorId\":1,\"gameId\":730,\"reservedId\":26787}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594212,\"name\":\"RustySalsa777\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748169,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.76,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":2.73,\"walletAmount\":2.73,\"items\":[{\"id\":1431398950,\"itemId\":1431398950,\"name\":\"MP5-SD | Statics (Factory New)\",\"colorId\":1,\"gameId\":730,\"reservedId\":26787}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594212,\"name\":\"RustySalsa777\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.441Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":22},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":122}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.556Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748171,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.69,\"walletAmount\":1.69,\"items\":[{\"id\":1431398951,\"itemId\":1431398951,\"name\":\"Inscribed Belt of the Crystal Drift\",\"colorId\":23,\"gameId\":570,\"reservedId\":17786}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107453,\"name\":\"Mugyaa~~~ |HENTAI|\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ea/ea077591ec621201d97c9355efaae16ca09f316e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.559Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748171,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.69,\"walletAmount\":1.69,\"items\":[{\"id\":1431398951,\"itemId\":1431398951,\"name\":\"Inscribed Belt of the Crystal Drift\",\"colorId\":23,\"gameId\":570,\"reservedId\":17786}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107453,\"name\":\"Mugyaa~~~ |HENTAI|\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ea/ea077591ec621201d97c9355efaae16ca09f316e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.569Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748172,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.18,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.5,\"walletAmount\":1.5,\"items\":[{\"id\":1431398952,\"itemId\":1431398952,\"name\":\"StatTrakâ¢ Tec-9 | Cracked Opal (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":9238},{\"id\":1431398953,\"itemId\":1431398953,\"name\":\"Starrider of the Crescent Steel Glaive\",\"colorId\":22,\"gameId\":570,\"reservedId\":26567}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943542,\"name\":\"Ling\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/63/63e86fb188c3b04075ded3c4c0955f49847458c3_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.570Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748172,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.18,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.5,\"walletAmount\":1.5,\"items\":[{\"id\":1431398952,\"itemId\":1431398952,\"name\":\"StatTrakâ¢ Tec-9 | Cracked Opal (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":9238},{\"id\":1431398953,\"itemId\":1431398953,\"name\":\"Starrider of the Crescent Steel Glaive\",\"colorId\":22,\"gameId\":570,\"reservedId\":26567}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943542,\"name\":\"Ling\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/63/63e86fb188c3b04075ded3c4c0955f49847458c3_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.671Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":5,\"totalDeposit\":34.99,\"totalItems\":5}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.713Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":8.386000156402588,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.745Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748173,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398954,\"itemId\":1431398954,\"name\":\"Inscribed Algid Falcon Bracer\",\"colorId\":23,\"gameId\":570,\"reservedId\":17284}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594315,\"name\":\"AxelBlaze\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748173,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398954,\"itemId\":1431398954,\"name\":\"Inscribed Algid Falcon Bracer\",\"colorId\":23,\"gameId\":570,\"reservedId\":17284}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594315,\"name\":\"AxelBlaze\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.746Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748174,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.06,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.47,\"walletAmount\":0.47,\"items\":[{\"id\":1431398955,\"itemId\":1431398955,\"name\":\"Sealed Graffiti | Goofy (Battle Green)\",\"colorId\":4,\"gameId\":730,\"reservedId\":4883}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943559,\"name\":\"pinkisex\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:35.747Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748174,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.06,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.47,\"walletAmount\":0.47,\"items\":[{\"id\":1431398955,\"itemId\":1431398955,\"name\":\"Sealed Graffiti | Goofy (Battle Green)\",\"colorId\":4,\"gameId\":730,\"reservedId\":4883}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943559,\"name\":\"pinkisex\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.120Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748175,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.78,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.29,\"walletAmount\":0.29,\"items\":[{\"id\":1431398956,\"itemId\":1431398956,\"name\":\"Shroomling\",\"colorId\":23,\"gameId\":570,\"reservedId\":26133}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594208,\"name\":\"xxxGILxxx gamdom.com\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.121Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748176,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.14,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398957,\"itemId\":1431398957,\"name\":\"Inscribed Wings of the Ruby Web\",\"colorId\":21,\"gameId\":570,\"reservedId\":23104}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107472,\"name\":\"nikita.suhanovscky\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/e8faa4f3e240c4798188b57e21205acfd030bc30_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748175,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.78,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.29,\"walletAmount\":0.29,\"items\":[{\"id\":1431398956,\"itemId\":1431398956,\"name\":\"Shroomling\",\"colorId\":23,\"gameId\":570,\"reservedId\":26133}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594208,\"name\":\"xxxGILxxx gamdom.com\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.121Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748176,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.14,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398957,\"itemId\":1431398957,\"name\":\"Inscribed Wings of the Ruby Web\",\"colorId\":21,\"gameId\":570,\"reservedId\":23104}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107472,\"name\":\"nikita.suhanovscky\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/e8faa4f3e240c4798188b57e21205acfd030bc30_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.122Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":9,\"totalDeposit\":37.47,\"totalItems\":9}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.122Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":7.987000226974487,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.147Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748177,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.08,\"walletAmount\":1.08,\"items\":[{\"id\":1431398958,\"itemId\":1431398958,\"name\":\"Armor of the Abyssal Scourge\",\"colorId\":23,\"gameId\":570,\"reservedId\":319}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943568,\"name\":\"caedynetheo\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d8/d866b8553844440e0f68398526327859995607ca_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.148Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748177,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.08,\"walletAmount\":1.08,\"items\":[{\"id\":1431398958,\"itemId\":1431398958,\"name\":\"Armor of the Abyssal Scourge\",\"colorId\":23,\"gameId\":570,\"reservedId\":319}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943568,\"name\":\"caedynetheo\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d8/d866b8553844440e0f68398526327859995607ca_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.153Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748178,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.03,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.84,\"walletAmount\":1.84,\"items\":[{\"id\":1431398959,\"itemId\":1431398959,\"name\":\"StatTrakâ¢ XM1014 | Ziggy (Well-Worn)\",\"colorId\":3,\"gameId\":730,\"reservedId\":9503}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594255,\"name\":\"Periath\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/1676e2a230ffb32f043bab56442a393bf79074d2_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748178,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.03,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.84,\"walletAmount\":1.84,\"items\":[{\"id\":1431398959,\"itemId\":1431398959,\"name\":\"StatTrakâ¢ XM1014 | Ziggy (Well-Worn)\",\"colorId\":3,\"gameId\":730,\"reservedId\":9503}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594255,\"name\":\"Periath\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/1676e2a230ffb32f043bab56442a393bf79074d2_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.350Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748179,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.16,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.8,\"walletAmount\":0.8,\"items\":[{\"id\":1431398960,\"itemId\":1431398960,\"name\":\"Inscribed Fortune of the Five Houses\",\"colorId\":25,\"gameId\":570,\"reservedId\":19523}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594271,\"name\":\"865108381\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.356Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748179,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.16,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.8,\"walletAmount\":0.8,\"items\":[{\"id\":1431398960,\"itemId\":1431398960,\"name\":\"Inscribed Fortune of the Five Houses\",\"colorId\":25,\"gameId\":570,\"reservedId\":19523}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594271,\"name\":\"865108381\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.357Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748180,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":5.55,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398961,\"itemId\":1431398961,\"name\":\"Inscribed Tail of Sundering\",\"colorId\":20,\"gameId\":570,\"reservedId\":22488}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943543,\"name\":\"Superguy4231\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748180,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":5.55,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398961,\"itemId\":1431398961,\"name\":\"Inscribed Tail of Sundering\",\"colorId\":20,\"gameId\":570,\"reservedId\":22488}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943543,\"name\":\"Superguy4231\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.440Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":13,\"totalDeposit\":42.05,\"totalItems\":13}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.510Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":7.586000204086304,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.555Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748181,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.23,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.54,\"walletAmount\":0.54,\"items\":[{\"id\":1431398962,\"itemId\":1431398962,\"name\":\"Sticker | Luck Skill\",\"colorId\":1,\"gameId\":730,\"reservedId\":10700}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594252,\"name\":\"ææ¢¦\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c4/c43a8cab8cc34ac497d5391769bf337ed09b465e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748181,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.23,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.54,\"walletAmount\":0.54,\"items\":[{\"id\":1431398962,\"itemId\":1431398962,\"name\":\"Sticker | Luck Skill\",\"colorId\":1,\"gameId\":730,\"reservedId\":10700}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594252,\"name\":\"ææ¢¦\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c4/c43a8cab8cc34ac497d5391769bf337ed09b465e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.560Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748182,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.21,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.46,\"walletAmount\":0.46,\"items\":[{\"id\":1431398963,\"itemId\":1431398963,\"name\":\"Effigy Block of The International 2016\",\"colorId\":22,\"gameId\":570,\"reservedId\":11403}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943552,\"name\":\"sofia :3\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/25/25446967e0d3465d9a0a5a81b0a734005b5aea4f_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.560Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748182,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.21,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.46,\"walletAmount\":0.46,\"items\":[{\"id\":1431398963,\"itemId\":1431398963,\"name\":\"Effigy Block of The International 2016\",\"colorId\":22,\"gameId\":570,\"reservedId\":11403}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943552,\"name\":\"sofia :3\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/25/25446967e0d3465d9a0a5a81b0a734005b5aea4f_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.747Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748183,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.19,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.16,\"walletAmount\":1.16,\"items\":[{\"id\":1431398964,\"itemId\":1431398964,\"name\":\"Taunt: Thorns and All\",\"colorId\":25,\"gameId\":570,\"reservedId\":26947}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943555,\"name\":\"Ch4rLiE30\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1c/1cb28edfbbadd16d88f11d50dc117e51173626ad_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748183,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.19,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.16,\"walletAmount\":1.16,\"items\":[{\"id\":1431398964,\"itemId\":1431398964,\"name\":\"Taunt: Thorns and All\",\"colorId\":25,\"gameId\":570,\"reservedId\":26947}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943555,\"name\":\"Ch4rLiE30\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1c/1cb28edfbbadd16d88f11d50dc117e51173626ad_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.755Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748184,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.33,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.67,\"walletAmount\":0.67,\"items\":[{\"id\":1431398965,\"itemId\":1431398965,\"name\":\"XM1014 | Run Run Run (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":27959}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107451,\"name\":\"Superhaas\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9a/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.755Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748184,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.33,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.67,\"walletAmount\":0.67,\"items\":[{\"id\":1431398965,\"itemId\":1431398965,\"name\":\"XM1014 | Run Run Run (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":27959}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107451,\"name\":\"Superhaas\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9a/9ae2ef4a5cf358d3ac47bb635ebe50cd2690f0a4_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.844Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":17,\"totalDeposit\":44.879999999999995,\"totalItems\":17}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.862Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748185,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.5,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":1.8389891386032104,\"walletAmount\":141.25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":3926233,\"name\":\"amaterasu\",\"avatar\":\"https://avatars.steamstatic.com/5f307539b39b99a311a34c1bf70eb10ca0f35eee_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.864Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748185,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.5,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":1.8389891386032104,\"walletAmount\":141.25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":3926233,\"name\":\"amaterasu\",\"avatar\":\"https://avatars.steamstatic.com/5f307539b39b99a311a34c1bf70eb10ca0f35eee_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.910Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":7.187000036239624,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.955Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748186,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.12,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":2.13,\"walletAmount\":2.13,\"items\":[{\"id\":1431398966,\"itemId\":1431398966,\"name\":\"Sanction of the Winged Harvest Loading Screen\",\"colorId\":24,\"gameId\":570,\"reservedId\":25768},{\"id\":1431398967,\"itemId\":1431398967,\"name\":\"Inscribed Golden Siblings Offhand\",\"colorId\":20,\"gameId\":570,\"reservedId\":19804},{\"id\":1431398968,\"itemId\":1431398968,\"name\":\"Genuine Scythe of Plague\",\"colorId\":22,\"gameId\":570,\"reservedId\":14191}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594309,\"name\":\"elmika92\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/7b/7b1ad003ea8eb9d788de9dc7c77e5bfe64d42d7b_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748186,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.12,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":2.13,\"walletAmount\":2.13,\"items\":[{\"id\":1431398966,\"itemId\":1431398966,\"name\":\"Sanction of the Winged Harvest Loading Screen\",\"colorId\":24,\"gameId\":570,\"reservedId\":25768},{\"id\":1431398967,\"itemId\":1431398967,\"name\":\"Inscribed Golden Siblings Offhand\",\"colorId\":20,\"gameId\":570,\"reservedId\":19804},{\"id\":1431398968,\"itemId\":1431398968,\"name\":\"Genuine Scythe of Plague\",\"colorId\":22,\"gameId\":570,\"reservedId\":14191}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594309,\"name\":\"elmika92\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/7b/7b1ad003ea8eb9d788de9dc7c77e5bfe64d42d7b_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.958Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748187,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.22,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.33,\"walletAmount\":0.33,\"items\":[{\"id\":1431398969,\"itemId\":1431398969,\"name\":\"Inscribed Heir's Steps\",\"colorId\":24,\"gameId\":570,\"reservedId\":20069}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107464,\"name\":\"jOseâ¢\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6f/6f7dcb5f9ebab35bfe93440fd23c04ad173d8acb_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:36.960Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748187,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.22,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.33,\"walletAmount\":0.33,\"items\":[{\"id\":1431398969,\"itemId\":1431398969,\"name\":\"Inscribed Heir's Steps\",\"colorId\":24,\"gameId\":570,\"reservedId\":20069}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107464,\"name\":\"jOseâ¢\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6f/6f7dcb5f9ebab35bfe93440fd23c04ad173d8acb_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.151Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748189,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.28,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.4,\"walletAmount\":1.4,\"items\":[{\"id\":1431398970,\"itemId\":1431398970,\"name\":\"Belt of the Forlorn Maze\",\"colorId\":23,\"gameId\":570,\"reservedId\":6119}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107457,\"name\":\"JohnF\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/45/45dd5aee541719b82f3e3e3973c79c2ccf2417ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.155Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748189,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.28,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.4,\"walletAmount\":1.4,\"items\":[{\"id\":1431398970,\"itemId\":1431398970,\"name\":\"Belt of the Forlorn Maze\",\"colorId\":23,\"gameId\":570,\"reservedId\":6119}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107457,\"name\":\"JohnF\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/45/45dd5aee541719b82f3e3e3973c79c2ccf2417ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.256Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748188,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.77,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398971,\"itemId\":1431398971,\"name\":\"Inscribed Armlets of Teardrop Ice\",\"colorId\":24,\"gameId\":570,\"reservedId\":17416}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943603,\"name\":\"Anebrilinde\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18d800bdfbaae87048900165854653ddc2a44347_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.256Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748188,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.77,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.86,\"walletAmount\":0.86,\"items\":[{\"id\":1431398971,\"itemId\":1431398971,\"name\":\"Inscribed Armlets of Teardrop Ice\",\"colorId\":24,\"gameId\":570,\"reservedId\":17416}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943603,\"name\":\"Anebrilinde\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18d800bdfbaae87048900165854653ddc2a44347_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.259Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":22,\"totalDeposit\":51.438989138603205,\"totalItems\":23}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.306Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":6.7870001792907715,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.372Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748190,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":2,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":0.6509696245193481,\"walletAmount\":50,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2400855,\"name\":\"âï¸ï¸Kingâï¸lowâï¸tab\",\"avatar\":\"https://avatars.steamstatic.com/209d10c14bc8793ea274b2df022be90d01812f68_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748190,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":2,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":0.6509696245193481,\"walletAmount\":50,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2400855,\"name\":\"âï¸ï¸Kingâï¸lowâï¸tab\",\"avatar\":\"https://avatars.steamstatic.com/209d10c14bc8793ea274b2df022be90d01812f68_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.573Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":96},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":146},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.685Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":23,\"totalDeposit\":52.08995876312255,\"totalItems\":23}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.721Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":6.386000156402588,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:37.854Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":96},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:38.166Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":5.986000061035156,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:38.473Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":170},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:38.510Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":5.586000204086304,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:38.989Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":5.186000108718872,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:39.394Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":4.78600001335144,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:39.396Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:39.804Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":4.386000156402588,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.212Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":3.9860000610351562,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.423Z",
+    "data": "{}"
+  },
+  {
+    "type": "outgoing",
+    "time": "2025-12-10T13:17:40.423Z",
+    "data": "{}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.624Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":3.5860002040863037,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.626Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":170},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.876Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748191,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.41,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":3.700000047683716,\"walletAmount\":3.7,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":329925,\"name\":\"Ð¢ÑÐ°ÑÐ°Ñ Ð¿Ð¾Ð´ Ð¿Ð¸Ð²Ð¾\",\"avatar\":\"https://avatars.steamstatic.com/04df635bcf7a6e343cf5760a529f27aed33ec1ad_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.879Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748191,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":1.41,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":3.700000047683716,\"walletAmount\":3.7,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":329925,\"name\":\"Ð¢ÑÐ°ÑÐ°Ñ Ð¿Ð¾Ð´ Ð¿Ð¸Ð²Ð¾\",\"avatar\":\"https://avatars.steamstatic.com/04df635bcf7a6e343cf5760a529f27aed33ec1ad_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:40.920Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":3.186000108718872,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:41.238Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":24,\"totalDeposit\":55.78995881080627,\"totalItems\":23}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:41.341Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":2.7860000133514404,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:41.447Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":170},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":114}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:41.750Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":2.384999990463257,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.159Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":1.9860000610351562,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.467Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":100},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.507Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":1.5850000381469727,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.672Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748192,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":300,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":5,\"walletAmount\":5,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":826902,\"name\":\"TRYXEEE\",\"avatar\":\"https://avatars.steamstatic.com/4c0025782bd30a2ec81e08acfc4a583db52fc5fd_medium.jpg\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.676Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748192,\"gameId\":6258813,\"status\":1,\"coefficientAuto\":300,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":5,\"walletAmount\":5,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":826902,\"name\":\"TRYXEEE\",\"avatar\":\"https://avatars.steamstatic.com/4c0025782bd30a2ec81e08acfc4a583db52fc5fd_medium.jpg\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.978Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":1.1850001811981201,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.979Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"online\",\"count\":3086}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:42.979Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":25,\"totalDeposit\":60.78995881080627,\"totalItems\":23}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:43.389Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":0.7850000858306885,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:43.592Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":98},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:43.798Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":0.38499999046325684,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:44.207Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":-0.015999794006347656,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:44.209Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\"}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:44.514Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":94},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":170},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:44.515Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"crash\",\"id\":6258813,\"crash\":1.02}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:45.355Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":92},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":170},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":116}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:46.553Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":94},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":166},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:47.487Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":90},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":166},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:48.406Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":90},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":168},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:49.478Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"start\",\"id\":6258814,\"hash\":\"d9d7ef88c075ef66794353a64bbe4a1fea6e07c2d10988ffc0a38f1c6bd11708\"}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:49.631Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":92},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":166},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:49.878Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":9.585999965667725,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.325Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":9.185999870300293,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.458Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":94},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":164},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.555Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748193,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1500,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":25,\"walletAmount\":25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2941310,\"name\":\"ÐÐ¸Ð¼Ð° Ð©ÑÐºÐ¸Ð½\",\"avatar\":\"https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.555Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748193,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1500,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":25,\"walletAmount\":25,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2941310,\"name\":\"ÐÐ¸Ð¼Ð° Ð©ÑÐºÐ¸Ð½\",\"avatar\":\"https://sun6-23.userapi.com/s/v1/ig1/a5sZy61jz-Ry1eoDgQaVBU-Fn1qp8_ABJWCH8Mri4c3kiqI7r1eiFxgUhXerno7lSWeK2Uit.jpg?quality=96&crop=1,0,716,716&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&cs=200x200\",\"isVip\":true},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.676Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":8.785000085830688,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.736Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748194,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":5.95,\"walletAmount\":5.95,\"items\":[{\"id\":1431398972,\"itemId\":1431398972,\"name\":\"MAG-7 | Sand Dune (Minimal Wear)\",\"colorId\":4,\"gameId\":730,\"reservedId\":2472}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594212,\"name\":\"RustySalsa777\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748194,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.17,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":5.95,\"walletAmount\":5.95,\"items\":[{\"id\":1431398972,\"itemId\":1431398972,\"name\":\"MAG-7 | Sand Dune (Minimal Wear)\",\"colorId\":4,\"gameId\":730,\"reservedId\":2472}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594212,\"name\":\"RustySalsa777\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/29/29c1af0d9bb766c7b8d7cbef1fa36d6b468636f8_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.840Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748195,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.24,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.25,\"walletAmount\":0.25,\"items\":[{\"id\":1431398973,\"itemId\":1431398973,\"name\":\"Sticker | Run CT, Run\",\"colorId\":1,\"gameId\":730,\"reservedId\":19130}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594239,\"name\":\"DerMaddin\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/cf/cf1f2322d93a65d991711b8de104bcd7a358e0ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.840Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748195,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.24,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.25,\"walletAmount\":0.25,\"items\":[{\"id\":1431398973,\"itemId\":1431398973,\"name\":\"Sticker | Run CT, Run\",\"colorId\":1,\"gameId\":730,\"reservedId\":19130}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594239,\"name\":\"DerMaddin\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/cf/cf1f2322d93a65d991711b8de104bcd7a358e0ab_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.857Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":3,\"totalDeposit\":31.2,\"totalItems\":2}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.858Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748196,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":2,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":1.3019392490386963,\"walletAmount\":100,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2400855,\"name\":\"âï¸ï¸Kingâï¸lowâï¸tab\",\"avatar\":\"https://avatars.steamstatic.com/209d10c14bc8793ea274b2df022be90d01812f68_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.859Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748196,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":2,\"currencyId\":1,\"coefficient\":null,\"deposit\":{\"amount\":1.3019392490386963,\"walletAmount\":100,\"items\":[]},\"withdraw\":{\"amount\":0,\"items\":[]},\"user\":{\"id\":2400855,\"name\":\"âï¸ï¸Kingâï¸lowâï¸tab\",\"avatar\":\"https://avatars.steamstatic.com/209d10c14bc8793ea274b2df022be90d01812f68_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.919Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748197,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.27,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.89,\"walletAmount\":4.89,\"items\":[{\"id\":1431398974,\"itemId\":1431398974,\"name\":\"P2000 | Panther Camo (Minimal Wear)\",\"colorId\":2,\"gameId\":730,\"reservedId\":3179}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943542,\"name\":\"Ling\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/63/63e86fb188c3b04075ded3c4c0955f49847458c3_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748197,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.27,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.89,\"walletAmount\":4.89,\"items\":[{\"id\":1431398974,\"itemId\":1431398974,\"name\":\"P2000 | Panther Camo (Minimal Wear)\",\"colorId\":2,\"gameId\":730,\"reservedId\":3179}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943542,\"name\":\"Ling\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/63/63e86fb188c3b04075ded3c4c0955f49847458c3_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.920Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748198,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.34,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":6.79,\"walletAmount\":6.79,\"items\":[{\"id\":1431398975,\"itemId\":1431398975,\"name\":\"StatTrakâ¢ P250 | Nevermore (Factory New)\",\"colorId\":3,\"gameId\":730,\"reservedId\":8712}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107453,\"name\":\"Mugyaa~~~ |HENTAI|\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ea/ea077591ec621201d97c9355efaae16ca09f316e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:50.920Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748198,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.34,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":6.79,\"walletAmount\":6.79,\"items\":[{\"id\":1431398975,\"itemId\":1431398975,\"name\":\"StatTrakâ¢ P250 | Nevermore (Factory New)\",\"colorId\":3,\"gameId\":730,\"reservedId\":8712}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107453,\"name\":\"Mugyaa~~~ |HENTAI|\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ea/ea077591ec621201d97c9355efaae16ca09f316e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.083Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":8.384000062942505,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.110Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748199,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.18,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.36,\"walletAmount\":1.36,\"items\":[{\"id\":1431398976,\"itemId\":1431398976,\"name\":\"StatTrakâ¢ M249 | Spectre (Minimal Wear)\",\"colorId\":1,\"gameId\":730,\"reservedId\":7950}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594315,\"name\":\"AxelBlaze\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.121Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748200,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.89,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.11,\"walletAmount\":1.11,\"items\":[{\"id\":1431398977,\"itemId\":1431398977,\"name\":\"Inscribed Shroomling\",\"colorId\":23,\"gameId\":570,\"reservedId\":21971}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943559,\"name\":\"pinkisex\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.121Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748200,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.89,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.11,\"walletAmount\":1.11,\"items\":[{\"id\":1431398977,\"itemId\":1431398977,\"name\":\"Inscribed Shroomling\",\"colorId\":23,\"gameId\":570,\"reservedId\":21971}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943559,\"name\":\"pinkisex\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b1045fd1f3cc4860e236c275a7a1d3756b47948e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.130Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748199,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.18,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.36,\"walletAmount\":1.36,\"items\":[{\"id\":1431398976,\"itemId\":1431398976,\"name\":\"StatTrakâ¢ M249 | Spectre (Minimal Wear)\",\"colorId\":1,\"gameId\":730,\"reservedId\":7950}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594315,\"name\":\"AxelBlaze\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/38/389a6860b526c3f673b667feb315fab8b8932319_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.160Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":8,\"totalDeposit\":46.6519392490387,\"totalItems\":6}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.327Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748201,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.15,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.54,\"walletAmount\":0.54,\"items\":[{\"id\":1431398978,\"itemId\":1431398978,\"name\":\"Sticker | Luck Skill\",\"colorId\":1,\"gameId\":730,\"reservedId\":10700}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594208,\"name\":\"xxxGILxxx gamdom.com\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.329Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748201,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.15,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.54,\"walletAmount\":0.54,\"items\":[{\"id\":1431398978,\"itemId\":1431398978,\"name\":\"Sticker | Luck Skill\",\"colorId\":1,\"gameId\":730,\"reservedId\":10700}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594208,\"name\":\"xxxGILxxx gamdom.com\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/89/897c252e0d1ac955dbd2a5a509743cb367a0d03a_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.329Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748202,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.31,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.22,\"walletAmount\":0.22,\"items\":[{\"id\":1431398979,\"itemId\":1431398979,\"name\":\"Genuine Polearm of the Magnoceri\",\"colorId\":22,\"gameId\":570,\"reservedId\":14119}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107472,\"name\":\"nikita.suhanovscky\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/e8faa4f3e240c4798188b57e21205acfd030bc30_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.329Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748202,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.31,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.22,\"walletAmount\":0.22,\"items\":[{\"id\":1431398979,\"itemId\":1431398979,\"name\":\"Genuine Polearm of the Magnoceri\",\"colorId\":22,\"gameId\":570,\"reservedId\":14119}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1107472,\"name\":\"nikita.suhanovscky\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/e8faa4f3e240c4798188b57e21205acfd030bc30_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.353Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:main\",\"pub\":{\"data\":{\"type\":\"gameStatistics\",\"gameStatistics\":{\"crash\":{\"type\":\"crash\",\"amount\":44.459510494470585,\"count\":96},\"double\":{\"type\":\"double\",\"amount\":53.96106008440256,\"count\":160},\"jackrun\":{\"type\":\"jackrun\",\"amount\":0.13042879104614258,\"count\":26},\"rollrun\":{\"type\":\"rollrun\",\"amount\":0,\"count\":148},\"box\":{\"type\":\"box\",\"amount\":0,\"count\":118}}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.478Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":7.983000040054321,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.515Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748203,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.09,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.49,\"walletAmount\":0.49,\"items\":[{\"id\":1431398980,\"itemId\":1431398980,\"name\":\"Inscribed The Crow's Nest\",\"colorId\":22,\"gameId\":570,\"reservedId\":22605}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943568,\"name\":\"caedynetheo\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d8/d866b8553844440e0f68398526327859995607ca_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748203,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.09,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.49,\"walletAmount\":0.49,\"items\":[{\"id\":1431398980,\"itemId\":1431398980,\"name\":\"Inscribed The Crow's Nest\",\"colorId\":22,\"gameId\":570,\"reservedId\":22605}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943568,\"name\":\"caedynetheo\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d8/d866b8553844440e0f68398526327859995607ca_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.517Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748204,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.38,\"walletAmount\":0.38,\"items\":[{\"id\":1431398981,\"itemId\":1431398981,\"name\":\"Heroic Bright Moon Mokdori\",\"colorId\":20,\"gameId\":570,\"reservedId\":15344}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594255,\"name\":\"Periath\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/1676e2a230ffb32f043bab56442a393bf79074d2_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.522Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748204,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.38,\"walletAmount\":0.38,\"items\":[{\"id\":1431398981,\"itemId\":1431398981,\"name\":\"Heroic Bright Moon Mokdori\",\"colorId\":20,\"gameId\":570,\"reservedId\":15344}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594255,\"name\":\"Periath\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/1676e2a230ffb32f043bab56442a393bf79074d2_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.620Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"changeStatistic\",\"count\":12,\"totalDeposit\":48.2819392490387,\"totalItems\":10}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.764Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748205,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.1,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.86,\"walletAmount\":1.86,\"items\":[{\"id\":1431398983,\"itemId\":1431398983,\"name\":\"P250 | Plum Netting (Minimal Wear)\",\"colorId\":4,\"gameId\":730,\"reservedId\":27743}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594271,\"name\":\"865108381\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}\n{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748205,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.1,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":1.86,\"walletAmount\":1.86,\"items\":[{\"id\":1431398983,\"itemId\":1431398983,\"name\":\"P250 | Plum Netting (Minimal Wear)\",\"colorId\":4,\"gameId\":730,\"reservedId\":27743}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594271,\"name\":\"865108381\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/07/07cabbc2e3887f3be6515641872e6fe63b83e2b0_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.865Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748206,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.32,\"walletAmount\":0.32,\"items\":[{\"id\":1431398982,\"itemId\":1431398982,\"name\":\"Luna Talent Sticker - TI 2022\",\"colorId\":24,\"gameId\":570,\"reservedId\":30535}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943543,\"name\":\"Superguy4231\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.866Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748206,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.32,\"walletAmount\":0.32,\"items\":[{\"id\":1431398982,\"itemId\":1431398982,\"name\":\"Luna Talent Sticker - TI 2022\",\"colorId\":24,\"gameId\":570,\"reservedId\":30535}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943543,\"name\":\"Superguy4231\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.886Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"update\",\"delta\":7.582000017166138,\"status\":1}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.924Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748207,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.11,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.67,\"walletAmount\":4.67,\"items\":[{\"id\":1431398984,\"itemId\":1431398984,\"name\":\"Inscribed Wide Angle\",\"colorId\":23,\"gameId\":570,\"reservedId\":23039},{\"id\":1431398985,\"itemId\":1431398985,\"name\":\"StatTrakâ¢ XM1014 | Ziggy (Well-Worn)\",\"colorId\":3,\"gameId\":730,\"reservedId\":9503},{\"id\":1431398986,\"itemId\":1431398986,\"name\":\"MAC-10 | Last Dive (Battle-Scarred)\",\"colorId\":3,\"gameId\":730,\"reservedId\":2292}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594252,\"name\":\"ææ¢¦\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c4/c43a8cab8cc34ac497d5391769bf337ed09b465e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.924Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748207,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.11,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":4.67,\"walletAmount\":4.67,\"items\":[{\"id\":1431398984,\"itemId\":1431398984,\"name\":\"Inscribed Wide Angle\",\"colorId\":23,\"gameId\":570,\"reservedId\":23039},{\"id\":1431398985,\"itemId\":1431398985,\"name\":\"StatTrakâ¢ XM1014 | Ziggy (Well-Worn)\",\"colorId\":3,\"gameId\":730,\"reservedId\":9503},{\"id\":1431398986,\"itemId\":1431398986,\"name\":\"MAC-10 | Last Dive (Battle-Scarred)\",\"colorId\":3,\"gameId\":730,\"reservedId\":2292}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":1594252,\"name\":\"ææ¢¦\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c4/c43a8cab8cc34ac497d5391769bf337ed09b465e_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.928Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"topBetCreated\",\"bet\":{\"id\":698748208,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.9,\"walletAmount\":0.9,\"items\":[{\"id\":1431398987,\"itemId\":1431398987,\"name\":\"Inscribed Shoulders of the Dark Magic\",\"colorId\":20,\"gameId\":570,\"reservedId\":21941},{\"id\":1431398988,\"itemId\":1431398988,\"name\":\"XM1014 | Run Run Run (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":27959}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943552,\"name\":\"sofia :3\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/25/25446967e0d3465d9a0a5a81b0a734005b5aea4f_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  },
+  {
+    "type": "incoming",
+    "time": "2025-12-10T13:17:51.928Z",
+    "data": "{\"push\":{\"channel\":\"csgorun:crash\",\"pub\":{\"data\":{\"type\":\"betCreated\",\"bet\":{\"id\":698748208,\"gameId\":6258814,\"status\":1,\"coefficientAuto\":1.08,\"currencyId\":2,\"coefficient\":null,\"deposit\":{\"amount\":0.9,\"walletAmount\":0.9,\"items\":[{\"id\":1431398987,\"itemId\":1431398987,\"name\":\"Inscribed Shoulders of the Dark Magic\",\"colorId\":20,\"gameId\":570,\"reservedId\":21941},{\"id\":1431398988,\"itemId\":1431398988,\"name\":\"XM1014 | Run Run Run (Field-Tested)\",\"colorId\":1,\"gameId\":730,\"reservedId\":27959}]},\"withdraw\":{\"amount\":null,\"items\":[]},\"user\":{\"id\":943552,\"name\":\"sofia :3\",\"avatar\":\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/25/25446967e0d3465d9a0a5a81b0a734005b5aea4f_medium.jpg\"},\"likes\":0,\"showLike\":false}}}}}"
+  }
+]
