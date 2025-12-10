@@ -141,12 +141,41 @@ def pf_predictive_analyzer(websocket_payloads):
 # ---------------- GIT PUSH ----------------
 def git_add_commit_push(files, commit_msg="Авто-отчёт"):
     try:
-        subprocess.run(["git","add"]+files,check=True)
-        subprocess.run(["git","commit","-m",commit_msg],check=True)
-        subprocess.run(["git","pull","--rebase"],check=True)
-        subprocess.run(["git","push"],check=True)
-        print("[*] Файлы успешно запушены в репозиторий")
-    except subprocess.CalledProcessError as e: print(f"[ERROR] Git ошибка: {e}")
+        # Включаем LFS в репозитории
+        subprocess.run(["git", "lfs", "install"], check=True)
+
+        # Автоматический трекинг в LFS для больших файлов
+        for f in files:
+            try:
+                size = os.path.getsize(f)
+            except FileNotFoundError:
+                print(f"[WARN] Файл не найден: {f}")
+                continue
+
+            # Если файл > 1 МБ — отправляем через LFS
+            if size > 1_000_000:
+                print(f"[*] LFS track для большого файла: {f}")
+                subprocess.run(["git", "lfs", "track", f], check=True)
+
+        # Добавляем обновлённый .gitattributes если изменился
+        subprocess.run(["git", "add", ".gitattributes"], check=True)
+
+        # Добавляем сами файлы
+        subprocess.run(["git", "add"] + files, check=True)
+
+        # Коммит
+        subprocess.run(["git", "commit", "-m", commit_msg], check=True)
+
+        # Корректный pull
+        subprocess.run(["git", "pull", "--rebase"], check=True)
+
+        # Пуш (LFS автоматически обработает большие файлы)
+        subprocess.run(["git", "push"], check=True)
+
+        print("[*] Файлы успешно запушены через Git LFS")
+
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Git ошибка: {e}")
 
 # ---------------- ULTRA ANALYZER ----------------
 def ultra_analyze_with_progress(js_paths, traffic_path):
