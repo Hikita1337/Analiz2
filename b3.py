@@ -42,7 +42,7 @@ def analyze_sequences(ws_list):
 def main():
     base64_data = load_json(FILES["base64"])
     hex_data = load_json(FILES["hex"])
-    pf_data = load_json(FILES["pf"])["pf_predictive_analysis"]
+    pf_data = load_json(FILES["pf"])
     ws_data = load_json(FILES["ws"])
     
     # Корреляция PF-событий с WS
