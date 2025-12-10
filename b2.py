@@ -1,13 +1,11 @@
 import os, re, json, zipfile, hashlib, subprocess, sys
 from pathlib import Path
 from datetime import datetime
-from tqdm import tqdm
 
 # ---------------- DEPENDENCIES ----------------
 try:
     from tqdm import tqdm
 except ImportError:
-    import subprocess, sys
     subprocess.run([sys.executable, "-m", "pip", "install", "tqdm"], check=True)
     from tqdm import tqdm
 
@@ -20,13 +18,17 @@ except subprocess.CalledProcessError:
 
 # ---------------- CONFIG ----------------
 REPORT_DIR = Path("deep_reports"); REPORT_DIR.mkdir(exist_ok=True)
-FILES_TO_PROCESS = ["WS_STREAM.log", "RAW.zip", "DECODED.zip"]
-GIT_COMMIT_MSG = "WS автоматический PF-отчёт"
+FILES_TO_PROCESS = ["WS_STREAM.log", "RAW.zip", "DECODED.zip", "bigdump.txt"]
+GIT_COMMIT_MSG = "WS PF-автоотчёт"
+
+BASE64_LIMIT = 100
+HEX_LIMIT = 100
 
 # ---------------- HELPERS ----------------
 def read_file(path):
     try:
-        with open(path, "r", errors="ignore") as f: return f.read()
+        with open(path, "r", errors="ignore") as f:
+            return f.read()
     except Exception as e:
         print(f"[ERROR] Не удалось прочитать {path}: {e}")
         return ""
@@ -46,108 +48,121 @@ def extract_zip(zip_path):
 def hash_text(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
-# ---------------- PARSE WS ----------------
-def parse_ws_messages(texts):
+def save_json(data, name):
+    ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    file_path = REPORT_DIR / f"{name}_{ts}.json"
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return file_path
+
+def git_lfs_push(file_path):
+    try:
+        subprocess.run(["git", "lfs", "track", str(file_path)], check=True)
+        subprocess.run(["git", "add", str(file_path)], check=True)
+        subprocess.run(["git", "commit", "-m", GIT_COMMIT_MSG], check=True)
+        subprocess.run(["git", "pull", "--rebase"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print(f"[*] Файл успешно запушен через Git LFS: {file_path}")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Git ошибка: {e}")
+
+# ---------------- PARSE ----------------
+def parse_texts(texts):
     seen_hashes = set()
-    rounds = []
-    pf_events = {
+    unique_texts = []
+
+    for t in tqdm(texts, desc="Удаляем дубликаты"):
+        h = hash_text(t)
+        if h not in seen_hashes:
+            seen_hashes.add(h)
+            unique_texts.append(t)
+    return unique_texts
+
+def extract_base64(texts, limit=BASE64_LIMIT):
+    b64_regex = r'(?:[A-Za-z0-9+/]{20,}={0,2})'
+    found = []
+    for t in texts:
+        found.extend(re.findall(b64_regex, t))
+    unique_found = list(dict.fromkeys(found))[:limit]
+    decoded = []
+    for chunk in tqdm(unique_found, desc="Base64 декодирование"):
+        try:
+            val = base64.b64decode(chunk).decode("utf-8", errors="ignore")
+            if val.strip():
+                decoded.append({"encoded": chunk, "decoded": val})
+        except: pass
+    return decoded
+
+def extract_hex(texts, limit=HEX_LIMIT):
+    hex_regex = r'(?:[0-9a-fA-F]{2}){8,}'
+    found = []
+    for t in texts:
+        found.extend(re.findall(hex_regex, t))
+    unique_found = list(dict.fromkeys(found))[:limit]
+    decoded = []
+    for h in tqdm(unique_found, desc="HEX декодирование"):
+        try:
+            val = bytes.fromhex(h).decode("utf-8", errors="ignore")
+            if val.strip():
+                decoded.append({"hex": h, "decoded": val})
+        except: pass
+    return decoded
+
+def pf_predictive_analysis(texts):
+    result = {
         "early_crash": [],
         "early_hash": [],
         "early_salt": [],
         "early_seed": [],
         "early_serverSeed": []
     }
-    
     crash_pattern = re.compile(r'(\d+\.\d{1,4})')
     hash_pattern = re.compile(r'\b[a-f0-9]{64}\b')
     hexlike_pattern = re.compile(r'\b[a-f0-9]{16,}\b')
     base64_pattern = re.compile(r'[A-Za-z0-9+/]{16,}={0,2}')
 
-    for text in tqdm(texts, desc="Анализ сообщений"):
-        messages = re.findall(r'\{.*?\}', text, re.DOTALL)
-        seen_round_end = False
-        for m in messages:
-            h = hash_text(m)
-            if h not in seen_hashes:
-                seen_hashes.add(h)
-                try:
-                    obj = json.loads(m)
-                except:
-                    continue
-                rounds.append(obj)
-                
-                # ----- PF ANALYSIS -----
-                if any(x in m.lower() for x in ["end","finish","round_end","complete"]):
-                    seen_round_end = True
-                # Early crash
-                for val in crash_pattern.findall(m):
-                    try:
-                        fval = float(val)
-                        if fval > 1.0 and not seen_round_end:
-                            pf_events["early_crash"].append({"value": fval, "payload": m[:500]})
-                    except: pass
-                # Early hash
-                for hval in hash_pattern.findall(m):
-                    if not seen_round_end:
-                        pf_events["early_hash"].append({"hash": hval, "payload": m[:500]})
-                # Salt/Seed/ServerSeed
-                candidates = hexlike_pattern.findall(m) + base64_pattern.findall(m)
-                for c in candidates:
-                    L = len(c)
-                    if not seen_round_end:
-                        if 8 <= L <= 32: pf_events["early_salt"].append({"salt": c, "payload": m[:500]})
-                        if 32 < L <= 64: pf_events["early_seed"].append({"seed": c, "payload": m[:500]})
-                        if L > 64: pf_events["early_serverSeed"].append({"serverSeed": c, "payload": m[:500]})
-    return rounds, pf_events
-
-# ---------------- SAVE JSON ----------------
-def save_json(data, suffix="ws_rounds"):
-    ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    file_path = REPORT_DIR / f"{suffix}_{ts}.json"
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    return file_path
-
-# ---------------- GIT LFS PUSH ----------------
-# ---------------- GIT LFS PUSH ----------------
-def git_lfs_push(file_path):
-    try:
-        # Отслеживаем через LFS
-        subprocess.run(["git", "lfs", "track", str(file_path)], check=True)
-
-        # Добавляем все изменения (включая новые файлы)
-        subprocess.run(["git", "add", "-A"], check=True)
-
-        # Коммитим любые изменения
-        subprocess.run(["git", "commit", "-m", GIT_COMMIT_MSG], check=False)  # False чтобы не падало если нет изменений
-
-        # Pull без rebase (чтобы не ломало на unstaged changes)
-        subprocess.run(["git", "pull"], check=True)
-
-        # Push изменений в LFS
-        subprocess.run(["git", "push"], check=True)
-        print(f"[*] Файл успешно запушен через Git LFS: {file_path}")
-    except subprocess.CalledProcessError as e:
-        print(f"[ERROR] Git ошибка: {e}")
+    for text in tqdm(texts, desc="PF анализ"):
+        seen_round_end = any(x in text.lower() for x in ["end","finish","round_end","complete"])
+        for val in crash_pattern.findall(text):
+            try:
+                fval = float(val)
+                if fval > 1.0 and not seen_round_end:
+                    result["early_crash"].append({"value": fval, "payload": text[:500]})
+            except: pass
+        for hval in hash_pattern.findall(text):
+            if not seen_round_end:
+                result["early_hash"].append({"hash": hval, "payload": text[:500]})
+        candidates = hexlike_pattern.findall(text) + base64_pattern.findall(text)
+        for c in candidates:
+            L = len(c)
+            if not seen_round_end:
+                if 8 <= L <= 32: result["early_salt"].append({"salt": c, "payload": text[:500]})
+                if 32 < L <= 64: result["early_seed"].append({"seed": c, "payload": text[:500]})
+                if L > 64: result["early_serverSeed"].append({"serverSeed": c, "payload": text[:500]})
+    return result
 
 # ---------------- MAIN ----------------
 def main():
     all_texts = []
+
     for path in FILES_TO_PROCESS:
         if path.endswith(".zip"):
             all_texts.extend(extract_zip(path))
         else:
             all_texts.append(read_file(path))
-    
-    rounds, pf_events = parse_ws_messages(all_texts)
-    
-    combined_report = {
-        "rounds": rounds,
-        "pf_predictive_analysis": pf_events
-    }
-    
-    json_file = save_json(combined_report, suffix="ws_pf_report")
-    git_lfs_push(json_file)
+
+    all_texts = parse_texts(all_texts)
+
+    base64_data = extract_base64(all_texts)
+    hex_data = extract_hex(all_texts)
+    pf_data = pf_predictive_analysis(all_texts)
+
+    # Сохраняем JSON по блокам
+    json_files = []
+    json_files.append(git_lfs_push(save_json(base64_data, "base64")))
+    json_files.append(git_lfs_push(save_json(hex_data, "hex")))
+    json_files.append(git_lfs_push(save_json(pf_data, "pf_predictive_analysis")))
+    json_files.append(git_lfs_push(save_json(all_texts, "ws_raw_unique")))
 
 if __name__=="__main__":
     main()
