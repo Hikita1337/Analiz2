@@ -1,0 +1,234 @@
+[
+  {
+    "ts": 1765640405467,
+    "url": "https://a.supermail.win/welcome",
+    "type": "click",
+    "data": {
+      "tag": "A",
+      "id": "",
+      "class": "btn btn-primary btn-sm"
+    }
+  },
+  {
+    "ts": 1765640434919,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640435553,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640435711,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640437695,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640440326,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640443669,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640444244,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640444409,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640446066,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640446718,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640448890,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "eruda",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640506206,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A40%3A12ZRb2pTeAHrBFFhun%2FuVyJEi4UdOY%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=%2Badjcubh86AVpgUP5GK4cnGFZdc%3D",
+    "type": "click",
+    "data": {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "bg-transparent text-grey-darkest font-bold uppercase tracking-wide py-3 px-6 border-2 border-grey-light hover:border-grey rounded-lg"
+    }
+  },
+  {
+    "ts": 1765640511480,
+    "url": "https://a.supermail.win/welcome",
+    "type": "click",
+    "data": {
+      "tag": "A",
+      "id": "",
+      "class": "btn btn-primary btn-sm"
+    }
+  },
+  {
+    "ts": 1765640572465,
+    "url": "https://a.supermail.win/welcome",
+    "type": "click",
+    "data": {
+      "tag": "A",
+      "id": "",
+      "class": "btn btn-primary btn-sm"
+    }
+  },
+  {
+    "ts": 1765640582343,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:request",
+    "data": [
+      "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D"
+    ]
+  },
+  {
+    "ts": 1765640582344,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:request",
+    "data": [
+      "https://fonts.googleapis.com/css?family=Nunito"
+    ]
+  },
+  {
+    "ts": 1765640582344,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:request",
+    "data": [
+      "https://a.supermail.win/svg/403.svg"
+    ]
+  },
+  {
+    "ts": 1765640582348,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:response",
+    "data": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 1024 1024\"><defs><linearGradient id=\"a\" x1=\"50%\" x2=\"50%\" y1=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#76C3C3\"/><stop offset=\"100%\" stop-color=\"#183468\"/></linearGradient><linearGradient id=\"b\" x1=\"100%\" x2=\"0%\" y1=\"50%\" y2=\"50%\"><stop offset=\"0%\" stop-color=\"#486587\"/><stop offset=\"33.23%\" stop-color=\"#183352\"/><stop offset=\"66.67%\" stop-color=\"#264A6E\"/><stop offset=\"100%\" stop-color=\"#183352\"/></linearGradient><linearGradient id=\"c\" x1=\"49.87%\" x2=\"48.5%\" y1=\"3.62%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#E0F2FA\"/><stop offset=\"8.98%\" stop-color=\"#89BED6\"/><stop offset=\"32.98%\" stop-color=\"#1E3C6E\"/><stop offset=\"100%\" stop-color=\"#1B376B\"/></linearGradient><linearGradient id=\"d\" x1=\"49.87%\" x2=\"49.87%\" y1=\"3.62%\" y2=\"77.75%\"><stop offset=\"0%\" stop-color=\"#B0DDF1\"/><stop offset=\"100%\" stop-color=\"#325C82\"/></linearGradient><linearGradient id=\"e\" x1=\"91.59%\" x2=\"66.97%\" y1=\"5.89%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#1D3A6D\"/><stop offset=\"100%\" stop-color=\"#467994\"/></linearGradient><linearGradient id=\"f\" x1=\"97.27%\" x2=\"52.53%\" y1=\"6.88%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#1D3A6D\"/><stop offset=\"100%\" stop-color=\"#467994\"/></linearGradient><linearGradient id=\"g\" x1=\"82.73%\" x2=\"41.46%\" y1=\"41.06%\" y2=\"167.23%\"><stop offset=\"0%\" stop-color=\"#1D3A6D\"/><stop offset=\"100%\" stop-color=\"#467994\"/></linearGradient><linearGradient id=\"h\" x1=\"49.87%\" x2=\"49.87%\" y1=\"3.62%\" y2=\"100.77%\"><stop offset=\"0%\" stop-color=\"#B0DDF1\"/><stop offset=\"100%\" stop-color=\"#325C82\"/></linearGradient><linearGradient id=\"i\" x1=\"100%\" x2=\"72.45%\" y1=\"0%\" y2=\"85.2%\"><stop offset=\"0%\" stop-color=\"#1D3A6D\"/><stop offset=\"100%\" stop-color=\"#467994\"/></linearGradient><linearGradient id=\"j\" x1=\"100%\" x2=\"62.1%\" y1=\"0%\" y2=\"68.86%\"><stop offset=\"0%\" stop-color=\"#163055\"/><stop offset=\"100%\" stop-color=\"#2F587F\"/></linearGradient><circle id=\"l\" cx=\"180\" cy=\"102\" r=\"40\"/><filter id=\"k\" width=\"340%\" height=\"340%\" x=\"-120%\" y=\"-120%\" filterUnits=\"objectBoundingBox\"><feOffset in=\"SourceAlpha\" result=\"shadowOffsetOuter1\"/><feGaussianBlur in=\"shadowOffsetOuter1\" result=\"shadowBlurOuter1\" stdDeviation=\"32\"/><feColorMatrix in=\"shadowBlurOuter1\" values=\"0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.696473053 0\"/></filter><linearGradient id=\"m\" x1=\"0%\" y1=\"50%\" y2=\"50%\"><stop offset=\"0%\" stop-color=\"#FFFFFF\" stop-opacity=\"0\"/><stop offset=\"100%\" stop-color=\"#FFFFFF\"/></linearGradient></defs><g fill=\"none\" fill-rule=\"evenodd\"><rect width=\"1024\" height=\"1024\" fill=\"url(#a)\"/><g transform=\"translate(761 481)\"><polygon fill=\"#8DBCD2\" points=\"96 27 100 26 100 37 96 37\"/><polygon fill=\"#8DBCD2\" points=\"76 23 80 22 80 37 76 37\"/><polygon fill=\"#183352\" points=\"40 22 44 23 44 37 40 37\"/><polygon fill=\"#183352\" points=\"20 26 24 27 24 41 20 41\"/><rect width=\"2\" height=\"20\" x=\"59\" fill=\"#183352\" opacity=\".5\"/><path fill=\"url(#b)\" d=\"M61 0c3 0 3 2 6 2s3-2 6-2 3 2 6 2v8c-3 0-3-2-6-2s-3 2-6 2-3-2-6-2V0z\"/><path fill=\"#8DBCD2\" d=\"M50 20l10-2v110H0L10 28l10-2v10.92l10-.98V24l10-2v12.96l10-.98V20z\"/><path fill=\"#183352\" d=\"M100 26l10 2 10 100H60V18l10 2v13.98l10 .98V22l10 2v11.94l10 .98V26z\"/></g><g transform=\"translate(0 565)\"><path fill=\"url(#c)\" d=\"M1024 385H0V106.86c118.4 21.09 185.14 57.03 327.4 48.14 198.54-12.4 250-125 500-125 90.18 0 147.92 16.3 196.6 37.12V385z\"/><path fill=\"url(#d)\" d=\"M1024 355H0V79.56C76.46 43.81 137.14 0 285 0c250 0 301.46 112.6 500 125 103.24 6.45 166.7-10.7 239-28.66V355z\"/><path fill=\"url(#d)\" d=\"M344.12 130.57C367.22 144.04 318.85 212.52 199 336h649C503.94 194.3 335.98 125.83 344.12 130.57z\"/><path fill=\"url(#e)\" d=\"M0 336V79.56C76.46 43.81 137.14 0 285 0c71.14 0 86.22 26.04 32.5 82-48 50 147.33 58.02 36 136.5-40.67 28.67 21.17 67.83 185.5 117.5H0z\"/><path fill=\"url(#f)\" d=\"M317.5 82c-48 50 147.33 58.02 36 136.5-40.67 28.67 21.17 67.83 185.5 117.5H55L317.5 82z\"/><path fill=\"url(#g)\" d=\"M353.5 218.5C312.83 247.17 374.67 286.33 539 336H175l178.5-117.5z\"/><path fill=\"url(#h)\" d=\"M0 459V264.54c100.25 21.2 167.18 50.29 296.67 42.19 198.57-12.43 250.04-125.15 500.07-125.15 109.75 0 171.47 24.16 227.26 51.25V459H0z\"/><path fill=\"url(#i)\" d=\"M1024 459H846.16c51.95-58.9 48.86-97.16-9.28-114.78-186.64-56.58-101.76-162.64-39.97-162.64 109.64 0 171.34 24.12 227.09 51.19V459z\"/><path fill=\"url(#j)\" d=\"M1024 459H846.19c52.01-59.01 48.94-97.34-9.22-115L1024 397.48V459z\"/></g><g transform=\"translate(94 23)\"><use fill=\"black\" filter=\"url(#k)\" xlink:href=\"#l\"/><use fill=\"#D2F1FE\" xlink:href=\"#l\"/><circle cx=\"123\" cy=\"255\" r=\"3\" fill=\"#FFFFFF\" fill-opacity=\".4\"/><circle cx=\"2\" cy=\"234\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"33\" cy=\"65\" r=\"3\" fill=\"#FFFFFF\"/><circle cx=\"122\" cy=\"2\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"72\" cy=\"144\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"282\" cy=\"224\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"373\" cy=\"65\" r=\"3\" fill=\"#FFFFFF\" opacity=\".4\"/><circle cx=\"433\" cy=\"255\" r=\"3\" fill=\"#FFFFFF\"/><path fill=\"url(#m)\" d=\"M373.25 325.25a5 5 0 0 0 0-10h-75v10h75z\" opacity=\".4\" transform=\"rotate(45 338.251 320.251)\"/><circle cx=\"363\" cy=\"345\" r=\"3\" fill=\"#FFFFFF\"/><circle cx=\"513\" cy=\"115\" r=\"3\" fill=\"#FFFFFF\"/><circle cx=\"723\" cy=\"5\" r=\"3\" fill=\"#FFFFFF\" opacity=\".4\"/><circle cx=\"422\" cy=\"134\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"752\" cy=\"204\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"672\" cy=\"114\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"853\" cy=\"255\" r=\"3\" fill=\"#FFFFFF\" opacity=\".4\"/><circle cx=\"623\" cy=\"225\" r=\"3\" fill=\"#FFFFFF\"/><circle cx=\"823\" cy=\"55\" r=\"3\" fill=\"#FFFFFF\"/><circle cx=\"902\" cy=\"144\" r=\"2\" fill=\"#FFFFFF\"/><circle cx=\"552\" cy=\"14\" r=\"2\" fill=\"#FFFFFF\"/></g><path fill=\"#486587\" d=\"M796 535a4 4 0 0 1 4 4v20h-8v-20a4 4 0 0 1 4-4z\"/><path fill=\"#071423\" d=\"M798 535.54a4 4 0 0 0-2 3.46v20h-4v-20a4 4 0 0 1 6-3.46zm48-.54a4 4 0 0 1 4 4v20h-8v-20a4 4 0 0 1 4-4z\"/><path fill=\"#8DBCD2\" d=\"M846 559v-20a4 4 0 0 0-2-3.46 4 4 0 0 1 6 3.46v20h-4z\"/><g fill=\"#FFFFFF\" opacity=\".07\" transform=\"translate(54 301)\"><path d=\"M554.67 131.48a9.46 9.46 0 0 1 13.33 0 9.46 9.46 0 0 0 13.33 0l13.33-13.24a28.39 28.39 0 0 1 40 0l10 9.93a14.2 14.2 0 0 0 20 0 14.2 14.2 0 0 1 20 0l.6.6a31.8 31.8 0 0 1 9.4 22.56H548v-3.84c0-6.01 2.4-11.78 6.67-16.01zM751 8.25c11.07-11 28.93-11 40 0l10 9.94a14.19 14.19 0 0 0 20 0 14.19 14.19 0 0 1 20 0 16.36 16.36 0 0 0 21.3 1.5l8.7-6.47a33.47 33.47 0 0 1 40 0l4.06 3.03A39.6 39.6 0 0 1 931 48H731c0-12.72 8.93-28.75 20-39.75zM14.1 75.14l.9-.9a21.29 21.29 0 0 1 30 0 21.29 21.29 0 0 0 30 0l10-9.93a35.48 35.48 0 0 1 50 0l15 14.9a14.2 14.2 0 0 0 20 0 14.2 14.2 0 0 1 20 0c6.4 6.35 10 15 10 24.02V109H0c0-12.71 5.07-24.9 14.1-33.86z\"/></g></g></svg>"
+  },
+  {
+    "ts": 1765640582545,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:response",
+    "data": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Nunito';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTk3j6zdXWjIeg.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Nunito';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTA3j6zdXWjIeg.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Nunito';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTs3j6zdXWjIeg.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Nunito';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3j6zdXWjIeg.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Nunito';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3j6zdXWg.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n"
+  },
+  {
+    "ts": 1765640583173,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "fetch:response",
+    "data": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <title>Error</title>\n\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n        <!-- Fonts -->\n        <link rel=\"dns-prefetch\" href=\"//fonts.gstatic.com\">\n        <link href=\"https://fonts.googleapis.com/css?family=Nunito\" rel=\"stylesheet\" type=\"text/css\">\n\n        <!-- Styles -->\n        <style>\n        html {\n            line-height: 1.15;\n                -ms-text-size-adjust: 100%;\n            -webkit-text-size-adjust: 100%;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        header,\n        nav,\n        section {\n            display: block;\n        }\n\n        figcaption,\n        main {\n            display: block;\n        }\n\n        a {\n            background-color: transparent;\n            -webkit-text-decoration-skip: objects;\n        }\n\n        strong {\n            font-weight: inherit;\n        }\n\n        strong {\n            font-weight: bolder;\n        }\n\n        code {\n            font-family: monospace, monospace;\n            font-size: 1em;\n        }\n\n        dfn {\n            font-style: italic;\n        }\n\n        svg:not(:root) {\n            overflow: hidden;\n        }\n\n        button,\n        input {\n            font-family: sans-serif;\n            font-size: 100%;\n            line-height: 1.15;\n            margin: 0;\n        }\n\n        button,\n        input {\n            overflow: visible;\n        }\n\n        button {\n            text-transform: none;\n        }\n\n        button,\n        html [type=\"button\"],\n        [type=\"reset\"],\n        [type=\"submit\"] {\n            -webkit-appearance: button;\n        }\n\n        button::-moz-focus-inner,\n        [type=\"button\"]::-moz-focus-inner,\n        [type=\"reset\"]::-moz-focus-inner,\n        [type=\"submit\"]::-moz-focus-inner {\n            border-style: none;\n            padding: 0;\n        }\n\n        button:-moz-focusring,\n        [type=\"button\"]:-moz-focusring,\n        [type=\"reset\"]:-moz-focusring,\n        [type=\"submit\"]:-moz-focusring {\n            outline: 1px dotted ButtonText;\n        }\n\n        legend {\n            -webkit-box-sizing: border-box;\n                    box-sizing: border-box;\n            color: inherit;\n            display: table;\n            max-width: 100%;\n            padding: 0;\n            white-space: normal;\n        }\n\n        [type=\"checkbox\"],\n        [type=\"radio\"] {\n            -webkit-box-sizing: border-box;\n                    box-sizing: border-box;\n            padding: 0;\n        }\n\n        [type=\"number\"]::-webkit-inner-spin-button,\n        [type=\"number\"]::-webkit-outer-spin-button {\n            height: auto;\n        }\n\n        [type=\"search\"] {\n            -webkit-appearance: textfield;\n            outline-offset: -2px;\n        }\n\n        [type=\"search\"]::-webkit-search-cancel-button,\n        [type=\"search\"]::-webkit-search-decoration {\n            -webkit-appearance: none;\n        }\n\n        ::-webkit-file-upload-button {\n            -webkit-appearance: button;\n            font: inherit;\n        }\n\n        menu {\n            display: block;\n        }\n\n        canvas {\n            display: inline-block;\n        }\n\n        template {\n            display: none;\n        }\n\n        [hidden] {\n            display: none;\n        }\n\n        html {\n            -webkit-box-sizing: border-box;\n                    box-sizing: border-box;\n            font-family: sans-serif;\n        }\n\n        *,\n        *::before,\n        *::after {\n            -webkit-box-sizing: inherit;\n                    box-sizing: inherit;\n        }\n\n        p {\n            margin: 0;\n        }\n\n        button {\n            background: transparent;\n            padding: 0;\n        }\n\n        button:focus {\n            outline: 1px dotted;\n            outline: 5px auto -webkit-focus-ring-color;\n        }\n\n        *,\n        *::before,\n        *::after {\n            border-width: 0;\n            border-style: solid;\n            border-color: #dae1e7;\n        }\n\n        button,\n        [type=\"button\"],\n        [type=\"reset\"],\n        [type=\"submit\"] {\n            border-radius: 0;\n        }\n\n        button,\n        input {\n            font-family: inherit;\n        }\n\n        input::-webkit-input-placeholder {\n            color: inherit;\n            opacity: .5;\n        }\n\n        input:-ms-input-placeholder {\n            color: inherit;\n            opacity: .5;\n        }\n\n        input::-ms-input-placeholder {\n            color: inherit;\n            opacity: .5;\n        }\n\n        input::placeholder {\n            color: inherit;\n            opacity: .5;\n        }\n\n        button,\n        [role=button] {\n            cursor: pointer;\n        }\n\n        .bg-transparent {\n            background-color: transparent;\n        }\n\n        .bg-white {\n            background-color: #fff;\n        }\n\n        .bg-teal-light {\n            background-color: #64d5ca;\n        }\n\n        .bg-blue-dark {\n            background-color: #2779bd;\n        }\n\n        .bg-indigo-light {\n            background-color: #7886d7;\n        }\n\n        .bg-purple-light {\n            background-color: #a779e9;\n        }\n\n        .bg-no-repeat {\n            background-repeat: no-repeat;\n        }\n\n        .bg-cover {\n            background-size: cover;\n        }\n\n        .border-grey-light {\n            border-color: #dae1e7;\n        }\n\n        .hover\\:border-grey:hover {\n            border-color: #b8c2cc;\n        }\n\n        .rounded-lg {\n            border-radius: .5rem;\n        }\n\n        .border-2 {\n            border-width: 2px;\n        }\n\n        .hidden {\n            display: none;\n        }\n\n        .flex {\n            display: -webkit-box;\n            display: -ms-flexbox;\n            display: flex;\n        }\n\n        .items-center {\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center;\n        }\n\n        .justify-center {\n            -webkit-box-pack: center;\n                -ms-flex-pack: center;\n                    justify-content: center;\n        }\n\n        .font-sans {\n            font-family: Nunito, sans-serif;\n        }\n\n        .font-light {\n            font-weight: 300;\n        }\n\n        .font-bold {\n            font-weight: 700;\n        }\n\n        .font-black {\n            font-weight: 900;\n        }\n\n        .h-1 {\n            height: .25rem;\n        }\n\n        .leading-normal {\n            line-height: 1.5;\n        }\n\n        .m-8 {\n            margin: 2rem;\n        }\n\n        .my-3 {\n            margin-top: .75rem;\n            margin-bottom: .75rem;\n        }\n\n        .mb-8 {\n            margin-bottom: 2rem;\n        }\n\n        .max-w-sm {\n            max-width: 30rem;\n        }\n\n        .min-h-screen {\n            min-height: 100vh;\n        }\n\n        .py-3 {\n            padding-top: .75rem;\n            padding-bottom: .75rem;\n        }\n\n        .px-6 {\n            padding-left: 1.5rem;\n            padding-right: 1.5rem;\n        }\n\n        .pb-full {\n            padding-bottom: 100%;\n        }\n\n        .absolute {\n            position: absolute;\n        }\n\n        .relative {\n            position: relative;\n        }\n\n        .pin {\n            top: 0;\n            right: 0;\n            bottom: 0;\n            left: 0;\n        }\n\n        .text-black {\n            color: #22292f;\n        }\n\n        .text-grey-darkest {\n            color: #3d4852;\n        }\n\n        .text-grey-darker {\n            color: #606f7b;\n        }\n\n        .text-2xl {\n            font-size: 1.5rem;\n        }\n\n        .text-5xl {\n            font-size: 3rem;\n        }\n\n        .uppercase {\n            text-transform: uppercase;\n        }\n\n        .antialiased {\n            -webkit-font-smoothing: antialiased;\n            -moz-osx-font-smoothing: grayscale;\n        }\n\n        .tracking-wide {\n            letter-spacing: .05em;\n        }\n\n        .w-16 {\n            width: 4rem;\n        }\n\n        .w-full {\n            width: 100%;\n        }\n\n        @media (min-width: 768px) {\n            .md\\:bg-left {\n                background-position: left;\n            }\n\n            .md\\:bg-right {\n                background-position: right;\n            }\n\n            .md\\:flex {\n                display: -webkit-box;\n                display: -ms-flexbox;\n                display: flex;\n            }\n\n            .md\\:my-6 {\n                margin-top: 1.5rem;\n                margin-bottom: 1.5rem;\n            }\n\n            .md\\:min-h-screen {\n                min-height: 100vh;\n            }\n\n            .md\\:pb-0 {\n                padding-bottom: 0;\n            }\n\n            .md\\:text-3xl {\n                font-size: 1.875rem;\n            }\n\n            .md\\:text-15xl {\n                font-size: 9rem;\n            }\n\n            .md\\:w-1\\/2 {\n                width: 50%;\n            }\n        }\n\n        @media (min-width: 992px) {\n            .lg\\:bg-center {\n                background-position: center;\n            }\n        }\n        </style>\n    </head>\n    <body class=\"antialiased font-sans\">\n        <div class=\"md:flex min-h-screen\">\n            <div class=\"w-full md:w-1/2 bg-white flex items-center justify-center\">\n                <div class=\"max-w-sm m-8\">\n                    <div class=\"text-black text-5xl md:text-15xl font-black\">\n                        500                    </div>\n\n                    <div class=\"w-16 h-1 bg-purple-light my-3 md:my-6\"></div>\n\n                    <p class=\"text-grey-darker text-2xl md:text-3xl font-light mb-8 leading-normal\">\n                        Whoops, something went wrong on our servers.                    </p>\n\n                    <a href=\"https://a.supermail.win\">\n                        <button class=\"bg-transparent text-grey-darkest font-bold uppercase tracking-wide py-3 px-6 border-2 border-grey-light hover:border-grey rounded-lg\">\n                            Go Home\n                        </button>\n                    </a>\n                </div>\n            </div>\n\n            <div class=\"relative pb-full md:flex md:pb-0 md:min-h-screen w-full md:w-1/2\">\n                    <div style=\"background-image: url(https://a.supermail.win/svg/500.svg);\" class=\"absolute pin bg-cover bg-no-repeat md:bg-left lg:bg-center\">\n    </div>\n            </div>\n        </div>\n    </body>\n</html>\n"
+  },
+  {
+    "ts": 1765640583902,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640584522,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640585284,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "",
+      "class": ""
+    }
+  },
+  {
+    "ts": 1765640588433,
+    "url": "https://a.supermail.win/oauth/steam/callback?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198973038082&openid.return_to=http%3A%2F%2Fa.supermail.win%2Foauth%2Fsteam%2Fcallback&openid.response_nonce=2025-12-13T15%3A42%3A57ZtQXPGH7vX%2FhNQXN9pjC4JKBSwcU%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=zkBb%2Ff61Z0h2hXB5Lowt4bXeR1s%3D",
+    "type": "click",
+    "data": {
+      "tag": "DIV",
+      "id": "",
+      "class": ""
+    }
+  }
+]
